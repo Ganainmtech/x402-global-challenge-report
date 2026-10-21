@@ -1,0 +1,151 @@
+{
+  "merchant_id": "MlUzUVlUUU9IUDRTTURVR1dORkxORlFQ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "kepaix.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 77,
+      "last_observed_at": 1791245398688,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "kepaix.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://kepaix.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791245768867,
+        "last_fetch_attempt_utc": "2026-10-06T00:16:08.867000+00:00",
+        "title": "x402 Market Intelligence APIs For AI Agents & Publishers | KepAIx",
+        "description": "KepAIx provides x402-enabled educational market intelligence APIs and publisher infrastructure for developers, AI agents, website owners, and machine-to-machine applications on Algorand.",
+        "site_name": "KepAIx",
+        "logo": "https://kepaix.com/images/apple-touch-icon.png",
+        "banner": "https://kepaix.com/images/kepaix_share_1200x630_v3.png",
+        "theme_color": "#020406",
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://kepaix.com/llms.txt",
+            "name": "KepAIx",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:09:58 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8va2VwYWl4LmNvbS9hcGkveDQwMi1hdGxhcy5waHA",
+        "url": "https://kepaix.com/api/x402-atlas.php",
+        "method": "GET",
+        "description": "Paid educational synthesis combining verified KepAIx market, liquidity, derivatives, confidence, world-risk, learning, performance, and source-intelligence context.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "2U3QYTQOHP4SMDUGWNFLNFQPRK2DFTZPFV7P76GV6ENXITYVXOMRAGDVEE",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "asset_name": "USDC",
+              "display_amount": "0.02 USDC",
+              "product": "KepAIx ATLAS Premium Intelligence",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "project": "KepAIx",
+              "endpoint": "x402-atlas",
+              "type": "premium_educational_synthesis",
+              "payment_status": "settled",
+              "atlas_score": {
+                "score": 68.4,
+                "posture": "constructive"
+              },
+              "summary": "Paid KepAIx ATLAS synthesis combining verified market, liquidity, derivatives, confidence, risk, learning, performance, and source context."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787500246624,
+        "last_ts": 1791245398688
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "kepaix.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

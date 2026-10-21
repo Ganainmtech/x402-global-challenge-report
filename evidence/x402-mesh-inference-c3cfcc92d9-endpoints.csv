@@ -1,0 +1,3 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://x402-mesh-gateway.fly.dev/v1/inference,17,0.042000,1,17,0.042000,17,0.042000,0,2026-08-06 13:01:54 UTC,2026-08-07 01:51:02 UTC
+POST,https://x402-mesh-gateway.fly.dev/v1/chat/completions,9,0.050000,1,9,0.050000,9,0.050000,0,2026-08-05 21:33:23 UTC,2026-08-06 12:48:38 UTC

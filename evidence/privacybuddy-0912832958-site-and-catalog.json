@@ -1,0 +1,160 @@
+{
+  "merchant_id": "RUE3V0FTWlFZWEdHUlNNR1lRTFJJNlRS",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "privacybuddy.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 72,
+      "last_observed_at": 1791283576325,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "privacybuddy.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://privacybuddy.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791129002359,
+        "last_fetch_attempt_utc": "2026-10-04T15:50:02.359000+00:00",
+        "title": "PrivacyBuddy",
+        "description": "Private AI chat. Sensitive details are masked before any model sees them, and every answer is paid per call in USDC on Algorand with x402.",
+        "site_name": "PrivacyBuddy",
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 10:46:16 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXZhY3lidWRkeS51cC5yYWlsd2F5LmFwcC92MS9jaGF0L2NvbXBsZXRpb25z",
+        "url": "https://privacybuddy.up.railway.app/v1/chat/completions",
+        "method": "POST",
+        "description": "OpenAI-compatible private chat. Masks the conversation, routes it with Jev across free models under a data policy set by what it contains, and restores the answer.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "10000",
+            "asset": "10458941",
+            "payTo": "EA7WASZQYXGGRSMGYQLRI6TR2PQCVDC42QULUT5N62UMYO4A6ADCJ6464M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "EA7WASZQYXGGRSMGYQLRI6TR2PQCVDC42QULUT5N62UMYO4A6ADCJ6464M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "chainaim/auto",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Write a two-line reminder to Jane Roe ([local URL omitted]) about Friday's 10:00 meeting."
+                }
+              ],
+              "max_tokens": 200
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "gen-1790000000-example",
+              "object": "chat.completion",
+              "model": "qwen/qwen3.8-27b:free",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hi Jane Roe, a reminder that we meet on Friday at 10:00. Reply to [local URL omitted] if that time doesn't work."
+                  },
+                  "finish_reason": "stop"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790801548859,
+        "last_ts": 1791283576325
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

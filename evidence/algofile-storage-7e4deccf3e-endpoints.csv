@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://api.algofile.io/api/v3/x402/bazaar/asset-storage-info,15,0.015000,2,15,0.015000,0,0.000000,0,2026-08-17 02:32:40 UTC,2026-10-06 00:02:27 UTC
+POST,https://api.algofile.io/api/v3/purchases/x402-verify,6,114.046876,5,0,0.000000,2,0.046876,0,2026-08-13 08:30:35 UTC,2026-09-16 10:45:58 UTC
+GET,https://api.algofile.io/api/v3/x402/bazaar/asset-info,2,0.002000,1,2,0.002000,2,0.002000,0,2026-08-13 08:30:26 UTC,2026-08-13 08:45:34 UTC

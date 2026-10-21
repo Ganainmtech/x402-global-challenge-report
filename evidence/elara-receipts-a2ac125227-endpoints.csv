@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://elara-verify-x402.name-redacted.workers.dev/verify/record,10,0.050000,1,10,0.050000,0,0.000000,0,2026-09-27 04:40:31 UTC,2026-10-06 00:05:21 UTC

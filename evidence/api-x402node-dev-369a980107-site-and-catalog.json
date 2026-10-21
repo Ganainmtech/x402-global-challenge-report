@@ -1,0 +1,156 @@
+{
+  "merchant_id": "UVNOTFBQWE82NE9OQkQ3NkUyRExaVzZY",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.x402node.dev",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 39664,
+      "last_observed_at": 1791245219534,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "api.x402node.dev",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.x402node.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791275935773,
+        "last_fetch_attempt_utc": "2026-10-06T08:38:55.773000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://api.x402node.dev/.well-known/ai-plugin.json",
+            "name": "x402node - AI Agent Utilities",
+            "description": "Pay-per-call developer utilities for AI agents: UUID, hash, JWT decode, regex, cron, base64"
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.x402node.dev/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.x402node.dev/llms.txt",
+            "name": "x402node.dev - Pay-per-call APIs for AI agents",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:06:59 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLng0MDJub2RlLmRldi9hbGdvcmFuZC9jaGFpbi9ob25leXBvdA",
+        "url": "https://api.x402node.dev/algorand/chain/honeypot",
+        "method": "GET",
+        "description": "Heuristic honeypot and risk check for an ERC20 token via on-chain eth_call - detects active owner control and transfer restrictions that can trap buyers, on Ethereum and Base. honeypot check, honeypot detector, can i sell token, token scam check, rug detection, transfer restriction",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "QSNLPPXO64ONBD76E2DLZW6XER5GUV4YPQYHDFJUO2N3IO4RYBL5HRU6EY",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "token": "0x4200000000000000000000000000000000000006",
+              "chain": "base"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "token": "0x...",
+              "symbol": "WETH",
+              "riskLevel": "low",
+              "flags": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784585935615,
+        "last_ts": 1791245219534
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.x402node.dev"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached descriptive homepage evidence on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

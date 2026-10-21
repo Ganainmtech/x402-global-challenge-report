@@ -1,0 +1,6 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+(not recorded),(not recorded),12,0.121571,1,0,0.000000,0,0.000000,0,2026-07-26 03:47:41 UTC,2026-07-26 10:37:46 UTC
+POST,(not recorded),4,0.041312,1,0,0.000000,0,0.000000,0,2026-07-26 10:43:06 UTC,2026-07-26 10:56:59 UTC
+POST,http://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/api/v1/pin,3,0.030350,1,0,0.000000,0,0.000000,0,2026-07-26 11:14:11 UTC,2026-07-31 14:43:15 UTC
+POST,https://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/api/v1/pin,3,0.030984,1,0,0.000000,0,0.000000,0,2026-07-26 11:00:22 UTC,2026-07-26 11:12:57 UTC
+(not recorded),http://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/api/v1/renew,1,0.005001,1,1,0.005001,0,0.000000,0,2026-07-31 14:37:29 UTC,2026-07-31 14:37:29 UTC

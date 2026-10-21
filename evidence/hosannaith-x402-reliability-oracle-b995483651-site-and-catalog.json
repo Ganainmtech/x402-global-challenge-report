@@ -1,0 +1,142 @@
+{
+  "merchant_id": "QkVBQ0pMVURPU1ZNUzZTVVFFVUFIV1JJ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.hosannaith.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 8,
+      "last_observed_at": 1790860928155,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "api.hosannaith.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "http://api.hosannaith.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791238870766,
+        "last_fetch_attempt_utc": "2026-10-05T22:21:10.766000+00:00",
+        "title": "Hosannaith — x402 Reliability Oracle",
+        "description": "Verify any x402 endpoint's reliability — uptime, correct-402 behaviour, latency — before you route USDC to it. Live on Algorand Mainnet.",
+        "site_name": "Hosannaith",
+        "logo": null,
+        "banner": "https://hosannaith.com/og-image.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-01 13:22:08 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9hcGkuaG9zYW5uYWl0aC5jb20vcmVsaWFiaWxpdHk",
+        "url": "http://api.hosannaith.com/reliability",
+        "method": "GET",
+        "description": "Reliability score (0-100) for a given x402 endpoint: uptime, correct 402 behaviour, and latency percentiles from continuous independent monitoring. Pass ?target=<endpoint-url>.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "BEACJLUDOSVMS6SUQEUAHWRI4VAAX7G4CVFOL3DWH2R4XHTLXT6VG5TFYU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "target": "[local URL omitted]",
+              "checkId": "reliability",
+              "status": "pass",
+              "score": 98.5,
+              "detail": {
+                "observations": 1440,
+                "windowHours": 24,
+                "uptimePct": 99.9,
+                "correct402Pct": 100,
+                "p50LatencyMs": 120,
+                "p95LatencyMs": 240,
+                "confidence": "history"
+              },
+              "observedAt": "2026-09-08T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790695456459,
+        "last_ts": 1790810964502
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.hosannaith.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

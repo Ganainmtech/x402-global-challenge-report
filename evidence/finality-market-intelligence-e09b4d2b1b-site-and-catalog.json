@@ -1,0 +1,284 @@
+{
+  "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "finality-x402-backend.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 8152,
+      "last_observed_at": 1791286837719,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "finality-x402-backend.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://finality-x402-backend.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791220895074,
+        "last_fetch_attempt_utc": "2026-10-05T17:21:35.074000+00:00",
+        "title": "Finality Market Intelligence",
+        "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Mainnet USDC via x402.",
+        "site_name": "Finality",
+        "logo": "https://finality.accuracy.wtf/logo.webp",
+        "banner": "https://finality.accuracy.wtf/og.png",
+        "theme_color": "#0B0E11",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://finality-x402-backend.onrender.com/.well-known/agent-card.json",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Mainnet USDC via x402."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://finality-x402-backend.onrender.com/.well-known/agent.json",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Mainnet USDC via x402."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://finality-x402-backend.onrender.com/.well-known/ai-plugin.json",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Mainnet USDC via x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://finality-x402-backend.onrender.com/.well-known/x402",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Mainnet USDC via x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://finality-x402-backend.onrender.com/llms.txt",
+            "name": "Finality Market Intelligence",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 11:40:37 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vZmluYWxpdHkteDQwMi1iYWNrZW5kLm9ucmVuZGVyLmNvbS92MS9tYXJrZXQvYXNzZXRz",
+        "url": "https://finality-x402-backend.onrender.com/v1/market/assets",
+        "method": "GET",
+        "description": "Asset search and symbol normalization",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "YZ4WRRPF32IP4WGH5KRODF2KW5ZUKC7FH5DUICP2IXP2CFNFSRV7SDZF24",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "query": "BTC",
+              "limit": 10
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "market.assets",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789629578255,
+        "last_ts": 1789730559971
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDItYmFja2VuZC5vbnJlbmRlci5jb20vdjEvbWFya2V0L2NhbmRsZXM",
+        "url": "https://finality-x402-backend.onrender.com/v1/market/candles",
+        "method": "POST",
+        "description": "Bounded OHLCV history",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "YZ4WRRPF32IP4WGH5KRODF2KW5ZUKC7FH5DUICP2IXP2CFNFSRV7SDZF24",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "candles": [
+                {
+                  "time": 1700000000000,
+                  "open": 100,
+                  "high": 102,
+                  "low": 99,
+                  "close": 101,
+                  "volume": 1000
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789629705564,
+        "last_ts": 1789640140391
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZmluYWxpdHkteDQwMi1iYWNrZW5kLm9ucmVuZGVyLmNvbS92MS9tYXJrZXQvdG9rZW4tcHJpY2Vz",
+        "url": "https://finality-x402-backend.onrender.com/v1/market/token-prices",
+        "method": "GET",
+        "description": "ERC-20 / on-chain token USD prices",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "200000",
+            "asset": "10458941",
+            "payTo": "YZ4WRRPF32IP4WGH5KRODF2KW5ZUKC7FH5DUICP2IXP2CFNFSRV7SDZF24",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "network": "eth",
+              "addresses": [
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "0x6b175474e89094c44da98b954eedeac495271d0f"
+              ]
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tokenPrices": [
+                {
+                  "network": "eth",
+                  "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                  "priceUsd": 1
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789730840068,
+        "last_ts": 1789730839729
+      }
+    ],
+    "resource_count": 3,
+    "description_count": 3,
+    "mime_type_count": 3,
+    "accepts_count": 3,
+    "discovery_count": 3,
+    "input_documentation_count": 3,
+    "output_documentation_count": 3,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 5,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

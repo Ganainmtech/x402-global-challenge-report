@@ -1,0 +1,210 @@
+{
+  "merchant_id": "SzJZWkRUUkhNMzVEMklKSFBISEREM0RP",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "cost-aware-inference-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1026,
+      "last_observed_at": 1791022477206,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "cost-aware-inference-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://cost-aware-inference-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791179312149,
+        "last_fetch_attempt_utc": "2026-10-05T05:48:32.149000+00:00",
+        "title": "Cost-Aware Inference | Paid AI APIs for Agents",
+        "description": "AI routing and task endpoints for agents, paid per request with Algorand USDC.",
+        "site_name": "Cost-Aware Inference",
+        "logo": "[link removed]",
+        "banner": "[link removed]",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-03 10:14:37 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2Nvc3QtYXdhcmUtaW5mZXJlbmNlLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvZnJlZS10aWVy",
+        "url": "https://cost-aware-inference-production.up.railway.app/v1/free-tier",
+        "method": "POST",
+        "description": "AI assistance for very basic tasks such as short answers and simple writing. Fixed price: $0.10 USDC per request.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "K2YZDTRHM35D2IJHPHHDD3DOBDMOKTULW3G35X65PAHZRMCGKGLDCBR22I",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Help me with a basic tasks request."
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "..."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790815728001,
+        "last_ts": 1791022477206
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Nvc3QtYXdhcmUtaW5mZXJlbmNlLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvZ29hbC1iYXNlZC10YXNr",
+        "url": "https://cost-aware-inference-production.up.railway.app/v1/goal-based-task",
+        "method": "POST",
+        "description": "Hire an AI agent to work through a difficult goal and return a completed answer. Fixed price: $3.00 USDC per request.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000000",
+            "asset": "31566704",
+            "payTo": "K2YZDTRHM35D2IJHPHHDD3DOBDMOKTULW3G35X65PAHZRMCGKGLDCBR22I",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Help me with a goal based task request."
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "..."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790915623886,
+        "last_ts": 1790931172163
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

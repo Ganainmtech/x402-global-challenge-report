@@ -1,0 +1,306 @@
+{
+  "merchant_id": "QkJHREg2UFRJREJIRFJBMlZZRUxQTUlP",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "growtrack.pro",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 8,
+      "last_observed_at": 1791245032591,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "growtrack.pro",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://growtrack.pro",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791087185093,
+        "last_fetch_attempt_utc": "2026-10-04T04:13:05.093000+00:00",
+        "title": "Growtrack | Multichain wallet intelligence",
+        "description": "Look up any EVM, Algorand, Solana or Bitcoin address and see its real holdings and USD value. Pay per query in USDC on Algorand via x402.",
+        "site_name": null,
+        "logo": "https://growtrack.pro/logo.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://growtrack.pro/.well-known/x402",
+            "name": "Growtrack",
+            "description": "Multichain on-chain portfolio intelligence for Ethereum, Algorand, Solana and Bitcoin. Pay per request in USDC on Algorand via x402 — no API key, no account, no subscription."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://growtrack.pro/llms.txt",
+            "name": "Growtrack",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:03:52 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vZ3Jvd3RyYWNrLnByby92MS9wb3J0Zm9saW8vcmVwb3J0",
+        "url": "https://growtrack.pro/v1/portfolio/report",
+        "method": "GET",
+        "description": "Full multichain portfolio report for one or more wallet addresses: per-chain and per-wallet breakdowns, total portfolio value in USD, every holding with its raw amount, USD value and percentage share of the portfolio, and an explicit list of the positions that could not be priced so a partial valuation is never mistaken for a complete one. Ethereum, Algorand, Solana and Bitcoin addresses can be mixed in one request; a bare address is chain-detected automatically. Returns JSON shaped for rendering as a statement. Pay $0.001 per report in USDC on Algorand.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "BBGDH6PTIDBHDRA2VYELPMIO7D7RSJD7NB4GUTZRXXUYYUW3ZKBYWM6VPE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "resource": {
+              "url": "https://growtrack.pro/v1/portfolio/report",
+              "description": "Full multichain portfolio report for one or more wallet addresses: per-chain and per-wallet breakdowns, total portfolio value in USD, every holding with its raw amount, USD value and percentage share of the portfolio, and an explicit list of the positions that could not be priced so a partial valuation is never mistaken for a complete one. Ethereum, Algorand, Solana and Bitcoin addresses can be mixed in one request; a bare address is chain-detected automatically. Returns JSON shaped for rendering as a statement. Pay $0.001 per report in USDC on Algorand.",
+              "mimeType": "application/json"
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {
+                      "addresses": "solana:GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE,ethereum:0xd8dA680F17485f5fE14a58674455179eBBfC1F40"
+                    }
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "generatedAt": "2026-09-17T09:30:00.000Z",
+                      "totals": {
+                        "totalValueUsd": "4.73",
+                        "pricedPositions": 3,
+                        "unpricedPositions": 1,
+                        "wallets": 3,
+                        "chains": 2
+                      },
+                      "chains": [
+                        {
+                          "chain": "solana",
+                          "totalValueUsd": "4.31",
+                          "allocationPct": "91.12",
+                          "holdings": [
+                            {
+                              "symbol": "SOL",
+                              "amount": "0.0445",
+                              "valueUsd": "4.31",
+                              "allocationPct": "91.12"
+                            }
+                          ]
+                        }
+                      ],
+                      "wallets": [
+                        {
+                          "chain": "solana",
+                          "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+                          "totalValueUsd": "4.31",
+                          "status": "complete",
+                          "holdings": [
+                            {
+                              "symbol": "SOL",
+                              "amount": "0.0445",
+                              "valueUsd": "4.31",
+                              "allocationPct": "100.00"
+                            }
+                          ]
+                        }
+                      ],
+                      "unpriced": [],
+                      "errors": []
+                    }
+                  }
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {
+                            "addresses": {
+                              "type": "string",
+                              "description": "Comma-separated wallet addresses. Each may be 'chain:address', or a bare address to auto-detect the chain. Up to 10 addresses."
+                            }
+                          },
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "addresses": "solana:GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE,ethereum:0xd8dA680F17485f5fE14a58674455179eBBfC1F40"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "generatedAt": "2026-09-17T09:30:00.000Z",
+              "totals": {
+                "totalValueUsd": "4.73",
+                "pricedPositions": 3,
+                "unpricedPositions": 1,
+                "wallets": 3,
+                "chains": 2
+              },
+              "chains": [
+                {
+                  "chain": "solana",
+                  "totalValueUsd": "4.31",
+                  "allocationPct": "91.12",
+                  "holdings": [
+                    {
+                      "symbol": "SOL",
+                      "amount": "0.0445",
+                      "valueUsd": "4.31",
+                      "allocationPct": "91.12"
+                    }
+                  ]
+                }
+              ],
+              "wallets": [
+                {
+                  "chain": "solana",
+                  "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+                  "totalValueUsd": "4.31",
+                  "status": "complete",
+                  "holdings": [
+                    {
+                      "symbol": "SOL",
+                      "amount": "0.0445",
+                      "valueUsd": "4.31",
+                      "allocationPct": "100.00"
+                    }
+                  ]
+                }
+              ],
+              "unpriced": [],
+              "errors": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790580526478,
+        "last_ts": 1791245032591
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "growtrack.pro"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

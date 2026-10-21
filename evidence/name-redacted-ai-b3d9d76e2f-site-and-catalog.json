@@ -1,0 +1,3642 @@
+{
+  "merchant_id": "SVlOUUNMWEpVUUZDUUxBUVlONFlPVVlW",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algorand.name-redacted.services",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 270,
+      "last_observed_at": 1791244933893,
+      "catalog_endpoint_count": 69,
+      "metadata": {
+        "domain": "algorand.name-redacted.services",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algorand.name-redacted.services",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791229319411,
+        "last_fetch_attempt_utc": "2026-10-05T19:41:59.411000+00:00",
+        "title": "[name redacted] AI",
+        "description": "71 read-only agent endpoints with x402 prices payable in USDC on Algorand MainNet.",
+        "site_name": null,
+        "logo": "https://algorand.name-redacted.services/favicon.ico",
+        "banner": "https://name-redacted.xyz/static/images/og/brand.png",
+        "theme_color": "#0B0E2A",
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algorand.name-redacted.services/.well-known/x402",
+            "name": null,
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:02:13 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzLzhrLW1hdGVyaWFsLWV2ZW50cw",
+        "url": "https://algorand.name-redacted.services/8k-material-events",
+        "method": "GET",
+        "description": "8-K filings by ticker — the item-coded SEC material-event feed: every Form 8-K a US-listed company filed in the last 90 days, tagged with the SEC's own numbered item codes and official titles (1.01 material agreement, 1.05 cybersecurity incident, 2.06 impairment, 3.01 delisting notice, 5.02 officer or director change, 8.01 other events). Returns the event date and the filing date separately, amendments labelled, and EDGAR links. Earnings-only filings are excluded and counted. Public-domain SEC EDGAR. $0.003 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "NVDA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "8k-material-events"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601604485,
+        "last_ts": 1790559897108
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2FuYWx5c3QtcmF0aW5ncw",
+        "url": "https://algorand.name-redacted.services/analyst-ratings",
+        "method": "GET",
+        "description": "Analyst-rating snapshot for a vendor-resolved equity: consensus distribution, high/low/median/consensus price targets, target versus a timestamped reference price, recent firm-level grade actions, and transparent 90-day upgrade-minus-downgrade momentum. Price fields retain FMP payload units because the captured feeds do not identify a currency.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "AAPL"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "analyst-ratings"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349265061,
+        "last_ts": 1790559905409
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Jhc2UtZWNvc3lzdGVtLW5ld3M",
+        "url": "https://algorand.name-redacted.services/base-ecosystem-news",
+        "method": "GET",
+        "description": "Base-chain ecosystem news, AI-filtered hourly from [name redacted]'s live news engine: protocol launches and upgrades on Base, Coinbase/Base official moves, Base DeFi and token developments — a topic-scoped report for Base-native agents, not the general crypto firehose. Pairs with /base-season (KOL social signal) for the full Base picture.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "base-ecosystem-news"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150471863,
+        "last_ts": 1791244933893
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Jhc2Utc2Vhc29u",
+        "url": "https://algorand.name-redacted.services/base-season",
+        "method": "GET",
+        "description": "Base social intelligence: a current Base sentiment summary + the quality-screened Base tokens (CoinGecko-listed, market-cap/age/liquidity gated) that trusted KOLs are actually talking about — with per-token KOL mention counts and verbatim quotes, ranked by KOL signal. Includes overall crypto-KOL market sentiment. The social-intelligence wedge for Base — who is saying it, not who pumped. Refreshed hourly.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "base-season"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150545299,
+        "last_ts": 1790558909302
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2NoYWluLXN0YXR1cw",
+        "url": "https://algorand.name-redacted.services/chain-status",
+        "method": "GET",
+        "description": "Base chain status from [name redacted]'s own RPC: the four heads an agent needs before it acts — latest (~2s soft), safe, L1-finalized and the pending Flashblocks preconfirmation head — with base fee (wei+gwei), congestion, block age and the finality lag between them. Makes the Base pending-vs-latest gap explicit. Flat JSON, refreshed every minute, honest staleness meta. Base chain status, block height, base fee, finality, chain health. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "chain-status"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601577078,
+        "last_ts": 1790559003333
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2NyeXB0by1uZXdz",
+        "url": "https://algorand.name-redacted.services/crypto-news",
+        "method": "GET",
+        "description": "Real-time crypto market news with sentiment analysis and top headlines ranked by importance.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "crypto-news"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150469180,
+        "last_ts": 1790559091680
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2RlZmktYW5hbHl0aWNz",
+        "url": "https://algorand.name-redacted.services/defi-analytics",
+        "method": "GET",
+        "description": "Where DeFi capital is flowing — TVL rankings, fastest-growing vs bleeding protocols, chain-by-chain breakdown, and per-protocol deep dives. Track capital rotation and protocol health. Powered by DefiLlama.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "protocol": "example"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "defi-analytics"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150500576,
+        "last_ts": 1786150501097
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2RpdmlkZW5kLWludGVs",
+        "url": "https://algorand.name-redacted.services/dividend-intel",
+        "method": "GET",
+        "description": "Dividend intelligence for a vendor-resolved equity: TTM yield, payout ratio and dividend/share, next known ex-date, latest raw and adjusted dividend values, adjusted complete-year growth, recent payments, and a yield-trap checklist with explicit coverage. Monetary fields retain FMP payload units because the captured feeds do not identify a currency.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "AAPL"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "dividend-intel"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349268771,
+        "last_ts": 1790559913653
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Rucy1sb29rdXA",
+        "url": "https://algorand.name-redacted.services/dns-lookup",
+        "method": "GET",
+        "description": "Resolve any domain in one call: A/AAAA, MX, NS, CNAME, SOA and TXT records, plus parsed email-auth posture — SPF policy, DMARC policy, and detected DKIM selectors. A drop-in nslookup/dig replacement for agents, resolved over DNS-over-HTTPS (DoH) with redundant resolvers and automatic failover. Keyless, pay-per-call, structured JSON.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "github.com"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "dns-lookup"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348784977,
+        "last_ts": 1790559246438
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2RvbWFpbi1hZ2U",
+        "url": "https://algorand.name-redacted.services/domain-age",
+        "method": "GET",
+        "description": "Domain age and registration intel from authoritative RDAP/WHOIS records: exact creation date, age in days and years, expiration date and days-until-expiry. The fast trust and risk signal agents use to vet a counterparty, link, or sender and to flag newly-registered or soon-to-expire domains. Returns structured JSON, keyless, pay-per-call. ccTLDs without RDAP return an uncharged 503.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "coinbase.com"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "domain-age"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349185163,
+        "last_ts": 1790559293413
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2RvbWFpbi1yZXBvcnQ",
+        "url": "https://algorand.name-redacted.services/domain-report",
+        "method": "GET",
+        "description": "One call returns the full domain profile for vetting, deliverability, or phishing/fraud checks: live DNS (A/MX/NS + record counts), RDAP/WHOIS registration (registrar, domain age, expiry, status, DNSSEC) and email authentication (SPF, DMARC policy, detected DKIM selectors) — plus a one-line summary. Bundles three lookups into one hourly-fresh read. Keyless, license-clean, pay-per-call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "uniswap.org"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "domain-report"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786351025331,
+        "last_ts": 1790560104067
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Vhcm5pbmdzLWNhbGVuZGFy",
+        "url": "https://algorand.name-redacted.services/earnings-calendar",
+        "method": "GET",
+        "description": "Earnings calendar and surprise history for a vendor-resolved equity: next report date/session with EPS and revenue estimates, latest reported EPS versus estimate, surprise percentage, and four-quarter history. Monetary estimates retain Finnhub payload units because the captured feed does not identify a currency. Event-window price drift is explicitly unavailable rather than inferred.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "AAPL"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "earnings-calendar"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349263202,
+        "last_ts": 1790559921933
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2VxdWl0eS1pbnRlbA",
+        "url": "https://algorand.name-redacted.services/equity-intel",
+        "method": "GET",
+        "description": "Equity intelligence for any US-listed company by ticker: latest revenue & net income with YoY growth, net margin, EPS, total assets/liabilities, leverage and cash, plus the most recent material SEC filings (10-K/10-Q/8-K) and an AI read on what matters. Sourced from SEC EDGAR (public domain). Fundamentals/filings intel — not a price feed.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "NVDA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "equity-intel"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150587586,
+        "last_ts": 1790559930193
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2VxdWl0eS1uZXdz",
+        "url": "https://algorand.name-redacted.services/equity-news",
+        "method": "GET",
+        "description": "Latest company news for a vendor-resolved equity: licensed Finnhub headlines from the trailing seven days with publication time, source, and summary. Only articles that name the company are served — labelled `primary` when the headline names it, `mentioned` when only the summary does — so a symbol-tagged story about another company never fills the list. Redirect URLs withheld; no sentiment is fabricated.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "AAPL"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "equity-news"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349267616,
+        "last_ts": 1790559938442
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2VxdWl0eS1zbWFydC1tb25leQ",
+        "url": "https://algorand.name-redacted.services/equity-smart-money",
+        "method": "GET",
+        "description": "Smart-money bundle for any US-listed company by ticker, in ONE call: SEC Form 4 insider activity (purchases vs sales — SEC codes P/S, net purchase-sale balance, who filed and their roles) PLUS trailing-twelve-month fundamentals (revenue + YoY, net income + YoY, diluted EPS) from XBRL filings. 4/A-amended insider windows withheld once detected (~1h lag): unpaid 503. Smart money, fundamentals. Public-domain SEC EDGAR. $0.006 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "6000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "NVDA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "equity-smart-money"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348797938,
+        "last_ts": 1790560082087
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2VxdWl0eS1zbWFydC1tb25leS1icmllZg",
+        "url": "https://algorand.name-redacted.services/equity-smart-money-brief",
+        "method": "GET",
+        "description": "Smart-money filing brief for US-listed companies by ticker: SEC Form 4 insider purchases vs sales with filer roles, Schedule 13D/13G beneficial-ownership filing events (subject-validated; not 13F), fundamentals with one-time-item flags (TTM where available), regime-aware filings cadence — ONE AI read of the filing record. Observed filings only; buy/sell advice rejected at generation. Public-domain SEC EDGAR + AI. $0.10 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "NVDA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "equity-smart-money-brief"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348801887,
+        "last_ts": 1790560131617
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2ZpbHRlcmVkLW5ld3M",
+        "url": "https://algorand.name-redacted.services/filtered-news",
+        "method": "GET",
+        "description": "AI-filtered crypto news and Twitter search for non-token topics (airdrops, DeFi trends, etc). Max 2 words.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "topic": "example"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "filtered-news"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150483760,
+        "last_ts": 1790559356940
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Zvcm0tMTQ0LWZpbGluZ3M",
+        "url": "https://algorand.name-redacted.services/form-144-filings",
+        "method": "GET",
+        "description": "Form 144 filings by ticker — SEC notices of PROPOSED insider sales, filed BEFORE the Form 4 that reports the executed trade: who intends to sell, units, the filer's own market-value estimate, broker, approximate sale date and Rule 10b5-1 plan dates. The earliest public read on insider selling intent; a notice is not a completed trade and may never be executed. Latest 20 notices in a 90-day lookback. Public-domain SEC EDGAR. $0.005 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "NVDA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "form-144-filings"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601610036,
+        "last_ts": 1790560032306
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Zvcm0tNC1mZWVk",
+        "url": "https://algorand.name-redacted.services/form-4-feed",
+        "method": "GET",
+        "description": "Latest insider trades feed across ALL US-listed companies — the 20 most recent SEC Form 4 filings by acceptance time, not one ticker at a time: issuer ticker and name, who filed and their role, transaction code (P purchase / S sale / A award / M exercise / F tax), shares, price, value and shares held after, with EDGAR links. Refreshed every 15 minutes. Derivative-only filings are excluded and counted. Public-domain SEC EDGAR. $0.003 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "form-4-feed"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601599090,
+        "last_ts": 1790559946728
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Z1bmRpbmctcmF0ZXM",
+        "url": "https://algorand.name-redacted.services/funding-rates",
+        "method": "GET",
+        "description": "Cross-venue funding-rate arbitrage + crowded-positioning radar: live perp funding rates, open interest, global & top-trader long/short ratios, whale positions, and liquidations across Binance, OKX, Bybit, Hyperliquid, and more. Omit symbol for the whole-market overview; pass one (e.g. BTC) for the per-exchange breakdown. (Hyperliquid-only perp data: use hyperliquid-market.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "symbol": "ETH"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "funding-rates"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150495876,
+        "last_ts": 1790559392842
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2Z4LXJhdGVz",
+        "url": "https://algorand.name-redacted.services/fx-rates",
+        "method": "GET",
+        "description": "Live + reference foreign-exchange (forex) rates, base USD. LIVE near-real-time mid quotes for the 12 most-traded currencies (EUR, GBP, JPY, CHF, CAD, AUD, NZD, CNY, HKD, SGD, SEK, KRW), refreshed every minute with an honest market-open/stale flag, PLUS the official ECB daily reference table for ~30 currencies. Derive any cross-rate or pair. For agents pricing cross-border ops, treasury, invoicing and FX conversion. Keyless, pay-per-call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "fx-rates"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786147316384,
+        "last_ts": 1790559428696
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2dhcy1vcmFjbGU",
+        "url": "https://algorand.name-redacted.services/gas-oracle",
+        "method": "GET",
+        "description": "Base gas oracle from [name redacted]'s own RPC: current base fee (wei+gwei), legacy gas price, and slow/standard/fast EIP-1559 priority-fee tiers (p25/p50/p90 over the last 20 blocks) with a ready-to-sign maxFeePerGas per tier. Unlike the crowded gas shelf it PUBLISHES the formula, so every tier is reproducible from the response. Flat JSON, refreshed every minute. Base gas oracle, gas price, priority fee, EIP-1559, maxFeePerGas. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "gas-oracle"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601582589,
+        "last_ts": 1790559467210
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2hsLXRyYW5zYWN0aW9uLWhpc3Rvcnk",
+        "url": "https://algorand.name-redacted.services/hl-transaction-history",
+        "method": "GET",
+        "description": "Hyperliquid perpetual trading history: fills, funding payments, and realized PnL per position.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "hl-transaction-history"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310248809,
+        "last_ts": 1790559494823
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2hvbGRlci1hbmFseXRpY3M",
+        "url": "https://algorand.name-redacted.services/holder-analytics",
+        "method": "GET",
+        "description": "Full holder analytics for any Base ERC-20: total holders with 24h/3d/7d/30d holder-change momentum, whale-tier distribution, acquisition mix (swap vs transfer vs airdrop), top-10/25/50/100 supply share, labeled top holders with concentration (top1/5/10/20% + contract-held%) and an AI concentration-risk read. Bag check, holder analytics, holder concentration, whale distribution. $0.03 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "token": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "holder-analytics"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786351041991,
+        "last_ts": 1786351042312
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2h5cGVybGlxdWlkLWFjY291bnQ",
+        "url": "https://algorand.name-redacted.services/hyperliquid-account",
+        "method": "GET",
+        "description": "Hyperliquid perpetual trading account snapshot with open positions, margin, collateral, and active trigger orders (TP/SL/limit).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "hyperliquid-account"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310241840,
+        "last_ts": 1790559525261
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2h5cGVybGlxdWlkLW1hcmtldA",
+        "url": "https://algorand.name-redacted.services/hyperliquid-market",
+        "method": "GET",
+        "description": "Hyperliquid perpetuals market data: live mark/oracle price, funding rate, open interest, max leverage, and size specs for any tradable asset.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "asset": "BTC"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "hyperliquid-market"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310245738,
+        "last_ts": 1790559563808
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2luc2lkZXItdHJhZGVz",
+        "url": "https://algorand.name-redacted.services/insider-trades",
+        "method": "GET",
+        "description": "SEC Form 4 insider trades for any US-listed company by ticker: who bought and sold (officer/director/10% owner), purchase vs sale counts and dollar values (SEC codes P/S: open-market or private), net purchase-sale balance, shares held after, filing links — hourly snapshot; 4/A-amended windows withheld once detected (~1h lag): unpaid 503. Insider trading data, insider buys, smart money. Public-domain SEC EDGAR. $0.003 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "NVDA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "insider-trades"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348794042,
+        "last_ts": 1790559955088
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2luc3RpdHV0aW9uYWwtaG9sZGluZ3M",
+        "url": "https://algorand.name-redacted.services/institutional-holdings",
+        "method": "GET",
+        "description": "13F holdings for any SEC-filing manager (hedge funds, asset managers) by CIK or manager ticker: latest 13F top 20 positions, amendments applied (hourly snapshot, ~1h correction lag): issuer, CUSIP, value in whole USD, share/principal amount (SH/PRN), put/call flag, reported value, position count. Whale tracking from the primary source. 13F holdings, hedge fund positions, institutional ownership. Public-domain SEC EDGAR. $0.003 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "manager": "1067983"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "institutional-holdings"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348795105,
+        "last_ts": 1790559963353
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL2tvbC1zZW50aW1lbnQ",
+        "url": "https://algorand.name-redacted.services/kol-sentiment",
+        "method": "GET",
+        "description": "Premium alpha from top 50 crypto KOLs. Real trading signals, trending token picks, and sentiment from influencers who move markets.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "kol-sentiment"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150570310,
+        "last_ts": 1790559847390
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL21hY3JvLXJlZ2ltZQ",
+        "url": "https://algorand.name-redacted.services/macro-regime",
+        "method": "GET",
+        "description": "Daily US macro-regime snapshot from licensed Alpha Vantage series: 10-year Treasury yield, effective federal funds rate, three-month rate changes, CPI index and YoY inflation, plus a mechanical rates-direction/inflation-direction label with disclosed thresholds. Three upstream calls per daily refresh; scanner context only.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "macro-regime"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786350236252,
+        "last_ts": 1790559971609
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL21hcmtldC1yaXNr",
+        "url": "https://algorand.name-redacted.services/market-risk",
+        "method": "GET",
+        "description": "Composite crypto market-stress digest: a 0-100 score (low/moderate/elevated/high) blended from global USD-stablecoin depeg health (DefiLlama) and Base on-chain DEX exit-liquidity, with a per-leg breakdown and an AI risk line. Stablecoin systemic + Base liquidity microstructure only (not derivatives/sentiment). Both legs required for a score. Refreshed hourly, public sources, pay-per-call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "market-risk"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150579096,
+        "last_ts": 1790559863974
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL21lZ2EtcmVwb3J0",
+        "url": "https://algorand.name-redacted.services/mega-report",
+        "method": "GET",
+        "description": "Alpha & Intel Report — daily crypto market intelligence: headlines, Twitter sentiment, KOL alpha, trending altcoins, and yield opportunities in one report.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "mega-report"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786152204958,
+        "last_ts": 1786276869599
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL25ld3MtcmVjYXBz",
+        "url": "https://algorand.name-redacted.services/news-recaps",
+        "method": "GET",
+        "description": "A tight 4-6 sentence crypto market recap an agent can ingest whole: overall direction and why, the 2-3 developments that matter, and anything notable on the top-10 board — distilled hourly from the same live news engine behind [name redacted]'s top-ranked /crypto-news feed. The one-paragraph state-of-market; buy /crypto-news when you want the full report.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "news-recaps"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150581854,
+        "last_ts": 1790559979894
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3BtLWNyeXB0bw",
+        "url": "https://algorand.name-redacted.services/pm-crypto",
+        "method": "GET",
+        "description": "Crypto prediction markets on Polymarket: the highest-volume open BTC, ETH and crypto markets with live odds (outcome probabilities), best bid/ask, spread, 24h + total volume, liquidity, price change and end date. \"Bitcoin above X\", price targets, ETF and protocol events — what the prediction market ACTUALLY prices in, as flat JSON refreshed every 5 minutes. Crypto odds, Bitcoin prediction market, ETH probability. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "pm-crypto"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150559944,
+        "last_ts": 1790559583116
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3BtLW1hcmtldHM",
+        "url": "https://algorand.name-redacted.services/pm-markets",
+        "method": "GET",
+        "description": "Top Polymarket prediction markets RIGHT NOW: the 25 highest-volume open markets with live odds (outcome probabilities), best bid/ask, spread, last trade price, 24h + total volume, liquidity, 1d/7d price change, end date and event link. Flat JSON, refreshed every 5 minutes. Prediction market odds, Polymarket data, event probabilities, market sentiment. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "pm-markets"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150556783,
+        "last_ts": 1790569900973
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3BtLW1vdmVycw",
+        "url": "https://algorand.name-redacted.services/pm-movers",
+        "method": "GET",
+        "description": "Polymarket movers RIGHT NOW: the 20 biggest 24h odds moves across active prediction markets, ranked by move size, each with direction, the raw 1d and 7d change, live odds, best bid/ask, spread, volume, liquidity and the event link. A tradability floor keeps dead-market swings out. Flat JSON, refreshed every 5 minutes. Polymarket odds movers, biggest prediction-market moves, event probability shifts, market momentum. $0.002 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "pm-movers"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601588058,
+        "last_ts": 1790559872280
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3BtLXNlYXJjaA",
+        "url": "https://algorand.name-redacted.services/pm-search",
+        "method": "GET",
+        "description": "Search Polymarket prediction markets by free text: elections, Fed rates, crypto prices, sports, geopolitics, AI. Returns the top matching open markets with live odds (outcome probabilities), best bid/ask, spread, volume, liquidity, end date and event link as flat JSON. Prediction market search, event odds lookup, \"what are the odds of X\". $0.001 per call — 5x cheaper than comparable PM search.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "query": "fed rate cut"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "pm-search"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348787405,
+        "last_ts": 1790559630049
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Bvb2xzLXNlYXJjaA",
+        "url": "https://algorand.name-redacted.services/pools-search",
+        "method": "GET",
+        "description": "Search DEX pools across Base, Ethereum, Solana, Polygon, BSC, Arbitrum, Optimism and Avalanche by token symbol, name, or contract address. Returns pool address, DEX, price USD, 24h volume, liquidity (TVL), FDV, 24h price change and 24h txns as flat JSON numbers — no nested joins. Pool search, pool finder, DEX pools, liquidity pools, onchain pool lookup. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "query": "WETH"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "pools-search"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349243721,
+        "last_ts": 1790559657588
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Bvb2xzLXRyZW5kaW5n",
+        "url": "https://algorand.name-redacted.services/pools-trending",
+        "method": "GET",
+        "description": "Trending DEX pools right now — Base, Ethereum, Solana, Polygon, BSC, Arbitrum, Optimism, Avalanche, or network=all for cross-chain across those same 8. Top 10 hottest pools ranked by GeckoTerminal 24h trending: pool address, DEX, price USD, 24h price change, 24h volume, liquidity (TVL), FDV, 24h txns as flat JSON numbers. Trending pools, hot pools, top movers, momentum screener, what is pumping. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "network": "base"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "pools-trending"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150554030,
+        "last_ts": 1790559665856
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3BvcnRmb2xpbw",
+        "url": "https://algorand.name-redacted.services/portfolio",
+        "method": "GET",
+        "description": "Multi-chain portfolio snapshot with token balances and yield positions for a user's [name redacted] AI Safe accounts across Base, Ethereum, Arbitrum, Polygon, BSC, Avalanche, and Solana.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "userId": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "portfolio"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310232124,
+        "last_ts": 1790559679586
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Byb3RvY29sLXJldmVudWUtbGVhZGVycw",
+        "url": "https://algorand.name-redacted.services/protocol-revenue-leaders",
+        "method": "GET",
+        "description": "Which protocols earn the most — and who is accelerating? Top 30 DeFi protocols by 24h fees, each with revenue, take-rate (the cut the protocol keeps vs fees users pay), 7d/30d trend and category, plus total DeFi fees & revenue. A fundamentals screen (fee/revenue economics), distinct from TVL. Sourced from DefiLlama (public). Refreshed hourly.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "protocol-revenue-leaders"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150532835,
+        "last_ts": 1790559690578
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3JoLXNlYXNvbg",
+        "url": "https://algorand.name-redacted.services/rh-season",
+        "method": "GET",
+        "description": "Robinhood Chain memecoin intelligence: the rug-screened RH Chain (chainId 4663) movers. Hard liquidity + wash-volume gates filter the $0-liquidity honeypots that fake $1M volumes; every survivor carries rug-risk flags (thin liquidity, vol/liquidity anomaly, pool age, CoinGecko listing) plus trusted-KOL mentions with verbatim quotes and a synthesized RH Chain sentiment read. What is pumping AND whether it is real. Refreshed hourly.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "rh-season"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150548946,
+        "last_ts": 1788601810573
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3N0YWJsZWNvaW4td2F0Y2g",
+        "url": "https://algorand.name-redacted.services/stablecoin-watch",
+        "method": "GET",
+        "description": "Is USDC/USDT/DAI holding its $1 peg, and is stablecoin supply growing or shrinking (risk-on vs risk-off)? Live peg deviation (bps), circulating supply + 1d/7d/30d flow, market dominance and chain spread for the top 30 USD stablecoins, plus downside depeg alerts for any coin trading >0.5% below peg. Sourced from DefiLlama (public). Refreshed hourly.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "stablecoin-watch"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150530060,
+        "last_ts": 1790559731849
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3N1cHBvcnRlZC10b2tlbnM",
+        "url": "https://algorand.name-redacted.services/supported-tokens",
+        "method": "GET",
+        "description": "Search supported ERC-20 tokens by symbol or address across 6 chains (Base, Ethereum, Arbitrum, Polygon, BSC, Avalanche). 5000+ tokens from CoinGecko. Use before swap/bridge to disambiguate tokens.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "search": "USDC",
+              "chainId": "8453"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "supported-tokens"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310238760,
+        "last_ts": 1790559740132
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3RlY2huaWNhbC1zaWduYWxz",
+        "url": "https://algorand.name-redacted.services/technical-signals",
+        "method": "GET",
+        "description": "Daily technical snapshot for a vendor-resolved equity from licensed Tiingo adjusted closes: Wilder RSI-14, 20-session momentum, SMA-20/SMA-50, price distance from each average, above/below/mixed trend state, and the latest observed golden/death cross. Price and averages retain Tiingo payload units because the captured feed does not identify a currency.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "ticker": "AAPL"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "technical-signals"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786350238607,
+        "last_ts": 1790559988159
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLWFscGhh",
+        "url": "https://algorand.name-redacted.services/token-alpha",
+        "method": "GET",
+        "description": "Premium token intelligence: price metrics, news, Twitter sentiment, and futures data. Find out why your token is moving.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "symbol": "ETH"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-alpha"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150627782,
+        "last_ts": 1790560054431
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLWRldGFpbHM",
+        "url": "https://algorand.name-redacted.services/token-details",
+        "method": "GET",
+        "description": "Token price, market cap, volume, supply, and basic metrics. Works for any listed token.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "symbol": "ETH"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-details"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150489853,
+        "last_ts": 1790559748361
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLWZ1bmRhbWVudGFscw",
+        "url": "https://algorand.name-redacted.services/token-fundamentals",
+        "method": "GET",
+        "description": "Structured token fundamentals by ticker symbol (resolves to the top-market-cap asset matching it): price, market cap, FDV, rank, 24h volume, full supply breakdown (circulating/total/max), ATH + drawdown from ATH, ATL + recovery, ROI windows (24h/7d/30d/60d/1y), categories, and project links — clean JSON an agent can consume field-by-field. Fundamentals snapshot, not a streaming price feed.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "symbol": "BTC"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-fundamentals"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348792955,
+        "last_ts": 1790559996434
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLXByaWNl",
+        "url": "https://algorand.name-redacted.services/token-price",
+        "method": "GET",
+        "description": "Live DEX token price in USD by ticker symbol or contract address across Base, Ethereum, Solana, Polygon, BSC, Arbitrum, Optimism and Avalanche (bare 0x defaults to Base, else network:address). Symbols resolve to the canonical top-market-cap asset — squat-proof. Flat JSON: price, 24h change, volume, market cap, FDV, liquidity — echoes the matched deployment. Token price, crypto price, DEX price. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "token": "ETH"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-price"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349256562,
+        "last_ts": 1790559756682
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLXNjb3Jl",
+        "url": "https://algorand.name-redacted.services/token-score",
+        "method": "GET",
+        "description": "Token score by contract address — one 0-100 composite of a Base token market structure from seven weighted factors: USD liquidity, holder concentration, holder count, 24h volume, market age, pool breadth and price stability. Every sub-score, weight, raw input, source plane and read time comes back with the number, plus the full breakpoint curve, so the score can be recomputed from the response. A factor whose data plane is unavailable is reported absent, never filled in. Market structure, not a contract-security screen. $0.010 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "token": "0x532f27101965dd16442e59d40670faf5ebb142e4"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-score"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601620994,
+        "last_ts": 1790560095765
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLXNlY3VyaXR5",
+        "url": "https://algorand.name-redacted.services/token-security",
+        "method": "GET",
+        "description": "Token security scanner — is this token safe to buy? Honeypot, rug-pull, and scam detection for any token contract — flags can't-sell traps, hidden mints, malicious buy/sell taxes, and holder concentration. Powered by GoPlus across 7 chains.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "chain": "8453"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-security"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786351790358,
+        "last_ts": 1790559764918
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuLXRvcC1ob2xkZXJz",
+        "url": "https://algorand.name-redacted.services/token-top-holders",
+        "method": "GET",
+        "description": "Top holders for any Base ERC-20 (via Moralis), with computed concentration (top1/5/10/20% + contract-held%) and optional whale-risk read. Curated hot set refreshed hourly; long-tail tokens write-through on first call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "token": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "token-top-holders"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348798933,
+        "last_ts": 1786348799194
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuaXplZC1lcXVpdGllcw",
+        "url": "https://algorand.name-redacted.services/tokenized-equities",
+        "method": "GET",
+        "description": "The live registry of tokenized US equities & ETFs on Robinhood Chain (chainId 4663): symbol, canonical token address, decimals, a reference price, and a verifiable tradability signal — listed-on-rail plus a best-effort execution sample (estimated USD out and round-trip cost at a reference size). The on-chain settlement layer for tokenized-equity exposure, not a data-coverage claim. Optional `?thesis=` filters the registry to a matched shortlist (per-row match reason + an honesty contract). Informational only; not a quote or a recommendation. Flat JSON, refreshed hourly. $0.001 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "thesis": "semiconductors"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "tokenized-equities"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150565156,
+        "last_ts": 1790559773115
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3Rva2VuaXplZC1zdG9jay1tb3ZlcnM",
+        "url": "https://algorand.name-redacted.services/tokenized-stock-movers",
+        "method": "GET",
+        "description": "Day movers for tokenized US stocks on TWO rails in one call: Robinhood Chain (chainId 4663, ~95 names) and Base B20 (the 13 Coinbase-issued tokens, keyed by token address — B20 metadata is mutable, so the address is the identity). Gainers and losers by REAL day-over-day change of the UNDERLYING stock vs the prior NYSE session close (Finnhub quotes), with per-rail coverage counts and named exclusions. Off-hours values freeze; a tokenized share can trade at a premium/discount to the underlying. Refreshed every 15 minutes.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "tokenized-stock-movers"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601593569,
+        "last_ts": 1790560004709
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3RyYWRmaS1kYXRh",
+        "url": "https://algorand.name-redacted.services/tradfi-data",
+        "method": "GET",
+        "description": "TradFi macro intelligence: indices, VIX, DXY, treasury yields, commodities, and individual stock quotes with moving average context.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "symbol": "ETH"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "tradfi-data"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150584837,
+        "last_ts": 1790560012988
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3RyYW5zYWN0aW9uLWhpc3Rvcnk",
+        "url": "https://algorand.name-redacted.services/transaction-history",
+        "method": "GET",
+        "description": "Trade and transaction history for a user's [name redacted] AI Safe account — swaps, bridges, deposits, withdrawals with timestamps and explorer links.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "userId": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "transaction-history"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310235836,
+        "last_ts": 1790559781399
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3RyZW5kaW5nLWFsdGNvaW5z",
+        "url": "https://algorand.name-redacted.services/trending-altcoins",
+        "method": "GET",
+        "description": "Top 3 hottest altcoins traders may want to ape into, based on news and Twitter analysis. DYOR.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "trending-altcoins"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150576341,
+        "last_ts": 1790559880543
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3R3aXR0ZXItc3VtbWFyeQ",
+        "url": "https://algorand.name-redacted.services/twitter-summary",
+        "method": "GET",
+        "description": "Quick pulse check from crypto Twitter. Breaking news, trending narratives, and sentiment shifts at a glance.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "twitter-summary"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150486848,
+        "last_ts": 1790559789642
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3dhbGxldC1ob2xkaW5ncw",
+        "url": "https://algorand.name-redacted.services/wallet-holdings",
+        "method": "GET",
+        "description": "Base wallet portfolio breakdown: up to 100 token positions with live USD price and value, portfolio percentage, 24h price change — native ETH included, spam filtered, top 50 returned; truncated:true means the wallet exceeds the 100-position fetched page (totals null then). Plus total value, top-position concentration and an AI bagcheck read. Wallet holdings, wallet portfolio, wallet balance, bagcheck. $0.02 per call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "wallet": "0xc65a451047094cdd723fff77334d3b9ff8cf28e7"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "wallet-holdings"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786351028766,
+        "last_ts": 1786351037574
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3dlYXRoZXI",
+        "url": "https://algorand.name-redacted.services/weather",
+        "method": "GET",
+        "description": "Live weather for any city or lat/lon worldwide. Returns current conditions — temperature, feels-like, humidity, wind and sky — plus a 5-day forecast with daily highs/lows and precipitation probability. City names auto-geocode (no coordinates needed). Refreshed hourly with transparent freshness metadata. Keyless, pay-per-call, agent-ready JSON.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "location": "London"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "weather"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786349187081,
+        "last_ts": 1790559797838
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3dlYi1leHRyYWN0",
+        "url": "https://algorand.name-redacted.services/web-extract",
+        "method": "GET",
+        "description": "Turn any URL into clean, LLM-ready markdown — the main article extracted, nav/ads/boilerplate stripped, plus title, description and publish date. Renders JavaScript pages, articles, docs and PDFs. A keyless, pay-per-call web reader for agents that read the web on demand: RAG ingestion, research and summarization. Structured JSON, cached by URL for fast repeat reads.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "web-extract"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348796219,
+        "last_ts": 1790560062707
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3dlYi1qc29uLWV4dHJhY3Q",
+        "url": "https://algorand.name-redacted.services/web-json-extract",
+        "method": "GET",
+        "description": "Turn any URL into clean structured JSON for AI agents and RAG. An LLM reads the fully rendered page (JavaScript executed, SPAs included) and returns its title, a 1-2 sentence summary, key entities (people, orgs, products), and any prices, dates or notable numbers — even on pages with no schema.org or JSON-LD markup, no CSS selectors or schema to write. Just pass a URL. Keyless, pay-per-call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "web-json-extract"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786350241979,
+        "last_ts": 1790560073770
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3dlYi1saW5rcw",
+        "url": "https://algorand.name-redacted.services/web-links",
+        "method": "GET",
+        "description": "Extract all links (hrefs) from any web page as structured JSON — every internal, external and anchor link, deduplicated, returned with a total count. Renders the page in a real headless browser, so it captures links injected after JavaScript runs that fetch-only scrapers miss. For crawling, sitemap building, link audits and site-structure mapping. Keyless, pay-per-call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "web-links"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786348791925,
+        "last_ts": 1790560024010
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3dob2lzLWxvb2t1cA",
+        "url": "https://algorand.name-redacted.services/whois-lookup",
+        "method": "GET",
+        "description": "Registration data for any domain, straight from authoritative RDAP registries (the structured WHOIS successor): registrar, ICANN/EPP domain status codes, creation, last-updated and expiration dates, authoritative nameservers, and DNSSEC delegation. The fast, license-clean way for an agent to vet a domain, sender, or counterparty. Keyless, structured JSON, pay-per-call.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "whois-lookup"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150537934,
+        "last_ts": 1790559806006
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3lpZWxkLWFscGhh",
+        "url": "https://algorand.name-redacted.services/yield-alpha",
+        "method": "GET",
+        "description": "Best DeFi yield opportunities across stablecoins, ETH, and BTC with risk ratings and APY comparisons.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "yield-alpha"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786150573170,
+        "last_ts": 1790559888818
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3lpZWxkLWZhcm1pbmctYWN0aXZl",
+        "url": "https://algorand.name-redacted.services/yield-farming-active",
+        "method": "GET",
+        "description": "Active yield farming positions for a user across Aave V3 and Morpho on all supported chains, with live APY and accrued interest.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "userAddress": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "yield-farming-active"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310256141,
+        "last_ts": 1790559814290
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3lpZWxkLWZhcm1pbmctaGlzdG9yaWNhbA",
+        "url": "https://algorand.name-redacted.services/yield-farming-historical",
+        "method": "GET",
+        "description": "Historical (closed) yield farming positions for a user across all protocols and chains, with realized yield and exit timestamps.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "userAddress": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "yield-farming-historical"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310259051,
+        "last_ts": 1790559822549
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3lpZWxkLW1hcmtldHM",
+        "url": "https://algorand.name-redacted.services/yield-markets",
+        "method": "GET",
+        "description": "DeFi yield farming markets with live APYs across Aave V3 and Morpho on Base, Ethereum, and other major chains. Find the best stablecoin yield (USDC) and ETH yield for idle capital: returns supply APY, TVL, and vault/market addresses per token, filterable by protocol, chain, or token symbol. Compare DeFi yield rates across lending markets and vaults before depositing.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "yield-markets"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310253228,
+        "last_ts": 1790559830862
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQub3R0b2FpLnNlcnZpY2VzL3lpZWxkLXJlY29tbWVuZGF0aW9ucw",
+        "url": "https://algorand.name-redacted.services/yield-recommendations",
+        "method": "GET",
+        "description": "Best-available stablecoin deposit venues ranked by net supply APY — [name redacted]'s yield-copilot reads supported on-chain lending markets directly and returns the top deployable venue per stablecoin (protocol, chain, APY, deposit target). Best-available across the market, not wallet-personalized.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "userAddress": "0x5bB4B0C766E0D5D791d9403Fc275c22064709F68"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "data": {
+                "endpoint": "yield-recommendations"
+              },
+              "meta": {
+                "generatedAt": "",
+                "validUntil": "",
+                "stalenessSec": 0,
+                "degraded": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786310266054,
+        "last_ts": 1790559839068
+      }
+    ],
+    "resource_count": 69,
+    "description_count": 69,
+    "mime_type_count": 69,
+    "accepts_count": 69,
+    "discovery_count": 69,
+    "input_documentation_count": 69,
+    "output_documentation_count": 69,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algorand.name-redacted.services"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

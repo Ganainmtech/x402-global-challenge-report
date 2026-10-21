@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://api-algo.stelardigital.com/pricecheck,10,0.050000,1,10,0.050000,0,0.000000,0,2026-09-27 04:39:22 UTC,2026-10-06 00:04:44 UTC
+GET,https://api-algo.stelardigital.com/gridparams,2,0.100000,1,0,0.000000,0,0.000000,0,2026-09-27 04:56:10 UTC,2026-09-28 01:33:16 UTC
+GET,https://api-algo.stelardigital.com/telemetry,2,0.010000,1,2,0.010000,0,0.000000,0,2026-09-27 04:39:24 UTC,2026-09-28 01:28:48 UTC

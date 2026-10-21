@@ -1,0 +1,95 @@
+{
+  "merchant_id": "RjRUTEVaTUJEU1FRVks3WlRERFdaWkw1",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "foss.violetskysecurity.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1790742501728,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "foss.violetskysecurity.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://foss.violetskysecurity.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "SPT-Txn: Privacy-Preserving FATF Travel Rule & Agentic Authorization [redacted]",
+        "description": "Open-source, blockchain-agnostic framework for the FATF Travel Rule (Recommendation 16), accountable AI-agent payments, and privacy-preserving compliance-gated RWA (ERC-3643-aligned, replay-safe). Zero-knowledge scoped disclosure, human-anchor escrow with lawful recovery, post-quantum hybrid (X25519 + ML-KEM-768) cryptography.",
+        "site_name": "Violet Sky Security · SPT-Txn",
+        "logo": null,
+        "banner": "https://foss.violetskysecurity.com/logo_lion.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://foss.violetskysecurity.com/llms.txt",
+            "name": "SPT-Txn — Sovereign Policy Token Transactions",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 04:28:21 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "foss.violetskysecurity.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No catalog resources on included public domains."
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "merchant_id": "QzdaV0NUWjQzVVBFTFBGTFdHR1JRUFVD",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "proofmint.app",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 90,
+      "last_observed_at": 1791137387171,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "proofmint.app",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://proofmint.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791161363210,
+        "last_fetch_attempt_utc": "2026-10-05T00:49:23.210000+00:00",
+        "title": "ProofMint",
+        "description": "ProofMint is a platform for creating and managing digital credentials.",
+        "site_name": null,
+        "logo": "https://proofmint.app/favicon.ico",
+        "banner": null,
+        "theme_color": "#9681FA",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "theme_color"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-04 18:09:47 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3Byb29mbWludC5hcHAvYXBpL3g0MDIvYmFkZ2VzL2NsYWltLzpjbGFpbWlk",
+        "url": "https://proofmint.app/api/x402/badges/claim/:claimId",
+        "method": "POST",
+        "description": "Claims one unit of a magic-link badge ASA into the logged-in receiver's custodial wallet. The caller must already be signed in as the receiver who is using the claim link; payment is a USDC x402 settlement to ProofMint, after which the badge ASA is opted in and transferred. Auth is the receiver session cookie, not an issuer API key.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000000",
+            "asset": "31566704",
+            "payTo": "C7ZWCTZ43UPELPFLWGGRQPUCUFDU63MB7EVWI7GVVEDB3YTCQVIICP2FLE",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "pathParams": {
+              "claimId": "cmu85o43k0007li01jh1o092v"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txnId": "N2WKQ7ZL3RJXKQ5MHVLKQ2M4XKZ7YHQF6VJQXK4TXZQ3N5RJ7A2Q"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789808391676,
+        "last_ts": 1789814105428
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3Byb29mbWludC5hcHAvYXBpL3g0MDIvYmFkZ2VzL21pbnQ",
+        "url": "https://proofmint.app/api/x402/badges/mint",
+        "method": "POST",
+        "description": "Mints an ARC-3 compliant Algorand badge ASA and awards it to one or more recipients. A badge is a single ASA whose supply equals the `count` query parameter, priced at the per-badge rate times that count. The image and metadata are pinned to IPFS, the ASA is created by the calling issuer's wallet, and the response returns the asset ID, the metadata CID and the creation transaction ID. Named recipients are emailed a claim link; a `magic` distribution instead returns a shareable claim link with `count` uses.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000000",
+            "asset": "31566704",
+            "payTo": "C7ZWCTZ43UPELPFLWGGRQPUCUFDU63MB7EVWI7GVVEDB3YTCQVIICP2FLE",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "badgeName": "Hackathon Finalist",
+              "unitName": "HACK",
+              "description": "Awarded to finalists of AlgoHack 1.0",
+              "imageUrl": "[local URL omitted]",
+              "distributionMethod": "email",
+              "recipientEmails": [
+                "[local URL omitted]",
+                "[local URL omitted]"
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "badgeId": "clx8k2p9v0001abcdefghijkl",
+              "assetId": "745823901",
+              "txId": "N2WKQ7ZL3RJXKQ5MHVLKQ2M4XKZ7YHQF6VJQXK4TXZQ3N5RJ7A2Q",
+              "explorerUrl": "https://allo.info/asset/745823901",
+              "metadataCid": "bafkreiavl4vqvzsyofcqmgpx2xkzxqf3rjxg5w4lqzk7tnvdqjq6mv6z4a",
+              "network": "mainnet",
+              "count": 2,
+              "distributionMethod": "email",
+              "recipientEmails": [
+                "[local URL omitted]",
+                "[local URL omitted]"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788735098841,
+        "last_ts": 1788735098584
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3Byb29mbWludC5hcHAvYXBpL3g0MDIvY2VydGlmaWNhdGVzL2J1bGs",
+        "url": "https://proofmint.app/api/x402/certificates/bulk",
+        "method": "POST",
+        "description": "Queues a batch of certificate ASAs from one template in a single payment, priced at the per-certificate rate times the `count` query parameter. Each certificate is rendered, pinned to IPFS and minted as a 1-of-1 Algorand ASA in the background, and every recipient is emailed a claim link. Returns a job id to poll for progress.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "370000000",
+            "asset": "31566704",
+            "payTo": "C7ZWCTZ43UPELPFLWGGRQPUCUFDU63MB7EVWI7GVVEDB3YTCQVIICP2FLE",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "templateId": "clx8k2p9v0001abcdefghijkl",
+              "certificateName": "Course Completion",
+              "unitName": "CERT",
+              "description": "Awarded on completion of the Algorand Developer track",
+              "recipients": [
+                {
+                  "recipientEmail": "[local URL omitted]",
+                  "fieldData": {
+                    "name": "Ada Lovelace"
+                  }
+                },
+                {
+                  "recipientEmail": "[local URL omitted]",
+                  "fieldData": {
+                    "name": "Alan Turing"
+                  }
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "job": {
+                "id": "clx9m3q7t0002abcdefghijkl",
+                "totalItems": 2,
+                "status": "PROCESSING"
+              },
+              "network": "mainnet"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788899233615,
+        "last_ts": 1791137387171
+      }
+    ],
+    "resource_count": 3,
+    "description_count": 3,
+    "mime_type_count": 3,
+    "accepts_count": 3,
+    "discovery_count": 3,
+    "input_documentation_count": 3,
+    "output_documentation_count": 3,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "proofmint.app"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

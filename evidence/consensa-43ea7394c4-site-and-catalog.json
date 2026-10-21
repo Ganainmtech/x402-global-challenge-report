@@ -1,0 +1,254 @@
+{
+  "merchant_id": "UEpPWEZJQktWS0dZR01DVzMzNDZQNU40",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "consensa-endpoint-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 24,
+      "last_observed_at": 1791245233300,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "consensa-endpoint-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://consensa-endpoint-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Consensa",
+        "description": "Consent, attribution, and fair compensation for knowledge AI agents consume",
+        "site_name": null,
+        "logo": "https://consensa-endpoint-production.up.railway.app/apple-touch-icon.png",
+        "banner": "https://consensa-endpoint-production.up.railway.app/og-image.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:07:13 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vY29uc2Vuc2EtZW5kcG9pbnQtcHJvZHVjdGlvbi51cC5yYWlsd2F5LmFwcC92MS9jbGVhcmFuY2U",
+        "url": "http://consensa-endpoint-production.up.railway.app/v1/clearance",
+        "method": "POST",
+        "description": "Consensa clearance: consented, attributed use of OSS knowledge",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PJOXFIBKVKGYGMCW3346P5N4OATMODZYM3VQOXDAEUTIGAOGRYGTIO3NME",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "consensaSplit": {
+                "version": "provisional-1",
+                "provider_bps": 8000,
+                "upstream_bps": 1100,
+                "commons_bps": 700,
+                "protocol_bps": 200,
+                "termsHash": "c126417021aa25fd9d32dc09913a7a5274174eceee594cbf4d0e27565ad97a12"
+              },
+              "consensaEngine": {
+                "appId": 3657837063,
+                "resourceId": "5be17c8f746e5bfabed69899544296828bbb4abfd70a3acae54df055338d904d",
+                "provider": "YUXYG73JSXAMBIMZKGCVSJWWKXSZEH3WXGYL25L2GWFDWHQEEN5PLPH7JQ"
+              },
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "manifest": {
+                "type": "package.json",
+                "content": {
+                  "dependencies": {
+                    "left-pad": "^1.3.0"
+                  }
+                }
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "clearance": "granted",
+              "receipt": {
+                "paymentTxId": "<algorand txid>",
+                "settleTxId": "<algorand txid>",
+                "settlementPath": "atomic",
+                "status": "settled",
+                "epoch": 3,
+                "requestHash": "<hex>",
+                "termsHash": "<hex>",
+                "split": {
+                  "provider": 8000,
+                  "upstream": 1100,
+                  "commons": 700,
+                  "protocol": 200
+                },
+                "upstream": [
+                  "left-pad"
+                ],
+                "receiptUrl": "/v1/receipts/<algorand txid>"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785646591970,
+        "last_ts": 1786341714927
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2NvbnNlbnNhLWVuZHBvaW50LXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvY2xlYXJhbmNl",
+        "url": "https://consensa-endpoint-production.up.railway.app/v1/clearance",
+        "method": "POST",
+        "description": "Dependency manifest in → on-chain consent + attribution receipt out. Pays atomically: provider 80%, upstream maintainers' escrow 11% (claimable, per-dependency attribution on-chain), commons 7%, protocol 2%.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PJOXFIBKVKGYGMCW3346P5N4OATMODZYM3VQOXDAEUTIGAOGRYGTIO3NME",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "consensaSplit": {
+                "version": "provisional-1",
+                "provider_bps": 8000,
+                "upstream_bps": 1100,
+                "commons_bps": 700,
+                "protocol_bps": 200,
+                "termsHash": "c126417021aa25fd9d32dc09913a7a5274174eceee594cbf4d0e27565ad97a12"
+              },
+              "consensaEngine": {
+                "appId": 3657837063,
+                "resourceId": "5be17c8f746e5bfabed69899544296828bbb4abfd70a3acae54df055338d904d",
+                "provider": "YUXYG73JSXAMBIMZKGCVSJWWKXSZEH3WXGYL25L2GWFDWHQEEN5PLPH7JQ"
+              },
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "manifest": {
+                "type": "package.json",
+                "content": {
+                  "dependencies": {
+                    "left-pad": "^1.3.0"
+                  }
+                }
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "clearance": "granted",
+              "receipt": {
+                "paymentTxId": "<algorand txid>",
+                "settleTxId": "<algorand txid>",
+                "settlementPath": "atomic",
+                "status": "settled",
+                "epoch": 3,
+                "requestHash": "<hex>",
+                "termsHash": "<hex>",
+                "split": {
+                  "provider": 8000,
+                  "upstream": 1100,
+                  "commons": 700,
+                  "protocol": 200
+                },
+                "upstream": [
+                  "left-pad"
+                ],
+                "receiptUrl": "/v1/receipts/<algorand txid>"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787221886715,
+        "last_ts": 1791245233300
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 0,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

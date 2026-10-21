@@ -1,0 +1,227 @@
+{
+  "merchant_id": "MjQ3Mk5FT0RHSk1PSlpWVUhKTDRHSTUz",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "captre.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 8,
+      "last_observed_at": 1788337002039,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "captre.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://captre.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Captre — On-Chain Attestation",
+        "description": "First-claim proofs anchored on Algorand via x402. Permanent. Verifiable. Agent-native.",
+        "site_name": "Captre",
+        "logo": "https://captre.onrender.com/static/logo.png",
+        "banner": "https://captre.onrender.com/static/og-image.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-02 08:16:42 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2NhcHRyZS5vbnJlbmRlci5jb20vYXR0ZXN0",
+        "url": "https://captre.onrender.com/attest",
+        "method": "POST",
+        "description": "Create a first-claim attestation on Algorand",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "asset": "10458941",
+            "amount": "50000",
+            "payTo": "2472NEODGJMOJZVUHJL4GI53BPZTFIXRP3ACIKTSKQCKCUNZ4NBZAMGTUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+              "genesisId": "testnet-v1.0"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "2472NEODGJMOJZVUHJL4GI53BPZTFIXRP3ACIKTSKQCKCUNZ4NBZAMGTUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "content_hash": "sha256:abc123...",
+              "agent_id": "my-agent-v1",
+              "output_type": "file",
+              "description": "Optional description of the content",
+              "tags": [
+                "research",
+                "v1"
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "attestation": {
+                "attestation_id": "a00fe88e-c4fa-4d4a-92d6-043af786e4b4",
+                "author": "GFYF3KDNCMINZCDJ6KIQDV24WU2PPFMLNST4J5FBW2Z2YQFT54BOEEGJYY",
+                "content_hash": "sha256:abc123...",
+                "status": "active",
+                "tx_id": "QK5ATJTD7CDTXADBQIX4NX52EWC7GYOL3BSBN5YTJWZP5HQMXLLA",
+                "created_at": "2025-01-01T00:00:00Z"
+              },
+              "message": "Attestation created successfully"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787442247787,
+        "last_ts": 1788337002039
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2NhcHRyZS5vbnJlbmRlci5jb20vcmV2b2tl",
+        "url": "https://captre.onrender.com/revoke",
+        "method": "POST",
+        "description": "Revoke an existing attestation (original author only)",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "asset": "10458941",
+            "amount": "50000",
+            "payTo": "2472NEODGJMOJZVUHJL4GI53BPZTFIXRP3ACIKTSKQCKCUNZ4NBZAMGTUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+              "genesisId": "testnet-v1.0"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "2472NEODGJMOJZVUHJL4GI53BPZTFIXRP3ACIKTSKQCKCUNZ4NBZAMGTUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "attestation_id": "a00fe88e-c4fa-4d4a-92d6-043af786e4b4"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "attestation": {
+                "attestation_id": "a00fe88e-c4fa-4d4a-92d6-043af786e4b4",
+                "status": "revoked"
+              },
+              "message": "Attestation revoked successfully"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787442264193,
+        "last_ts": 1788336971963
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 0,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

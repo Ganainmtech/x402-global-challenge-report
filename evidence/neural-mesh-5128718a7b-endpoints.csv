@@ -1,0 +1,6 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://api.d0xeddev.com/algorand-x402/mesh/tokens,28,0.560000,2,0,0.000000,0,0.000000,0,2026-08-29 14:02:23 UTC,2026-09-28 01:29:19 UTC
+GET,https://api.d0xeddev.com/algorand-x402/trading-signals,12,0.120000,3,0,0.000000,0,0.000000,0,2026-08-09 20:23:11 UTC,2026-10-06 00:06:13 UTC
+GET,http://api.d0xeddev.com/agent-intel,1,0.050000,1,0,0.000000,0,0.000000,0,2026-08-09 19:13:34 UTC,2026-08-09 19:13:34 UTC
+POST,http://api.d0xeddev.com/scam-score,1,0.010000,1,0,0.000000,0,0.000000,0,2026-08-09 19:23:07 UTC,2026-08-09 19:23:07 UTC
+GET,http://api.d0xeddev.com/trading-signals,1,0.010000,1,0,0.000000,0,0.000000,0,2026-08-09 19:24:25 UTC,2026-08-09 19:24:25 UTC

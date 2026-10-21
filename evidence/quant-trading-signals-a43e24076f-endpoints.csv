@@ -1,0 +1,89 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal,13309,1330.900000,1,0,0.000000,13309,1330.900000,0,2026-07-31 07:59:34 UTC,2026-07-31 21:09:22 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/UNI,5159,515.900000,13,0,0.000000,5159,515.900000,0,2026-07-31 21:14:36 UTC,2026-08-13 14:26:23 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ETH,2773,277.300000,12,0,0.000000,2773,277.300000,0,2026-07-31 21:13:38 UTC,2026-09-04 14:43:20 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/AVAX,2669,266.900000,11,0,0.000000,2669,266.900000,0,2026-07-31 21:14:50 UTC,2026-08-17 09:54:17 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/USDT,2661,266.100000,16,0,0.000000,2660,266.000000,0,2026-07-31 21:13:41 UTC,2026-09-04 14:43:28 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/BNB,2652,265.200000,16,0,0.000000,2652,265.200000,0,2026-07-31 21:13:44 UTC,2026-09-04 14:43:34 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ALGO,2636,263.600000,10,0,0.000000,2636,263.600000,0,2026-07-31 21:15:11 UTC,2026-08-17 09:32:58 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ADA,2632,263.200000,15,0,0.000000,2632,263.200000,0,2026-07-31 21:13:53 UTC,2026-08-13 10:32:59 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/SOL,2620,262.000000,14,0,0.000000,2620,262.000000,0,2026-07-31 21:13:48 UTC,2026-08-11 15:28:08 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/XRP,2616,261.600000,15,0,0.000000,2616,261.600000,0,2026-07-31 21:13:46 UTC,2026-09-04 14:43:42 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/DOT,2615,261.500000,14,0,0.000000,2615,261.500000,0,2026-07-31 21:14:00 UTC,2026-08-13 15:48:38 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/BCH,2612,261.200000,13,0,0.000000,2612,261.200000,0,2026-07-31 21:14:09 UTC,2026-08-11 15:29:37 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/LINK,2611,261.100000,13,0,0.000000,2611,261.100000,0,2026-07-31 21:17:31 UTC,2026-08-13 10:52:46 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/STETH,2611,261.100000,15,0,0.000000,2611,261.100000,0,2026-07-31 21:13:51 UTC,2026-08-11 13:58:49 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/LTC,2608,260.800000,13,0,0.000000,2608,260.800000,0,2026-07-31 21:14:06 UTC,2026-08-11 15:23:36 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/MATIC,2607,260.700000,13,0,0.000000,2607,260.700000,0,2026-07-31 21:14:03 UTC,2026-08-11 15:31:13 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/HBAR,2606,260.600000,10,0,0.000000,2606,260.600000,0,2026-07-31 21:15:07 UTC,2026-08-11 15:30:31 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ATOM,2603,260.300000,11,0,0.000000,2603,260.300000,0,2026-07-31 21:14:41 UTC,2026-08-13 14:21:17 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/QNT,2603,260.300000,10,0,0.000000,2603,260.300000,0,2026-07-31 21:15:27 UTC,2026-08-13 10:58:36 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/XLM,2603,260.300000,11,0,0.000000,2603,260.300000,0,2026-07-31 21:14:47 UTC,2026-08-13 14:27:44 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/APT,2597,259.700000,10,0,0.000000,2597,259.700000,0,2026-07-31 21:15:04 UTC,2026-08-13 15:45:17 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/FIL,2596,259.600000,9,0,0.000000,2596,259.600000,0,2026-07-31 21:14:58 UTC,2026-08-11 15:30:17 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/DOGE,2594,259.400000,14,0,0.000000,2594,259.400000,0,2026-07-31 21:13:57 UTC,2026-08-11 15:30:05 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ARB,2593,259.300000,9,0,0.000000,2593,259.300000,0,2026-07-31 21:14:52 UTC,2026-08-13 11:03:15 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/AAVE,2592,259.200000,9,0,0.000000,2592,259.200000,0,2026-07-31 21:15:20 UTC,2026-08-12 14:30:00 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/DASH,2591,259.100000,9,0,0.000000,2591,259.100000,0,2026-07-31 21:16:08 UTC,2026-08-11 15:30:02 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/CRO,2588,258.800000,10,0,0.000000,2588,258.800000,0,2026-07-31 21:15:14 UTC,2026-08-08 15:06:36 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/WBTC,2587,258.700000,9,0,0.000000,2587,258.700000,0,2026-07-31 21:14:38 UTC,2026-08-11 15:28:28 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/GRT,2585,258.500000,10,0,0.000000,2585,258.500000,0,2026-07-31 21:15:01 UTC,2026-08-11 15:30:26 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/AXS,2584,258.400000,9,0,0.000000,2584,258.400000,0,2026-07-31 21:16:12 UTC,2026-08-12 10:52:41 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/BAL,2584,258.400000,10,0,0.000000,2584,258.400000,0,2026-07-31 21:16:24 UTC,2026-08-12 13:18:04 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/LDO,2584,258.400000,10,0,0.000000,2584,258.400000,0,2026-07-31 21:15:32 UTC,2026-08-11 15:30:52 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ZEC,2584,258.400000,8,0,0.000000,2584,258.400000,0,2026-07-31 21:16:05 UTC,2026-08-11 15:28:49 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/FTM,2582,258.200000,10,0,0.000000,2582,258.200000,0,2026-07-31 21:15:09 UTC,2026-08-11 15:30:20 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/IMX,2582,258.200000,10,0,0.000000,2582,258.200000,0,2026-07-31 21:15:58 UTC,2026-08-11 15:23:23 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/MKR,2581,258.100000,10,0,0.000000,2581,258.100000,0,2026-07-31 21:15:17 UTC,2026-08-11 15:31:15 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/CRV,2578,257.800000,9,0,0.000000,2578,257.800000,0,2026-07-31 21:15:22 UTC,2026-08-13 11:47:38 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/COMP,2577,257.700000,10,0,0.000000,2577,257.700000,0,2026-07-31 21:18:53 UTC,2026-08-13 11:47:34 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/OP,2577,257.700000,9,0,0.000000,2577,257.700000,0,2026-07-31 21:14:55 UTC,2026-08-11 15:27:48 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/YFI,2575,257.500000,10,0,0.000000,2575,257.500000,0,2026-07-31 21:16:20 UTC,2026-08-11 15:28:47 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/CVX,2572,257.200000,10,0,0.000000,2572,257.200000,0,2026-07-31 21:16:01 UTC,2026-08-13 11:41:05 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/SUI,2572,257.200000,10,0,0.000000,2572,257.200000,0,2026-07-31 21:15:29 UTC,2026-08-11 15:28:14 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/MANA,2570,257.000000,10,0,0.000000,2570,257.000000,0,2026-07-31 21:16:17 UTC,2026-08-11 15:23:39 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/XMR,2568,256.800000,11,0,0.000000,2568,256.800000,0,2026-07-31 21:14:44 UTC,2026-08-11 15:28:41 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/SNX,2567,256.700000,9,0,0.000000,2567,256.700000,0,2026-07-31 21:16:30 UTC,2026-08-11 15:24:31 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/CAKE,2559,255.900000,10,0,0.000000,2559,255.900000,0,2026-07-31 21:16:22 UTC,2026-08-13 09:15:51 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/SAND,2557,255.700000,10,0,0.000000,2557,255.700000,0,2026-07-31 21:16:15 UTC,2026-08-11 15:28:01 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ICP,2556,255.600000,9,0,0.000000,2556,255.600000,0,2026-07-31 21:15:24 UTC,2026-08-11 15:23:20 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/KAS,2556,255.600000,10,0,0.000000,2556,255.600000,0,2026-07-31 21:16:03 UTC,2026-08-08 15:07:04 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/BTC,2508,250.800000,8,0,0.000000,2508,250.800000,0,2026-07-31 21:13:35 UTC,2026-09-04 14:43:12 UTC
+(not recorded),(not recorded),643,64.300000,1,0,0.000000,643,64.300000,0,2026-07-30 09:17:37 UTC,2026-07-31 07:56:05 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/ALGO,248,24.800000,245,0,0.000000,244,24.400000,0,2026-10-01 11:03:40 UTC,2026-10-06 00:11:37 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/BTC,244,24.400000,243,0,0.000000,242,24.200000,0,2026-09-30 15:14:51 UTC,2026-10-03 10:15:53 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/ETH,243,24.300000,243,0,0.000000,243,24.300000,0,2026-10-01 10:58:14 UTC,2026-10-03 10:16:26 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/UNI,243,24.300000,242,0,0.000000,243,24.300000,0,2026-09-30 10:38:51 UTC,2026-10-03 10:15:20 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/XRP,243,24.300000,243,0,0.000000,243,24.300000,0,2026-10-01 10:59:01 UTC,2026-10-03 10:17:29 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/DOGE,241,24.100000,241,0,0.000000,241,24.100000,0,2026-10-01 10:59:51 UTC,2026-10-03 10:18:42 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/DOT,241,24.100000,241,0,0.000000,241,24.100000,0,2026-10-01 11:01:08 UTC,2026-10-03 10:20:14 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/XLM,241,24.100000,241,0,0.000000,241,24.100000,0,2026-10-01 11:03:13 UTC,2026-10-03 10:12:53 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/AVAX,240,24.000000,240,0,0.000000,240,24.000000,0,2026-10-01 11:00:16 UTC,2026-10-03 10:19:11 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/ADA,239,23.900000,239,0,0.000000,239,23.900000,0,2026-10-01 10:59:26 UTC,2026-10-03 10:17:59 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/ATOM,239,23.900000,239,0,0.000000,239,23.900000,0,2026-10-01 11:02:48 UTC,2026-10-03 10:22:39 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/BCH,239,23.900000,239,0,0.000000,239,23.900000,0,2026-10-01 11:02:23 UTC,2026-10-03 10:22:01 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/NEAR,238,23.800000,238,0,0.000000,238,23.800000,0,2026-10-01 11:04:05 UTC,2026-10-03 10:13:59 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/SOL,238,23.800000,238,0,0.000000,238,23.800000,0,2026-10-01 10:58:36 UTC,2026-10-03 10:16:56 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/LINK,236,23.600000,236,0,0.000000,236,23.600000,0,2026-10-01 11:00:43 UTC,2026-10-03 10:19:41 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/LTC,234,23.400000,234,0,0.000000,234,23.400000,0,2026-10-01 11:01:52 UTC,2026-10-03 10:21:14 UTC
+GET,https://x402-quant-signals.onrender.com/api/v1/market-signal/AAVE,233,23.300000,233,0,0.000000,233,23.300000,0,2026-10-01 11:04:30 UTC,2026-10-03 10:14:28 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ARKM,13,1.300000,1,0,0.000000,13,1.300000,0,2026-08-11 14:21:14 UTC,2026-08-13 10:34:51 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/BONK,10,1.000000,1,0,0.000000,10,1.000000,0,2026-08-11 14:21:40 UTC,2026-08-13 11:40:52 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/PEPE,10,1.000000,1,0,0.000000,10,1.000000,0,2026-08-11 15:06:18 UTC,2026-08-13 10:58:31 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/GMX,9,0.900000,1,0,0.000000,9,0.900000,0,2026-08-11 14:29:43 UTC,2026-08-13 14:03:04 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/BLUR,8,0.800000,1,0,0.000000,8,0.800000,0,2026-08-11 14:29:00 UTC,2026-08-13 09:28:30 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/DYDX,8,0.800000,1,0,0.000000,8,0.800000,0,2026-08-11 14:29:31 UTC,2026-08-11 15:30:11 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/NEAR,8,0.800000,1,0,0.000000,8,0.800000,0,2026-08-11 15:06:07 UTC,2026-08-11 15:31:19 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/WLD,8,0.800000,1,0,0.000000,8,0.800000,0,2026-08-11 15:07:02 UTC,2026-08-13 14:27:07 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/JTO,7,0.700000,1,0,0.000000,7,0.700000,0,2026-08-11 15:05:34 UTC,2026-08-13 10:52:39 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/ONDO,7,0.700000,1,0,0.000000,7,0.700000,0,2026-08-11 15:06:12 UTC,2026-08-11 15:31:22 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/TIA,7,0.700000,1,0,0.000000,7,0.700000,0,2026-08-11 15:06:43 UTC,2026-08-11 15:28:16 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/VET,7,0.700000,1,0,0.000000,7,0.700000,0,2026-08-11 15:06:48 UTC,2026-08-11 15:28:21 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/W,7,0.700000,1,0,0.000000,7,0.700000,0,2026-08-11 15:06:51 UTC,2026-08-11 15:28:25 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/HNT,6,0.600000,1,0,0.000000,6,0.600000,0,2026-08-11 15:05:26 UTC,2026-08-11 15:30:36 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/PIXEL,6,0.600000,1,0,0.000000,6,0.600000,0,2026-08-11 15:06:20 UTC,2026-08-11 15:27:53 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/SEI,6,0.600000,1,0,0.000000,6,0.600000,0,2026-08-11 15:06:31 UTC,2026-08-11 15:28:03 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/XEC,6,0.600000,1,0,0.000000,6,0.600000,0,2026-08-11 15:07:04 UTC,2026-08-11 15:28:36 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/JUP,5,0.500000,1,0,0.000000,5,0.500000,0,2026-08-11 15:05:36 UTC,2026-08-11 15:23:28 UTC
+(not recorded),https://x402-quant-signals.onrender.com/api/v1/market-signal/RENDER,5,0.500000,1,0,0.000000,5,0.500000,0,2026-08-11 15:10:05 UTC,2026-08-11 15:24:21 UTC
+(not recorded),https://qts-server-938o.onrender.com/v1/audit,2,0.020000,1,0,0.000000,2,0.020000,0,2026-09-25 08:23:18 UTC,2026-09-25 13:43:11 UTC

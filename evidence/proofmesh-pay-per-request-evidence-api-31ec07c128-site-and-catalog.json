@@ -1,0 +1,314 @@
+{
+  "merchant_id": "UFlWTTVNVFFXUUQzUkFKV0U2RTZER1RN",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "http://3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1786674940454,
+        "last_fetch_attempt_utc": "2026-08-14T02:35:40.454000+00:00",
+        "title": "ProofMesh — Pay-per-request evidence API",
+        "description": "Structured evidence packs, paid per query in USDC through x402 on Algorand.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "http://3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer/.well-known/ai-plugin.json",
+            "name": "ProofMesh Evidence API",
+            "description": "Pay per structured evidence pack using x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer/llms.txt",
+            "name": "ProofMesh Evidence API",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "proofmesh-x402.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 7,
+      "last_observed_at": 1786803320188,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "proofmesh-x402.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://proofmesh-x402.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791247158871,
+        "last_fetch_attempt_utc": "2026-10-06T00:39:18.871000+00:00",
+        "title": "ProofMesh — Pay-per-request evidence API",
+        "description": "Structured evidence packs, paid per query in USDC through x402 on Algorand.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://proofmesh-x402.onrender.com/.well-known/ai-plugin.json",
+            "name": "ProofMesh Evidence API",
+            "description": "Pay per structured evidence pack using x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://proofmesh-x402.onrender.com/llms.txt",
+            "name": "ProofMesh Evidence API",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-15 14:15:20 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vMzAwMC1pbHAxM2s2MjZnejA3bjBvZWFtcjItOWU0NjU5N2UudXMxLm1hbnVzLmNvbXB1dGVyL3YxL2V2aWRlbmNlLXBhY2tz",
+        "url": "http://3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer/v1/evidence-packs",
+        "method": "POST",
+        "description": "Returns a structured AI-generated evidence pack with sources, a concise summary, key claims, and a confidence score.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "10000",
+            "asset": "10458941",
+            "payTo": "PYVM5MTQWQD3RAJWE6E6DGTMNL4NP5SWLXCPMUS7GV4POAEMUPWI52F3ZA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "query": "What is Algorand?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "query": "example query",
+              "sources": [],
+              "summary": "A concise summary grounded in the listed sources.",
+              "keyClaims": [],
+              "confidenceScore": 0
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786675885350,
+        "last_ts": 1786676113923
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vcHJvb2ZtZXNoLXg0MDIub25yZW5kZXIuY29tL3YxL2V2aWRlbmNlLXBhY2tz",
+        "url": "http://proofmesh-x402.onrender.com/v1/evidence-packs",
+        "method": "POST",
+        "description": "Returns a structured AI-generated evidence pack with sources, a concise summary, key claims, and a confidence score.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "10000",
+            "asset": "10458941",
+            "payTo": "PYVM5MTQWQD3RAJWE6E6DGTMNL4NP5SWLXCPMUS7GV4POAEMUPWI52F3ZA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PYVM5MTQWQD3RAJWE6E6DGTMNL4NP5SWLXCPMUS7GV4POAEMUPWI52F3ZA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "query": "What is Algorand?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "query": "example query",
+              "sources": [],
+              "summary": "A concise summary grounded in the listed sources.",
+              "keyClaims": [],
+              "confidenceScore": 0
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786681889953,
+        "last_ts": 1786699659572
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3Byb29mbWVzaC14NDAyLm9ucmVuZGVyLmNvbS92MS9ldmlkZW5jZS1wYWNrcw",
+        "url": "https://proofmesh-x402.onrender.com/v1/evidence-packs",
+        "method": "POST",
+        "description": "Returns a structured AI-generated evidence pack with sources, a concise summary, key claims, and a confidence score.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PYVM5MTQWQD3RAJWE6E6DGTMNL4NP5SWLXCPMUS7GV4POAEMUPWI52F3ZA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "query": "What is Algorand?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "query": "example query",
+              "sources": [],
+              "summary": "A concise summary grounded in the listed sources.",
+              "keyClaims": [],
+              "confidenceScore": 0
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786711289205,
+        "last_ts": 1786803320188
+      }
+    ],
+    "resource_count": 3,
+    "description_count": 3,
+    "mime_type_count": 3,
+    "accepts_count": 3,
+    "discovery_count": 3,
+    "input_documentation_count": 3,
+    "output_documentation_count": 3,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "3000-ilp13k626gz07n0oeamr2-9e46597e.us1.manus.computer"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "ai-plugin",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

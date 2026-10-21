@@ -1,0 +1,41 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.glianalabs.com/a402/tools/embed,4,0.004000,1,4,0.004000,4,0.004000,0,2026-09-29 03:48:49 UTC,2026-09-29 04:32:32 UTC
+POST,https://api.glianalabs.com/a402/claude-fable-5,1,0.075264,1,0,0.000000,1,0.075264,0,2026-09-29 05:20:25 UTC,2026-09-29 05:20:25 UTC
+POST,https://api.glianalabs.com/a402/gpt-4o-transcribe,1,0.032400,1,0,0.000000,1,0.032400,0,2026-09-29 05:20:14 UTC,2026-09-29 05:20:14 UTC
+POST,https://api.glianalabs.com/a402/grok-imagine-image,1,0.024000,1,0,0.000000,1,0.024000,0,2026-09-29 05:14:26 UTC,2026-09-29 05:14:26 UTC
+POST,https://api.glianalabs.com/a402/tools/auto-og,1,0.030000,1,0,0.000000,1,0.030000,0,2026-09-29 04:37:22 UTC,2026-09-29 04:37:22 UTC
+POST,https://api.glianalabs.com/a402/tools/card,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:37:08 UTC,2026-09-29 04:37:08 UTC
+POST,https://api.glianalabs.com/a402/tools/code-image,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:36:41 UTC,2026-09-29 04:36:41 UTC
+POST,https://api.glianalabs.com/a402/tools/defi-tvl,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:35:04 UTC,2026-09-29 04:35:04 UTC
+POST,https://api.glianalabs.com/a402/tools/dex-pairs,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:34:55 UTC,2026-09-29 04:34:55 UTC
+POST,https://api.glianalabs.com/a402/tools/domain-lookup,1,0.002000,1,1,0.002000,1,0.002000,0,2026-09-29 04:33:18 UTC,2026-09-29 04:33:18 UTC
+POST,https://api.glianalabs.com/a402/tools/exchange-rate,1,0.002000,1,1,0.002000,1,0.002000,0,2026-09-29 04:33:10 UTC,2026-09-29 04:33:10 UTC
+POST,https://api.glianalabs.com/a402/tools/filing-digest,1,0.100000,1,0,0.000000,1,0.100000,0,2026-09-29 04:37:33 UTC,2026-09-29 04:37:33 UTC
+POST,https://api.glianalabs.com/a402/tools/filing-events,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:34:41 UTC,2026-09-29 04:34:41 UTC
+POST,https://api.glianalabs.com/a402/tools/filing-search,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:34:33 UTC,2026-09-29 04:34:33 UTC
+(not recorded),https://api.glianalabs.com/a402/tools/gas-price,1,0.010000,1,0,0.000000,1,0.010000,0,2026-08-07 19:15:01 UTC,2026-08-07 19:15:01 UTC
+POST,https://api.glianalabs.com/a402/tools/gas-price,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:35:09 UTC,2026-09-29 04:35:09 UTC
+POST,https://api.glianalabs.com/a402/tools/insider-trades,1,0.015000,1,0,0.000000,1,0.015000,0,2026-09-29 04:36:05 UTC,2026-09-29 04:36:05 UTC
+POST,https://api.glianalabs.com/a402/tools/institutional-holders,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:35:37 UTC,2026-09-29 04:35:37 UTC
+POST,https://api.glianalabs.com/a402/tools/market-brief,1,0.030000,1,0,0.000000,1,0.030000,0,2026-09-29 04:37:14 UTC,2026-09-29 04:37:14 UTC
+POST,https://api.glianalabs.com/a402/tools/meme,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:36:57 UTC,2026-09-29 04:36:57 UTC
+POST,https://api.glianalabs.com/a402/tools/moderate,1,0.001000,1,1,0.001000,1,0.001000,0,2026-09-29 04:32:48 UTC,2026-09-29 04:32:48 UTC
+POST,https://api.glianalabs.com/a402/tools/og-image,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:36:16 UTC,2026-09-29 04:36:16 UTC
+POST,https://api.glianalabs.com/a402/tools/ownership-changes,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:35:29 UTC,2026-09-29 04:35:29 UTC
+POST,https://api.glianalabs.com/a402/tools/planned-insider-sales,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:35:45 UTC,2026-09-29 04:35:45 UTC
+POST,https://api.glianalabs.com/a402/tools/quote-card,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:36:32 UTC,2026-09-29 04:36:32 UTC
+POST,https://api.glianalabs.com/a402/tools/rerank,1,0.001000,1,1,0.001000,1,0.001000,0,2026-09-29 04:32:40 UTC,2026-09-29 04:32:40 UTC
+POST,https://api.glianalabs.com/a402/tools/rpc,1,0.002000,1,1,0.002000,1,0.002000,0,2026-09-29 04:33:27 UTC,2026-09-29 04:33:27 UTC
+POST,https://api.glianalabs.com/a402/tools/scrape,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:34:11 UTC,2026-09-29 04:34:11 UTC
+POST,https://api.glianalabs.com/a402/tools/screenshot,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:34:19 UTC,2026-09-29 04:34:19 UTC
+POST,https://api.glianalabs.com/a402/tools/search,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:33:49 UTC,2026-09-29 04:33:49 UTC
+POST,https://api.glianalabs.com/a402/tools/stock-brief,1,0.012000,1,0,0.000000,1,0.012000,0,2026-09-29 04:35:56 UTC,2026-09-29 04:35:56 UTC
+POST,https://api.glianalabs.com/a402/tools/stock-filings,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:34:28 UTC,2026-09-29 04:34:28 UTC
+POST,https://api.glianalabs.com/a402/tools/stock-fundamentals,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-29 04:35:23 UTC,2026-09-29 04:35:23 UTC
+POST,https://api.glianalabs.com/a402/tools/swap-build,1,0.005000,1,1,0.005000,1,0.005000,0,2026-09-29 04:33:57 UTC,2026-09-29 04:33:57 UTC
+POST,https://api.glianalabs.com/a402/tools/swap-quote,1,0.002000,1,1,0.002000,1,0.002000,0,2026-09-29 04:33:05 UTC,2026-09-29 04:33:05 UTC
+(not recorded),https://api.glianalabs.com/a402/tools/token-price,1,0.002000,1,1,0.002000,1,0.002000,0,2026-08-07 19:49:41 UTC,2026-08-07 19:49:41 UTC
+POST,https://api.glianalabs.com/a402/tools/token-price,1,0.002000,1,1,0.002000,1,0.002000,0,2026-09-29 04:32:56 UTC,2026-09-29 04:32:56 UTC
+POST,https://api.glianalabs.com/a402/tools/tweet-image,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:36:49 UTC,2026-09-29 04:36:49 UTC
+POST,https://api.glianalabs.com/a402/tools/youtube-thumbnail,1,0.020000,1,0,0.000000,1,0.020000,0,2026-09-29 04:36:27 UTC,2026-09-29 04:36:27 UTC
+POST,https://api.glianalabs.com/a402/tts-1,1,0.014000,1,0,0.000000,1,0.014000,0,2026-09-29 05:20:03 UTC,2026-09-29 05:20:03 UTC

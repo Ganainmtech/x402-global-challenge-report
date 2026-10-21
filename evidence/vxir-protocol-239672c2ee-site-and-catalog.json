@@ -1,0 +1,136 @@
+{
+  "merchant_id": "SVZIQkM2Q0pXSElNVERFS05BRUgyQklJ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "vxir-x402-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1790811939184,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "vxir-x402-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://vxir-x402-production.up.railway.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-30 23:45:39 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vdnhpci14NDAyLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvY29tcGlsZQ",
+        "url": "http://vxir-x402-production.up.railway.app/compile",
+        "method": "POST",
+        "description": "VXIR — compile a payment intent into a native, byte-deterministic, UNSIGNED Algorand transaction artifact. Non-custodial; you sign.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "IVHBC6CJWHIMTDEKNAEH2BIIDVA6UOHVT75M2GYVDB3GNENESDQSJYEWHY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "sender": "<58-char Algorand address>",
+              "receiver": "<58-char Algorand address>",
+              "asset": "native | { type: 'asa', assetIndex: number, decimals: number }",
+              "amount": "1.5",
+              "note": "optional utf-8 note"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "vxir": "compiled",
+              "unsignedTxnB64": "<base64 canonical-msgpack UNSIGNED tx>",
+              "txId": "<base32 transaction id>",
+              "txType": "pay | axfer",
+              "amountBaseUnits": "1500000",
+              "network": "algorand:mainnet"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790811939510,
+        "last_ts": 1790811939184
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

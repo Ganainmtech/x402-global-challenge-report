@@ -1,0 +1,2 @@
+network,receiver,payer,class,settlements,usdc,subcent_events,subcent_usdc,synthetic_events,historical_supplement_events,evidence,cache_timestamp,profile_assessment
+algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=,QOLAH2ALEKD3BOCRK4LVBHNRAAZKIJYVQHNHUMY5UC6UEUBGBEF2JMTX3Q,TJNEQKITOYTGIDU3GCADWOP6HFHY2QAAB6BDCEBDU5XHO7535RPJWESPEA,MERCHANT-FUNDED,5,2.500000,0,0.000000,5,0,created by merchant; merchant sent 39.69 ALGO; merchant sent 4.43 USDC ×1 (177% of paid); throwaway wallet,2026-10-08T08:10:24.128Z,synthetic-indicated

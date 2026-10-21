@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://roundwatch-api.onrender.com/v1/watch,7,0.201000,2,1,0.001000,6,0.181000,0,2026-09-16 10:26:05 UTC,2026-09-29 16:04:37 UTC

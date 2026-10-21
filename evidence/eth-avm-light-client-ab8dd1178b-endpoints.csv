@@ -1,0 +1,19 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25691209/0/0,10,0.100000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:00 UTC,2026-10-06 00:07:29 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/100/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:07 UTC,2026-09-28 01:29:41 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/2/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:18 UTC,2026-09-28 01:31:15 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/25/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:13 UTC,2026-09-28 01:32:38 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/48/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:18 UTC,2026-09-28 01:33:44 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/67/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:24 UTC,2026-09-28 01:34:45 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/80/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:37 UTC,2026-09-28 01:35:34 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782067/90/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:33 UTC,2026-09-28 01:36:24 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782090/31/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:35 UTC,2026-09-28 01:37:03 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782090/55/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:43 UTC,2026-09-28 01:37:41 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782090/59/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:48 UTC,2026-09-28 01:38:09 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782091/188/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:54 UTC,2026-09-28 01:38:42 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782091/196/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:45:57 UTC,2026-09-28 01:39:15 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782092/194/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:46:12 UTC,2026-09-28 01:39:43 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782092/209/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:46:12 UTC,2026-09-28 01:40:02 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782092/24/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:46:11 UTC,2026-09-28 01:40:27 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782092/49/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:46:27 UTC,2026-09-28 01:40:43 UTC
+GET,https://eth-avm-light-client.vercel.app/verify-receipt/25782092/9/0,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-27 04:46:23 UTC,2026-09-28 01:41:00 UTC

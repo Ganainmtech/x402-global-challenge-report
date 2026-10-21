@@ -1,0 +1,456 @@
+{
+  "merchant_id": "R0JSTzVFTTRKTTU3UERQUzRBNTMzVjdK",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "arbiter-hs23.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 11,
+      "last_observed_at": 1786097476375,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "arbiter-hs23.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://arbiter-hs23.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791268200618,
+        "last_fetch_attempt_utc": "2026-10-06T06:30:00.618000+00:00",
+        "title": "Arbiter — judgment for autonomous agents",
+        "description": "A paid API that tells an AI agent whether an action is safe before it takes it. Transaction firewall, counterparty verification and human judgment, settled per call in USDC on Algorand.",
+        "site_name": "Arbiter",
+        "logo": "https://arbiter-hs23.onrender.com/icon.png",
+        "banner": "https://arbiter-hs23.onrender.com/icon.png",
+        "theme_color": "#06090d",
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://arbiter-hs23.onrender.com/.well-known/x402",
+            "name": null,
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-07 10:11:16 UTC"
+    },
+    {
+      "domain": "arbiter-x402.fly.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Fly.io",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "arbiter-x402.fly.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Fly.io",
+        "is_custom_domain_candidate": false,
+        "origin": "https://arbiter-x402.fly.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1787372288594,
+        "last_fetch_attempt_utc": "2026-08-22T04:18:08.594000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://arbiter-x402.fly.dev/.well-known/x402",
+            "name": null,
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FyYml0ZXItaHMyMy5vbnJlbmRlci5jb20vdjEvanVkZ2UvY291bnRlcnBhcnR5",
+        "url": "https://arbiter-hs23.onrender.com/v1/judge/counterparty",
+        "method": "POST",
+        "description": "Trust verdict for a payment counterparty before funds move: on-chain settlement history, account age and funding pattern, NFD/domain identity resolution, asset opt-in sanity, and known-bad list screening. Built for cross-border payout and invoicing agents that must decide whether an address really belongs to the payee.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "GBRO5EM4JM57PDPS4A533V7JZNWFWB7S6IRT5UZNQYPPUN7XEEGJLEHW6I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "ARBITERXAMPLEADDRESSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+              "expectedAsset": "31566704",
+              "amount": "250.00",
+              "claimedIdentity": "acme-exports.algo"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "vrd_01J8ZR",
+              "decision": "warn",
+              "risk": 41,
+              "confidence": 0.78,
+              "findings": [
+                {
+                  "code": "account.no_settlement_history",
+                  "severity": "medium",
+                  "title": "No prior settlement history with this asset",
+                  "detail": "Account has never held ASA 31566704 before this payment.",
+                  "source": "algod:account_info"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786015133983,
+        "last_ts": 1786347922845
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FyYml0ZXItaHMyMy5vbnJlbmRlci5jb20vdjEvanVkZ2UvaHVtYW4",
+        "url": "https://arbiter-hs23.onrender.com/v1/judge/human",
+        "method": "POST",
+        "description": "Human judgment on demand for questions a model cannot settle alone: does this photo show a delivered package, does this business exist at this address, is this translation faithful. Routes the question to vetted human reviewers, returns a quorum verdict with per-reviewer rationale, and settles payment to reviewers on-chain.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "GBRO5EM4JM57PDPS4A533V7JZNWFWB7S6IRT5UZNQYPPUN7XEEGJLEHW6I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Does this photo show a package left at a front door?",
+              "attachments": [
+                "[local URL omitted]"
+              ],
+              "options": [
+                "yes",
+                "no",
+                "unclear"
+              ],
+              "quorum": 3
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "vrd_01J8ZS",
+              "decision": "allow",
+              "risk": 5,
+              "confidence": 1,
+              "evidence": {
+                "answer": "yes",
+                "agreement": "3/3",
+                "reviewers": [
+                  {
+                    "rationale": "Package visible on doormat, label facing up."
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786015138396,
+        "last_ts": 1786015139831
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FyYml0ZXItaHMyMy5vbnJlbmRlci5jb20vdjEvanVkZ2UvdHJhbnNhY3Rpb24",
+        "url": "https://arbiter-hs23.onrender.com/v1/judge/transaction",
+        "method": "POST",
+        "description": "Pre-flight safety verdict for an unsigned blockchain transaction: decodes what the transaction actually does, scores the counterparty and any asset involved, detects drain patterns such as unlimited approvals, rekeys and close-remainder-to, and returns allow/warn/block with itemised reasons before the agent signs.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "GBRO5EM4JM57PDPS4A533V7JZNWFWB7S6IRT5UZNQYPPUN7XEEGJLEHW6I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "GBRO5EM4JM57PDPS4A533V7JZNWFWB7S6IRT5UZNQYPPUN7XEEGJLEHW6I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "chain": "algorand",
+              "transaction": "gqNhbXTNA+ijZm..._base64_unsigned_txn",
+              "signer": "ARBITERXAMPLEADDRESSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "vrd_01J8ZQ",
+              "decision": "block",
+              "risk": 92,
+              "confidence": 0.91,
+              "findings": [
+                {
+                  "code": "txn.rekey_to_third_party",
+                  "severity": "critical",
+                  "title": "Transaction rekeys your account to another address",
+                  "detail": "rekeyTo is set to VZ2K...D4QA, which permanently transfers signing authority.",
+                  "source": "arbiter:decoder"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785917045184,
+        "last_ts": 1786347848958
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FyYml0ZXIteDQwMi5mbHkuZGV2L3YxL2p1ZGdlL2h1bWFu",
+        "url": "https://arbiter-x402.fly.dev/v1/judge/human",
+        "method": "POST",
+        "description": "Human judgment on demand for questions a model cannot settle alone: does this photo show a delivered package, does this business exist at this address, is this translation faithful. Routes the question to vetted human reviewers, returns a quorum verdict with per-reviewer rationale, and settles payment to reviewers on-chain.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "250000",
+            "asset": "10458941",
+            "payTo": "GBRO5EM4JM57PDPS4A533V7JZNWFWB7S6IRT5UZNQYPPUN7XEEGJLEHW6I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Does this photo show a package left at a front door?",
+              "attachments": [
+                "[local URL omitted]"
+              ],
+              "options": [
+                "yes",
+                "no",
+                "unclear"
+              ],
+              "quorum": 3
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "vrd_01J8ZS",
+              "decision": "allow",
+              "risk": 5,
+              "confidence": 1,
+              "evidence": {
+                "answer": "yes",
+                "agreement": "3/3",
+                "reviewers": [
+                  {
+                    "rationale": "Package visible on doormat, label facing up."
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785889847754,
+        "last_ts": 1785891195785
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FyYml0ZXIteDQwMi5mbHkuZGV2L3YxL2p1ZGdlL3RyYW5zYWN0aW9u",
+        "url": "https://arbiter-x402.fly.dev/v1/judge/transaction",
+        "method": "POST",
+        "description": "Pre-flight safety verdict for an unsigned blockchain transaction: decodes what the transaction actually does, scores the counterparty and any asset involved, detects drain patterns such as unlimited approvals, rekeys and close-remainder-to, and returns allow/warn/block with itemised reasons before the agent signs.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "GBRO5EM4JM57PDPS4A533V7JZNWFWB7S6IRT5UZNQYPPUN7XEEGJLEHW6I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "chain": "algorand",
+              "transaction": "gqNhbXTNA+ijZm..._base64_unsigned_txn",
+              "signer": "ARBITERXAMPLEADDRESSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "vrd_01J8ZQ",
+              "decision": "block",
+              "risk": 92,
+              "confidence": 0.91,
+              "findings": [
+                {
+                  "code": "txn.rekey_to_third_party",
+                  "severity": "critical",
+                  "title": "Transaction rekeys your account to another address",
+                  "detail": "rekeyTo is set to VZ2K...D4QA, which permanently transfers signing authority.",
+                  "source": "arbiter:decoder"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785888331610,
+        "last_ts": 1785888333236
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 5,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

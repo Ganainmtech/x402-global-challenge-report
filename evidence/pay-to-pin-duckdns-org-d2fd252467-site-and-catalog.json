@@ -1,0 +1,159 @@
+{
+  "merchant_id": "VzVJUlhKV1BTWE5VSlZTTjJNT0VKR1RE",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "pay-to-pin.duckdns.org",
+      "classification": "hosting_provider_domain",
+      "provider": "DuckDNS",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 7,
+      "last_observed_at": 1786671031672,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "pay-to-pin.duckdns.org",
+        "classification": "hosting_provider_domain",
+        "provider": "DuckDNS",
+        "is_custom_domain_candidate": false,
+        "origin": "http://pay-to-pin.duckdns.org",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791244982327,
+        "last_fetch_attempt_utc": "2026-10-06T00:03:02.327000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "http://pay-to-pin.duckdns.org/.well-known/agent-card.json",
+            "name": "IPFS Pay-to-Pin Gateway",
+            "description": "Upload a file as Base64 JSON. On x402 microUSDC payment, the server pins it to IPFS for 365 days with optional /renew extension."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "http://pay-to-pin.duckdns.org/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://pay-to-pin.duckdns.org/llms.txt",
+            "name": "IPFS Pay-to-Pin Gateway — Agent Reference",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-08-14 01:30:31 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vcGF5LXRvLXBpbi5kdWNrZG5zLm9yZy9hcGkvdjEvcGlu",
+        "url": "http://pay-to-pin.duckdns.org/api/v1/pin",
+        "method": "POST",
+        "description": "Upload one file as a Base64-encoded JSON payload",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "11198",
+            "asset": "31566704",
+            "payTo": "W5IRXJWPSXNUJVSN2MOEJGTDGKUGFKUDVPTR5ZQVMDG5O4KYD5M3QPG3TE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "filename": "example.png",
+              "data": "base64_encoded_string_here..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "message": "Payment verified. File pinned for 365 days.",
+              "filename": "pinned_file.png",
+              "ipfs_cid": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+              "cid": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+              "gateway_url": "https://gateway.pinata.cloud/ipfs/bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786322136864,
+        "last_ts": 1786671031672
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

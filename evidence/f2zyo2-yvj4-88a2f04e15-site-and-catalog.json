@@ -1,0 +1,406 @@
+{
+  "merchant_id": "RjJaWU8yRERQUVhPQUNVWUJZUUlITVFS",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "agentpay.agentpay-apis.workers.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Cloudflare Workers",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 8,
+      "metadata": {
+        "domain": "agentpay.agentpay-apis.workers.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Cloudflare Workers",
+        "is_custom_domain_candidate": false,
+        "origin": "https://agentpay.agentpay-apis.workers.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790888668919,
+        "last_fetch_attempt_utc": "2026-10-01T21:04:28.919000+00:00",
+        "title": "AgentPay — pay-per-call APIs for AI agents",
+        "description": "Web extraction, domain lookups and document tools for AI agents. Pay per call in USDC via x402 on Base or Algorand.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://agentpay.agentpay-apis.workers.dev/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://agentpay.agentpay-apis.workers.dev/llms.txt",
+            "name": "AgentPay APIs",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi9leHRyYWN0L3YxL3BhZ2U",
+        "url": "https://agentpay.agentpay-apis.workers.dev/extract/v1/page",
+        "method": "GET",
+        "description": "Web Extract: Fetch a URL and return markdown, metadata and links.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790888571396,
+        "last_ts": 1790891109474
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi9sb29rdXAvdjEvZG5z",
+        "url": "https://agentpay.agentpay-apis.workers.dev/lookup/v1/dns",
+        "method": "GET",
+        "description": "Domain & Network Lookup: Resolve DNS records (A, AAAA, CNAME, MX, NS, TXT, SOA, CAA, PTR, SRV).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "name": "[local URL omitted]",
+              "type": "MX"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891117968,
+        "last_ts": 1791245065134
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi9sb29rdXAvdjEvZG9tYWluLXJlcG9ydA",
+        "url": "https://agentpay.agentpay-apis.workers.dev/lookup/v1/domain-report",
+        "method": "GET",
+        "description": "Domain & Network Lookup: One-call domain report: registration, DNS, email provider, SPF/DMARC, hosting.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "domain": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891539375,
+        "last_ts": 1790891539160
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi9sb29rdXAvdjEvaXA",
+        "url": "https://agentpay.agentpay-apis.workers.dev/lookup/v1/ip",
+        "method": "GET",
+        "description": "Domain & Network Lookup: IP network owner, range, country and reverse DNS.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "ip": "1.1.1.1"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891531108,
+        "last_ts": 1790891531005
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi9sb29rdXAvdjEvd2hvaXM",
+        "url": "https://agentpay.agentpay-apis.workers.dev/lookup/v1/whois",
+        "method": "GET",
+        "description": "Domain & Network Lookup: Domain registration data (registrar, created/expires, status, nameservers) via RDAP.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "domain": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891506342,
+        "last_ts": 1790891517216
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi90b29scy92MS9mZWVk",
+        "url": "https://agentpay.agentpay-apis.workers.dev/tools/v1/feed",
+        "method": "GET",
+        "description": "Doc Tools: Parse an RSS, Atom or JSON Feed into normalized JSON items.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "https://hnrss.org/frontpage"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891561368,
+        "last_ts": 1790891561170
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi90b29scy92MS9wZGYtdGV4dA",
+        "url": "https://agentpay.agentpay-apis.workers.dev/tools/v1/pdf-text",
+        "method": "GET",
+        "description": "Doc Tools: Extract per-page text from a PDF URL (up to 20MB).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "https://arxiv.org/pdf/1706.03762"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891553143,
+        "last_ts": 1790891552948
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRwYXkuYWdlbnRwYXktYXBpcy53b3JrZXJzLmRldi90b29scy92MS9zaXRlbWFw",
+        "url": "https://agentpay.agentpay-apis.workers.dev/tools/v1/sitemap",
+        "method": "GET",
+        "description": "Doc Tools: List a site's URLs from its sitemaps (follows robots.txt and sitemap indexes).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "F2ZYO2DDPQXOACUYBYQIHMQRAB3TJFZVCNUD3OU3CR5OOJUKFZOF5EYVJ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "https://www.cloudflare.com"
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790891569904,
+        "last_ts": 1790891569430
+      }
+    ],
+    "resource_count": 8,
+    "description_count": 8,
+    "mime_type_count": 8,
+    "accepts_count": 8,
+    "discovery_count": 8,
+    "input_documentation_count": 8,
+    "output_documentation_count": 8,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

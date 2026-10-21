@@ -1,0 +1,374 @@
+{
+  "merchant_id": "VjdYV1lLWTNXQktXUk9OWDVOVEhGTks3",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.blueprintstech.org",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 10,
+      "last_observed_at": 1790559538985,
+      "catalog_endpoint_count": 6,
+      "metadata": {
+        "domain": "api.blueprintstech.org",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.blueprintstech.org",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-28 01:38:58 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vYXBpLmJsdWVwcmludHN0ZWNoLm9yZy9hcGkvYWdlbnQtcHJlZmxpZ2h0",
+        "url": "http://api.blueprintstech.org/api/agent-preflight",
+        "method": "POST",
+        "description": "Algorand agent safety preflight returning an ALLOW, REVIEW, or BLOCK decision before a paid action.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "TV3772EIRZ5UTEMYG4NQJN7HKA5J3J6UKDC7RZKM2JI52E5KMYMAAFDKPU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "action": "swap",
+              "counterparty": "ADDRESS",
+              "assetId": "10458941",
+              "assetA": "10458941",
+              "assetB": "0"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "decision": "ALLOW",
+              "riskScore": 18,
+              "reasons": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786827345776,
+        "last_ts": 1786829370356
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vYXBpLmJsdWVwcmludHN0ZWNoLm9yZy9hcGkvdmVyaWZ5LWFzc2V0",
+        "url": "http://api.blueprintstech.org/api/verify-asset",
+        "method": "POST",
+        "description": "Algorand ASA and NFT verification with supply, control-address, and metadata checks.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "TV3772EIRZ5UTEMYG4NQJN7HKA5J3J6UKDC7RZKM2JI52E5KMYMAAFDKPU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "assetId": "12345678"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "decision": "ALLOW",
+              "authentic": true,
+              "confidence": "high"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786829299125,
+        "last_ts": 1786829298750
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vYXBpLmJsdWVwcmludHN0ZWNoLm9yZy9hcGkvdmVyaWZ5LWNvdW50ZXJwYXJ0eQ",
+        "url": "http://api.blueprintstech.org/api/verify-counterparty",
+        "method": "POST",
+        "description": "Deterministic Algorand counterparty check for agents before they transfer assets or call a service.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "TV3772EIRZ5UTEMYG4NQJN7HKA5J3J6UKDC7RZKM2JI52E5KMYMAAFDKPU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "address": "ADDRESS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "decision": "ALLOW",
+              "riskScore": 18,
+              "reasons": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786829210136,
+        "last_ts": 1786836602080
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ibHVlcHJpbnRzdGVjaC5vcmcvYXBpL2FnZW50LXByZWZsaWdodA",
+        "url": "https://api.blueprintstech.org/api/agent-preflight",
+        "method": "POST",
+        "description": "Algorand agent safety preflight returning an ALLOW, REVIEW, or BLOCK decision before a paid action.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "V7XWYKY3WBKWRONX5NTHFNK77A7O3IS7XEMIUJQM6ZLZRWYVNT763I333Y",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "action": "swap",
+              "counterparty": "ADDRESS",
+              "assetId": "10458941",
+              "assetA": "10458941",
+              "assetB": "0"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "decision": "ALLOW",
+              "riskScore": 18,
+              "reasons": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786870101416,
+        "last_ts": 1786870101034
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ibHVlcHJpbnRzdGVjaC5vcmcvYXBpL3ZlcmlmeS1hc3NldA",
+        "url": "https://api.blueprintstech.org/api/verify-asset",
+        "method": "POST",
+        "description": "Algorand ASA and NFT verification with supply, control-address, and metadata checks.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "V7XWYKY3WBKWRONX5NTHFNK77A7O3IS7XEMIUJQM6ZLZRWYVNT763I333Y",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "assetId": "12345678"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "decision": "ALLOW",
+              "authentic": true,
+              "confidence": "high"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786870489238,
+        "last_ts": 1786870488866
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ibHVlcHJpbnRzdGVjaC5vcmcvYXBpL3ZlcmlmeS1jb3VudGVycGFydHk",
+        "url": "https://api.blueprintstech.org/api/verify-counterparty",
+        "method": "POST",
+        "description": "Deterministic Algorand counterparty check for agents before they transfer assets or call a service.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "V7XWYKY3WBKWRONX5NTHFNK77A7O3IS7XEMIUJQM6ZLZRWYVNT763I333Y",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "address": "ADDRESS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "decision": "ALLOW",
+              "riskScore": 18,
+              "reasons": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786870466062,
+        "last_ts": 1790559538985
+      }
+    ],
+    "resource_count": 6,
+    "description_count": 6,
+    "mime_type_count": 6,
+    "accepts_count": 6,
+    "discovery_count": 6,
+    "input_documentation_count": 6,
+    "output_documentation_count": 6,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.blueprintstech.org"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://prism-99h2.onrender.com/code-review-accurate,7685,782.641000,44,0,0.000000,5112,583.749700,0,2026-08-26 05:28:40 UTC,2026-10-06 00:10:12 UTC
+(not recorded),http://prism-99h2.onrender.com/code-review-fast,2168,216.800000,10,0,0.000000,1476,147.600000,0,2026-08-02 04:05:54 UTC,2026-08-11 02:46:38 UTC
+POST,https://prism-99h2.onrender.com/seo-audit-fast,1647,151.146600,10,0,0.000000,1178,111.165200,0,2026-09-02 08:19:14 UTC,2026-10-01 16:06:23 UTC
+POST,https://prism-99h2.onrender.com/code-review-fast,1429,196.771600,20,0,0.000000,781,117.574800,0,2026-08-25 10:40:45 UTC,2026-10-01 14:04:30 UTC
+POST,http://prism-99h2.onrender.com/code-review-fast,1094,83.253500,10,0,0.000000,784,52.253500,0,2026-08-11 14:57:51 UTC,2026-08-25 10:25:38 UTC
+POST,https://prism-99h2.onrender.com/resume-screen-accurate,441,109.120000,14,0,0.000000,217,52.423300,0,2026-09-05 15:45:03 UTC,2026-10-04 03:47:06 UTC
+POST,http://prism-99h2.onrender.com/seo-audit-fast,243,24.250400,3,0,0.000000,103,10.250400,0,2026-08-12 08:24:10 UTC,2026-08-20 17:52:31 UTC
+(not recorded),https://prism-99h2.onrender.com/claim-extract-fast,105,7.140000,2,0,0.000000,0,0.000000,0,2026-09-07 17:09:47 UTC,2026-10-04 03:54:00 UTC
+POST,http://prism-99h2.onrender.com/code-review-accurate,78,3.036000,6,0,0.000000,75,2.436000,0,2026-08-12 02:11:57 UTC,2026-08-25 10:14:21 UTC
+(not recorded),https://prism-99h2.onrender.com/claim-extract-accurate,53,6.755700,2,0,0.000000,0,0.000000,0,2026-09-07 17:11:06 UTC,2026-10-04 03:46:25 UTC
+POST,https://prism-99h2.onrender.com/seo-audit-accurate,51,12.918800,5,0,0.000000,51,12.918800,0,2026-09-17 04:46:42 UTC,2026-09-18 14:24:17 UTC
+(not recorded),https://prism-99h2.onrender.com/claim-verify-fast,49,2.499000,2,0,0.000000,0,0.000000,0,2026-09-07 17:15:57 UTC,2026-09-13 16:36:59 UTC
+(not recorded),http://prism-99h2.onrender.com/resume-screen-accurate,31,8.550000,4,0,0.000000,24,6.600000,0,2026-07-25 15:43:36 UTC,2026-08-09 13:34:32 UTC
+(not recorded),http://prism-99h2.onrender.com/seo-audit-fast,27,2.700000,1,0,0.000000,27,2.700000,0,2026-08-09 12:58:04 UTC,2026-08-10 03:35:36 UTC
+(not recorded),https://prism-99h2.onrender.com/code-review-accurate,19,3.800000,4,0,0.000000,4,0.800000,0,2026-09-16 11:48:31 UTC,2026-09-29 19:03:17 UTC
+POST,https://prism-99h2.onrender.com/invoice-extract-fast,8,0.653200,3,0,0.000000,2,0.163200,0,2026-10-03 13:43:30 UTC,2026-10-04 03:57:54 UTC
+(not recorded),http://prism-99h2.onrender.com/code-review-accurate,6,1.200000,4,0,0.000000,1,0.200000,0,2026-08-09 13:40:20 UTC,2026-08-10 15:33:15 UTC
+POST,http://prism-99h2.onrender.com/resume-screen-accurate,6,1.312500,1,0,0.000000,6,1.312500,0,2026-08-17 13:36:56 UTC,2026-08-20 16:51:13 UTC
+GET,https://prism-99h2.onrender.com/code-review-accurate,6,0.260000,2,0,0.000000,0,0.000000,0,2026-09-05 15:55:00 UTC,2026-09-08 06:57:09 UTC
+(not recorded),http://prism-99h2.onrender.com/resume-screen-fast,4,0.400000,1,0,0.000000,4,0.400000,0,2026-08-09 13:32:21 UTC,2026-08-09 13:33:07 UTC
+POST,http://prism-99h2.onrender.com/resume-screen-fast,4,0.400000,1,0,0.000000,4,0.400000,0,2026-08-12 13:59:09 UTC,2026-08-12 14:00:03 UTC
+(not recorded),http://prism-99h2.onrender.com/execute-task,3,2.250000,1,0,0.000000,3,2.250000,0,2026-08-02 04:31:10 UTC,2026-08-02 05:00:29 UTC
+(not recorded),http://prism-99h2.onrender.com/invoice-extract-fast,2,0.160000,1,0,0.000000,2,0.160000,0,2026-08-09 13:46:21 UTC,2026-08-09 13:56:09 UTC
+POST,https://prism-99h2.onrender.com/contract-analyze-fast,2,0.249400,1,0,0.000000,2,0.249400,0,2026-10-03 13:41:48 UTC,2026-10-03 13:42:49 UTC
+(not recorded),http://prism-99h2.onrender.com/contract-analyze-fast,1,0.150000,1,0,0.000000,1,0.150000,0,2026-08-09 13:42:35 UTC,2026-08-09 13:42:35 UTC
+(not recorded),http://prism-99h2.onrender.com/invoice-extract-accurate,1,0.200000,1,0,0.000000,1,0.200000,0,2026-08-09 13:53:16 UTC,2026-08-09 13:53:16 UTC
+POST,http://prism-99h2.onrender.com/seo-audit-accurate,1,0.250000,1,0,0.000000,0,0.000000,0,2026-08-13 14:27:07 UTC,2026-08-13 14:27:07 UTC

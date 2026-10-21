@@ -1,0 +1,1215 @@
+{
+  "merchant_id": "U0dMVFVQQUM3VEtHS05OWEtOUFEyUVpD",
+  "name": "Quant Trading Signals",
+  "description": null,
+  "website": "https://x402-quant-signals.onrender.com/",
+  "logo": "https://x402-quant-signals.onrender.com/logo.svg",
+  "categories": [
+    "trading-signals",
+    "market-data",
+    "crypto"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "qts-server-938o.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 2,
+      "last_observed_at": 1790343791671,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "qts-server-938o.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://qts-server-938o.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790943774953,
+        "last_fetch_attempt_utc": "2026-10-02T12:22:54.953000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-25 13:43:11 UTC"
+    },
+    {
+      "domain": "x402-quant-signals.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 147325,
+      "last_observed_at": 1791245497784,
+      "catalog_endpoint_count": 17,
+      "metadata": {
+        "domain": "x402-quant-signals.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://x402-quant-signals.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791221621105,
+        "last_fetch_attempt_utc": "2026-10-05T17:33:41.105000+00:00",
+        "title": "Quant Trading Signals",
+        "description": "Understand the signal. See the evidence. Cryptocurrency market reports paid with x402 on Algorand.",
+        "site_name": "Quant Trading Signals",
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:11:37 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9hYXZl",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/AAVE",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852670961,
+        "last_ts": 1791022468878
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9hZGE",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/ADA",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852366891,
+        "last_ts": 1791143023424
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9hbGdv",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/ALGO",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852620885,
+        "last_ts": 1791284157091
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9hdG9t",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/ATOM",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852568307,
+        "last_ts": 1791022959565
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9hdmF4",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/AVAX",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852416510,
+        "last_ts": 1791022751389
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9iY2g",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/BCH",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852543489,
+        "last_ts": 1791022921165
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9idGM",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/BTC",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790781291359,
+        "last_ts": 1791037758534
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9kb2dl",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/DOGE",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852392416,
+        "last_ts": 1791022722844
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9kb3Q",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/DOT",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852468855,
+        "last_ts": 1791022814499
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9ldGg",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/ETH",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852294645,
+        "last_ts": 1791022586345
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9saW5r",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/LINK",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852444002,
+        "last_ts": 1791022781565
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9sdGM",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/LTC",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852512987,
+        "last_ts": 1791022874545
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9uZWFy",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/NEAR",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852645839,
+        "last_ts": 1791022439031
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC9zb2w",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/SOL",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852316772,
+        "last_ts": 1791022616461
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC91bmk",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/UNI",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790765895516,
+        "last_ts": 1791022520567
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC94bG0",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/XLM",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852593193,
+        "last_ts": 1791022373898
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi1xdWFudC1zaWduYWxzLm9ucmVuZGVyLmNvbS9hcGkvdjEvbWFya2V0LXNpZ25hbC94cnA",
+        "url": "https://x402-quant-signals.onrender.com/api/v1/market-signal/XRP",
+        "method": "GET",
+        "description": "Quant Trading Signals — 5-minute market signal; news optional on the web",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema": "qts-signal-1",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "timeframe": "5m",
+              "signal": "HOLD",
+              "technical_signal": "HOLD",
+              "reason_codes": [
+                "ema_bull",
+                "macd_bear",
+                "rsi_long",
+                "technical_mixed"
+              ],
+              "market": {
+                "pair": "BTCUSDT",
+                "quote": "USDT",
+                "venue": "Binance Spot"
+              }
+            }
+          },
+          "name": "Quant Trading Signals",
+          "description": "5-minute technical signals; optional daily news in web reports.",
+          "tags": [
+            "x402-global-challenge",
+            "trading",
+            "crypto"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790852341730,
+        "last_ts": 1791229924488
+      }
+    ],
+    "resource_count": 17,
+    "description_count": 17,
+    "mime_type_count": 17,
+    "accepts_count": 17,
+    "discovery_count": 17,
+    "input_documentation_count": 17,
+    "output_documentation_count": 17,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

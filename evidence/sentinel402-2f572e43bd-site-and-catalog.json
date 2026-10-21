@@ -1,0 +1,248 @@
+{
+  "merchant_id": "TUFHS0RFV1k1SVo2TUJZTEtHTEhONFVX",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "43.162.105.66.sslip.io",
+      "classification": "hosting_provider_domain",
+      "provider": "Wildcard IP domain",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 13,
+      "last_observed_at": 1791245439995,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "43.162.105.66.sslip.io",
+        "classification": "hosting_provider_domain",
+        "provider": "Wildcard IP domain",
+        "is_custom_domain_candidate": false,
+        "origin": "https://43.162.105.66.sslip.io",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1791249970028,
+        "last_fetch_attempt_utc": "2026-10-06T01:26:10.028000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:10:39 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovLzQzLjE2Mi4xMDUuNjYuc3NsaXAuaW8vdjEvc2Nhbi9hZGRyZXNz",
+        "url": "https://43.162.105.66.sslip.io/v1/scan/address",
+        "method": "POST",
+        "description": "Wallet/contract address risk scan: phishing, sanctions, mixer and honeypot associations plus on-chain footprint.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "MAGKDEWY5IZ6MBYLKGLHN4UWFM2BYCJ5R62C5AU6JASOY2HAS6XP5SHRII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "chain_id": 1,
+              "address": "0x..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "risk_score": 0,
+              "risk_grade": "CLEAN",
+              "goplus_flags": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790293098286,
+        "last_ts": 1790293098120
+      },
+      {
+        "id": "UE9TVDpodHRwczovLzQzLjE2Mi4xMDUuNjYuc3NsaXAuaW8vdjEvc2Nhbi9jb250cmFjdA",
+        "url": "https://43.162.105.66.sslip.io/v1/scan/contract",
+        "method": "POST",
+        "description": "Solidity contract security scan: paste source or give chain+address; 30+ detectors for reentrancy, oracle, access-control, proxy and approval risks.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "250000",
+            "payTo": "MAGKDEWY5IZ6MBYLKGLHN4UWFM2BYCJ5R62C5AU6JASOY2HAS6XP5SHRII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "chain_id": 1,
+              "address": "0x..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "report_id": "SEN-abc123",
+              "risk": {
+                "score": 42,
+                "grade": "HIGH",
+                "counts": {
+                  "critical": 0,
+                  "high": 2
+                }
+              },
+              "findings": [
+                {
+                  "rule_id": "SEN-002",
+                  "title": "tx.origin used for authentication"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790293125286,
+        "last_ts": 1790293125122
+      },
+      {
+        "id": "UE9TVDpodHRwczovLzQzLjE2Mi4xMDUuNjYuc3NsaXAuaW8vdjEvc2Nhbi9zaWduYXR1cmU",
+        "url": "https://43.162.105.66.sslip.io/v1/scan/signature",
+        "method": "POST",
+        "description": "Decode an EIP-712 typed-data / permit / permit2 signature before you sign it: unlimited approvals, zero-price orders, malicious spenders.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "50000",
+            "payTo": "MAGKDEWY5IZ6MBYLKGLHN4UWFM2BYCJ5R62C5AU6JASOY2HAS6XP5SHRII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "typed_data": {
+                "domain": {},
+                "primaryType": "Permit",
+                "message": {}
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "kind": "permit",
+              "risk_grade": "CRITICAL",
+              "risks": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790293084430,
+        "last_ts": 1791245439995
+      }
+    ],
+    "resource_count": 3,
+    "description_count": 3,
+    "mime_type_count": 3,
+    "accepts_count": 3,
+    "discovery_count": 3,
+    "input_documentation_count": 3,
+    "output_documentation_count": 3,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

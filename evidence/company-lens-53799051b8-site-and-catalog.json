@@ -1,0 +1,149 @@
+{
+  "merchant_id": "UU9MQUgyQUxFS0QzQk9DUks0TFZCSE5S",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "companylens-api-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 5,
+      "last_observed_at": 1790089050900,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "companylens-api-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://companylens-api-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791183310732,
+        "last_fetch_attempt_utc": "2026-10-05T06:55:10.732000+00:00",
+        "title": "CompanyLens — UK company risk checks for AI agents",
+        "description": "Risk profiles for UK companies from live Companies House data. 0.50 USDC per lookup via x402 on Algorand. No account or API key.",
+        "site_name": null,
+        "logo": null,
+        "banner": "https://companylens.xyz/og.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://companylens-api-production.up.railway.app/llms.txt",
+            "name": "CompanyLens",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "banner"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-22 14:57:30 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9jb21wYW55bGVucy1hcGktcHJvZHVjdGlvbi51cC5yYWlsd2F5LmFwcC9jb21wYW55LzAwNDQ1Nzkw",
+        "url": "http://companylens-api-production.up.railway.app/company/00445790",
+        "method": "GET",
+        "description": "UK company risk profile: risk score 0-100, flags, ownership summary and recommendation from Companies House data.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "QOLAH2ALEKD3BOCRK4LVBHNRAAZKIJYVQHNHUMY5UC6UEUBGBEF2JMTX3Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "company_number": "00445790",
+              "company_name": "MARKS AND SPENCER PLC",
+              "risk_score": 12,
+              "risk_level": "low",
+              "flags": [
+                {
+                  "type": "ok",
+                  "icon": "✓",
+                  "text": "Accounts filed on time"
+                }
+              ],
+              "recommendation": "Proceed with standard commercial terms."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790032020189,
+        "last_ts": 1790072044760
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

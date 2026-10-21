@@ -1,0 +1,191 @@
+{
+  "merchant_id": "RElQUUwzNE5XUVRYTzZaTkxOWU9ZSUxK",
+  "name": "ChepeastSwap",
+  "description": null,
+  "website": "https://easy-swap.onrender.com/",
+  "logo": "https://algorand-swap-x402.onrender.com/merchant-logo.svg",
+  "categories": [
+    "defi",
+    "swap"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algorand-swap-x402.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3431,
+      "last_observed_at": 1791286110364,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "algorand-swap-x402.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://algorand-swap-x402.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1791161352415,
+        "last_fetch_attempt_utc": "2026-10-05T00:49:12.415000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 11:28:30 UTC"
+    },
+    {
+      "domain": "easy-swap.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "easy-swap.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://easy-swap.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791144333927,
+        "last_fetch_attempt_utc": "2026-10-04T20:05:33.927000+00:00",
+        "title": "ChepeastSwap — Crypto Swap",
+        "description": "Multi-chain crypto swap routes via LI.FI",
+        "site_name": "ChepeastSwap",
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQtc3dhcC14NDAyLm9ucmVuZGVyLmNvbS9leGVjdXRl",
+        "url": "https://algorand-swap-x402.onrender.com/execute",
+        "method": "GET",
+        "description": "Mejor ruta de swap multi-cadena (LI.FI)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "4000000",
+            "payTo": "DIPQL34NWQTXO6ZNLNYOYILJZ7UBLMY5KMTJSOCISGYDSPV2PR6VS6UP2Q",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "from_chain": "1",
+              "from_token": "USDC",
+              "to_chain": "8453",
+              "to_token": "USDC",
+              "from_amount": "100000000",
+              "from_address": "YOUR_EVM_WALLET_ADDRESS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "provider": "Across",
+              "to_amount": "99850000",
+              "to_amount_usd": "99.85",
+              "estimated_gas_costs_usd": 0.42,
+              "estimated_duration_seconds": 30,
+              "approval_address": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+              "transaction_request": {
+                "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+                "data": "0x...",
+                "value": "0x0",
+                "chainId": 1
+              }
+            }
+          },
+          "name": "ChepeastSwap",
+          "tags": [
+            "x402-global-challenge",
+            "swap",
+            "crypto",
+            "defi"
+          ],
+          "description": "Best multi-chain swap route via LI.FI, with a visible fee"
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790500673544,
+        "last_ts": 1791286110364
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

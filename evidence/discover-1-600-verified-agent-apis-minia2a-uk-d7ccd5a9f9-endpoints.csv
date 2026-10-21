@@ -1,0 +1,5 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+(not recorded),https://minia2a.uk/x402/time,34,3.400000,1,0,0.000000,0,0.000000,0,2026-08-14 09:10:50 UTC,2026-08-18 01:36:13 UTC
+GET,https://minia2a.uk/x402/time,5,0.500000,1,0,0.000000,0,0.000000,0,2026-08-18 01:47:17 UTC,2026-08-18 03:49:10 UTC
+GET,https://minia2a.uk/x402/gas,2,1.000000,1,0,0.000000,0,0.000000,0,2026-08-18 02:27:08 UTC,2026-08-18 04:06:15 UTC
+(not recorded),https://minia2a.uk/x402/gas,1,0.500000,1,0,0.000000,0,0.000000,0,2026-08-18 01:41:39 UTC,2026-08-18 01:41:39 UTC

@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://arbiter-hs23.onrender.com/v1/judge/transaction,6,0.012000,2,6,0.012000,3,0.006000,0,2026-08-06 11:16:24 UTC,2026-08-07 10:11:12 UTC
+POST,https://arbiter-hs23.onrender.com/v1/judge/counterparty,4,0.040000,2,0,0.000000,2,0.020000,0,2026-08-06 11:18:55 UTC,2026-08-07 10:11:16 UTC
+POST,https://arbiter-hs23.onrender.com/v1/judge/human,1,0.250000,1,0,0.000000,1,0.250000,0,2026-08-06 11:18:59 UTC,2026-08-06 11:18:59 UTC

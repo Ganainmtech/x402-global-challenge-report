@@ -1,0 +1,545 @@
+{
+  "merchant_id": "V0haNzRaR05HWkdBVkVRWlRIRVNFTlZQ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "a-identity-backend.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 5,
+      "last_observed_at": 1788048858778,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "a-identity-backend.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://a-identity-backend.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1788047873692,
+        "last_fetch_attempt_utc": "2026-08-29T23:57:53.692000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-08-30 00:14:18 UTC"
+    },
+    {
+      "domain": "a-identity.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 2622,
+      "last_observed_at": 1791239222957,
+      "catalog_endpoint_count": 6,
+      "metadata": {
+        "domain": "a-identity.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://a-identity.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791220543150,
+        "last_fetch_attempt_utc": "2026-10-05T17:15:43.150000+00:00",
+        "title": "A-Identity · The Passport & Wallet for the Agentic Economy",
+        "description": "Verified on-chain agent identity (ERC-8004) + a policy-guarded USDC wallet on Circle Arc. Autonomous, bounded, human-on-the-loop payments: x402, Nanopayments, Gateway, CCTP.",
+        "site_name": "A-Identity",
+        "logo": "https://a-identity.xyz/apple-touch-icon.png",
+        "banner": "https://a-identity.xyz/og-image.png",
+        "theme_color": "#7342e2",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://a-identity.xyz/.well-known/agent-card.json",
+            "name": "A-Identity Trust Oracle",
+            "description": "Before one AI agent pays another, it calls A-Identity to verify the counterparty. Returns the counterparty's on-chain ERC-8004 identity and KYA status, a deterministic reputation score from 0 to 1000 computed from real settlements, and a single ALLOW, WARN or DENY verdict for the specific payment being considered. Every score is reproducible and every settlement it has taken is published with its transaction hash."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://a-identity.xyz/.well-known/x402",
+            "name": "A-Identity",
+            "description": "Trust oracle for AI agents: verify an agent's on-chain identity, KYA status, 0-1000 reputation and ALLOW / WARN / DENY risk verdict before paying it, one agent or fifty at a time, and check any Algorand address before you pay it, sold per call over x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://a-identity.xyz/llms.txt",
+            "name": "A-Identity",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-05 22:27:02 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2EtaWRlbnRpdHkueHl6L2FwaS94NDAyL2FsZ29yYW5kL3Rvb2xzL2FnZW50X2JhdGNoX2F1ZGl0",
+        "url": "https://a-identity.xyz/api/x402/algorand/tools/agent_batch_audit",
+        "method": "POST",
+        "description": "Batch trust audit for up to 50 AI agents in one paid call: an ALLOW / WARN / DENY verdict, risk level, reasons and reputation score for every agent, plus a summary count. 4 USDC per agent; quote a size with ?count=N, then POST a JSON body with agentIds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "8000000",
+            "maxAmountRequired": "8000000",
+            "asset": "31566704",
+            "payTo": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "agentIds": [
+                "#0",
+                "#1"
+              ],
+              "txContext": {
+                "amountUsd": 25
+              }
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "agent_batch_audit",
+              "count": 2,
+              "summary": {
+                "ALLOW": 1,
+                "WARN": 0,
+                "DENY": 1
+              },
+              "results": [
+                {
+                  "agentId": "#0",
+                  "decision": "ALLOW",
+                  "risk": "low",
+                  "reasons": [],
+                  "reputationScore": 612,
+                  "onchainVerified": true,
+                  "kyaVerified": true,
+                  "revoked": false
+                },
+                {
+                  "agentId": "#1",
+                  "decision": "DENY",
+                  "risk": "high",
+                  "reasons": [
+                    "No verifiable on-chain identity (ERC-8004) found for this agent"
+                  ],
+                  "reputationScore": 0,
+                  "onchainVerified": false,
+                  "kyaVerified": false,
+                  "revoked": false
+                }
+              ],
+              "checkedAt": "2026-09-12T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790592042403,
+        "last_ts": 1791239143526
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2EtaWRlbnRpdHkueHl6L2FwaS94NDAyL2FsZ29yYW5kL3Rvb2xzL2FnZW50X3Bhc3Nwb3J0",
+        "url": "https://a-identity.xyz/api/x402/algorand/tools/agent_passport",
+        "method": "POST",
+        "description": "Full trust passport for an AI agent in one JSON document: on-chain identity, KYA status, 0-1000 reputation with its breakdown, and the ALLOW / WARN / DENY risk verdict. POST a JSON body with agentId.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "maxAmountRequired": "10000",
+            "asset": "31566704",
+            "payTo": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+            "maxTimeoutSeconds": 120,
+            "resource": "https://a-identity.xyz/api/x402/algorand/tools/agent_passport",
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "agentId": "#0"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "agent_passport",
+              "agentId": "#0",
+              "standard": "ERC-8004",
+              "verified": true,
+              "kya": {
+                "status": "verified",
+                "revoked": false
+              },
+              "reputation": {
+                "score": 612
+              },
+              "risk": {
+                "decision": "ALLOW",
+                "level": "low",
+                "reasons": []
+              },
+              "tenureDays": 41,
+              "issuedAt": "2026-09-12T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789239610449,
+        "last_ts": 1791239116079
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2EtaWRlbnRpdHkueHl6L2FwaS94NDAyL2FsZ29yYW5kL3Rvb2xzL3BheV9jaGVjaw",
+        "url": "https://a-identity.xyz/api/x402/algorand/tools/pay_check",
+        "method": "POST",
+        "description": "Before you pay an Algorand address: a Looks safe / Be careful / Don't pay verdict from the public record, with plain reasons, account age, whether it can receive USDC, its x402 seller history, and who pays it, including the share paid by wallets linked to the seller. POST a JSON body with address.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000000",
+            "maxAmountRequired": "5000000",
+            "asset": "31566704",
+            "payTo": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+            "maxTimeoutSeconds": 120,
+            "resource": "https://a-identity.xyz/api/x402/algorand/tools/pay_check",
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "address": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+              "verdict": "careful",
+              "headline": "Be careful",
+              "reasons": [
+                {
+                  "tone": "warn",
+                  "code": "self_funded",
+                  "text": "100% of the USDC it received came from wallets linked to it, so its payments may be its own."
+                }
+              ],
+              "facts": {
+                "accountAgeDays": 28,
+                "canReceiveUsdc": true,
+                "payers": {
+                  "sampled": 10,
+                  "distinct": 1,
+                  "topPayerShare": 1,
+                  "sellerFundedShare": 1
+                }
+              },
+              "checkedAt": "2026-09-12T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790587704177,
+        "last_ts": 1791239170919
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2EtaWRlbnRpdHkueHl6L2FwaS94NDAyL2FsZ29yYW5kL3Rvb2xzL3JlcHV0YXRpb25fc2NvcmU",
+        "url": "https://a-identity.xyz/api/x402/algorand/tools/reputation_score",
+        "method": "POST",
+        "description": "Reputation of an AI agent as a deterministic 0-1000 score, with the breakdown behind it (settlements, validations, tenure, behavior, discipline), a Sybil signal, and the latest on-chain attestation of the score. POST a JSON body with agentId.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "maxAmountRequired": "2000",
+            "asset": "31566704",
+            "payTo": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+            "maxTimeoutSeconds": 120,
+            "resource": "https://a-identity.xyz/api/x402/algorand/tools/reputation_score",
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "agentId": "#0"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "reputation_score",
+              "agentId": "#0",
+              "score": 612,
+              "breakdown": {
+                "settlement": 240,
+                "validation": 150,
+                "tenure": 90,
+                "behavior": 92,
+                "discipline": 40
+              },
+              "sybil": {
+                "level": "low"
+              },
+              "settledOnchain": 12,
+              "settledUsd": 3.4,
+              "basis": "on-chain settlements and validations",
+              "computedAt": "2026-09-12T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789239591082,
+        "last_ts": 1791239211982
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2EtaWRlbnRpdHkueHl6L2FwaS94NDAyL2FsZ29yYW5kL3Rvb2xzL3Jpc2tfY2hlY2s",
+        "url": "https://a-identity.xyz/api/x402/algorand/tools/risk_check",
+        "method": "POST",
+        "description": "Pre-payment ALLOW / WARN / DENY verdict on an AI agent counterparty, with the reasons and the signals behind it. Add txContext.amountUsd to size the check to the deal. POST a JSON body with agentId.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "maxAmountRequired": "5000",
+            "asset": "31566704",
+            "payTo": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+            "maxTimeoutSeconds": 120,
+            "resource": "https://a-identity.xyz/api/x402/algorand/tools/risk_check",
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "agentId": "#0",
+              "txContext": {
+                "amountUsd": 25
+              }
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "risk_check",
+              "agentId": "#0",
+              "decision": "ALLOW",
+              "risk": "low",
+              "reasons": [],
+              "signals": {
+                "onchainVerified": true,
+                "kyaVerified": true,
+                "reputationScore": 612,
+                "tenureDays": 41,
+                "revoked": false,
+                "txContext": {
+                  "amountUsd": 25
+                }
+              },
+              "checkedAt": "2026-09-12T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789239602141,
+        "last_ts": 1791239124303
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2EtaWRlbnRpdHkueHl6L2FwaS94NDAyL2FsZ29yYW5kL3Rvb2xzL3ZlcmlmeV9hZ2VudA",
+        "url": "https://a-identity.xyz/api/x402/algorand/tools/verify_agent",
+        "method": "POST",
+        "description": "Verify an AI agent before you pay it: whether its ERC-8004 on-chain identity resolves, its KYA (Know Your Agent) status, whether it has been revoked, and a live probe of its endpoint. POST a JSON body with agentId.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "maxAmountRequired": "1000",
+            "asset": "31566704",
+            "payTo": "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE",
+            "maxTimeoutSeconds": 120,
+            "resource": "https://a-identity.xyz/api/x402/algorand/tools/verify_agent",
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "agentId": "#0"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "verify_agent",
+              "agentId": "#0",
+              "verified": true,
+              "kya_status": "verified",
+              "revoked": false,
+              "liveness": {
+                "checked": true,
+                "reachable": true,
+                "httpStatus": 200
+              },
+              "identity": {
+                "tokenId": "0",
+                "chain": "rhchain",
+                "valid": true,
+                "partial": false
+              },
+              "source": "onchain",
+              "checkedAt": "2026-09-12T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789238563345,
+        "last_ts": 1791239222957
+      }
+    ],
+    "resource_count": 6,
+    "description_count": 6,
+    "mime_type_count": 6,
+    "accepts_count": 6,
+    "discovery_count": 6,
+    "input_documentation_count": 6,
+    "output_documentation_count": 6,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "a-identity.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

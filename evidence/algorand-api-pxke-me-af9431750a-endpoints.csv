@@ -1,0 +1,10 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://algorand-api.pxke.me/api/v1/x402/news/search,15,0.015000,3,15,0.015000,2,0.002000,0,2026-08-31 16:22:22 UTC,2026-10-06 00:02:08 UTC
+POST,(no host recorded),1,0.100000,1,0,0.000000,1,0.100000,0,2026-08-30 13:46:00 UTC,2026-08-30 13:46:00 UTC
+POST,https://algorand-api.pxke.me/api/v1/x402/board,1,0.050000,1,0,0.000000,1,0.050000,0,2026-08-30 15:52:33 UTC,2026-08-30 15:52:33 UTC
+GET,https://algorand-api.pxke.me/api/v1/x402/features/demand,1,0.050000,1,0,0.000000,1,0.050000,0,2026-08-30 15:53:09 UTC,2026-08-30 15:53:09 UTC
+POST,https://algorand-api.pxke.me/api/v1/x402/features/e21771740b4b4f128f931a8bbec13a9f/vote,1,0.020000,1,0,0.000000,1,0.020000,0,2026-08-30 15:52:58 UTC,2026-08-30 15:52:58 UTC
+POST,https://algorand-api.pxke.me/api/v1/x402/grades,1,0.020000,1,0,0.000000,1,0.020000,0,2026-08-30 15:52:41 UTC,2026-08-30 15:52:41 UTC
+GET,https://algorand-api.pxke.me/api/v1/x402/grades/score,1,0.030000,1,0,0.000000,1,0.030000,0,2026-08-30 15:52:50 UTC,2026-08-30 15:52:50 UTC
+POST,https://algorand-api.pxke.me/api/v1/x402/list,1,0.100000,1,0,0.000000,1,0.100000,0,2026-08-30 15:54:28 UTC,2026-08-30 15:54:28 UTC
+GET,https://algorand-api.pxke.me/api/v1/x402/ping,1,0.001000,1,1,0.001000,1,0.001000,0,2026-08-31 07:03:46 UTC,2026-08-31 07:03:46 UTC

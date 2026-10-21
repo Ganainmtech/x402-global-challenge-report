@@ -1,0 +1,1663 @@
+{
+  "merchant_id": "TFlJVklVU04zRkFGSUMyTlVONlVZVTJW",
+  "name": "Coil",
+  "description": null,
+  "website": "https://coil.trade",
+  "logo": "https://coil.trade/assets/img/icon-512.png",
+  "categories": [
+    "market-data",
+    "trading-signals",
+    "crypto-signals",
+    "financial-data",
+    "stock-scanner",
+    "algorand",
+    "x402",
+    "x402-global-challenge"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "coil.trade",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 74,
+      "last_observed_at": 1791245016096,
+      "catalog_endpoint_count": 21,
+      "metadata": {
+        "domain": "coil.trade",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://coil.trade",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791170591973,
+        "last_fetch_attempt_utc": "2026-10-05T03:23:11.973000+00:00",
+        "title": "Coil — AI Stock Scanner & Rules-Based Trading Engine",
+        "description": "Coil is an AI stock scanner that hash-commits every score before the market can judge it and publishes its forward-return audit even when negative — right now it does. S&P 500, Nasdaq-100 and a macro book re-scored about every 5 minutes: read the board ($12/mo) or feed it to your own AI agent over MCP ($29/mo). Agents can pay per call in USDC from $0.001.",
+        "site_name": "Coil",
+        "logo": "https://coil.trade/assets/img/icon-192.png",
+        "banner": "https://coil.trade/assets/img/og-cover.png",
+        "theme_color": "#06070a",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://coil.trade/.well-known/agent-card.json",
+            "name": "Coil",
+            "description": "Market data and trading signals for AI agents — x402/USDC from $0.001, no account, no API key, no signup. 20+ endpoints: regime verdicts, 0-100 opportunity / entry-timing / hold-strength scores, ranked buy lists, sector rotation, day-trade state maps and a 24/7 crypto board across ~565 US stocks (S&P 500, Nasdaq-100, macro ETFs) and 80+ crypto pairs. Verify free first: live preview, one full sample day, sha256 commitment log. Research, not advice."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://coil.trade/.well-known/agent.json",
+            "name": "Coil",
+            "description": "Market data and trading signals for AI agents — x402/USDC from $0.001, no account, no API key, no signup. 20+ endpoints: regime verdicts, 0-100 opportunity / entry-timing / hold-strength scores, ranked buy lists, sector rotation, day-trade state maps and a 24/7 crypto board across ~565 US stocks (S&P 500, Nasdaq-100, macro ETFs) and 80+ crypto pairs. Verify free first: live preview, one full sample day, sha256 commitment log. Research, not advice."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://coil.trade/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://coil.trade/llms.txt",
+            "name": "Coil",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:03:36 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvYWdlbnQ",
+        "url": "https://coil.trade/api/board/agent",
+        "method": "GET",
+        "description": "Coil Scanner — decide what to trade now instead of rebuilding it. Scored stock rankings for agents: which of ~560 S&P 500, Nasdaq-100 and macro names are set up to buy, with per-name opportunity, entry-timing and hold-strength scores; risk-on / be-selective / stand-down regime verdicts; ranked buy-list lanes; plus a long-only BTC/ETH trend book. Not raw OHLCV (that's free) — the judgment, read top-down. Refreshed ~5 min in market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "250000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-board",
+              "asof_daily": "2026-07-15",
+              "intraday": true,
+              "computed_at": "2026-07-15 12:17:08",
+              "book_order": [
+                "spx",
+                "qqq",
+                "macro",
+                "crypto"
+              ],
+              "books": {
+                "spx": {
+                  "label": "SPX",
+                  "regime": {
+                    "mode": "NAMES_ON",
+                    "verdict": "…"
+                  }
+                }
+              },
+              "names": [
+                {
+                  "sym": "NVDA",
+                  "name": "NVIDIA",
+                  "sector": "Information Technology",
+                  "opp_pct": 97,
+                  "entry_q": 62,
+                  "hold_q": 88,
+                  "state": "firing"
+                }
+              ],
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786740386953,
+        "last_ts": 1786740388533
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvYXNvZg",
+        "url": "https://coil.trade/api/board/asof",
+        "method": "GET",
+        "description": "Point-in-time score history — what did Coil actually publish on a given date? Returns the as-published per-name scores (opportunity percentile, entry quality, hold strength) for every S&P 500 / Nasdaq-100 / macro name on any archived date (?date=YYYY-MM-DD; omit for the list of archived dates). Lookahead-bias-clean by construction: served verbatim from the append-only publish log, never recomputed. Immutable: one new date per session, never revised. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "date": "2026-07-21"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-asof",
+              "date": "2026-07-21",
+              "fields": [
+                "opp_pct",
+                "entry_q",
+                "hold_q"
+              ],
+              "names": {
+                "NVDA": [
+                  97,
+                  62,
+                  88
+                ],
+                "CVX": [
+                  91,
+                  70,
+                  84
+                ]
+              },
+              "provenance": "served verbatim from the append-only publish log"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739556673,
+        "last_ts": 1790559610785
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvYnJpZWY",
+        "url": "https://coil.trade/api/board/brief",
+        "method": "GET",
+        "description": "The whole market read in one small answer — a morning brief for agents: the regime verdict per book (S&P 500, Nasdaq-100, macro, BTC/ETH crypto), today's top-5 ranked buy candidates, the day's biggest gainers and losers, and the crypto trend-gate state. One $0.02 call instead of four — the cheapest complete top-down read on x402. Refreshed ~5 min in US market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-brief",
+              "asof_daily": "2026-07-24",
+              "regimes": {
+                "spx": {
+                  "mode": "NAMES_ON",
+                  "verdict": "…"
+                },
+                "crypto": {
+                  "mode": "RISK_OFF",
+                  "verdict": "…"
+                }
+              },
+              "top_picks": [
+                {
+                  "sym": "CVX",
+                  "name": "Chevron",
+                  "buy": 71,
+                  "entry": 64,
+                  "window": "READY"
+                }
+              ],
+              "movers": {
+                "gainers": [
+                  {
+                    "sym": "SMCI",
+                    "chg_pct": 24.1
+                  }
+                ],
+                "losers": [
+                  {
+                    "sym": "TEL",
+                    "chg_pct": -7.6
+                  }
+                ]
+              },
+              "crypto_gate": {
+                "mode": "RISK_OFF",
+                "sleeves": [
+                  {
+                    "sym": "BTC-USD",
+                    "state": "CASH"
+                  }
+                ]
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739546592,
+        "last_ts": 1790559632968
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvYnV5bGlzdA",
+        "url": "https://coil.trade/api/board/buylist",
+        "method": "GET",
+        "description": "Which stocks to buy now — trading signals as a ranked buy list for agents. Returns today's top candidate names per book (S&P 500, Nasdaq-100, macro) across two lanes, risk-adjusted and swing, each with buy / entry / growth / hold scores, a leadership flag and an entry-window note — plus the regime mode telling you whether the list is actionable at all. Ranked judgment, not raw data. Refreshed ~5 min in market hours. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-buylist",
+              "asof_daily": "2026-07-17",
+              "book_order": [
+                "spx",
+                "qqq",
+                "macro"
+              ],
+              "books": {
+                "spx": {
+                  "label": "SPX",
+                  "regime_mode": "NAMES_ON",
+                  "picks": {
+                    "riskadj": [
+                      {
+                        "sym": "CVX",
+                        "name": "Chevron",
+                        "sector": "Energy",
+                        "buy": 71,
+                        "entry": 64,
+                        "hold": 82,
+                        "lead": true,
+                        "window": "READY"
+                      }
+                    ],
+                    "swing": []
+                  }
+                }
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739533508,
+        "last_ts": 1790559646780
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvY3J5cHRv",
+        "url": "https://coil.trade/api/board/crypto",
+        "method": "GET",
+        "description": "Bitcoin and Ethereum trend signal — is crypto risk-on right now? One read returns the long-only trend state for BTC and ETH (LONG or CASH per sleeve), each sleeve's 50-day trend gate, and the BTC 200-day master gate that overrides both — all evaluated strictly on UTC daily closes, with live price and day change. A rules-based regime verdict for agents, not raw price data. Long-only: the answer is in or out, never short. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-crypto",
+              "asof_daily": "2026-07-24",
+              "regime": {
+                "mode": "RISK_OFF",
+                "verdict": "CASH — BTC closed below its 200-day gate (-10.3%): both sleeves in cash regardless of their own trends, until the gate reopens on a UTC daily close."
+              },
+              "sleeves": [
+                {
+                  "sym": "BTC-USD",
+                  "name": "Bitcoin",
+                  "price": 64329.63,
+                  "chg_pct": -1.11,
+                  "state": "CASH",
+                  "light": "y"
+                }
+              ],
+              "rules": "long-only; each sleeve trades its 50-day gate; BTC's 200-day gate overrides both; states change only on UTC daily closes",
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739499439,
+        "last_ts": 1790559102803
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvZGF5",
+        "url": "https://coil.trade/api/board/day",
+        "method": "GET",
+        "description": "Day-trade STATE MAP for agents: intraday multi-timeframe conditions on ~70 liquid names (14 market leaders + AI/semis + software cohorts), refreshed ~5 min in US market hours. Per name: an 18-cell lights grid (price/RSI/MACD x 5m-1D), GO (lights x fuel), FUEL vs the tab's anchor ETF, efficiency, ATR%, 20-day vs SPY, entry-window state, and ROOM to the nearest overhead level in % and bars. A state map, NOT a ranking - fully-lit boards flag ext:true (late). Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-day-states",
+              "asof_daily": "2026-08-12",
+              "live_5m_window": true,
+              "anchor": {
+                "sym": "SOXX",
+                "pct5": 0.11,
+                "eff": 0.19
+              },
+              "rows": [
+                {
+                  "sym": "AXON",
+                  "go": 7.49,
+                  "vs_soxx": 11.72,
+                  "eff": 0.27,
+                  "atr_pct": 6.6,
+                  "rs20": 8.5,
+                  "ew": "BASING",
+                  "ext": false,
+                  "lights": {
+                    "5m": {
+                      "p": "y",
+                      "r": "g",
+                      "m": "g"
+                    }
+                  },
+                  "room": {
+                    "lab": "5m 50",
+                    "pct": 0.28,
+                    "bars": 0.7,
+                    "n": 10
+                  }
+                }
+              ],
+              "cohorts": [
+                {
+                  "id": "ai",
+                  "label": "SOXX / AI",
+                  "anchor": "SOXX"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739527091,
+        "last_ts": 1790559500592
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvaG9sZA",
+        "url": "https://coil.trade/api/board/hold",
+        "method": "GET",
+        "description": "Per-symbol HOLD-STATE read — is the published trend state behind a name intact? GET /api/board/hold?sym=NVDA (up to 10, comma-separated, one price) returns each name's state, hold strength 0-100, readiness, maturity-late flag, overnight gap-risk grade and its book's regime, with the mechanical rules states flip on. BTC-USD/ETH-USD return the crypto book's IN|CASH daily-close state. Impersonal publication — never your entry or size. ~5-min refresh in market hours. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "sym": "NVDA (or NVDA,AMD,BTC-USD — up to 10 in one read)"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-hold",
+              "requested": 2,
+              "returned": 2,
+              "holds": [
+                {
+                  "sym": "NVDA",
+                  "name": "NVIDIA",
+                  "sector": "Information Technology",
+                  "state": "firing",
+                  "light": "g",
+                  "readiness": 74,
+                  "hold_q": 88,
+                  "hold_label": "STRONG",
+                  "mat_late": false,
+                  "gap_risk": 18,
+                  "gap_level": "LOW"
+                },
+                {
+                  "sym": "BTC-USD",
+                  "name": "Bitcoin",
+                  "book": "crypto",
+                  "state": "IN",
+                  "light": "g",
+                  "regime_mode": "RISK_ON",
+                  "rule": "long-only; flips CASH when its own 50-day gate fails at a UTC daily close…"
+                }
+              ],
+              "book_regimes": {
+                "spx": {
+                  "mode": "NAMES_ON",
+                  "verdict": "…",
+                  "ladder_rung": "NAMES"
+                }
+              },
+              "rules": {
+                "equity": "…",
+                "crypto": "…",
+                "impersonal": "published per-symbol state, identical for every reader"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787185053840,
+        "last_ts": 1790559180135
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvaW5kaWNlcw",
+        "url": "https://coil.trade/api/board/indices",
+        "method": "GET",
+        "description": "Index scores for trading agents — how strong is each major index right now? One read returns the scored index row per book: S&P 500 (SPY) and Nasdaq-100 (QQQ) plus the macro and BTC/ETH crypto books — 0-100 opportunity score, percentile, green/yellow/red light and entry state for each index, with every book's regime verdict alongside. The cheapest top-down read of the whole tape. Refreshed ~5 min in market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-indices",
+              "asof_daily": "2026-07-22",
+              "book_order": [
+                "spx",
+                "qqq",
+                "macro",
+                "crypto"
+              ],
+              "books": {
+                "spx": {
+                  "label": "SPX",
+                  "index": {
+                    "sym": "SPY",
+                    "light": "g",
+                    "opp_score": 65.5,
+                    "opp_pct": 90,
+                    "state": "cold"
+                  },
+                  "regime_mode": "NAMES_ON",
+                  "verdict": "…"
+                }
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739476854,
+        "last_ts": 1790559254729
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvbGVhZGVycw",
+        "url": "https://coil.trade/api/board/leaders",
+        "method": "GET",
+        "description": "Today's market leaders, ranked — which stocks are leading the tape right now? One read returns the top leadership names per book (S&P 500, Nasdaq-100, macro) ranked by opportunity score: names in confirmed uptrends carrying the market's strength, each with opportunity 0-100 + percentile, entry state, hold strength, growth score and 20-day dollar volume. Leadership rotation is the Coil engine's backbone signal. Refreshed ~5 min in market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-leaders",
+              "asof_daily": "2026-07-22",
+              "ranking": "top 10 leadership names per book by opportunity score",
+              "books": {
+                "spx": [
+                  {
+                    "sym": "NVDA",
+                    "name": "NVIDIA",
+                    "sector": "Information Technology",
+                    "opp_pct": 97,
+                    "entry_q": 62,
+                    "state": "firing",
+                    "hold_q": 88,
+                    "growth_score": 58.8,
+                    "adv20_usd": 26800000000
+                  }
+                ]
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739519672,
+        "last_ts": 1790559530986
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvbW92ZXJz",
+        "url": "https://coil.trade/api/board/movers",
+        "method": "GET",
+        "description": "Today's biggest movers, scored — the top gainers and losers across the S&P 500, Nasdaq-100 and macro book, each with the day's % change AND the Coil read: opportunity 0-100 + percentile, entry state (READY / WAIT / CHASE / FALLING), hold strength and overnight gap-risk score — so an agent can tell which moves are chaseable structure and which are falling knives. Refreshed ~5 min in market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-movers",
+              "asof_daily": "2026-07-22",
+              "gainers": [
+                {
+                  "sym": "SMCI",
+                  "name": "Super Micro",
+                  "sector": "Information Technology",
+                  "chg_pct": 24.1,
+                  "opp_pct": 88,
+                  "state": "chase",
+                  "hold_q": 61,
+                  "gap_risk": 45,
+                  "gap_level": "ELEVATED"
+                }
+              ],
+              "losers": [
+                {
+                  "sym": "TEL",
+                  "name": "TE Connectivity",
+                  "sector": "Information Technology",
+                  "chg_pct": -7.6,
+                  "opp_pct": 35,
+                  "state": "falling",
+                  "hold_q": 40,
+                  "gap_risk": 30,
+                  "gap_level": "ELEVATED"
+                }
+              ],
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739492354,
+        "last_ts": 1790559304501
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvbmFtZQ",
+        "url": "https://coil.trade/api/board/name",
+        "method": "GET",
+        "description": "Score one name or a whole watchlist in one read. GET /api/board/name?sym=NVDA (or ?sym=NVDA,AMD,MSFT — up to 10 names, one price) returns each name's full Coil read: opportunity 0-100 + percentile, entry quality and state (READY / SETUP / WAIT / CHASE / FALLING), hold strength, growth score, overnight gap-risk, leadership flag and dollar volume, plus its book's regime. Any S&P 500, Nasdaq-100 or macro name. ~5-min refresh. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "sym": "NVDA (or NVDA,AMD,MSFT — up to 10 in one read)"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-name",
+              "asof_daily": "2026-07-22",
+              "name": {
+                "sym": "NVDA",
+                "name": "NVIDIA",
+                "sector": "Information Technology",
+                "opp_score": 71.2,
+                "opp_pct": 97,
+                "entry_q": 62,
+                "state": "firing",
+                "hold_q": 88,
+                "hold_label": "STRONG",
+                "growth_score": 58.8,
+                "gap_risk": 18,
+                "gap_level": "LOW",
+                "is_leader": true,
+                "adv20_usd": 26800000000
+              },
+              "book_regimes": {
+                "spx": {
+                  "mode": "NAMES_ON",
+                  "verdict": "…"
+                }
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739483650,
+        "last_ts": 1790559356922
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvcmVnaW1l",
+        "url": "https://coil.trade/api/board/regime",
+        "method": "GET",
+        "description": "Market regime classifier for trading agents — is the tape risk-on or risk-off right now? Returns a regime verdict per book (S&P 500, Nasdaq-100, macro, crypto): trade, be selective, or stand down — with the market-state mode, which sectors are green, and the top-down permission ladder (index → sector → name) saying whether individual names are enterable at all. Refreshed ~5 min in market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-regime",
+              "asof_daily": "2026-07-17",
+              "book_order": [
+                "spx",
+                "qqq",
+                "macro",
+                "crypto"
+              ],
+              "books": {
+                "spx": {
+                  "label": "SPX",
+                  "regime": {
+                    "mode": "NAMES_ON",
+                    "verdict": "ALL SYSTEMS — index green, 9 sectors green",
+                    "green_sectors": [
+                      "Energy",
+                      "Health Care"
+                    ],
+                    "ladder": {
+                      "rung": "NAMES",
+                      "note": "index + 3 sector(s) open"
+                    }
+                  }
+                }
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786738939447,
+        "last_ts": 1790559398395
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvcm90YXRpb24",
+        "url": "https://coil.trade/api/board/rotation",
+        "method": "GET",
+        "description": "Sector and macro ROTATION map for agents: where money is actually going, measured as each ETF's ratio to SPY against its own 50-day. ~50 sector + macro ETFs, each labelled GO (leading), HOLDING (paused), TURNING (money arriving) or OUT (lagging), with distance-to-50d %, 20-day slope % and ratio RSI. Pre-bucketed led_by/paused/turning/lagging lists. States and percentages only, never levels. Refreshed every ~5 min in US market hours. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-rotation",
+              "asof": "2026-08-21",
+              "led_by": [
+                "AEM",
+                "WPM",
+                "NEM",
+                "GDX",
+                "XLE"
+              ],
+              "turning": [
+                "XLY",
+                "XLK"
+              ],
+              "lagging": [
+                "TLT",
+                "XLU",
+                "UNG"
+              ],
+              "rows": [
+                {
+                  "sym": "XLE",
+                  "kind": "sector",
+                  "label": "Energy",
+                  "vs_ma50_pct": 8.74,
+                  "slope20_pct": 3.01,
+                  "rsi": 63.8,
+                  "above50": true,
+                  "ma20_rising": true,
+                  "state": "GO"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787547244622,
+        "last_ts": 1790559431464
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvc2VjdG9y",
+        "url": "https://coil.trade/api/board/sector",
+        "method": "GET",
+        "description": "Every stock in one sector, scored — GET /api/board/sector?name=Energy (or ?etf=XLE) returns each member of that sector with the full Coil read: opportunity 0-100 + percentile, entry quality and state, hold strength, growth score, overnight gap-risk score, leadership flag and dollar volume, ranked by opportunity, plus the sector's own ETF row. All 20 sector groups across the S&P 500, Nasdaq-100 and macro book. ~5-min refresh. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "name": "Energy"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-sector",
+              "asof_daily": "2026-07-22",
+              "sector": "Energy",
+              "etf": {
+                "sym": "XLE",
+                "light": "g",
+                "opp_score": 62.1,
+                "opp_pct": 80,
+                "state": "cold"
+              },
+              "members": [
+                {
+                  "sym": "XOM",
+                  "name": "Exxon Mobil",
+                  "opp_pct": 91,
+                  "entry_q": 70,
+                  "state": "ready",
+                  "hold_q": 84,
+                  "growth_score": 55,
+                  "gap_risk": 14,
+                  "gap_level": "LOW",
+                  "is_leader": true,
+                  "adv20_usd": 2100000000
+                }
+              ],
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739513027,
+        "last_ts": 1790559563777
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvc2VjdG9ycw",
+        "url": "https://coil.trade/api/board/sectors",
+        "method": "GET",
+        "description": "Sector rotation scores — which sectors are strong right now? One read returns every S&P 500 sector ETF (XLK, XLF, XLV, XLE, XLI and the rest) scored 0-100 with percentile, green/yellow/red light and entry state, plus which sectors each book's regime currently calls green. Spot leadership rotation top-down without scanning 500 single names. Refreshed ~5 min in market hours, timestamped. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-sectors",
+              "asof_daily": "2026-07-22",
+              "book_order": [
+                "spx",
+                "qqq",
+                "macro"
+              ],
+              "books": {
+                "spx": {
+                  "label": "SPX",
+                  "sectors": [
+                    {
+                      "sym": "XLK",
+                      "name": "Information Technology",
+                      "light": "g",
+                      "opp_score": 63.6,
+                      "opp_pct": 85,
+                      "state": "cold"
+                    }
+                  ],
+                  "green_sectors": [
+                    "Energy",
+                    "Health Care"
+                  ],
+                  "regime_mode": "NAMES_ON"
+                }
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739505574,
+        "last_ts": 1790559588822
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvYm9hcmQvdG9wLXZvbHVtZQ",
+        "url": "https://coil.trade/api/board/top-volume",
+        "method": "GET",
+        "description": "Scores for the most-traded US stocks — the liquid mega-caps agents actually trade. One read returns the top names by 20-day average dollar volume in every S&P 500 sector, each scored: opportunity 0-100 plus board percentile, entry state (READY / SETUP / WAIT / CHASE / FALLING), hold strength, leadership flag, and the dollar-volume figure that ranked it. High-liquidity names only, no illiquid tail. Refreshed ~5 min in market hours. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-top-volume",
+              "asof_daily": "2026-07-22",
+              "sectors": {
+                "Information Technology": [
+                  {
+                    "sym": "NVDA",
+                    "name": "NVIDIA",
+                    "opp_pct": 97,
+                    "entry_q": 62,
+                    "hold_q": 88,
+                    "state": "firing",
+                    "is_leader": true,
+                    "adv20_usd": 28400000000
+                  }
+                ]
+              },
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739540375,
+        "last_ts": 1790559663250
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvY3J5cHRvL2RheQ",
+        "url": "https://coil.trade/api/crypto/day",
+        "method": "GET",
+        "description": "24/7 crypto day-state board for the Robinhood-tradable universe — 81 coins (BTC, ETH, SOL, XRP, DOGE and more). Per coin: price, 24h/7d change, trend distance vs the 20/50/200-day, ATR%, relative strength vs BTC, multi-timeframe tape lights, volume z-score, room to the 20-day high, mechanical UP/CHOP/DOWN state and cross-sectional rank — plus the daily BTC/ETH gate and breadth. A state map, not a ranking. Refreshed ~15 min around the clock, every day. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-crypto-day",
+              "computed_at": "<ISO-8601 UTC — the 24/7 tick this board was computed on>",
+              "universe": 29,
+              "anchor": {
+                "sym": "BTC-USD",
+                "chg_24h_pct": -1.2,
+                "d200": 8.4
+              },
+              "regime": {
+                "gate_mode": "RISK_ON",
+                "gate_asof": "<UTC close the daily gate was evaluated on>",
+                "breadth": {
+                  "above_d50": 17,
+                  "above_d200": 21,
+                  "green_1h": 9,
+                  "universe": 29
+                },
+                "verdict": "…"
+              },
+              "rows": [
+                {
+                  "sym": "SOL-USD",
+                  "name": "Solana",
+                  "price": 212.4,
+                  "chg_24h_pct": 3.1,
+                  "chg_7d_pct": -0.8,
+                  "trend": {
+                    "d20": 1.9,
+                    "d50": 6.2,
+                    "d200": 24
+                  },
+                  "atr_pct": 5.8,
+                  "rs_btc_20d": 4.2,
+                  "tape": {
+                    "m5": "g",
+                    "h1": "g",
+                    "h4": "y",
+                    "d1": "g"
+                  },
+                  "room_pct": 1.4,
+                  "vol_z": 0.7,
+                  "state": "UP",
+                  "rank": {
+                    "trend_pct": 93,
+                    "rs_pct": 88
+                  }
+                }
+              ],
+              "reading_guide": "a STATE MAP, not a ranking — descriptive market structure with no forward-return claim"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787185064869,
+        "last_ts": 1790559475514
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvY3J5cHRvL2dhdGU",
+        "url": "https://coil.trade/api/crypto/gate",
+        "method": "GET",
+        "description": "Is crypto risk-on right now? One $0.001 answer: whether the BTC 200-day master gate is open or closed, the LONG/CASH state for the BTC and ETH sleeves, and the one-line verdict — all evaluated on UTC daily closes by a long-only rules engine. The cheapest crypto regime check on x402: poll it every cycle, buy the fuller reads only when the gate state changes. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-crypto-gate",
+              "asof_daily": "2026-07-24",
+              "gate_open": false,
+              "mode": "RISK_OFF",
+              "sleeves": [
+                {
+                  "sym": "BTC-USD",
+                  "state": "CASH"
+                },
+                {
+                  "sym": "ETH-USD",
+                  "state": "CASH"
+                }
+              ],
+              "verdict": "CASH — BTC closed below its 200-day gate…",
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739460081,
+        "last_ts": 1791245016096
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvY3J5cHRvL25pZ2h0",
+        "url": "https://coil.trade/api/crypto/night",
+        "method": "GET",
+        "description": "Pre-registered overnight continuation read for the Robinhood-tradable crypto universe: the top-5 session-momentum coins into the 20:00 UTC signal, the BTC 200-day regime gate, and the study receipts. The ranking beat its random null at every fee tier in the cold study; at Robinhood retail fees the studied trade was REFUTED — a state read with its refutation attached, not advice. ~15-min refresh, 24/7.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-crypto-night",
+              "computed_at": "<ISO-8601 UTC — the 24/7 tick this read was computed on>",
+              "counts": {
+                "universe": 81,
+                "eligible": 34
+              },
+              "night_board": {
+                "signal_time_utc": "20:00",
+                "phase": "pre-signal",
+                "gate_open": true,
+                "gate_mode": "RISK_ON",
+                "gate_asof": "<UTC close the daily gate was evaluated on>",
+                "eligible": 34,
+                "top5": [
+                  {
+                    "sym": "SOL-USD",
+                    "session_pct": 4.1,
+                    "rank": 1
+                  }
+                ],
+                "rule": "R1 mechanics — the registered top-5 session-momentum selection into the 20:00 UTC signal, BTC>200d gated…",
+                "study": {
+                  "name": "2026-08-19-crypto-overnight-rule",
+                  "gross_edge_pct_per_night": 0.381,
+                  "beats_null": true,
+                  "net_at_rh_retail_taker": "negative — REFUTED",
+                  "breakeven_bps_per_side": 19,
+                  "riders": "…survivorship + venue-fills riders…"
+                }
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787192206928,
+        "last_ts": 1790558906558
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvY3J5cHRvL3NldHVw",
+        "url": "https://coil.trade/api/crypto/setup",
+        "method": "GET",
+        "description": "Which of 81 Robinhood-tradable coins are in a WASHED SETUP right now? One read scans the full universe for the two washed-shape patterns (daily uptrend + washed-out 5-minute tape) and returns every hit with its GO score, fuel multiple vs BTC, grade and room — plus the setup column for all 81 names. Recomputed every ~5 minutes, 24/7. Shapes were backtest-confirmed on equities; on crypto they are forward-graded, disclosed per read. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "50000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-crypto-setup",
+              "computed_at": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              },
+              "universe": 81,
+              "hits": [
+                {
+                  "sym": "SOL-USD",
+                  "setup": "B",
+                  "go": 4.2,
+                  "fuel_x_btc": 6.1,
+                  "grade": 2,
+                  "room": {
+                    "lab": "20d high",
+                    "pct": 6.3,
+                    "bars": 12
+                  }
+                }
+              ],
+              "setups": {
+                "SOL-USD": "B",
+                "BTC-USD": null
+              },
+              "reading_guide": "…equity-validated shapes, forward-graded on crypto; not advice…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787192220822,
+        "last_ts": 1790559671331
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY29pbC50cmFkZS9hcGkvdHJhZGZpLXJpc2s",
+        "url": "https://coil.trade/api/tradfi-risk",
+        "method": "GET",
+        "description": "TradFi risk-on/risk-off in one $0.003 call for crypto agents. Returns the S&P 500 and Nasdaq-100 regime state, how many equity sectors are green out of 11 (breadth), whether the permission ladder allows risk at all, and the same engine's BTC/ETH trend gate — size against equity risk appetite instead of guessing. Regime states flip rarely (days, not minutes); recomputed ~5-9 min in-session by a live long-only engine scoring ~560 US names. Research, not advice.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "3000",
+            "payTo": "LYIVIUSN3FAFIC2NUN6UYU2VN764U6YTCPTIX2O6EWYYU5WHAJHYMVTZM4",
+            "maxTimeoutSeconds": 3600,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "coil-tradfi-risk",
+              "asof_daily": "2026-07-24",
+              "risk_on": false,
+              "tradfi": {
+                "spx": {
+                  "mode": "NAMES_ON",
+                  "ladder": "CASH",
+                  "state": "WAIT"
+                },
+                "ndx": {
+                  "mode": "NAMES_ON",
+                  "ladder": "CASH",
+                  "state": "WAIT"
+                },
+                "sectors_green": 8,
+                "sectors_total": 11
+              },
+              "crypto": {
+                "gate_open": false,
+                "mode": "RISK_OFF"
+              },
+              "verdict": "TradFi selective, crypto gate closed",
+              "freshness": {
+                "market_open": true,
+                "data_age_seconds": 142,
+                "next_refresh_at": "<ISO-8601 UTC — always present; do not re-buy before this>",
+                "poll_hint": "Market open — this board recomputes about every 5 minutes; polling faster returns the same payload."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786739470505,
+        "last_ts": 1790559022739
+      }
+    ],
+    "resource_count": 21,
+    "description_count": 21,
+    "mime_type_count": 21,
+    "accepts_count": 21,
+    "discovery_count": 21,
+    "input_documentation_count": 21,
+    "output_documentation_count": 21,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "coil.trade"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

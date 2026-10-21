@@ -1,0 +1,318 @@
+{
+  "merchant_id": "TjJCSEJPUUVJNVRRUUtGS0hEUkRVQUNB",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "arbsignal-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 39,
+      "last_observed_at": 1791244988936,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "arbsignal-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://arbsignal-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791179678334,
+        "last_fetch_attempt_utc": "2026-10-05T05:54:38.334000+00:00",
+        "title": "ArbSignal",
+        "description": "Live cross-DEX arbitrage scanner for Algorand — pay-per-call over x402. Finds the same asset priced differently across Tinyman, Pact, HumbleSwap & Folks, ranked by net spread after fees.",
+        "site_name": "ArbSignal",
+        "logo": "https://arbsignal-production.up.railway.app/apple-touch-icon.png",
+        "banner": "https://arbsignal-production.up.railway.app/apple-touch-icon.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "http://arbsignal-production.up.railway.app/.well-known/agent-card.json",
+            "name": "ArbSignal",
+            "description": "Live cross-DEX arbitrage scanner for Algorand — pay-per-call over x402. Finds the same asset priced differently across Tinyman, Pact, HumbleSwap & Folks, ranked by net spread after fees."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://arbsignal-production.up.railway.app/llms.txt",
+            "name": "ArbSignal",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:03:08 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9hcmJzaWduYWwtcHJvZHVjdGlvbi51cC5yYWlsd2F5LmFwcC9hcmIvc2Nhbg",
+        "url": "http://arbsignal-production.up.railway.app/arb/scan",
+        "method": "GET",
+        "description": "ArbSignal â live cross-DEX arbitrage scanner for Algorand. Finds asset pairs priced differently across DEXes (Tinyman, Pact, HumbleSwap, Folks) and returns the profitable gaps, ranked by EXPECTED PROFIT IN USD â not by spread %, because a wide spread on a shallow pool is worth almost nothing. Each opportunity names the cheapest pool to BUY the base asset and the richest pool to SELL it (pool IDs, protocols, decimal-adjusted prices, fees, USD depth), plus an `executable` block that solves both pools' constant-product curves for the profit-maximising trade size and the profit at that size, net of fees, price impact and the ~0.002 ALGO group fee. Empty/outlier/dust pools are filtered out (absolute USD floor). `tradeable:false` marks a spread that exists on paper but is not profitable at any size. Optional query ?minNet=<pct> sets the minimum net spread to report (default 0.5). Try it in the browser: https://arbsignal-landing.vercel.app",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "N2BHBOQEI5TQQKFKHDRDUACAZE6E55X6VO2U67IQAYBRRLB7LSMO6YRQSM",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "minNet": 0.5
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "generatedAt": "2026-07-29T00:00:00Z",
+              "minNetPct": 0.5,
+              "pairsScanned": 15,
+              "count": 1,
+              "opportunities": [
+                {
+                  "pair": "goBTC/USDC",
+                  "base": 386192725,
+                  "quote": 31566704,
+                  "referencePrice": 613.2,
+                  "buy": {
+                    "protocol": "Pact",
+                    "poolId": 12345,
+                    "price": 609.11,
+                    "feePct": 0.3,
+                    "liquidity": 41000
+                  },
+                  "sell": {
+                    "protocol": "Tinyman v2",
+                    "poolId": 67890,
+                    "price": 619.45,
+                    "feePct": 0.3,
+                    "liquidity": 88000
+                  },
+                  "grossSpreadPct": 1.698,
+                  "netSpreadPct": 1.028,
+                  "poolsSeen": 9,
+                  "poolsClean": 4,
+                  "disclaimer": "Spot spread from reserve ratios, net of pool fees only; excludes slippage and price impact at size."
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785360924385,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXJic2lnbmFsLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvYXJiL3BhaXI",
+        "url": "https://arbsignal-production.up.railway.app/arb/pair",
+        "method": "GET",
+        "description": "ArbSignal â cross-DEX arbitrage spread for ONE Algorand asset pair. Pass ?base=<assetId>&quote=<assetId> (e.g. base=386192725 goBTC, quote=31566704 USDC; 0 = ALGO). Returns the current cheapest-to-buy and richest-to-sell pools across all DEXes and the net spread % after fees. Ideal for a bot polling one market in a tight loop. Try it in the browser: https://arbsignal-landing.vercel.app",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "N2BHBOQEI5TQQKFKHDRDUACAZE6E55X6VO2U67IQAYBRRLB7LSMO6YRQSM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "base": 386192725,
+              "quote": 31566704
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "generatedAt": "2026-07-29T00:00:00Z",
+              "pair": "goBTC/USDC",
+              "opportunity": {
+                "pair": "goBTC/USDC",
+                "base": 386192725,
+                "quote": 31566704,
+                "referencePrice": 613.2,
+                "buy": {
+                  "protocol": "Pact",
+                  "poolId": 12345,
+                  "price": 609.11,
+                  "feePct": 0.3,
+                  "liquidity": 41000
+                },
+                "sell": {
+                  "protocol": "Tinyman v2",
+                  "poolId": 67890,
+                  "price": 619.45,
+                  "feePct": 0.3,
+                  "liquidity": 88000
+                },
+                "grossSpreadPct": 1.698,
+                "netSpreadPct": 1.028,
+                "poolsSeen": 9,
+                "poolsClean": 4,
+                "disclaimer": "Spot spread from reserve ratios, net of pool fees only; excludes slippage and price impact at size."
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785364188064,
+        "last_ts": 1791244988936
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXJic2lnbmFsLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvYXJiL3NjYW4",
+        "url": "https://arbsignal-production.up.railway.app/arb/scan",
+        "method": "GET",
+        "description": "ArbSignal â live cross-DEX arbitrage scanner for Algorand. Finds asset pairs priced differently across DEXes (Tinyman, Pact, HumbleSwap, Folks) and returns the profitable gaps, ranked by EXPECTED PROFIT IN USD â not by spread %, because a wide spread on a shallow pool is worth almost nothing. Each opportunity names the cheapest pool to BUY the base asset and the richest pool to SELL it (pool IDs, protocols, decimal-adjusted prices, fees, USD depth), plus an `executable` block that solves both pools' constant-product curves for the profit-maximising trade size and the profit at that size, net of fees, price impact and the ~0.002 ALGO group fee. Empty/outlier/dust pools are filtered out (absolute USD floor). `tradeable:false` marks a spread that exists on paper but is not profitable at any size. Optional query ?minNet=<pct> sets the minimum net spread to report (default 0.5). Try it in the browser: https://arbsignal-landing.vercel.app",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "N2BHBOQEI5TQQKFKHDRDUACAZE6E55X6VO2U67IQAYBRRLB7LSMO6YRQSM",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "minNet": 0.5
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "generatedAt": "2026-07-29T00:00:00Z",
+              "minNetPct": 0.5,
+              "pairsScanned": 15,
+              "count": 1,
+              "opportunities": [
+                {
+                  "pair": "goBTC/USDC",
+                  "base": 386192725,
+                  "quote": 31566704,
+                  "referencePrice": 613.2,
+                  "buy": {
+                    "protocol": "Pact",
+                    "poolId": 12345,
+                    "price": 609.11,
+                    "feePct": 0.3,
+                    "liquidity": 41000
+                  },
+                  "sell": {
+                    "protocol": "Tinyman v2",
+                    "poolId": 67890,
+                    "price": 619.45,
+                    "feePct": 0.3,
+                    "liquidity": 88000
+                  },
+                  "grossSpreadPct": 1.698,
+                  "netSpreadPct": 1.028,
+                  "poolsSeen": 9,
+                  "poolsClean": 4,
+                  "disclaimer": "Spot spread from reserve ratios, net of pool fees only; excludes slippage and price impact at size."
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785361266527,
+        "last_ts": 1790558903906
+      }
+    ],
+    "resource_count": 3,
+    "description_count": 3,
+    "mime_type_count": 3,
+    "accepts_count": 3,
+    "discovery_count": 3,
+    "input_documentation_count": 3,
+    "output_documentation_count": 3,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

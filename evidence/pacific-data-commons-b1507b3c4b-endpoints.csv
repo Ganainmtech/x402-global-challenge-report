@@ -1,0 +1,20 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://pdc-pilot-endpoint.synergyblockchaintf.workers.dev/summary,977,9.770000,2,0,0.000000,967,9.670000,0,2026-09-05 08:55:03 UTC,2026-10-06 04:57:03 UTC
+GET,https://pdcpilot-endpoint-production.up.railway.app/summary,904,9.040000,2,0,0.000000,903,9.030000,0,2026-08-17 00:25:38 UTC,2026-08-31 01:44:23 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/search,580,5.800000,1,0,0.000000,580,5.800000,0,2026-08-18 06:25:17 UTC,2026-08-31 01:43:23 UTC
+GET,https://api.synergybcpacific.com/search,574,5.740000,2,0,0.000000,572,5.720000,0,2026-09-05 03:56:58 UTC,2026-10-06 04:56:55 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/finance/fx,411,0.411000,1,411,0.411000,411,0.411000,0,2026-08-25 01:38:09 UTC,2026-08-31 01:44:23 UTC
+(not recorded),(no host recorded),355,3.550000,1,0,0.000000,355,3.550000,0,2026-08-06 20:07:56 UTC,2026-08-17 00:25:21 UTC
+GET,(no host recorded),340,3.400000,1,0,0.000000,340,3.400000,0,2026-08-03 04:01:13 UTC,2026-08-17 00:25:27 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/algorand/wallet-balance,311,1.555000,1,311,1.555000,311,1.555000,0,2026-08-25 01:38:03 UTC,2026-08-31 01:44:02 UTC
+GET,https://api.synergybcpacific.com/pacific/weather,207,0.414000,2,207,0.414000,205,0.410000,0,2026-09-05 03:57:25 UTC,2026-10-05 18:29:55 UTC
+GET,https://api.synergybcpacific.com/pacific/events,203,0.406000,2,203,0.406000,201,0.402000,0,2026-09-05 03:57:19 UTC,2026-10-05 18:29:35 UTC
+GET,https://api.synergybcpacific.com/intelligence/pacific-travel,202,20.200000,2,0,0.000000,200,20.000000,0,2026-09-05 08:55:31 UTC,2026-10-05 18:29:49 UTC
+GET,https://api.synergybcpacific.com/finance/fx,201,0.201000,2,201,0.201000,192,0.192000,0,2026-09-05 03:57:14 UTC,2026-10-06 00:03:00 UTC
+GET,https://api.synergybcpacific.com/intelligence/pacific-brief,197,9.850000,3,0,0.000000,193,9.650000,0,2026-09-05 08:55:12 UTC,2026-10-05 18:29:30 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/pacific/weather,194,0.388000,1,194,0.388000,194,0.388000,0,2026-08-27 04:38:13 UTC,2026-08-31 01:44:42 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/pacific/events,193,0.386000,1,193,0.386000,193,0.386000,0,2026-08-27 05:01:30 UTC,2026-08-31 01:44:23 UTC
+GET,https://api.synergybcpacific.com/algorand/wallet-balance,186,0.930000,1,186,0.930000,186,0.930000,0,2026-09-05 03:57:09 UTC,2026-10-05 07:54:19 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/intelligence/pacific-brief,139,6.950000,2,0,0.000000,133,6.650000,0,2026-08-25 03:02:47 UTC,2026-08-31 00:44:08 UTC
+GET,https://pdcdirectory-api-production.up.railway.app/intelligence/pacific-travel,96,9.600000,1,0,0.000000,96,9.600000,0,2026-08-27 01:29:51 UTC,2026-08-31 01:44:37 UTC
+(not recorded),https://pdcdirectory-api-production.up.railway.app/search,59,0.590000,1,0,0.000000,59,0.590000,0,2026-08-17 00:25:32 UTC,2026-08-18 05:25:33 UTC

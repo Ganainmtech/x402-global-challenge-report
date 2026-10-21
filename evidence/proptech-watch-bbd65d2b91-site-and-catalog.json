@@ -1,0 +1,481 @@
+{
+  "merchant_id": "T0NGVU9FNDRLVjZPUTQzWFdMREtOUkJQ",
+  "name": "proptech.watch",
+  "description": null,
+  "website": "https://proptech.watch",
+  "logo": "https://api.proptech.watch/icon.png",
+  "categories": [
+    "real-estate",
+    "data",
+    "algorand",
+    "eu"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.proptech.watch",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 71,
+      "last_observed_at": 1791245195011,
+      "catalog_endpoint_count": 4,
+      "metadata": {
+        "domain": "api.proptech.watch",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.proptech.watch",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791130921727,
+        "last_fetch_attempt_utc": "2026-10-04T16:22:01.727000+00:00",
+        "title": "proptech.watch - DVF market API",
+        "description": "French DVF ownership-transfer and market analytics API. Paid comps, peers, rankings, and transfers via x402 on Algorand.",
+        "site_name": "proptech.watch",
+        "logo": "https://api.proptech.watch/favicon.ico",
+        "banner": "https://api.proptech.watch/banner.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.proptech.watch/.well-known/agent-card.json",
+            "name": "proptech.watch",
+            "description": "French DVF ownership-transfer and market analytics API. Paid comps, peers, rankings, and transfers via x402 on Algorand."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.proptech.watch/.well-known/agent.json",
+            "name": "proptech.watch",
+            "description": "French DVF ownership-transfer and market analytics API. Paid comps, peers, rankings, and transfers via x402 on Algorand."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://api.proptech.watch/.well-known/ai-plugin.json",
+            "name": "proptech.watch",
+            "description": "French DVF ownership-transfer and market analytics API. Paid comps, peers, rankings, and transfers via x402 on Algorand."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.proptech.watch/.well-known/x402",
+            "name": "proptech.watch",
+            "description": "French DVF ownership-transfer and market analytics API. Paid comps, peers, rankings, and transfers via x402 on Algorand."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.proptech.watch/llms.txt",
+            "name": "proptech.watch",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:06:35 UTC"
+    },
+    {
+      "domain": "proptech.watch",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "proptech.watch",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://proptech.watch",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790967705437,
+        "last_fetch_attempt_utc": "2026-10-02T19:01:45.437000+00:00",
+        "title": "proptech.watch",
+        "description": null,
+        "site_name": null,
+        "logo": "https://proptech.watch/icon-192.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "logo"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnByb3B0ZWNoLndhdGNoL2hvdC16b25lcw",
+        "url": "https://api.proptech.watch/hot-zones",
+        "method": "GET",
+        "description": "Hot zones (hot-zones-v3): rank communes/postcodes (and micro-zones when commune is set) by median €/m² vs universe median. Optional sales-centroid lat/lon on rows; micro-zones = ~0.001° DVF lat/lon cells. Query: department, commune (name or INSEE). Defaults: minN=20, topN=30, simpleOnly=true.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "payTo": "OCFUOE44KV6OQ43XWLDKNRBPSMIMPB6QETX3JXU5J36VKUK6ON5G4FSEMM",
+            "maxTimeoutSeconds": 30,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "asset": "31566704",
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "FR",
+              "department": "69",
+              "commune": "Lyon",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "minN": "20",
+              "topN": "30"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "methodologyVersion": "hot-zones-v3",
+              "country": "FR",
+              "department": "69",
+              "commune": "Lyon",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "minN": 20,
+              "topN": 30,
+              "simpleOnly": true,
+              "nationalMedianPricePerM2": 4800,
+              "nationalN": 1200,
+              "communes": [],
+              "postcodes": [],
+              "microZones": [
+                {
+                  "key": "45.764,4.836",
+                  "label": "cell 45.764,4.836",
+                  "department": "69",
+                  "n": 40,
+                  "medianPricePerM2": 6200,
+                  "ratio": 1.29,
+                  "lat": 45.764,
+                  "lon": 4.836
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786487468267,
+        "last_ts": 1791245195011
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnByb3B0ZWNoLndhdGNoL3BlZXJz",
+        "url": "https://api.proptech.watch/peers",
+        "method": "GET",
+        "description": "Peer communes (peers-v1): full-slice places with similar market shape (z-scored log n + median surface; price excluded from distance), ranked by cheaper median €/m². Requires commune (name or INSEE) or department alone when commune is empty (e.g. DOM/TOM). Defaults: nature=Vente, minN=20, k=20, simpleOnly=true. See docs/comps-methodology.md and scripts/peer-communes.fsx.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "payTo": "OCFUOE44KV6OQ43XWLDKNRBPSMIMPB6QETX3JXU5J36VKUK6ON5G4FSEMM",
+            "maxTimeoutSeconds": 30,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "asset": "31566704",
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "FR",
+              "commune": "Toulouse",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "k": "20",
+              "minN": "20"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "methodologyVersion": "peers-v1",
+              "candidateCount": 688,
+              "country": "FR",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "minN": 20,
+              "k": 20,
+              "simpleOnly": true,
+              "subject": {
+                "insee": "31555",
+                "name": "Toulouse",
+                "department": "31",
+                "n": 1543,
+                "medianPricePerM2": 4091,
+                "medianSurfaceM2": 32
+              },
+              "peers": [
+                {
+                  "insee": "34172",
+                  "name": "Montpellier",
+                  "department": "34",
+                  "n": 1231,
+                  "medianPricePerM2": 3611,
+                  "medianSurfaceM2": 33,
+                  "distance": 0.25,
+                  "gapPct": -11.7
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786485512845,
+        "last_ts": 1790558964670
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnByb3B0ZWNoLndhdGNoL3RyYW5zZmVycw",
+        "url": "https://api.proptech.watch/transfers",
+        "method": "GET",
+        "description": "Search French DVF ownership transfers (one row per transfer, not per deed line). pricePerM2 = priceEur / built surface when both known. isComplex when componentCount > 1 (whole-deed price). Comps defaults (comps-v0): prefer postcode/commune, nature=Vente, ~24m lookback — see docs/comps-methodology.md.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "payTo": "OCFUOE44KV6OQ43XWLDKNRBPSMIMPB6QETX3JXU5J36VKUK6ON5G4FSEMM",
+            "maxTimeoutSeconds": 30,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "asset": "31566704",
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "FR",
+              "commune": "Lyon",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "limit": "30"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": [
+              {
+                "id": 1,
+                "externalId": "2021-1",
+                "date": "2021-01-05",
+                "nature": "Vente",
+                "priceEur": 185000,
+                "pricePerM2": 1907.2,
+                "propertyType": "Maison",
+                "surfaceM2": 97,
+                "rooms": 5,
+                "country": "FR",
+                "department": "01",
+                "commune": "Val-Revermont",
+                "communeInsee": "01426",
+                "postcode": "01370",
+                "address": "5080 CHE DE VOGELAS",
+                "lat": 46.327101,
+                "lon": 5.386107,
+                "parcelId": "01426312ZC0122",
+                "source": "dvf",
+                "componentCount": 2,
+                "isComplex": true
+              }
+            ]
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786487246484,
+        "last_ts": 1790559058519
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnByb3B0ZWNoLndhdGNoL3ZvbHVtZS1sZWFkZXJz",
+        "url": "https://api.proptech.watch/volume-leaders",
+        "method": "GET",
+        "description": "Volume leaders (volume-leaders-v3): rank communes/postcodes (and micro-zones when commune is set) by transfer count. Optional sales-centroid lat/lon on rows; micro-zones = ~0.001° DVF lat/lon cells. Query: department, commune. Defaults: minN=20, topN=30, simpleOnly=false.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "payTo": "OCFUOE44KV6OQ43XWLDKNRBPSMIMPB6QETX3JXU5J36VKUK6ON5G4FSEMM",
+            "maxTimeoutSeconds": 30,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "asset": "31566704",
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "FR",
+              "department": "69",
+              "commune": "Lyon",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "minN": "20",
+              "topN": "30"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "methodologyVersion": "volume-leaders-v3",
+              "country": "FR",
+              "department": "69",
+              "commune": "Lyon",
+              "propertyType": "Appartement",
+              "nature": "Vente",
+              "from": "2024-08-11",
+              "minN": 20,
+              "topN": 30,
+              "simpleOnly": false,
+              "windowMonths": 24,
+              "franceTotal": 12000,
+              "communes": [],
+              "postcodes": [],
+              "microZones": [
+                {
+                  "key": "45.764,4.836",
+                  "label": "cell 45.764,4.836",
+                  "department": "69",
+                  "n": 80,
+                  "perMonth": 3.3,
+                  "sharePct": 0.7,
+                  "ratio": 2.1,
+                  "lat": 45.764,
+                  "lon": 4.836
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786487320834,
+        "last_ts": 1790559144257
+      }
+    ],
+    "resource_count": 4,
+    "description_count": 4,
+    "mime_type_count": 4,
+    "accepts_count": 4,
+    "discovery_count": 4,
+    "input_documentation_count": 4,
+    "output_documentation_count": 4,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.proptech.watch",
+    "proptech.watch"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 5,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

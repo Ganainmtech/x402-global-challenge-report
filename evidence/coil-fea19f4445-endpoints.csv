@@ -1,0 +1,22 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://coil.trade/api/crypto/gate,12,0.012000,2,12,0.012000,2,0.002000,0,2026-08-14 20:31:01 UTC,2026-10-06 00:03:36 UTC
+GET,https://coil.trade/api/board/regime,7,0.035000,3,7,0.035000,5,0.025000,0,2026-07-23 01:14:12 UTC,2026-09-28 01:36:38 UTC
+GET,https://coil.trade/api/board/asof,3,0.060000,2,0,0.000000,1,0.020000,0,2026-08-14 20:32:38 UTC,2026-09-28 01:40:10 UTC
+GET,https://coil.trade/api/board/brief,3,0.060000,2,0,0.000000,1,0.020000,0,2026-08-14 20:32:27 UTC,2026-09-28 01:40:32 UTC
+GET,https://coil.trade/api/board/buylist,3,0.060000,2,0,0.000000,1,0.020000,0,2026-08-14 20:32:14 UTC,2026-09-28 01:40:46 UTC
+GET,https://coil.trade/api/board/crypto,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-14 20:31:40 UTC,2026-09-28 01:31:42 UTC
+GET,https://coil.trade/api/board/day,3,0.030000,2,0,0.000000,1,0.010000,0,2026-08-14 20:32:08 UTC,2026-09-28 01:38:20 UTC
+GET,https://coil.trade/api/board/hold,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-20 00:17:33 UTC,2026-09-28 01:33:00 UTC
+GET,https://coil.trade/api/board/indices,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-14 20:31:18 UTC,2026-09-28 01:34:14 UTC
+GET,https://coil.trade/api/board/leaders,3,0.030000,2,0,0.000000,1,0.010000,0,2026-08-14 20:32:00 UTC,2026-09-28 01:38:50 UTC
+GET,https://coil.trade/api/board/movers,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-14 20:31:33 UTC,2026-09-28 01:35:04 UTC
+GET,https://coil.trade/api/board/name,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-14 20:31:24 UTC,2026-09-28 01:35:56 UTC
+GET,https://coil.trade/api/board/rotation,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-24 04:54:04 UTC,2026-09-28 01:37:11 UTC
+GET,https://coil.trade/api/board/sector,3,0.030000,2,0,0.000000,1,0.010000,0,2026-08-14 20:31:54 UTC,2026-09-28 01:39:23 UTC
+GET,https://coil.trade/api/board/sectors,3,0.030000,2,0,0.000000,1,0.010000,0,2026-08-14 20:31:46 UTC,2026-09-28 01:39:48 UTC
+GET,https://coil.trade/api/board/top-volume,3,0.060000,2,0,0.000000,1,0.020000,0,2026-08-14 20:32:21 UTC,2026-09-28 01:41:03 UTC
+GET,https://coil.trade/api/crypto/day,3,0.015000,2,3,0.015000,1,0.005000,0,2026-08-20 00:17:44 UTC,2026-09-28 01:37:55 UTC
+GET,https://coil.trade/api/crypto/night,3,0.003000,2,3,0.003000,1,0.001000,0,2026-08-20 02:16:46 UTC,2026-09-28 01:28:26 UTC
+GET,https://coil.trade/api/crypto/setup,3,0.150000,2,0,0.000000,1,0.050000,0,2026-08-20 02:17:00 UTC,2026-09-28 01:41:11 UTC
+GET,https://coil.trade/api/tradfi-risk,3,0.009000,2,3,0.009000,1,0.003000,0,2026-08-14 20:31:11 UTC,2026-09-28 01:30:22 UTC
+GET,https://coil.trade/api/board/agent,1,0.250000,1,0,0.000000,1,0.250000,0,2026-08-14 20:46:28 UTC,2026-08-14 20:46:28 UTC

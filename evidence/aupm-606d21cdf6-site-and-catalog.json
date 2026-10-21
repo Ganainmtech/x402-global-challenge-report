@@ -1,0 +1,231 @@
+{
+  "merchant_id": "SUxHUUxHUUVGQUtPNVVQSkVGVFpYUEtW",
+  "name": "AuPM",
+  "description": null,
+  "website": "https://aupm.fyi",
+  "logo": "https://aupm.fyi/.well-known/aupm-apple-touch-icon.png",
+  "categories": [
+    "npm",
+    "security",
+    "supply-chain",
+    "code-review"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "aupm.fyi",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 17,
+      "last_observed_at": 1791200810143,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "aupm.fyi",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://aupm.fyi",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791108069817,
+        "last_fetch_attempt_utc": "2026-10-04T10:01:09.817000+00:00",
+        "title": "AuPM: human-reviewed npm packages",
+        "description": "AuPM turns human code review into a paid, verifiable, on-chain-anchored public good on Algorand. $0.001 per reviewed package. Target split 30/10/20/25/10/5. In the MVP: 30% to the auditor, 70% to the operator until the other roles launch.",
+        "site_name": "AuPM",
+        "logo": "https://aupm.fyi/.well-known/aupm-apple-touch-icon.png",
+        "banner": "https://aupm.fyi/.well-known/aupm-og.png",
+        "theme_color": "#be8923",
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://aupm.fyi/.well-known/x402",
+            "name": "AuPM",
+            "description": "AuPM turns human code review into a paid, verifiable, on-chain-anchored public good on Algorand. $0.001 per reviewed package. Target split 30/10/20/25/10/5. In the MVP: 30% to the auditor, 70% to the operator until the other roles launch."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://aupm.fyi/llms.txt",
+            "name": "AuPM",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-05 11:46:50 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vYXVwbS5meWkvdjEvYXR0ZXN0L2xvY2tmaWxl",
+        "url": "http://aupm.fyi/v1/attest/lockfile",
+        "method": "POST",
+        "description": "Signed in-toto attestation for every package in a package-lock.json: human review tier, reviewer, tarball integrity match, and the Algorand txid anchoring each review. $0.001 per reviewed package; free when no package in the tree is reviewed. Target split 30/10/20/25/10/5. In the MVP: 30% to the auditor, 70% to the operator until the other roles launch.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "ILGQLGQEFAKO5UPJEFTZXPKV7NLI6OJHG5NOLYPAOQHGUEG3EUMO6P6WKU",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "lockfileVersion": 3,
+              "packages": {
+                "node_modules/ms": {
+                  "version": "2.1.3"
+                }
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "summary": {
+                "total": 512,
+                "reviewed": 14,
+                "unreviewed": 497,
+                "unresolvable": 1,
+                "integrityMismatch": 0
+              },
+              "attestation": {
+                "payloadType": "application/vnd.in-toto+json"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790784854192,
+        "last_ts": 1790784854104
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2F1cG0uZnlpL3YxL2F0dGVzdC9sb2NrZmlsZQ",
+        "url": "https://aupm.fyi/v1/attest/lockfile",
+        "method": "POST",
+        "description": "Signed in-toto attestation for every package in a package-lock.json: human review tier, reviewer, tarball integrity match, and the Algorand txid anchoring each review. $0.001 per reviewed package; free when no package in the tree is reviewed. Target split 30/10/20/25/10/5. In the MVP: 30% to the auditor, 70% to the operator until the other roles launch.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "ILGQLGQEFAKO5UPJEFTZXPKV7NLI6OJHG5NOLYPAOQHGUEG3EUMO6P6WKU",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "lockfileVersion": 3,
+              "packages": {
+                "node_modules/ms": {
+                  "version": "2.1.3"
+                }
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "summary": {
+                "total": 512,
+                "reviewed": 14,
+                "unreviewed": 497,
+                "unresolvable": 1,
+                "integrityMismatch": 0
+              },
+              "attestation": {
+                "payloadType": "application/vnd.in-toto+json"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790951554893,
+        "last_ts": 1791200810143
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "aupm.fyi"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

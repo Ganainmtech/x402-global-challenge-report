@@ -1,0 +1,449 @@
+{
+  "merchant_id": "VjdRWVdNTjdEUzRFUUk0WTdKTFZZWE9C",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "rampa-x402-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 10,
+      "last_observed_at": 1785246594910,
+      "catalog_endpoint_count": 5,
+      "metadata": {
+        "domain": "rampa-x402-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://rampa-x402-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Rampa — LATAM stablecoin cash-out & FX intelligence for AI agents",
+        "description": "Best net off-ramp route, spreads, arbitrage, yields and fees across 11 LATAM countries. Pay-per-call via x402 on Algorand.",
+        "site_name": null,
+        "logo": "http://rampa-x402-production.up.railway.app/logo.png",
+        "banner": "https://rampa-x402-production.up.railway.app/logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "http://rampa-x402-production.up.railway.app/.well-known/agent-card.json",
+            "name": "Rampa",
+            "description": "Real-time LATAM stablecoin cash-out, FX, spreads, yields and fee intelligence for AI agents. Pay-per-request in USDC on Algorand via x402. 11 countries."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://rampa-x402-production.up.railway.app/llms.txt",
+            "name": "Rampa",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-07-28 13:49:54 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9yYW1wYS14NDAyLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvZmVlcw",
+        "url": "http://rampa-x402-production.up.railway.app/v1/fees",
+        "method": "GET",
+        "description": "Withdrawal fees per exchange for a crypto asset, by network, ranked cheapest-first — plus the taker trading fee where known and a shortcut of which exchanges support ALGORAND-network withdrawals. Use to minimize the real cost of moving funds off an exchange.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "V7QYWMN7DS4EQI4Y7JLVYXOBBYLO3VUQGGSRB2P52AUBX326ZPNORFU4KY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "asset": "USDC",
+              "network": "ALGORAND"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asset": "USDC",
+              "count": 30,
+              "cheapest": {
+                "exchange": "Bitso",
+                "network": "SOLANA",
+                "fee": 0.02
+              },
+              "algorandWithdrawal": [
+                {
+                  "exchange": "Ripio",
+                  "fee": 0.5
+                }
+              ],
+              "exchanges": [
+                {
+                  "exchange": "Bitso",
+                  "tradingFeeTakerPct": 0.78,
+                  "cheapestWithdrawal": {
+                    "network": "SOLANA",
+                    "fee": 0.02
+                  }
+                }
+              ],
+              "updatedAt": "2026-07-24T12:00:00Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785121347090,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9yYW1wYS14NDAyLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvcmF0ZXM",
+        "url": "http://rampa-x402-production.up.railway.app/v1/rates",
+        "method": "GET",
+        "description": "Normalized real-time sell quotes (bid and fee-inclusive totalBid) for a stablecoin against a LATAM local currency across all local exchanges, ranked best-first. One call, one country, agent-ready JSON.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "V7QYWMN7DS4EQI4Y7JLVYXOBBYLO3VUQGGSRB2P52AUBX326ZPNORFU4KY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "country": "AR",
+              "asset": "USDC",
+              "amount": 100
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country": "AR",
+              "fiat": "ARS",
+              "quotes": [
+                {
+                  "exchange": "lemoncash",
+                  "bid": 1452,
+                  "totalBid": 1450,
+                  "ask": 1470,
+                  "totalAsk": 1472
+                }
+              ],
+              "confidence": "high",
+              "sources": [
+                "criptoya",
+                "dolarapi"
+              ],
+              "quotedAt": "2026-07-23T15:00:00Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785121355497,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9yYW1wYS14NDAyLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvcm91dGU",
+        "url": "http://rampa-x402-production.up.railway.app/v1/route",
+        "method": "GET",
+        "description": "Best net cash-out route for a stablecoin amount into a LATAM local currency: returns the top exchange, gross fiat, estimated withdrawal fee, net amount received, and effective rate, plus ranked alternatives. Covers 11 countries (AR, BR, MX, CL, CO, PE, UY, PY, BO, VE, DO).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "50000",
+            "asset": "10458941",
+            "payTo": "ACVADQ6OWB4XHW3QRXI2DZBW7DFWW4RIDMLHHMAE447RNN3FYP3KWEJK4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "V7QYWMN7DS4EQI4Y7JLVYXOBBYLO3VUQGGSRB2P52AUBX326ZPNORFU4KY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "amount": 500,
+              "asset": "USDC",
+              "country": "AR"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country": "AR",
+              "fiat": "ARS",
+              "asset": "USDC",
+              "amount": 500,
+              "best": {
+                "exchange": "lemoncash",
+                "grossFiat": 725000,
+                "withdrawalFee": 0,
+                "netFiat": 725000,
+                "effectiveRate": 1450
+              },
+              "alternatives": [
+                {
+                  "exchange": "ripio",
+                  "netFiat": 723500
+                }
+              ],
+              "quotedAt": "2026-07-23T15:00:00Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785108617912,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9yYW1wYS14NDAyLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEvc3ByZWFk",
+        "url": "http://rampa-x402-production.up.railway.app/v1/spread",
+        "method": "GET",
+        "description": "Buy/sell spread and cross-exchange arbitrage for a stablecoin in a LATAM local currency: cheapest place to buy (net ask), best place to sell (net bid), the cross spread and its %, an arbitrage flag, and per-exchange spreads ranked tightest-first. All net of trading fees.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "V7QYWMN7DS4EQI4Y7JLVYXOBBYLO3VUQGGSRB2P52AUBX326ZPNORFU4KY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "country": "AR",
+              "asset": "USDC"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country": "AR",
+              "fiat": "ARS",
+              "cheapestBuy": {
+                "exchange": "fiwind",
+                "totalAsk": 1570.1
+              },
+              "bestSell": {
+                "exchange": "satoshitango",
+                "totalBid": 1577.6
+              },
+              "crossSpread": 7.5,
+              "crossSpreadPct": 0.4776,
+              "arbitrage": true,
+              "perExchange": [
+                {
+                  "exchange": "belo",
+                  "totalAsk": 1579.5,
+                  "totalBid": 1566.4,
+                  "spread": 13.1,
+                  "spreadPct": 0.836
+                }
+              ],
+              "confidence": "high",
+              "quotedAt": "2026-07-23T15:00:00Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785121327873,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9yYW1wYS14NDAyLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvdjEveWllbGRz",
+        "url": "http://rampa-x402-production.up.railway.app/v1/yields",
+        "method": "GET",
+        "description": "Best yield (APY) to hold a crypto asset, comparing centralized exchanges (CeFi) and DeFi protocols in one ranked list: provider, APY, CeFi/DeFi, network and pool. Filter by type (cefi/defi). Use to decide where to park idle funds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "V7QYWMN7DS4EQI4Y7JLVYXOBBYLO3VUQGGSRB2P52AUBX326ZPNORFU4KY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "asset": "SOL",
+              "type": "all",
+              "limit": 10
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asset": "SOL",
+              "count": 17,
+              "best": {
+                "provider": "Jupiter",
+                "asset": "SOL",
+                "apy": 5.62,
+                "kind": "DeFi",
+                "network": "Solana",
+                "pool": "JupSOL"
+              },
+              "offers": [
+                {
+                  "provider": "Binance",
+                  "asset": "SOL",
+                  "apy": 4.84,
+                  "kind": "CeFi"
+                }
+              ],
+              "updatedAt": "2026-07-24T12:00:00Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785121336791,
+        "last_ts": null
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 5,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

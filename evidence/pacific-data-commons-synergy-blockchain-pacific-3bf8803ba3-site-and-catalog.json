@@ -1,0 +1,159 @@
+{
+  "merchant_id": "Q1pMTDJWU0hVVzdOQjY0QVk2SzNRU1lS",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.synergybcpacific.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3,
+      "last_observed_at": 1790559177576,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "api.synergybcpacific.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.synergybcpacific.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791283201426,
+        "last_fetch_attempt_utc": "2026-10-06T10:40:01.426000+00:00",
+        "title": "Pacific Data Commons — Synergy Blockchain Pacific",
+        "description": "Sovereign Pacific data directory — x402-gated endpoints for AI agents and researchers",
+        "site_name": null,
+        "logo": null,
+        "banner": "https://api.synergybcpacific.com/images/sbp-logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.synergybcpacific.com/.well-known/x402",
+            "name": null,
+            "description": "Sovereign Pacific data directory — x402-gated endpoints for AI agents and researchers. Built on Algorand. Data sovereignty enforced — providers control their own infrastructure."
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "banner"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-28 01:32:57 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL2ZpbmFuY2Uvc2Ftb2EtY3Bp",
+        "url": "https://api.synergybcpacific.com/finance/samoa-cpi",
+        "method": "GET",
+        "description": "Samoa Consumer Price Index and annual inflation rate, sourced from World Bank Open Data (FP.CPI.TOTL / FP.CPI.TOTL.ZG) — not a Samoa Bureau of Statistics- or government-certified feed, see the response's own attribution field. Optional ?years= (default 15, max 60). 24-hour cache — annual data, updated at most yearly upstream.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "CZLL2VSHUW7NB64AY6K3QSYR2GFS3YECTKV3HM5LKPYKOAJZ2MVAKO6KFM",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "years": 15
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country": "Samoa",
+              "country_iso3": "WSM",
+              "indicator_base_year": 2010,
+              "observations": [
+                {
+                  "year": 2025,
+                  "cpi_index": 149.24,
+                  "inflation_pct": 2.21
+                }
+              ],
+              "latest": {
+                "year": 2025,
+                "cpi_index": 149.24,
+                "inflation_pct": 2.21
+              },
+              "world_bank_last_updated": "2026-07-13",
+              "attribution": {
+                "source": "World Bank Open Data",
+                "original_source": "Samoa Bureau of Statistics (as attributed by World Bank's own indicator metadata)",
+                "data_quality": "third_party_aggregated"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790140241676,
+        "last_ts": 1790559177576
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 0,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.synergybcpacific.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://ora-gate-mainnet.vercel.app/api/ora-gate/message/ora_agent,10,0.100000,1,0,0.000000,0,0.000000,0,2026-09-27 20:48:26 UTC,2026-09-30 13:55:22 UTC
+POST,https://ora-gate-mainnet.vercel.app/api/ora-gate/impact/contribute,1,0.010000,1,0,0.000000,0,0.000000,0,2026-09-16 21:07:44 UTC,2026-09-16 21:07:44 UTC
+POST,https://ora-gate-mainnet.vercel.app/api/ora-gate/message/mainnetagent,1,0.010000,1,0,0.000000,0,0.000000,0,2026-09-13 02:55:36 UTC,2026-09-13 02:55:36 UTC
+POST,https://ora-gate-testnet.vercel.app/api/ora-gate/message/mainnetagent,1,0.010000,1,0,0.000000,0,0.000000,0,2026-09-02 05:08:56 UTC,2026-09-02 05:08:56 UTC

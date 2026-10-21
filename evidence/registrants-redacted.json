@@ -1,0 +1,1421 @@
+{
+  "registrants": [
+    {
+      "row": 1,
+      "project": "AgentGram",
+      "one_liner": "AgentGram is Whatsapp for agents - persisted on-chain end-to-end encrypted chatting layer for agents as an x402 endpoint",
+      "description": "",
+      "submitted_wallets": [
+        "AL4KRE7HUCSACAYYRIIIAQ4ZJSFLGAJ3MZUF2OCNOX3GVK7MDYKJVLFA4Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet AL4KRE7HUCSACAYYRIIIAQ4ZJSFLGAJ3MZUF2OCNOX3GVK7MDYKJVLFA4Q is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QUw0S1JFN0hVQ1NBQ0FZWVJJSUlBUTRa"
+      ],
+      "included": true
+    },
+    {
+      "row": 2,
+      "project": "[name redacted] AI",
+      "one_liner": "[name redacted] AI is a pay-per-call market intelligence storefront for AI agents: 72 crypto, tokenized-stock and equity data endpoints on Algorand MainNet, each paid per request in USDC through x402.",
+      "description": "",
+      "submitted_wallets": [
+        "IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet IYNQCLXJUQFCQLAQYN4YOUYVHKIRHNIPP3HKBTEJC5666FJDZKY5AFEJUI is a receiving account of this merchant.",
+        "Project name and submitted domain independently corroborate the selected account identity."
+      ],
+      "merchant_ids": [
+        "SVlOUUNMWEpVUUZDUUxBUVlONFlPVVlW"
+      ],
+      "included": true
+    },
+    {
+      "row": 4,
+      "project": "Predge",
+      "one_liner": "Predge is an x402 API that sells cryptographically signed, outcome-verified market and smart-money signals per call, now settling in USDC on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "5BNIDMJ6YSMZNFXX3EYRPHFZYCV6HWWI2L2CC5A6HXMHHDQERGVFRL3LK4"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 5BNIDMJ6YSMZNFXX3EYRPHFZYCV6HWWI2L2CC5A6HXMHHDQERGVFRL3LK4 is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "NUJOSURNSjZZU01aTkZYWDNFWVJQSEZa"
+      ],
+      "included": true
+    },
+    {
+      "row": 6,
+      "project": "GATEWAY",
+      "one_liner": "GATEWAY is the Algorand agentic commerce OS — a non-custodial wallet plus discovery/orchestrator rail where useful actions settle via x402 Exact to one merchant payTo.",
+      "description": "",
+      "submitted_wallets": [
+        "LXPC4GQPYH2EZQX2QDYMHCP2I7MXIZMVRPIYTQ3D7R7HXJ4SIHCSYLF5YA"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet LXPC4GQPYH2EZQX2QDYMHCP2I7MXIZMVRPIYTQ3D7R7HXJ4SIHCSYLF5YA is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TFhQQzRHUVBZSDJFWlFYMlFEWU1IQ1Ay"
+      ],
+      "included": true
+    },
+    {
+      "row": 7,
+      "project": "x402-morning-brief",
+      "one_liner": "Pay-per-request Algorand x402 API that returns a keyword-ranked multi-topic intel brief with citations.",
+      "description": "",
+      "submitted_wallets": [
+        "KXAFUQLFJJH7SOY5MYSO2RK3A5LDKKFTZJV3GIEIX2HHKJDEYR7MX7KN4Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet KXAFUQLFJJH7SOY5MYSO2RK3A5LDKKFTZJV3GIEIX2HHKJDEYR7MX7KN4Q is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "S1hBRlVRTEZKSkg3U09ZNU1ZU08yUksz"
+      ],
+      "included": true
+    },
+    {
+      "row": 8,
+      "project": "VXIR Protocol",
+      "one_liner": "VXIR is a pay-per-compile x402 endpoint on Algorand that turns a payment request into a deterministic, native, unsigned Algorand transaction for $0.002 USDC — the agent signs it itself, so VXIR never holds keys or funds.",
+      "description": "",
+      "submitted_wallets": [
+        "IVHBC6CJWHIMTDEKNAEH2BIIDVA6UOHVT75M2GYVDB3GNENESDQSJYEWHY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet IVHBC6CJWHIMTDEKNAEH2BIIDVA6UOHVT75M2GYVDB3GNENESDQSJYEWHY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SVZIQkM2Q0pXSElNVERFS05BRUgyQklJ"
+      ],
+      "included": true
+    },
+    {
+      "row": 9,
+      "project": "Cacho402",
+      "one_liner": "Cacho, the Bolivian dice game, as a pay-per-roll x402 API where AI agents pay a cent in USDC on Algorand for every throw.",
+      "description": "",
+      "submitted_wallets": [
+        "4NPBA6RITTPOPHSG2ZO5MYICLNNUQ33P3BU5C6GLQWAU6W7LZRYTKPUQ7U"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 4NPBA6RITTPOPHSG2ZO5MYICLNNUQ33P3BU5C6GLQWAU6W7LZRYTKPUQ7U is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "NE5QQkE2UklUVFBPUEhTRzJaTzVNWUlD"
+      ],
+      "included": true
+    },
+    {
+      "row": 10,
+      "project": "Alt402",
+      "one_liner": "Pay-per-call altcoin market intelligence discovery for AI agents.",
+      "description": "",
+      "submitted_wallets": [
+        "3T2BV6Y2LTBDKYEVQILQEUEB2H4U47YGYMK54N2PJRK2AJIX6OQX3QHGMQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 3T2BV6Y2LTBDKYEVQILQEUEB2H4U47YGYMK54N2PJRK2AJIX6OQX3QHGMQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "M1QyQlY2WTJMVEJES1lFVlFJTFFFVUVC"
+      ],
+      "included": true
+    },
+    {
+      "row": 11,
+      "project": "Intyr",
+      "one_liner": "Intyr is a pay-per-step commit API for AI agents that book multi-supplier trips: agents pay in USDC over x402 on Algorand for each step, and when a supplier fails, Intyr unwinds what can still be undone, reports what can't, and anchors a signed record on Algorand that anyone can verify.",
+      "description": "",
+      "submitted_wallets": [
+        "EXWYXCAPJ7BUVKANGFMNTALTCTFJNV2AYKB3ERKVVKRXOJJREGQ5NJBKUI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet EXWYXCAPJ7BUVKANGFMNTALTCTFJNV2AYKB3ERKVVKRXOJJREGQ5NJBKUI is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RVhXWVhDQVBKN0JVVktBTkdGTU5UQUxU"
+      ],
+      "included": true
+    },
+    {
+      "row": 13,
+      "project": "Hosannaith — x402 Reliability Oracle",
+      "one_liner": "A pay-per-call reliability oracle for the x402 ecosystem: it continuously monitors other x402 endpoints and sells verified uptime, correctness, and latency scores that agents and services can trust before routing real payments.",
+      "description": "",
+      "submitted_wallets": [
+        "BEACJLUDOSVMS6SUQEUAHWRI4VAAX7G4CVFOL3DWH2R4XHTLXT6VG5TFYU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet BEACJLUDOSVMS6SUQEUAHWRI4VAAX7G4CVFOL3DWH2R4XHTLXT6VG5TFYU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QkVBQ0pMVURPU1ZNUzZTVVFFVUFIV1JJ"
+      ],
+      "included": true
+    },
+    {
+      "row": 14,
+      "project": "Council Code Security Auditor (x402 Algorand)",
+      "one_liner": "A production-ready x402 paid endpoint on Algorand Mainnet enabling autonomous AI agents to purchase code security audits for $0.01 USDC via GoPlausible settlement and Bazaar discovery.",
+      "description": "",
+      "submitted_wallets": [
+        "3XFFLNEAJSRDYAFDJQLXV5NFMBHGVXVHHDHPIQZU7EDOD6FRFWPDLU25PM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 3XFFLNEAJSRDYAFDJQLXV5NFMBHGVXVHHDHPIQZU7EDOD6FRFWPDLU25PM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "M1hGRkxORUFKU1JEWUFGREpRTFhWNU5G"
+      ],
+      "included": true
+    },
+    {
+      "row": 15,
+      "project": "PrivacyBuddy",
+      "one_liner": "Pay-per-call privacy for AI agents on Algorand: we mask personal, health and card data before any model sees it, and put the real values back in the answer.",
+      "description": "",
+      "submitted_wallets": [
+        "EA7WASZQYXGGRSMGYQLRI6TR2PQCVDC42QULUT5N62UMYO4A6ADCJ6464M"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet EA7WASZQYXGGRSMGYQLRI6TR2PQCVDC42QULUT5N62UMYO4A6ADCJ6464M is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RUE3V0FTWlFZWEdHUlNNR1lRTFJJNlRS"
+      ],
+      "included": true
+    },
+    {
+      "row": 16,
+      "project": "BrandForge",
+      "one_liner": "BrandForge — a pay-per-use service where anyone submits a brand name and a few vibe words and instantly gets a complete brand kit (strategy, logo, colour system, typography, UI, voice, and marketing templates), paying a few cents per kit in USDC over the x402 protocol on Algorand, with no account or API key.",
+      "description": "",
+      "submitted_wallets": [
+        "ND6CFAD7E7QTGWBEXLJ7MJPYI3GNF7IF2TDVEGNQX3Z5TFOYLQT252THJI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet ND6CFAD7E7QTGWBEXLJ7MJPYI3GNF7IF2TDVEGNQX3Z5TFOYLQT252THJI is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TkQ2Q0ZBRDdFN1FUR1dCRVhMSjdNSlBZ"
+      ],
+      "included": true
+    },
+    {
+      "row": 17,
+      "project": "Captre",
+      "one_liner": "Captre lets AI agents pay via x402 to permanently prove they produced a specific output, not just that a payment happened.",
+      "description": "",
+      "submitted_wallets": [
+        "2472NEODGJMOJZVUHJL4GI53BPZTFIXRP3ACIKTSKQCKCUNZ4NBZAMGTUQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2472NEODGJMOJZVUHJL4GI53BPZTFIXRP3ACIKTSKQCKCUNZ4NBZAMGTUQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MjQ3Mk5FT0RHSk1PSlpWVUhKTDRHSTUz"
+      ],
+      "included": true
+    },
+    {
+      "row": 19,
+      "project": "Trust402",
+      "one_liner": "Trust402 is a pay-per-use trust verification API that lets autonomous AI agents assess wallets, agents, and digital entities before transacting, using x402 payments and USDC on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "VO66SCWROBJOXOCWQ2IB3YAM3DIFP4CVKDEB73S2BNLISMVFT4VEQTEPHM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet VO66SCWROBJOXOCWQ2IB3YAM3DIFP4CVKDEB73S2BNLISMVFT4VEQTEPHM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "Vk82NlNDV1JPQkpPWE9DV1EySUIzWUFN"
+      ],
+      "included": true
+    },
+    {
+      "row": 20,
+      "project": "AgriIntellect",
+      "one_liner": "AgriIntellect is a Marathi-language WhatsApp platform that delivers AI-computed crop advisories to Maharashtra farmers using x402-gated APIs on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QlJTTVdUTldGUlcyNkxVN0ZRN0NHMktZ"
+      ],
+      "included": true
+    },
+    {
+      "row": 21,
+      "project": "AgriIntellect",
+      "one_liner": "AgriIntellect is a Marathi-language WhatsApp platform that delivers AI-computed crop advisories to Maharashtra farmers using x402-gated APIs on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QlJTTVdUTldGUlcyNkxVN0ZRN0NHMktZ"
+      ],
+      "included": true
+    },
+    {
+      "row": 23,
+      "project": "DIGITVL",
+      "one_liner": "Pay-per-unlock music on Algorand: fans and AI agents pay independent artists directly in USDC over x402, settled through the GoPlausible facilitator.",
+      "description": "",
+      "submitted_wallets": [
+        "SW77YN7AXLAOWSAL4UULSOPJJ6DSAUYD6ARXREPFVWFAQGZIYU76DIXLCI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet SW77YN7AXLAOWSAL4UULSOPJJ6DSAUYD6ARXREPFVWFAQGZIYU76DIXLCI is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "U1c3N1lON0FYTEFPV1NBTDRVVUxTT1BK"
+      ],
+      "included": true
+    },
+    {
+      "row": 25,
+      "project": "MicroVern",
+      "one_liner": "MicroVern is a non-custodial Algorand x402 API that helps people and agents understand unsigned transaction groups before signing through paid, policy-based risk reports.",
+      "description": "",
+      "submitted_wallets": [
+        "GOXRKDEGYKJTNAJSPFAVUQQHHWMKBI7IW5PJ6G65X32OCYBMN6WYNNOPGE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet GOXRKDEGYKJTNAJSPFAVUQQHHWMKBI7IW5PJ6G65X32OCYBMN6WYNNOPGE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "R09YUktERUdZS0pUTkFKU1BGQVZVUVFI"
+      ],
+      "included": true
+    },
+    {
+      "row": 27,
+      "project": "QWIBI",
+      "one_liner": "Qwibi is a pay-per-request AI analyst desk for agentic finance, using x402 on Algorand to sell verified wallet statements, market briefs, forecasts, models, dashboards, and attestation checks.",
+      "description": "",
+      "submitted_wallets": [
+        "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I is a receiving account of this merchant.",
+        "Project name and submitted domain independently corroborate the selected account identity."
+      ],
+      "merchant_ids": [
+        "V1BZN1ZTSFRMU0kyU09HS0RXN1RSRlZZ"
+      ],
+      "included": true
+    },
+    {
+      "row": 28,
+      "project": "pixa",
+      "one_liner": "Pixa gives AI agents pay-per-request access to AI task assistance and npm/PyPI package risk checks through Algorand x402.",
+      "description": "",
+      "submitted_wallets": [
+        "K2YZDTRHM35D2IJHPHHDD3DOBDMOKTULW3G35X65PAHZRMCGKGLDCBR22I"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet K2YZDTRHM35D2IJHPHHDD3DOBDMOKTULW3G35X65PAHZRMCGKGLDCBR22I is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SzJZWkRUUkhNMzVEMklKSFBISEREM0RP"
+      ],
+      "included": true
+    },
+    {
+      "row": 30,
+      "project": "ProofMint",
+      "one_liner": "ProofMint is a decentralized trust layer that enables instant, tamper-proof verification and ownership of digital credentials and assets on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "C7ZWCTZ43UPELPFLWGGRQPUCUFDU63MB7EVWI7GVVEDB3YTCQVIICP2FLE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet C7ZWCTZ43UPELPFLWGGRQPUCUFDU63MB7EVWI7GVVEDB3YTCQVIICP2FLE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QzdaV0NUWjQzVVBFTFBGTFdHR1JRUFVD"
+      ],
+      "included": true
+    },
+    {
+      "row": 31,
+      "project": "PRISM",
+      "one_liner": "PRISM is an AI orchestration platform that routes tasks to specialized AI capabilities and enables pay-per-use execution through x402 on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "VkhQR1pJTVAzU1A0V0hDRlZBNlNXN0JK"
+      ],
+      "included": true
+    },
+    {
+      "row": 32,
+      "project": "Sikho Ai",
+      "one_liner": "Sikho AI solves the gap between what students learn and what jobs require by helping them understand concepts, build practical skills, prepare for interviews, and find and apply for relevant jobs.",
+      "description": "",
+      "submitted_wallets": [
+        "2RIRIX5XK6GWK7LOXDAYIDTN4IYDVNRDJFXR4TJCLYIM72A3EF2UQPROQY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2RIRIX5XK6GWK7LOXDAYIDTN4IYDVNRDJFXR4TJCLYIM72A3EF2UQPROQY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlJJUklYNVhLNkdXSzdMT1hEQVlJRFRO"
+      ],
+      "included": true
+    },
+    {
+      "row": 33,
+      "project": "SELO",
+      "one_liner": "Selo is an x402 release-testing orchestrator that runs real paid tests against endpoints on Algorand before teams ship them.",
+      "description": "",
+      "submitted_wallets": [
+        "N37HMJCB4BAITC2ZU7C4XW7PUMCO4T3TUASHQEL6A4EWMLOTTHOB7IOOKY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet N37HMJCB4BAITC2ZU7C4XW7PUMCO4T3TUASHQEL6A4EWMLOTTHOB7IOOKY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TjM3SE1KQ0I0QkFJVEMyWlU3QzRYVzdQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 34,
+      "project": "Inquvia",
+      "one_liner": "Inquvia is a paid forensic investigation API that returns evidence-backed verdicts — not opinions — about claims, images, video, audio, and documents.",
+      "description": "",
+      "submitted_wallets": [
+        "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "T0xSQTMyWUNaMkJaNVo3UUlLU0FMWFNI"
+      ],
+      "included": true
+    },
+    {
+      "row": 37,
+      "project": "Agent Keep",
+      "one_liner": "Wallet-scoped OS primitives for AI agents: memory, artifacts, human notify, fetch, trust, and receipts. Pay USDC per call with x402. No signup.",
+      "description": "",
+      "submitted_wallets": [
+        "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlZJVTJOMjVTMlRSQUo1NFpUVVk1Q1NG"
+      ],
+      "included": true
+    },
+    {
+      "row": 38,
+      "project": "Agent Keep",
+      "one_liner": "Wallet-scoped OS primitives for AI agents: memory, artifacts, human notify, fetch, trust, and receipts. Pay USDC per call with x402. No signup.",
+      "description": "",
+      "submitted_wallets": [
+        "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlZJVTJOMjVTMlRSQUo1NFpUVVk1Q1NG"
+      ],
+      "included": true
+    },
+    {
+      "row": 40,
+      "project": "Pay to Pin",
+      "one_liner": "Pay a small fee, pin a file for a year. Renew it at a discounted rate.",
+      "description": "",
+      "submitted_wallets": [
+        "ZJEC6JMCNYZFJUQIA4KRVXPTU34F2UQCRZEB5BX5ZS57CPVKTUFK3WA5IY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet ZJEC6JMCNYZFJUQIA4KRVXPTU34F2UQCRZEB5BX5ZS57CPVKTUFK3WA5IY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "WkpFQzZKTUNOWVpGSlVRSUE0S1JWWFBU"
+      ],
+      "included": true
+    },
+    {
+      "row": 41,
+      "project": "Play Clock",
+      "one_liner": "A pay-per-answer NFL fantasy football API where people and AI agents buy one analysis at a time, from $0.10 in USDC on Algorand, over x402.",
+      "description": "",
+      "submitted_wallets": [
+        "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TURCSk1NNlJKNFRNN1c1RklUWjNNV0pU"
+      ],
+      "included": true
+    },
+    {
+      "row": 42,
+      "project": "Tendril",
+      "one_liner": "Tendril is a pay-per-call compute marketplace where anyone can rent out their machine's CPU, RAM or GPU, and humans or AI agents pay by the second over x402 in USDC on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "ZIK7QQE7ZX446TW3PN7PQ5UDZNTY7JI5RYNTIU3LPEYBOSTVWI6PTNSWKI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet ZIK7QQE7ZX446TW3PN7PQ5UDZNTY7JI5RYNTIU3LPEYBOSTVWI6PTNSWKI is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "WklLN1FRRTdaWDQ0NlRXM1BON1BRNVVE"
+      ],
+      "included": true
+    },
+    {
+      "row": 44,
+      "project": "DIIISCO",
+      "one_liner": "DIIISCO's connects any computer running an LLM serve inference over a global decentralized network and earn USDC per token, paid over x402 and settled on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "DIIISCOGT3OTYBKUBVJNW7YOC36N3UAXOK4QTWW46PGBWE24YXFMAX5YDU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet DIIISCOGT3OTYBKUBVJNW7YOC36N3UAXOK4QTWW46PGBWE24YXFMAX5YDU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RElJSVNDT0dUM09UWUJLVUJWSk5XN1lP"
+      ],
+      "included": true
+    },
+    {
+      "row": 46,
+      "project": "Callrack",
+      "one_liner": "Callrack makes Algorand the paywall for the agent internet, A unified, pay-per-request API for AI agents to access 9 data domains (16 capabilities), settled with USDC on Algorand via x402.",
+      "description": "",
+      "submitted_wallets": [
+        "6CAXBY2AHBOSZ5ODKPGPRLG444OZG2OG7CYJ7MWFNA3GYNTNWW6K5R346A"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 6CAXBY2AHBOSZ5ODKPGPRLG444OZG2OG7CYJ7MWFNA3GYNTNWW6K5R346A is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SVRHWFdIRDdZT0MzNUxKNjJTQlNDUUs1"
+      ],
+      "included": true
+    },
+    {
+      "row": 47,
+      "project": "MicroPay",
+      "one_liner": "A pay-per-use AI platform that gives users affordable access to 26+ AI models without subscriptions, prepaid credits, or account setup.",
+      "description": "",
+      "submitted_wallets": [
+        "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "M1EzVElTUk5ER1k1S1BaS0Y0REpJNkRG"
+      ],
+      "included": true
+    },
+    {
+      "row": 48,
+      "project": "Civitas",
+      "one_liner": "Civitas is a universal consent layer on Algorand that gives users cryptographic control over their identity data — deciding what to share, with whom, for how long, and for what purpose.",
+      "description": "",
+      "submitted_wallets": [
+        "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "Rjc2VFZIQVRHMkxKT01VT0VGTlNESk1F"
+      ],
+      "included": true
+    },
+    {
+      "row": 49,
+      "project": "AuPM",
+      "one_liner": "npm-compatible registry overlay that crowd funds open-source packages auditors and maintainers.",
+      "description": "",
+      "submitted_wallets": [
+        "ILGQLGQEFAKO5UPJEFTZXPKV7NLI6OJHG5NOLYPAOQHGUEG3EUMO6P6WKU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet ILGQLGQEFAKO5UPJEFTZXPKV7NLI6OJHG5NOLYPAOQHGUEG3EUMO6P6WKU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SUxHUUxHUUVGQUtPNVVQSkVGVFpYUEtW"
+      ],
+      "included": true
+    },
+    {
+      "row": 50,
+      "project": "Finality [ Market Intelligence ]",
+      "one_liner": "AI-first market intelligence for humans & agents.\n Data, signals & analysis. Pay per result, when you need it.",
+      "description": "",
+      "submitted_wallets": [
+        "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL"
+      ],
+      "included": true
+    },
+    {
+      "row": 51,
+      "project": "CryptoEsim",
+      "one_liner": "CryptoEsim lets travelers and AI agents buy travel eSIMs with Algorand USDC through a wallet-based storefront and an x402 API.",
+      "description": "",
+      "submitted_wallets": [
+        "KC44GRYQDULPEACR7F5DAEDIZUMFMPWLA4GG3FQVQT2FYOZHY2CRSDZBE4"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet KC44GRYQDULPEACR7F5DAEDIZUMFMPWLA4GG3FQVQT2FYOZHY2CRSDZBE4 is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "S0M0NEdSWVFEVUxQRUFDUjdGNURBRURJ"
+      ],
+      "included": true
+    },
+    {
+      "row": 52,
+      "project": "HelixBox",
+      "one_liner": "Build, run, and ship from your phone using your real laptop workspace, with AI agent sessions paid through x402 USDC on Algorand, HelixBox lets you keep working in your laptop’s real development environment from your phone",
+      "description": "",
+      "submitted_wallets": [
+        "AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QVFZV05ITzZRV0I0QUI0U0hJVk1OWkwy"
+      ],
+      "included": true
+    },
+    {
+      "row": 53,
+      "project": "Earnest",
+      "one_liner": "\"If this, then pay\" for x402.\n Earnest holds the payment on Algorand until the condition is met: enough buyers joined to fund a purchase together, the deliverable matches what was promised, or both.",
+      "description": "",
+      "submitted_wallets": [
+        "2IZVDH36QFPIQFKOBKHAN4CREL4K77PXU6HQ5RMOF5E47DPE5XZ37Q772I"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2IZVDH36QFPIQFKOBKHAN4CREL4K77PXU6HQ5RMOF5E47DPE5XZ37Q772I is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MklaVkRIMzZRRlBJUUZLT0JLSEFONENS"
+      ],
+      "included": true
+    },
+    {
+      "row": 55,
+      "project": "A-Identity",
+      "one_liner": "A-Identity is the trust check an AI agent buys right before it pays: one x402 call on Algorand, paid in USDC, tells it whether an address or agent is who it claims to be, how it has behaved, and whether to ALLOW, WARN or DENY the payment.",
+      "description": "",
+      "submitted_wallets": [
+        "WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet WHZ74ZGNGZGAVEQZTHESENVP5RTHMEQ4BOUKF7UHWOADQMKXDKAK3FESJE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "V0haNzRaR05HWkdBVkVRWlRIRVNFTlZQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 56,
+      "project": "RoundWatch",
+      "one_liner": "Durable Algorand USDC payment monitoring for autonomous x402 workflows.",
+      "description": "",
+      "submitted_wallets": [
+        "EQPLN32HPLPGBCNPOZUL6BL34CTNQGT3VAAMNAJWSIZGQ5CUNXOHB634XY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet EQPLN32HPLPGBCNPOZUL6BL34CTNQGT3VAAMNAJWSIZGQ5CUNXOHB634XY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RVFQTE4zMkhQTFBHQkNOUE9aVUw2Qkwz"
+      ],
+      "included": true
+    },
+    {
+      "row": 57,
+      "project": "Growtrack",
+      "one_liner": "Growtrack is a multichain wallet intelligence dashboard that turns raw on-chain addresses across Algorand, EVM, Solana, and Bitcoin into deep financial insights, monetized via gasless pay-per-query x402 micropayments on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "BBGDH6PTIDBHDRA2VYELPMIO7D7RSJD7NB4GUTZRXXUYYUW3ZKBYWM6VPE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet BBGDH6PTIDBHDRA2VYELPMIO7D7RSJD7NB4GUTZRXXUYYUW3ZKBYWM6VPE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QkJHREg2UFRJREJIRFJBMlZZRUxQTUlP"
+      ],
+      "included": true
+    },
+    {
+      "row": 58,
+      "project": "GlianaAI",
+      "one_liner": "A pay-per-call AI inference gateway where any agent can buy a single model run with USDC on Algorand — no account, no API key, no subscription.",
+      "description": "",
+      "submitted_wallets": [
+        "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "U1EyTlo2VFZHU0dZN01RTkVEWUsyN1dY"
+      ],
+      "included": true
+    },
+    {
+      "row": 59,
+      "project": "MIDAX402",
+      "one_liner": "Independent verification for x402 services — signed verdicts, anchored on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "XFVBA5GJAXJBRWLERVOTZH57NEGPCOP276U4N2E2LCMYWVVESQQPAPBODQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet XFVBA5GJAXJBRWLERVOTZH57NEGPCOP276U4N2E2LCMYWVVESQQPAPBODQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "WEZWQkE1R0pBWEpCUldMRVJWT1RaSDU3"
+      ],
+      "included": true
+    },
+    {
+      "row": 60,
+      "project": "Agent402.Tools",
+      "one_liner": "Agent402 is an open-source x402 server where AI agents pay per call in USDC, including on Algorand, for 500+ web tools, a model gateway and finished reports, plus a router that buys from other x402 sellers on the agent's behalf.",
+      "description": "",
+      "submitted_wallets": [
+        "C7IIHG7SPLPZ5H7ZT6HW3UV2OQMQQE6Y2HBNGZXSLRJULE42BEE2OY2XIE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet C7IIHG7SPLPZ5H7ZT6HW3UV2OQMQQE6Y2HBNGZXSLRJULE42BEE2OY2XIE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QzdJSUhHN1NQTFBaNUg3WlQ2SFczVVYy"
+      ],
+      "included": true
+    },
+    {
+      "row": 61,
+      "project": "Pacific Data Commons",
+      "one_liner": "Pacific data. Pacific earnings.",
+      "description": "",
+      "submitted_wallets": [
+        "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TE43NDVVQ0RRTkZJQkRZNkpGVzdGTksz"
+      ],
+      "included": true
+    },
+    {
+      "row": 62,
+      "project": "vet402",
+      "one_liner": "vet402 pays an x402 seller with its own money before an agent does, and tells the agent whether what came back matches what the seller listed.",
+      "description": "",
+      "submitted_wallets": [
+        "RMMD7KW5F627Q72AJKNZEIEP33I3RD4VSCBGUSYVUTPZARJ6PDBNPIY33Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet RMMD7KW5F627Q72AJKNZEIEP33I3RD4VSCBGUSYVUTPZARJ6PDBNPIY33Q is a receiving account of this merchant.",
+        "Project name and submitted domain independently corroborate the selected account identity."
+      ],
+      "merchant_ids": [
+        "Uk1NRDdLVzVGNjI3UTcyQUpLTlpFSUVQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 63,
+      "project": "Trading News",
+      "one_liner": "Trading News delivers explainable crypto news reports to traders and software agents for 0.2 USDC per report through x402 payments on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "EH5BHWISPB7MEIITJIWF2VB3YFN2RZLJMWBRV6CBJV76FBAEAALL6XKSQE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet EH5BHWISPB7MEIITJIWF2VB3YFN2RZLJMWBRV6CBJV76FBAEAALL6XKSQE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RUg1QkhXSVNQQjdNRUlJVEpJV0YyVkIz"
+      ],
+      "included": true
+    },
+    {
+      "row": 64,
+      "project": "OyaPicks",
+      "one_liner": "Pay-per-call prediction market data for AI agents: eleven x402 endpoints on Algorand MainNet, no API key, no signup.",
+      "description": "",
+      "submitted_wallets": [
+        "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4 is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "Tk1WTE9OV1ZSWlVUVVNIT1ZKTFBRWlRL"
+      ],
+      "included": true
+    },
+    {
+      "row": 65,
+      "project": "ChepeastSwap",
+      "one_liner": "ChepeastSwap, the chepeast swap in the market, simplifies multichain crypto swaps with free LI.FI-powered previews and a $0.01 USDC payment through x402 on Algorand to unlock an executable swap transaction.",
+      "description": "",
+      "submitted_wallets": [
+        "DIPQL34NWQTXO6ZNLNYOYILJZ7UBLMY5KMTJSOCISGYDSPV2PR6VS6UP2Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet DIPQL34NWQTXO6ZNLNYOYILJZ7UBLMY5KMTJSOCISGYDSPV2PR6VS6UP2Q is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RElQUUwzNE5XUVRYTzZaTkxOWU9ZSUxK"
+      ],
+      "included": true
+    },
+    {
+      "row": 67,
+      "project": "vet402",
+      "one_liner": "vet402 pays the x402 endpoint you name on Algorand, checks whether it delivered what its listing promised, and returns ALLOW or REFUSE with the on-chain tx ids.",
+      "description": "",
+      "submitted_wallets": [
+        "RMMD7KW5F627Q72AJKNZEIEP33I3RD4VSCBGUSYVUTPZARJ6PDBNPIY33Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet RMMD7KW5F627Q72AJKNZEIEP33I3RD4VSCBGUSYVUTPZARJ6PDBNPIY33Q is a receiving account of this merchant.",
+        "Project name and submitted domain independently corroborate the selected account identity."
+      ],
+      "merchant_ids": [
+        "Uk1NRDdLVzVGNjI3UTcyQUpLTlpFSUVQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 68,
+      "project": "AgentMesh",
+      "one_liner": "AgentMesh is a no-code platform where anyone can build AI agent workflows by just describing them, and pay only when they run, with every run and every paid service settled through x402 in USDC on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TTZKUU5KVlgzMkhFTjJMUzVXMldYMlBN"
+      ],
+      "included": true
+    },
+    {
+      "row": 69,
+      "project": "pkgproof",
+      "one_liner": "pkgproof verifies npm packages before installation: advisories, typosquat/combosquat detection, install-script and repo-provenance checks, paid per call via x402 so AI agents can query it without an API key or account",
+      "description": "",
+      "submitted_wallets": [
+        "NE3HBSH4MZLCJ3G5UPYBTIHGRCQ5M7K5N2ROWCBK6EQFR62FEROLBVQTTQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet NE3HBSH4MZLCJ3G5UPYBTIHGRCQ5M7K5N2ROWCBK6EQFR62FEROLBVQTTQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TkUzSEJTSDRNWkxDSjNHNVVQWUJUSUhH"
+      ],
+      "included": true
+    },
+    {
+      "row": 70,
+      "project": "Validex",
+      "one_liner": "Validex is the x402-native API that lets any AI agent turn a company URL into a scored, evidence-backed health report — paying per check in USDC on Algorand",
+      "description": "",
+      "submitted_wallets": [
+        "GGQONOVC3OCAFO3ROR5TPFUKWDPXIN5TDKRT7QPUVGZWEMLIYBWHBPMZGU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet GGQONOVC3OCAFO3ROR5TPFUKWDPXIN5TDKRT7QPUVGZWEMLIYBWHBPMZGU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "WERGM1EyUUNKREVQN0RTSzRMM0U1TUZP"
+      ],
+      "included": true
+    },
+    {
+      "row": 72,
+      "project": "Alpha Hunter X",
+      "one_liner": "[name redacted] — Founder and Project Lead\n\n \n\n Founder and project lead of Alpha Hunter X. Responsible for product strategy, system architecture, development coordination, x402 integration on Algorand, testing, validation, and deployment of the project.",
+      "description": "",
+      "submitted_wallets": [
+        "ROO3X2KFNJVXIT2ZA6MFYOV7FRRZNVH2WIPO6TDWFVNEHVMQGFT6O4KFLA"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet ROO3X2KFNJVXIT2ZA6MFYOV7FRRZNVH2WIPO6TDWFVNEHVMQGFT6O4KFLA is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "QTVENTVTU1daRktUTVNaMkNDQ09NRFZN"
+      ],
+      "included": true
+    },
+    {
+      "row": 73,
+      "project": "Moltworld",
+      "one_liner": "Moltworld is a pay-per-request AI model gateway that lets developers and autonomous agents access leading AI models through one API and pay instantly in USDC using x402 on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "NAPHTASVPDGRYORRYM237OSPA26R2TRRG4XFRRFK7K5H64H6HIIIZZIIXY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet NAPHTASVPDGRYORRYM237OSPA26R2TRRG4XFRRFK7K5H64H6HIIIZZIIXY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "VFFXRUw1NFRDQllIM1FKTE4yT1UyUUg3"
+      ],
+      "included": true
+    },
+    {
+      "row": 74,
+      "project": "Sentinel402",
+      "one_liner": "Pay-per-scan Web3 security agent: instant smart-contract, wallet-address and signature risk reports, paid per request in USDC on Algorand via x402.",
+      "description": "",
+      "submitted_wallets": [
+        "MAGKDEWY5IZ6MBYLKGLHN4UWFM2BYCJ5R62C5AU6JASOY2HAS6XP5SHRII"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet MAGKDEWY5IZ6MBYLKGLHN4UWFM2BYCJ5R62C5AU6JASOY2HAS6XP5SHRII is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TUFHS0RFV1k1SVo2TUJZTEtHTEhONFVX"
+      ],
+      "included": true
+    },
+    {
+      "row": 75,
+      "project": "NetIntel",
+      "one_liner": "NetIntel is a pay-per-call intelligence API for AI agents — 141 endpoints for network, domain, web-data, inference and market lookups, each priced in cents and settled in USDC on Algorand through x402, with no signup, keys or subscription.",
+      "description": "",
+      "submitted_wallets": [
+        "KGIEWEWNIZWZB4DVGVFW4FAPL3DON6HT5WFHWMDH42SNAYWVPRQ7YBP6EM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet KGIEWEWNIZWZB4DVGVFW4FAPL3DON6HT5WFHWMDH42SNAYWVPRQ7YBP6EM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "S0dJRVdFV05JWldaQjREVkdWRlc0RkFQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 76,
+      "project": "SiteLenz",
+      "one_liner": "SiteLenz lets any developer or AI agent turn any website into structured JSON — paying per request in USDC on Algorand via x402, instead of subscriptions.",
+      "description": "",
+      "submitted_wallets": [
+        "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlVSWEVER09IVklaWUtVUFJRR1RDRk9Y"
+      ],
+      "included": true
+    },
+    {
+      "row": 77,
+      "project": "QUANT TRADING SIGNALS",
+      "one_liner": "QUANT TRADING SIGNALS is a downloadable Python agent for BTC/USDC trading, with adaptive stops, guided setup and usage-based payments on Hyperliquid and Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet SGLTUPAC7TKGKNNXKNPQ2QZCC7NJSLAKYZ7O7NOGGAPXWBFZTOLTPMSPPI is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "U0dMVFVQQUM3VEtHS05OWEtOUFEyUVpD"
+      ],
+      "included": true
+    },
+    {
+      "row": 78,
+      "project": "scrape402",
+      "one_liner": "Scrape402 is a pay-per-request API that allows autonomous AI agents to bypass web blocks (like Cloudflare and CAPTCHAs) to extract clean markdown from any URL, automatically settling micro-payments for each request on the Algorand blockchain.",
+      "description": "",
+      "submitted_wallets": [
+        "5T6GTEMMQWYQNZDUZ2EIDW62HVUJ7IGMQQNJXSW23CHMZKQJ2Z3YB3JFTU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 5T6GTEMMQWYQNZDUZ2EIDW62HVUJ7IGMQQNJXSW23CHMZKQJ2Z3YB3JFTU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "NVQ2R1RFTU1RV1lRTlpEVVoyRUlEVzYy"
+      ],
+      "included": true
+    },
+    {
+      "row": 79,
+      "project": "NetIntel",
+      "one_liner": "NetIntel is a pay-per-call intelligence API for AI agents - 141 endpoints for network, domain, web-data, inference and market lookups, each priced in cents and settled in USDC on Algorand through x402, with no signup, keys or subscription.",
+      "description": "",
+      "submitted_wallets": [
+        "KGIEWEWNIZWZB4DVGVFW4FAPL3DON6HT5WFHWMDH42SNAYWVPRQ7YBP6EM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet KGIEWEWNIZWZB4DVGVFW4FAPL3DON6HT5WFHWMDH42SNAYWVPRQ7YBP6EM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "S0dJRVdFV05JWldaQjREVkdWRlc0RkFQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 80,
+      "project": "Agent World - Commission an Agent",
+      "one_liner": "A small world of persistent autonomous AI agents on Algorand that anyone, a person or another agent, can commission for a cent or less over x402, with no account and no API key.",
+      "description": "",
+      "submitted_wallets": [
+        "K5HIZPOUUUBQ5WJ6I3DT6NGIQUMALYJYSVVBY7CXA3BYBWY6225DNNBDSA"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet K5HIZPOUUUBQ5WJ6I3DT6NGIQUMALYJYSVVBY7CXA3BYBWY6225DNNBDSA is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SzVISVpQT1VVVUJRNVdKNkkzRFQ2TkdJ"
+      ],
+      "included": true
+    },
+    {
+      "row": 81,
+      "project": "AgentHub",
+      "one_liner": "Pay-per-use on-chain intelligence and developer tools that AI agents can discover, purchase, and use autonomously on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4 is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa"
+      ],
+      "included": true
+    },
+    {
+      "row": 83,
+      "project": "Company Lens",
+      "one_liner": "UK company risk intelligence API: structured due-diligence profiles from live Companies House data, 0.50 USDC per query via x402 on Algorand, built for AI agents.",
+      "description": "",
+      "submitted_wallets": [
+        "QOLAH2ALEKD3BOCRK4LVBHNRAAZKIJYVQHNHUMY5UC6UEUBGBEF2JMTX3Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet QOLAH2ALEKD3BOCRK4LVBHNRAAZKIJYVQHNHUMY5UC6UEUBGBEF2JMTX3Q is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "UU9MQUgyQUxFS0QzQk9DUks0TFZCSE5S"
+      ],
+      "included": true
+    },
+    {
+      "row": 84,
+      "project": "AgentMesh",
+      "one_liner": "AgentMesh is a no-code platform where anyone can build AI agent workflows by just describing them, and pay only when they run, with every run and every paid service settled through x402 in USDC on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "TTZKUU5KVlgzMkhFTjJMUzVXMldYMlBN"
+      ],
+      "included": true
+    },
+    {
+      "row": 85,
+      "project": "BotTrunk",
+      "one_liner": "A pay-per-call marketplace where AI agents buy services — data APIs and work done by real people — with USDC over x402 on Algorand: no accounts, no API keys, the payment is the credential.",
+      "description": "",
+      "submitted_wallets": [
+        "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "VVRXUzMzVE03SVQ3TklOSlNGV1M1S1ZH"
+      ],
+      "included": true
+    },
+    {
+      "row": 86,
+      "project": "ORA GATE",
+      "one_liner": "ORA Gate lets autonomous agents discover and buy replay-safe API actions with USDC over x402 on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "TVXYBRI6H5M5RIPQEHS5ZZOXR7RS3FUVYKIJ3DTV6C6F5ULLQEZM47OKRM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet TVXYBRI6H5M5RIPQEHS5ZZOXR7RS3FUVYKIJ3DTV6C6F5ULLQEZM47OKRM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "VFZYWUJSSTZINU01UklQUUVIUzVaWk9Y"
+      ],
+      "included": true
+    },
+    {
+      "row": 87,
+      "project": "Stelar Digital x402 Doctor + paid data endpoints",
+      "one_liner": "Five pay-per-call API endpoints on Algorand MainNet, led by an x402 conformance checker that other builders and agents pay a few cents to test their own paid endpoints.",
+      "description": "",
+      "submitted_wallets": [
+        "HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SEZISTVNRjRDNTVBWVVTUTJKRDJBRllN"
+      ],
+      "included": true
+    },
+    {
+      "row": 90,
+      "project": "WhaleTape",
+      "one_liner": "Derivatives market data that AI agents buy one request at a time, priced from 0.001 USDC and settled on Algorand no account, no API key, no subscription.",
+      "description": "",
+      "submitted_wallets": [
+        "ZVZV3J2VQNLTH6MNLOL5IHZECJQVXVSVAK3NNJA6FD7LLNZ5NRHQAIL2J4"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet ZVZV3J2VQNLTH6MNLOL5IHZECJQVXVSVAK3NNJA6FD7LLNZ5NRHQAIL2J4 is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SjRRN1pLVU5FN0NSV0pHVVhLWDNNWUo1"
+      ],
+      "included": true
+    },
+    {
+      "row": 92,
+      "project": "AlgorandTracker x402 Data API",
+      "one_liner": "Paid MainNet USDC API that sells Algorand and ASA analytics per request via x402.",
+      "description": "",
+      "submitted_wallets": [
+        "VTOEM6527WMLHWPTKRBQNQLO5XWGFJC5Z6T7E25TFBKMWP5NFPDP73ZD4U"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet VTOEM6527WMLHWPTKRBQNQLO5XWGFJC5Z6T7E25TFBKMWP5NFPDP73ZD4U is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "VlRPRU02NTI3V01MSFdQVEtSQlFOUUxP"
+      ],
+      "included": true
+    },
+    {
+      "row": 93,
+      "project": "PipeForge x402 Infrastructure Inspector",
+      "one_liner": "Pay-per-request infrastructure intelligence for AI agents, powered by x402 and USDC on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "6Q7MNZLDJUMRHPPQIV3XPKGWONZQQG4GSFLQMUGG2PDZJHIOCZKVDC3OAU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 6Q7MNZLDJUMRHPPQIV3XPKGWONZQQG4GSFLQMUGG2PDZJHIOCZKVDC3OAU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlVYTFJGTTZKTFNBSldCVDVRUU9PWVRW"
+      ],
+      "included": true
+    },
+    {
+      "row": 94,
+      "project": "Agent World",
+      "one_liner": "A small world of persistent autonomous agents on Algorand that anyone — a person or another AI agent — can commission for a cent or less over x402, with no account and no API key.",
+      "description": "",
+      "submitted_wallets": [
+        "K5HIZPOUUUBQ5WJ6I3DT6NGIQUMALYJYSVVBY7CXA3BYBWY6225DNNBDSA"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet K5HIZPOUUUBQ5WJ6I3DT6NGIQUMALYJYSVVBY7CXA3BYBWY6225DNNBDSA is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "SzVISVpQT1VVVUJRNVdKNkkzRFQ2TkdJ"
+      ],
+      "included": true
+    },
+    {
+      "row": 95,
+      "project": "Canix402",
+      "one_liner": "Canix402 gives autonomous agents a single, paid data rail for Algorand DeFi opportunities.",
+      "description": "",
+      "submitted_wallets": [
+        "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "M1kyVjZPRFVWVUdNNFRYT0VYWTY1WUxN"
+      ],
+      "included": true
+    },
+    {
+      "row": 96,
+      "project": "RoundWatch",
+      "one_liner": "RoundWatch lets autonomous agents pay for a durable watch that verifies an exact future Algorand USDC payment and preserves the result across restarts.",
+      "description": "",
+      "submitted_wallets": [
+        "EQPLN32HPLPGBCNPOZUL6BL34CTNQGT3VAAMNAJWSIZGQ5CUNXOHB634XY"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet EQPLN32HPLPGBCNPOZUL6BL34CTNQGT3VAAMNAJWSIZGQ5CUNXOHB634XY is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RVFQTE4zMkhQTFBHQkNOUE9aVUw2Qkwz"
+      ],
+      "included": true
+    },
+    {
+      "row": 97,
+      "project": "KepAIx",
+      "one_liner": "KepAIx delivers prepared educational market intelligence through pay-per-request x402 APIs on Algorand.",
+      "description": "",
+      "submitted_wallets": [
+        "2U3QYTQOHP4SMDUGWNFLNFQPRK2DFTZPFV7P76GV6ENXITYVXOMRAGDVEE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2U3QYTQOHP4SMDUGWNFLNFQPRK2DFTZPFV7P76GV6ENXITYVXOMRAGDVEE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlUzUVlUUU9IUDRTTURVR1dORkxORlFQ"
+      ],
+      "included": true
+    },
+    {
+      "row": 98,
+      "project": "Authen",
+      "one_liner": "Provenance of existence at a specific time of any bytes over x402.",
+      "description": "",
+      "submitted_wallets": [
+        "E64BQIOXKTT4BVMIFY2S5WX337FT6MLF66UPZEUPDYAKT4QIFOXXQCR24Q"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet E64BQIOXKTT4BVMIFY2S5WX337FT6MLF66UPZEUPDYAKT4QIFOXXQCR24Q is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "RTY0QlFJT1hLVFQ0QlZNSUZZMlM1V1gz"
+      ],
+      "included": true
+    },
+    {
+      "row": 99,
+      "project": "FrostyFi",
+      "one_liner": "FrostyFi lets anyone turn a no-code AI workflow into a paid x402 agent on Algorand, settled in USDC per call through GoPlausible.",
+      "description": "",
+      "submitted_wallets": [
+        "CXFBDEPZS4A3E5KCZCT4FE2SGRAOXR4PHUP3Z5434BVCRYPLHDTUMTNSRU"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet CXFBDEPZS4A3E5KCZCT4FE2SGRAOXR4PHUP3Z5434BVCRYPLHDTUMTNSRU is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "Q1hGQkRFUFpTNEEzRTVLQ1pDVDRGRTJT"
+      ],
+      "included": true
+    },
+    {
+      "row": 100,
+      "project": "Elara Receipts",
+      "one_liner": "Elara Receipts sells post-quantum verification of AI-agent actions as a paid x402 resource on Algorand: verify an ML-DSA-65-signed action record, or check an act against a revocable mandate, and get a verdict countersigned by the endpoint and bound to the call's on-chain payment.",
+      "description": "",
+      "submitted_wallets": [
+        "2PWGUKE4VWUXXZ3IPPX2W4FUTVXAW3HQLBO2GZJZFX4UXWFNSUMWEGSSXE"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet 2PWGUKE4VWUXXZ3IPPX2W4FUTVXAW3HQLBO2GZJZFX4UXWFNSUMWEGSSXE is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "MlBXR1VLRTRWV1VYWFozSVBQWDJXNEZV"
+      ],
+      "included": true
+    },
+    {
+      "row": 101,
+      "project": "AgentFeed on Algorand",
+      "one_liner": "An x402 data API on Algorand that will not settle a payment for an answer it could not measure, selling crypto liquidations from a tape of over 4 million records since July 8.",
+      "description": "",
+      "submitted_wallets": [
+        "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM is a receiving account of this merchant."
+      ],
+      "merchant_ids": [
+        "UVdPV1UyRTZCQjc2SEVRUlJNWFdaMk1V"
+      ],
+      "included": true
+    },
+    {
+      "row": 103,
+      "project": "IoMarkets.app",
+      "one_liner": "Real-world checkout for AI agents: travel eSIMs in 200+ destinations and mobile top-ups in 150+ countries, paid per order in USDC on Algorand via x402, with on-chain refunds and signed receipts.",
+      "description": "",
+      "submitted_wallets": [
+        "FVEJDCQFCHVG4Y6M2JVAD4L447E2R2OHJKT5APXV7AZI7XXOQU6RUVSKCA"
+      ],
+      "match_status": "matched_wallet",
+      "match_evidence": [
+        "Exact submitted wallet FVEJDCQFCHVG4Y6M2JVAD4L447E2R2OHJKT5APXV7AZI7XXOQU6RUVSKCA is a receiving account of this merchant.",
+        "Project name and submitted domain independently corroborate the selected account identity."
+      ],
+      "merchant_ids": [
+        "RlZFSkRDUUZDSFZHNFk2TTJKVkFENEw0"
+      ],
+      "included": true
+    }
+  ],
+  "source_registration_count": 106,
+  "scope": {
+    "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "network_name": "Algorand mainnet",
+    "asset": "USDC",
+    "outcome": "successful settlement",
+    "campaign_tag": "x402-global-challenge",
+    "excluded_in_order": [
+      "developer-flagged settlements",
+      "localhost-hosted resources",
+      "merchants on the active blocklist",
+      "self-payments",
+      "merchants without a Bazaar listing"
+    ],
+    "registration": "flag; merchants without a submission row are included and flagged NOT REGISTERED",
+    "settlements_without_public_resource_host": "counted; resource locator redacted",
+    "data_through": "2026-10-06 11:40:37 UTC"
+  }
+}

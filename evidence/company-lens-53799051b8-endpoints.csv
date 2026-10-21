@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,http://companylens-api-production.up.railway.app/company/00445790,5,2.500000,1,0,0.000000,5,2.500000,0,2026-09-21 23:07:00 UTC,2026-09-22 14:57:30 UTC

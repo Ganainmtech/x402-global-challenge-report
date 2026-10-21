@@ -1,0 +1,2466 @@
+{
+  "merchant_id": "VkhQR1pJTVAzU1A0V0hDRlZBNlNXN0JK",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "algorandx402-joke.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "algorandx402-joke.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "http://algorandx402-joke.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "app.frostylabs.ai",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "app.frostylabs.ai",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://app.frostylabs.ai",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1789563567587,
+        "last_fetch_attempt_utc": "2026-09-16T12:59:27.587000+00:00",
+        "title": "FrostyFi by FrostyLabs",
+        "description": "FrostyFi - Visual workflow automation for AI agents + blockchain. Build, automate, and deploy AI-powered workflows with native wallet operations.",
+        "site_name": null,
+        "logo": "https://app.frostylabs.ai/favicon.ico",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://app.frostylabs.ai/.well-known/x402",
+            "name": null,
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "example.x402.goplausible.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "example.x402.goplausible.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://example.x402.goplausible.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791282907010,
+        "last_fetch_attempt_utc": "2026-10-06T10:35:07.010000+00:00",
+        "title": "x402 AVM Testnet",
+        "description": null,
+        "site_name": null,
+        "logo": "https://example.x402.goplausible.xyz/favicon.ico",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "logo"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "finality-x402.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 19,
+      "metadata": {
+        "domain": "finality-x402.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://finality-x402.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791223636388,
+        "last_fetch_attempt_utc": "2026-10-05T18:07:16.388000+00:00",
+        "title": "Finality Market Intelligence",
+        "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Testnet USDC via x402.",
+        "site_name": "Finality",
+        "logo": "https://finality-x402.onrender.com/logo.svg",
+        "banner": "https://finality-x402.onrender.com/og.svg",
+        "theme_color": "#0B0E11",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://finality-x402.onrender.com/.well-known/agent-card.json",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Testnet USDC via x402."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://finality-x402.onrender.com/.well-known/agent.json",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Testnet USDC via x402."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://finality-x402.onrender.com/.well-known/ai-plugin.json",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Testnet USDC via x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://finality-x402.onrender.com/.well-known/x402",
+            "name": "Finality Market Intelligence",
+            "description": "Agent- and user-accessible market, AI, and Algorand on-chain intelligence — paid per result with Testnet USDC via x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://finality-x402.onrender.com/llms.txt",
+            "name": "Finality Market Intelligence",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "mesh402x.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "mesh402x.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "http://mesh402x.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "prism-99h2.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 15164,
+      "last_observed_at": 1791245412413,
+      "catalog_endpoint_count": 13,
+      "metadata": {
+        "domain": "prism-99h2.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://prism-99h2.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791223639801,
+        "last_fetch_attempt_utc": "2026-10-05T18:07:19.801000+00:00",
+        "title": "PRISM",
+        "description": "Decentralized multi-tier AI routing & task orchestration platform powered by Algorand and x402 payment protocol.",
+        "site_name": "PRISM",
+        "logo": "https://prism-99h2.onrender.com/icon.png",
+        "banner": "https://prism-99h2.onrender.com/logo.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:10:12 UTC"
+    },
+    {
+      "domain": "voyaai.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "voyaai.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "http://voyaai.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1786133373119,
+        "last_fetch_attempt_utc": "2026-08-07T20:09:33.119000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "x402.frostylabs.ai",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "x402.frostylabs.ai",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://x402.frostylabs.ai",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "FrostyFi x402 Agents on Algorand",
+        "description": "Pay-per-call AI agents on Algorand: ASA safety intelligence, wallet analytics and liquidity reports, settled in USDC via x402 through the GoPlausible facilitator.",
+        "site_name": null,
+        "logo": "https://x402.frostylabs.ai/favicon.ico",
+        "banner": "https://app.frostylabs.ai/frosty_logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://x402.frostylabs.ai/.well-known/agent-card.json",
+            "name": "FrostyFi x402 Agents on Algorand",
+            "description": "Pay-per-call AI agents on Algorand by FrostyLabs, settled in USDC via x402 through the GoPlausible facilitator. No accounts or API keys; callers are charged only when a run succeeds. Agents: ASA Safety Intelligence, Stock Event Advisor (Algorand)."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://x402.frostylabs.ai/.well-known/agent.json",
+            "name": "FrostyFi x402 Agents on Algorand",
+            "description": "Pay-per-call AI agents on Algorand by FrostyLabs, settled in USDC via x402 through the GoPlausible facilitator. No accounts or API keys; callers are charged only when a run succeeds. Agents: ASA Safety Intelligence, Stock Event Advisor (Algorand)."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://x402.frostylabs.ai/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://x402.frostylabs.ai/llms.txt",
+            "name": "FrostyFi x402 Agents on Algorand",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9hbGdvcmFuZHg0MDItam9rZS5vbnJlbmRlci5jb20vYXBpL2pva2U",
+        "url": "http://algorandx402-joke.onrender.com/api/joke",
+        "method": "GET",
+        "description": "Get an exclusive creative stand-up joke generated by Groq AI.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "10000",
+            "asset": "10458941",
+            "payTo": "VHPGZIMP3SP4WHCFVA6SW7BJB7TYP4D6BEKVBK3C4FPSK7LHN6CNKNVXWU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "joke": "Why don't smart contracts go to parties? Because they are too self-executing!"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788033897240,
+        "last_ts": 1788116956657
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vcHJpc20tOTloMi5vbnJlbmRlci5jb20vY29kZS1yZXZpZXctYWNjdXJhdGU",
+        "url": "http://prism-99h2.onrender.com/code-review-accurate",
+        "method": "POST",
+        "description": "Performs comprehensive senior-engineer code review and security auditing on a single code file using high-precision LLM reasoning.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "file_path": "src/index.ts",
+              "raw_url": "https://raw.githubusercontent.com/example/repo/main/src/index.ts",
+              "task_description": "Security audit and refactoring review"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "overallQuality": "A",
+              "securityScan": {
+                "vulnerabilities": 0,
+                "severity": "None"
+              },
+              "refactoringSuggestions": [
+                {
+                  "file": "index.ts",
+                  "line": 42,
+                  "suggestion": "Use memoized calculation to prevent redundant execution"
+                }
+              ],
+              "testCoverageEstimate": "85%"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786587648335,
+        "last_ts": 1786893937396
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vcHJpc20tOTloMi5vbnJlbmRlci5jb20vY29kZS1yZXZpZXctZmFzdA",
+        "url": "http://prism-99h2.onrender.com/code-review-fast",
+        "method": "POST",
+        "description": "Reviews a single code file for bugs, security issues, syntax errors, and code quality problems with fast LLM turnarounds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "file_path": "src/index.ts",
+              "raw_url": "https://raw.githubusercontent.com/example/repo/main/src/index.ts",
+              "task_description": "Analyze code quality"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "overallQuality": "B+",
+              "criticalIssues": 0,
+              "warnings": 2,
+              "summary": "Clean code overall; minor optimization suggested in loop indexing."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786588013369,
+        "last_ts": 1787219238542
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vcHJpc20tOTloMi5vbnJlbmRlci5jb20vcmVzdW1lLXNjcmVlbi1hY2N1cmF0ZQ",
+        "url": "http://prism-99h2.onrender.com/resume-screen-accurate",
+        "method": "POST",
+        "description": "Screens a batch of resumes against a target job description and returns ranked candidates with detailed match scores using high-precision LLM reasoning.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "resume_url": "[local URL omitted]",
+              "job_description": "Senior Full Stack Engineer"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "candidateName": "Jane Doe",
+              "matchScore": 94,
+              "skillsBreakdown": {
+                "technical": 95,
+                "experience": 90,
+                "domainMatch": 97
+              },
+              "reasoning": "Strong candidate with deep blockchain and backend engineering experience.",
+              "verdict": "Strong Hire"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786973817154,
+        "last_ts": 1786973850131
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vcHJpc20tOTloMi5vbnJlbmRlci5jb20vc2VvLWF1ZGl0LWFjY3VyYXRl",
+        "url": "http://prism-99h2.onrender.com/seo-audit-accurate",
+        "method": "POST",
+        "description": "Performs deep LLM-assisted SEO auditing analyzing readability, content depth, keyword relevance, and technical SEO structure.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "page_url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "targetUrl": "[local URL omitted]",
+              "overallSeoScore": 91,
+              "performanceMetrics": {
+                "mobileReadability": 95,
+                "contentDepth": "Comprehensive",
+                "keywordDensity": "Optimal"
+              },
+              "actionableRecommendations": [
+                {
+                  "priority": "High",
+                  "issue": "Missing Canonical Tag",
+                  "fix": "Add rel=canonical tag in <head>"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786631225885,
+        "last_ts": 1786631276850
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vcHJpc20tOTloMi5vbnJlbmRlci5jb20vc2VvLWF1ZGl0LWZhc3Q",
+        "url": "http://prism-99h2.onrender.com/seo-audit-fast",
+        "method": "POST",
+        "description": "Performs fast rule-based SEO audit checks on a webpage including metadata, headings, images, links, and readability.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "page_url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "targetUrl": "[local URL omitted]",
+              "score": 82,
+              "metaTags": {
+                "title": "Present",
+                "description": "Present",
+                "ogTags": "Missing"
+              },
+              "quickFixes": [
+                "Add OpenGraph image tag",
+                "Fix missing alt text on 2 images"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786631946238,
+        "last_ts": 1786632656203
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXhhbXBsZS54NDAyLmdvcGxhdXNpYmxlLnh5ei9hdm0vd2VhdGhlcg",
+        "url": "https://example.x402.goplausible.xyz/avm/weather",
+        "method": "GET",
+        "description": "Weather data",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "MPY54CLPH2OKEGC6S5N2LDAFDNO5BVNV532NBZ5VD6GOND3STPNXZYXOFE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "city": "San Francisco"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "report": {
+                "weather": "sunny",
+                "temperature": 70
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787845857961,
+        "last_ts": 1789190137632
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXhhbXBsZS54NDAyLmdvcGxhdXNpYmxlLnh5ei9ldm0vd2VhdGhlcg",
+        "url": "https://example.x402.goplausible.xyz/evm/weather",
+        "method": "GET",
+        "description": "Weather data",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "eip155:84532",
+            "amount": "1000",
+            "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+            "payTo": "0xcccBd107b00b5c03965a0BBd3983DDA109022605",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "version": "2"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "city": "San Francisco"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "report": {
+                "weather": "sunny",
+                "temperature": 70
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788341350616,
+        "last_ts": 1788341350528
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FnZW50L2JyaWVmaW5n",
+        "url": "https://finality-x402.onrender.com/v1/agent/briefing",
+        "method": "POST",
+        "description": "Machine-readable market briefing",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "agent.briefing",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585342294,
+        "last_ts": 1789595883172
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FnZW50L2RlY2lzaW9u",
+        "url": "https://finality-x402.onrender.com/v1/agent/decision",
+        "method": "POST",
+        "description": "Deterministic risk-aware decision",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100,
+              "risk": "balanced"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "agent.decision",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585336906,
+        "last_ts": 1789595877772
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FnZW50L3N0cmF0ZWd5L3BhcnNl",
+        "url": "https://finality-x402.onrender.com/v1/agent/strategy/parse",
+        "method": "POST",
+        "description": "Natural language strategy parser",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "prompt": "Buy when fast 10 crosses above slow 30"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "agent.strategyParse",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585145801,
+        "last_ts": 1789595888571
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FpL2NoYXQ",
+        "url": "https://finality-x402.onrender.com/v1/ai/chat",
+        "method": "POST",
+        "description": "Data-grounded analyst response",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100,
+              "prompt": "Analyze the current BTC market setup and state the risks."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "answer": "Bounded market analysis",
+              "generatedByModel": true
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585210299,
+        "last_ts": 1789596627513
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FuYWx5c2lzL2V2ZW50cw",
+        "url": "https://finality-x402.onrender.com/v1/analysis/events",
+        "method": "POST",
+        "description": "Market event intelligence",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "intelligence.events",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585326135,
+        "last_ts": 1789595866966
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FuYWx5c2lzL3JlcG9ydA",
+        "url": "https://finality-x402.onrender.com/v1/analysis/report",
+        "method": "POST",
+        "description": "Combined intelligence report",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "intelligence.report",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585315399,
+        "last_ts": 1789595856150
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2FuYWx5c2lzL3ZvbHVtZQ",
+        "url": "https://finality-x402.onrender.com/v1/analysis/volume",
+        "method": "POST",
+        "description": "Volume participation analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "intelligence.volume",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585320747,
+        "last_ts": 1789595861560
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL2JhY2t0ZXN0",
+        "url": "https://finality-x402.onrender.com/v1/backtest",
+        "method": "POST",
+        "description": "Bounded strategy backtest",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100,
+              "strategy": {
+                "fastPeriod": 10,
+                "slowPeriod": 30,
+                "initialCapital": 10000
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "intelligence.backtest",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585331513,
+        "last_ts": 1789595872363
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZmluYWxpdHkteDQwMi5vbnJlbmRlci5jb20vdjEvbWFya2V0L2Fzc2V0cw",
+        "url": "https://finality-x402.onrender.com/v1/market/assets",
+        "method": "GET",
+        "description": "Asset search and symbol normalization",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "query": "BTC",
+              "limit": 10
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "market.assets",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585288502,
+        "last_ts": 1789595823717
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL21hcmtldC9jYW5kbGVz",
+        "url": "https://finality-x402.onrender.com/v1/market/candles",
+        "method": "POST",
+        "description": "Bounded OHLCV history",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "candles": [
+                {
+                  "time": 1700000000000,
+                  "open": 100,
+                  "high": 102,
+                  "low": 99,
+                  "close": 101,
+                  "volume": 1000
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585293858,
+        "last_ts": 1789595829128
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZmluYWxpdHkteDQwMi5vbnJlbmRlci5jb20vdjEvbWFya2V0L2ZlYXItZ3JlZWQ",
+        "url": "https://finality-x402.onrender.com/v1/market/fear-greed",
+        "method": "GET",
+        "description": "Crypto Fear and Greed index",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 1
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "market.fearGreed",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585094640,
+        "last_ts": 1789596603598
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZmluYWxpdHkteDQwMi5vbnJlbmRlci5jb20vdjEvbWFya2V0L3F1b3Rlcw",
+        "url": "https://finality-x402.onrender.com/v1/market/quotes",
+        "method": "GET",
+        "description": "Bounded crypto spot quotes",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "symbols": [
+                "BTC",
+                "ETH"
+              ]
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "quotes": [
+                {
+                  "symbol": "BTC",
+                  "price": 50000,
+                  "change24h": 1.2,
+                  "volume24h": 1000000
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585283135,
+        "last_ts": 1789595818318
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZmluYWxpdHkteDQwMi5vbnJlbmRlci5jb20vdjEvbWFya2V0L3RyZW5kaW5n",
+        "url": "https://finality-x402.onrender.com/v1/market/trending",
+        "method": "GET",
+        "description": "Ranked crypto assets",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 10
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "market.trending",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585299277,
+        "last_ts": 1789595834532
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL29uY2hhaW4vYWxnb3JhbmQvYWNjb3VudA",
+        "url": "https://finality-x402.onrender.com/v1/onchain/algorand/account",
+        "method": "POST",
+        "description": "Algorand account intelligence",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "WJJ7MTAZTDXAI7656JHB3V432U7XUNTIKSYRTYQD3FAGDMEGLOUFGMN7SI"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS",
+              "amount": 0,
+              "assets": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585024693,
+        "last_ts": 1789596619534
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL29uY2hhaW4vYWxnb3JhbmQvYXNzZXQ",
+        "url": "https://finality-x402.onrender.com/v1/onchain/algorand/asset",
+        "method": "POST",
+        "description": "Algorand asset intelligence",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "assetId": 10458941
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "onchain.algorandAsset",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585102741,
+        "last_ts": 1789595912885
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL29uY2hhaW4vYWxnb3JhbmQvZGVmaQ",
+        "url": "https://finality-x402.onrender.com/v1/onchain/algorand/defi",
+        "method": "POST",
+        "description": "Indexer-backed Algorand DeFi activity",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "3000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "limit": 20
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "onchain.algorandDefi",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585137716,
+        "last_ts": 1789595918285
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL29uY2hhaW4vYWxnb3JhbmQvcG9ydGZvbGlv",
+        "url": "https://finality-x402.onrender.com/v1/onchain/algorand/portfolio",
+        "method": "POST",
+        "description": "Algorand ASA portfolio",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "WJJ7MTAZTDXAI7656JHB3V432U7XUNTIKSYRTYQD3FAGDMEGLOUFGMN7SI"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "onchain.algorandPortfolio",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585132310,
+        "last_ts": 1789595907479
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL3NpZ25hbHM",
+        "url": "https://finality-x402.onrender.com/v1/signals",
+        "method": "POST",
+        "description": "Multi-market signals and summary",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "signals": [
+                {
+                  "symbol": "BTC",
+                  "direction": "HOLD",
+                  "score": 50
+                }
+              ],
+              "summary": {
+                "direction": "HOLD"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585304607,
+        "last_ts": 1789595845336
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2ZpbmFsaXR5LXg0MDIub25yZW5kZXIuY29tL3YxL3RlY2huaWNhbHM",
+        "url": "https://finality-x402.onrender.com/v1/technicals",
+        "method": "POST",
+        "description": "Technical indicators and regime",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "XAUNDMJNPHH3S3J2TYHCN5JRYCIXBGT3K3ENMVOIXUHUY4HHI5XTKXEVUQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "KJ47QTT3MKRHDCLH35GH3ZS27PTQNFSPVZW7AA5R77YQTWRCATPUSDLIXQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "symbols": [
+                "BTC"
+              ],
+              "marketType": "crypto",
+              "interval": "1h",
+              "limit": 100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "operationId": "intelligence.technicals",
+              "result": "See OpenAPI response schema"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789585310038,
+        "last_ts": 1789595850742
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcHJpc20tOTloMi5vbnJlbmRlci5jb20vY29kZS1yZXZpZXctYWNjdXJhdGU",
+        "url": "https://prism-99h2.onrender.com/code-review-accurate",
+        "method": "GET",
+        "description": "Performs comprehensive senior-engineer code review and security auditing on a single code file using high-precision LLM reasoning.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {
+              "file_path": "src/index.ts",
+              "raw_url": "https://raw.githubusercontent.com/example/repo/main/src/index.ts"
+            },
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "overallQuality": "A",
+              "refactoringSuggestions": [
+                {
+                  "file": "index.ts",
+                  "line": 42,
+                  "suggestion": "Use memoized calculation to prevent redundant execution"
+                }
+              ],
+              "securityScan": {
+                "severity": "None",
+                "vulnerabilities": 0
+              },
+              "testCoverageEstimate": "85%"
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788623701021,
+        "last_ts": 1788850629162
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL2NvZGUtcmV2aWV3LWFjY3VyYXRl",
+        "url": "https://prism-99h2.onrender.com/code-review-accurate",
+        "method": "POST",
+        "description": "Performs comprehensive senior-engineer code review and security auditing on a single code file using high-precision LLM reasoning.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "25500",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "102000",
+            "asset": "10458941",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "file_path": "src/index.ts",
+              "raw_url": "https://raw.githubusercontent.com/example/repo/main/src/index.ts",
+              "task_description": "Security audit and refactoring review"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "overallQuality": "A",
+              "securityScan": {
+                "vulnerabilities": 0,
+                "severity": "None"
+              },
+              "refactoringSuggestions": [
+                {
+                  "file": "index.ts",
+                  "line": 42,
+                  "suggestion": "Use memoized calculation to prevent redundant execution"
+                }
+              ],
+              "testCoverageEstimate": "85%"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787722121139,
+        "last_ts": 1791245412413
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL2NvZGUtcmV2aWV3LWZhc3Q",
+        "url": "https://prism-99h2.onrender.com/code-review-fast",
+        "method": "POST",
+        "description": "Reviews a single code file for bugs, security issues, syntax errors, and code quality problems with fast LLM turnarounds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "25500",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "file_path": "src/index.ts",
+              "raw_url": "https://raw.githubusercontent.com/example/repo/main/src/index.ts",
+              "task_description": "Analyze code quality"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "overallQuality": "B+",
+              "criticalIssues": 0,
+              "warnings": 2,
+              "summary": "Clean code overall; minor optimization suggested in loop indexing."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787654446133,
+        "last_ts": 1790863470003
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL2NvbnRyYWN0LWFuYWx5emUtZmFzdA",
+        "url": "https://prism-99h2.onrender.com/contract-analyze-fast",
+        "method": "POST",
+        "description": "Extracts core legal clauses, liabilities, and obligations from contract documents with fast turnarounds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "153000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "raw_url": "[local URL omitted]",
+              "task_description": "Analyze legal liabilities"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "documentType": "Non-Disclosure Agreement",
+              "riskScore": "Low",
+              "keyClauses": [
+                "Confidentiality",
+                "Term: 2 Years",
+                "Governing Law: Delaware"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1791034908860,
+        "last_ts": 1791034969264
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL2ludm9pY2UtZXh0cmFjdC1mYXN0",
+        "url": "https://prism-99h2.onrender.com/invoice-extract-fast",
+        "method": "POST",
+        "description": "Extracts vendor details, invoice numbers, totals, and line items quickly from billing documents.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "81600",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "raw_url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "vendorName": "Acme Cloud Services",
+              "invoiceNumber": "INV-2026-0042",
+              "totalAmount": 1450,
+              "currency": "USD",
+              "dueDate": "2026-09-01"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1791035010510,
+        "last_ts": 1791086274129
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL3Jlc3VtZS1zY3JlZW4tYWNjdXJhdGU",
+        "url": "https://prism-99h2.onrender.com/resume-screen-accurate",
+        "method": "POST",
+        "description": "Screens a batch of resumes against a target job description and returns ranked candidates with detailed match scores using high-precision LLM reasoning.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "255100",
+            "asset": "10458941",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 10458941,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "resume_url": "[local URL omitted]",
+              "job_description": "Senior Full Stack Engineer"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "candidateName": "Jane Doe",
+              "matchScore": 94,
+              "skillsBreakdown": {
+                "technical": 95,
+                "experience": 90,
+                "domainMatch": 97
+              },
+              "reasoning": "Strong candidate with deep blockchain and backend engineering experience.",
+              "verdict": "Strong Hire"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788623103307,
+        "last_ts": 1791085626985
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL3Nlby1hdWRpdC1hY2N1cmF0ZQ",
+        "url": "https://prism-99h2.onrender.com/seo-audit-accurate",
+        "method": "POST",
+        "description": "Performs deep LLM-assisted SEO auditing analyzing readability, content depth, keyword relevance, and technical SEO structure.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "251400",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "page_url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "targetUrl": "[local URL omitted]",
+              "overallSeoScore": 91,
+              "performanceMetrics": {
+                "mobileReadability": 95,
+                "contentDepth": "Comprehensive",
+                "keywordDensity": "Optimal"
+              },
+              "actionableRecommendations": [
+                {
+                  "priority": "High",
+                  "issue": "Missing Canonical Tag",
+                  "fix": "Add rel=canonical tag in <head>"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789620402720,
+        "last_ts": 1789741457823
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3ByaXNtLTk5aDIub25yZW5kZXIuY29tL3Nlby1hdWRpdC1mYXN0",
+        "url": "https://prism-99h2.onrender.com/seo-audit-fast",
+        "method": "POST",
+        "description": "Performs fast rule-based SEO audit checks on a webpage including metadata, headings, images, links, and readability.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "84900",
+            "asset": "31566704",
+            "payTo": "FL7U7GHUZB2R6RACPGY5UFD2K47CP2IL4RQWX7LKYE5QSFGXVJCDGPRLBE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "page_url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "targetUrl": "[local URL omitted]",
+              "score": 82,
+              "metaTags": {
+                "title": "Present",
+                "description": "Present",
+                "ogTags": "Missing"
+              },
+              "quickFixes": [
+                "Add OpenGraph image tag",
+                "Fix missing alt text on 2 images"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788337154813,
+        "last_ts": 1790870783862
+      }
+    ],
+    "resource_count": 35,
+    "description_count": 35,
+    "mime_type_count": 34,
+    "accepts_count": 35,
+    "discovery_count": 35,
+    "input_documentation_count": 35,
+    "output_documentation_count": 35,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "app.frostylabs.ai",
+    "example.x402.goplausible.xyz",
+    "x402.frostylabs.ai"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 8,
+    "cached_domain_metadata_count": 8,
+    "domains_with_cached_descriptive_homepage_evidence": 5,
+    "agent_document_count": 10,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

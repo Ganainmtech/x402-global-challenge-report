@@ -1,0 +1,453 @@
+{
+  "merchant_id": "Q0RSUTc3QlZGVlFaTzdJSDRZSTdaRkhF",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "roam402.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 23,
+      "last_observed_at": 1787664146309,
+      "catalog_endpoint_count": 4,
+      "metadata": {
+        "domain": "roam402.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://roam402.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791166316350,
+        "last_fetch_attempt_utc": "2026-10-05T02:11:56.350000+00:00",
+        "title": "Roam402 | Every x402 service, payable on Algorand",
+        "description": "2503 trust-tiered services · one Algorand merchant · dual-chain receipts. By Agents-Trust.",
+        "site_name": "Roam402",
+        "logo": "http://roam402.com/icons/icon.png",
+        "banner": "https://roam402.com/icons/banner.png",
+        "theme_color": "#f4f5fb",
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://roam402.com/llms.txt",
+            "name": "Roam402 | the x402 roaming gateway",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-25 13:22:26 UTC"
+    },
+    {
+      "domain": "roam402.name-redacted.workers.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Cloudflare Workers",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1786937752756,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "roam402.name-redacted.workers.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Cloudflare Workers",
+        "is_custom_domain_candidate": false,
+        "origin": "https://roam402.name-redacted.workers.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880345,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.345000+00:00",
+        "title": "Roam402 | Every x402 service, payable on Algorand",
+        "description": "50 trust-tiered services · one Algorand merchant · dual-chain receipts. By Agents-Trust.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": "#f4f5fb",
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://roam402.name-redacted.workers.dev/llms.txt",
+            "name": "Roam402 | the x402 roaming gateway",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "theme_color"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-17 03:35:52 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9yb2FtNDAyLmNvbS9kaXNjb3Zlcg",
+        "url": "http://roam402.com/discover",
+        "method": "GET",
+        "description": "Machine-readable catalog of 2500 verified x402 services callable through this merchant — LLM inference, token security, market data — each with USDC price, Agents-Trust tier and liveness. Same payload is free at /catalog; this paid twin exists so the index itself is a discoverable x402 resource.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100",
+            "asset": "10458941",
+            "payTo": "3CPTPCRK7LVRIH3LKNJBWH7PHIYWLPYCQPDX3SDZSX4XCXMSSLNSGEDY3Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "[local URL omitted]",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "name": "Roam402 | the x402 roaming gateway",
+              "wrapped": [
+                {
+                  "path": "/r/quickintel-scan-full",
+                  "method": "GET",
+                  "price": "$0.03",
+                  "service": "quickintel.io",
+                  "trust_tier": "Listed"
+                }
+              ],
+              "native": [
+                {
+                  "path": "/trust",
+                  "price": "$0.0005"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787482257854,
+        "last_ts": 1787482257712
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9yb2FtNDAyLmNvbS90cnVzdA",
+        "url": "http://roam402.com/trust",
+        "method": "GET",
+        "description": "Trust report for an x402 seller domain: Agents-Trust tier (Corroborated/Established/Emerging/Listed), 0-100 score, and evidence pillars from $45M+ of indexed on-chain settlement. Query: ?domain=[local URL omitted]",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "500",
+            "asset": "10458941",
+            "payTo": "3CPTPCRK7LVRIH3LKNJBWH7PHIYWLPYCQPDX3SDZSX4XCXMSSLNSGEDY3Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "[local URL omitted]",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "blockrun.ai"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "domain": "blockrun.ai",
+              "found": true,
+              "trust_tier": "Emerging",
+              "trust_score": 0.857
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786803884058,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcm9hbTQwMi5jb20vZGlzY292ZXI",
+        "url": "https://roam402.com/discover",
+        "method": "GET",
+        "description": "Machine-readable catalog of 50+ verified x402 services callable through this merchant — LLM inference, token security, market data — each with USDC price, Agents-Trust tier and liveness. Same payload is free at /catalog; this paid twin exists so the index itself is a discoverable x402 resource.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100",
+            "asset": "10458941",
+            "payTo": "3CPTPCRK7LVRIH3LKNJBWH7PHIYWLPYCQPDX3SDZSX4XCXMSSLNSGEDY3Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "https://roam402.com/catalog",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100",
+            "asset": "31566704",
+            "payTo": "CDRQ77BVFVQZO7IH4YI7ZFHEOBTRGCQ42SNEIFFMSPI2HYFOXWJOCVHO4Y",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "https://roam402.com/catalog",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "name": "Roam402 | the x402 roaming gateway",
+              "wrapped": [
+                {
+                  "path": "/r/quickintel-scan-full",
+                  "method": "GET",
+                  "price": "$0.03",
+                  "service": "quickintel.io",
+                  "trust_tier": "Listed"
+                }
+              ],
+              "native": [
+                {
+                  "path": "/trust",
+                  "price": "$0.0005"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785080832799,
+        "last_ts": 1786933662694
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcm9hbTQwMi5jb20vdHJ1c3Q",
+        "url": "https://roam402.com/trust",
+        "method": "GET",
+        "description": "Trust report for an x402 seller domain: Agents-Trust tier (Corroborated/Established/Emerging/Listed), 0-100 score, and evidence pillars from $45M+ of indexed on-chain settlement. Query: ?domain=[local URL omitted]",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "3CPTPCRK7LVRIH3LKNJBWH7PHIYWLPYCQPDX3SDZSX4XCXMSSLNSGEDY3Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "https://roam402.com/catalog",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500",
+            "asset": "31566704",
+            "payTo": "CDRQ77BVFVQZO7IH4YI7ZFHEOBTRGCQ42SNEIFFMSPI2HYFOXWJOCVHO4Y",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "https://roam402.com/catalog",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "blockrun.ai"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "domain": "blockrun.ai",
+              "found": true,
+              "trust_tier": "Emerging",
+              "trust_score": 0.857
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785080811233,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcm9hbTQwMi5rYWxlYWJhYmF5bmVoNjUud29ya2Vycy5kZXYvdHJ1c3Q",
+        "url": "https://roam402.name-redacted.workers.dev/trust",
+        "method": "GET",
+        "description": "Trust report for an x402 seller domain: Agents-Trust tier (Corroborated/Established/Emerging/Listed), 0-100 score, and evidence pillars from $45M+ of indexed on-chain settlement. Query: ?domain=[local URL omitted]",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "5000",
+            "asset": "10458941",
+            "payTo": "3CPTPCRK7LVRIH3LKNJBWH7PHIYWLPYCQPDX3SDZSX4XCXMSSLNSGEDY3Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "https://roam402.com/catalog",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500",
+            "asset": "31566704",
+            "payTo": "CDRQ77BVFVQZO7IH4YI7ZFHEOBTRGCQ42SNEIFFMSPI2HYFOXWJOCVHO4Y",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "catalog": "https://roam402.com/catalog",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "domain": "blockrun.ai"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "domain": "blockrun.ai",
+              "found": true,
+              "trust_tier": "Emerging",
+              "trust_score": 0.857
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785074286295,
+        "last_ts": 1786933923782
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 5,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "roam402.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

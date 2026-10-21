@@ -1,0 +1,756 @@
+{
+  "merchant_id": "T0xSQTMyWUNaMkJaNVo3UUlLU0FMWFNI",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "inquvia.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 387,
+      "last_observed_at": 1791266580226,
+      "catalog_endpoint_count": 12,
+      "metadata": {
+        "domain": "inquvia.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://inquvia.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791274719588,
+        "last_fetch_attempt_utc": "2026-10-06T08:18:39.588000+00:00",
+        "title": "Inquvia",
+        "description": "Evidence-backed investigations paid per request with x402 on Algorand.",
+        "site_name": "Inquvia",
+        "logo": null,
+        "banner": "https://inquvia.onrender.com/logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://inquvia.onrender.com/.well-known/x402",
+            "name": "Inquvia",
+            "description": "Evidence-backed investigations paid per request with x402 on Algorand."
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 06:03:00 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS9ldmlkZW5jZS9hc3Nlc3M",
+        "url": "https://inquvia.onrender.com/api/evidence/assess",
+        "method": "POST",
+        "description": "Inquvia: Evidence Assessment - Assess a claim against supplied evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "evidence-assess",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790859588283,
+        "last_ts": 1791266159938
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS9ldmlkZW5jZS9jb250cmFkaWN0aW9ucw",
+        "url": "https://inquvia.onrender.com/api/evidence/contradictions",
+        "method": "POST",
+        "description": "Inquvia: Contradictions - Find contradictions in supplied evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "evidence-contradictions",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790949586452,
+        "last_ts": 1791266221064
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS9ldmlkZW5jZS9kdXBsaWNhdGVz",
+        "url": "https://inquvia.onrender.com/api/evidence/duplicates",
+        "method": "POST",
+        "description": "Inquvia: Duplicate Analysis - Find duplicate and dependent evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "evidence-duplicates",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790961354742,
+        "last_ts": 1791188773824
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS9ldmlkZW5jZS9nYXBz",
+        "url": "https://inquvia.onrender.com/api/evidence/gaps",
+        "method": "POST",
+        "description": "Inquvia: Evidence Gaps - Identify missing evidence and unresolved questions.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "evidence-gaps",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790925510652,
+        "last_ts": 1791266580226
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS9ldmlkZW5jZS90aW1lbGluZQ",
+        "url": "https://inquvia.onrender.com/api/evidence/timeline",
+        "method": "POST",
+        "description": "Inquvia: Timeline - Reconstruct a timeline from supplied evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "evidence-timeline",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790863110649,
+        "last_ts": 1791266425980
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL2F1ZGlvLWludmVzdGlnYXRpb24",
+        "url": "https://inquvia.onrender.com/api/x402/audio-investigation",
+        "method": "POST",
+        "description": "Inquvia: Audio Investigation - Investigate an audio recording for transcript, context, and evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "asset": "10458941",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+              "genesisId": "testnet-v1.0"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "audio-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789059154841,
+        "last_ts": 1791185048079
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL2NsYWltLWludmVzdGlnYXRpb24",
+        "url": "https://inquvia.onrender.com/api/x402/claim-investigation",
+        "method": "POST",
+        "description": "Inquvia: Claim Investigation - Check whether a claim is supported by available evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "asset": "10458941",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+              "genesisId": "testnet-v1.0"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this claim true?",
+              "text": "The seller promises overnight delivery."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "claim-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789062201034,
+        "last_ts": 1791009273292
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL2RhdGEtaW52ZXN0aWdhdGlvbg",
+        "url": "https://inquvia.onrender.com/api/x402/data-investigation",
+        "method": "POST",
+        "description": "Inquvia: Data Investigation - Investigate structured data for anomalies and supporting signals.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this data anomalous?",
+              "data": "{\"sales\": 42}"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "data-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789398657509,
+        "last_ts": 1791184766875
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL2RvY3VtZW50LWludmVzdGlnYXRpb24",
+        "url": "https://inquvia.onrender.com/api/x402/document-investigation",
+        "method": "POST",
+        "description": "Inquvia: Document Investigation - Examine a document for findings, inconsistencies, and evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "form-data",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "document-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789056864422,
+        "last_ts": 1791265891866
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL2ltYWdlLWludmVzdGlnYXRpb24",
+        "url": "https://inquvia.onrender.com/api/x402/image-investigation",
+        "method": "POST",
+        "description": "Inquvia: Image Investigation - Investigate an image for context, provenance, and evidence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "form-data",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "image-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789050760358,
+        "last_ts": 1791265500763
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL3NvdXJjZS1pbnZlc3RpZ2F0aW9u",
+        "url": "https://inquvia.onrender.com/api/x402/source-investigation",
+        "method": "POST",
+        "description": "Inquvia: Source Investigation - Investigate a website or source before you trust it.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "asset": "10458941",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+              "genesisId": "testnet-v1.0"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Is this seller legitimate?",
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "source-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789123213986,
+        "last_ts": 1791265940519
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lucXV2aWEub25yZW5kZXIuY29tL2FwaS94NDAyL3ZpZGVvLWludmVzdGlnYXRpb24",
+        "url": "https://inquvia.onrender.com/api/x402/video-investigation",
+        "method": "POST",
+        "description": "Inquvia: Video Investigation - Investigate what a video shows and whether its context holds up.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1500000",
+            "payTo": "OLRA32YCZ2BZ5Z7QIKSALXSHLKEABXHDOP2ATUTUORTCLKW725AIOQ542M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "form-data",
+            "body": {
+              "question": "Is this seller legitimate?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "case_abc123",
+              "status": "completed",
+              "capability": "video-investigation",
+              "confidence": 0.8,
+              "conclusion": "supported",
+              "conclusionText": "Evidence-backed assessment."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789223004171,
+        "last_ts": 1791265328915
+      }
+    ],
+    "resource_count": 12,
+    "description_count": 12,
+    "mime_type_count": 12,
+    "accepts_count": 12,
+    "discovery_count": 12,
+    "input_documentation_count": 12,
+    "output_documentation_count": 12,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

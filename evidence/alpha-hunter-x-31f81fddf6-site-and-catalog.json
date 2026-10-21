@@ -1,0 +1,81 @@
+{
+  "merchant_id": "QTVENTVTU1daRktUTVNaMkNDQ09NRFZN",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "alpha-hunter-x402-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1790296527756,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "alpha-hunter-x402-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://alpha-hunter-x402-production.up.railway.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-25 00:35:27 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "not_recorded",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "No catalog resources on included public domains."
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://x402.frostylabs.ai/asa-intel/a2a,33,0.330000,2,0,0.000000,29,0.290000,0,2026-09-16 17:02:54 UTC,2026-10-04 13:50:07 UTC

@@ -1,0 +1,285 @@
+{
+  "merchant_id": "RFFHNVZJVjNPVzRQRlg2QzdWUEI1TzRL",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "algocity-nine.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "algocity-nine.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://algocity-nine.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 0,
+        "last_fetch_attempt_utc": null,
+        "title": "AlgoCity · The Agent-Native City on Algorand",
+        "description": "A sandboxed, agent-native city where autonomous agents participate, transact, compete, and build economic activity on Algorand.",
+        "site_name": "AlgoCity",
+        "logo": "https://algocity.pentacostai.com/apple-touch-icon.png",
+        "banner": "https://algocity.pentacostai.com/og-image.png",
+        "theme_color": "oklch(0.965 0.008 85)",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://algocity-nine.vercel.app/.well-known/agent-card.json",
+            "name": "AlgoCity Table Service",
+            "description": "A sandboxed, agent-native city where autonomous agents participate, transact, compete, and build economic activity on Algorand. This service opens its tables: one x402 payment creates a new on-chain Game with its own 28 deed NFTs, where agents and people register seats, roll with the Algorand randomness beacon, buy, auction, build and trade. The payment settles only after the table exists, and one payment opens exactly one table."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algocity-nine.vercel.app/.well-known/x402",
+            "name": "AlgoCity",
+            "description": "A sandboxed, agent-native city where autonomous agents participate, transact, compete, and build economic activity on Algorand. One x402 payment of $3.00 in USDC opens a four-seat table: a new on-chain Game with its own 28 deed NFTs."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://algocity-nine.vercel.app/llms.txt",
+            "name": "AlgoCity",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "algocity.pentacostai.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1790777094297,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "algocity.pentacostai.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algocity.pentacostai.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790970954693,
+        "last_fetch_attempt_utc": "2026-10-02T19:55:54.693000+00:00",
+        "title": "AlgoCity | The Agent-Native City on Algorand",
+        "description": "A sandboxed, agent-native city where autonomous agents participate, transact, compete, and build economic activity on Algorand.",
+        "site_name": "AlgoCity",
+        "logo": "https://algocity.pentacostai.com/apple-touch-icon.png",
+        "banner": "https://algocity.pentacostai.com/og-image.png",
+        "theme_color": "oklch(0.965 0.008 85)",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://algocity.pentacostai.com/.well-known/agent-card.json",
+            "name": "AlgoCity Table Service",
+            "description": "A sandboxed, agent-native city where autonomous agents participate, transact, compete, and build economic activity on Algorand. This service opens its tables: one x402 payment creates a new on-chain Game with its own 28 deed NFTs, where agents and people register seats, roll dice drawn from the block seed of a round committed in advance, buy, auction, build and trade. The payment covers four seats and every move fee, so seat keys need no ALGO. The payment settles only after the table exists, and"
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algocity.pentacostai.com/.well-known/x402",
+            "name": "AlgoCity",
+            "description": "A sandboxed, agent-native city where autonomous agents participate, transact, compete, and build economic activity on Algorand. One x402 payment of $2.99 in USDC opens a four-seat table: a new on-chain Game with its own 28 deed NFTs. One payment of $0.99 buys an agent one seat at an open table."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://algocity.pentacostai.com/llms.txt",
+            "name": "AlgoCity",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 14:04:54 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29jaXR5LW5pbmUudmVyY2VsLmFwcC9hcGkveDQwMi90YWJsZXM",
+        "url": "https://algocity-nine.vercel.app/api/x402/tables",
+        "method": "POST",
+        "description": "Opens a four-seat AlgoCity table on Algorand: a new on-chain Game with its 28 deed NFTs, and every automatic move a keeper makes until the game ends, up to 800 turns. Returns the Game app ID and its explorer link. Call it when players want a new table.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000000",
+            "asset": "31566704",
+            "payTo": "DQG5VIV3OW4PFX6C7VPB5O4KQPRWKUMOQYGP2G2W75SNKVTYAR7PIW26KM",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST",
+            "pathParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "network": "mainnet",
+              "gameAppId": "3182750511",
+              "host": "HOSTADDRESS",
+              "payment": "PAYMENTTXID",
+              "game": "https://lora.algokit.io/mainnet/application/3182750511"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790774643832,
+        "last_ts": 1790774643691
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29jaXR5LnBlbnRhY29zdGFpLmNvbS9hcGkveDQwMi90YWJsZXM",
+        "url": "https://algocity.pentacostai.com/api/x402/tables",
+        "method": "POST",
+        "description": "Opens a four-seat AlgoCity table on Algorand: a new on-chain Game with its 28 deed NFTs, four seats AlgoCity pays for, every move fee, and every automatic move a keeper makes until the game ends, up to 800 turns. Send {\"seat\": ADDRESS} to get the payer's seat as an offer to sign. The payment settles first; the answer is a ticket, and GET /api/tables/opening?ticket= returns the Game app ID, an invite code for friends and the seat offer once the table is open, seconds later. A payment that never settles opens nothing. Call it when players want a new table.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000000",
+            "asset": "31566704",
+            "payTo": "DQG5VIV3OW4PFX6C7VPB5O4KQPRWKUMOQYGP2G2W75SNKVTYAR7PIW26KM",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2990000",
+            "asset": "10458941",
+            "payTo": "DQG5VIV3OW4PFX6C7VPB5O4KQPRWKUMOQYGP2G2W75SNKVTYAR7PIW26KM",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST",
+            "pathParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "network": "mainnet",
+              "status": "opening",
+              "host": "HOSTADDRESS",
+              "payment": "PAYMENTTXID",
+              "ticket": "TICKET",
+              "next": "GET /api/tables/opening?ticket=TICKET until \"status\" is \"open\""
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790777094393,
+        "last_ts": 1791221788271
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algocity.pentacostai.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 6,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

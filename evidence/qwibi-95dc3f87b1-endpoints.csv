@@ -1,0 +1,9 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://www.qwibi.xyz/api/x402/verify,9,0.090000,2,0,0.000000,4,0.040000,0,2026-09-30 17:47:34 UTC,2026-10-06 00:08:52 UTC
+POST,https://www.qwibi.xyz/api/x402/data-clean,1,0.500000,1,0,0.000000,1,0.500000,0,2026-10-01 11:58:42 UTC,2026-10-01 11:58:42 UTC
+POST,https://www.qwibi.xyz/api/x402/financial-model,1,0.500000,1,0,0.000000,1,0.500000,0,2026-10-01 12:02:21 UTC,2026-10-01 12:02:21 UTC
+POST,https://www.qwibi.xyz/api/x402/forecasting,1,0.250000,1,0,0.000000,1,0.250000,0,2026-10-01 12:00:13 UTC,2026-10-01 12:00:13 UTC
+POST,https://www.qwibi.xyz/api/x402/market-intelligence,1,0.500000,1,0,0.000000,1,0.500000,0,2026-10-01 11:57:01 UTC,2026-10-01 11:57:01 UTC
+POST,https://www.qwibi.xyz/api/x402/report-writeup,1,0.100000,1,0,0.000000,1,0.100000,0,2026-10-01 12:05:58 UTC,2026-10-01 12:05:58 UTC
+POST,https://www.qwibi.xyz/api/x402/text-to-sql-bi,1,0.500000,1,0,0.000000,1,0.500000,0,2026-10-01 12:07:32 UTC,2026-10-01 12:07:32 UTC
+POST,https://www.qwibi.xyz/api/x402/wallet-statement,1,2.000000,1,0,0.000000,1,2.000000,0,2026-10-01 12:04:25 UTC,2026-10-01 12:04:25 UTC

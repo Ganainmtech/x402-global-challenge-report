@@ -1,0 +1,1180 @@
+{
+  "merchant_id": "NlhQN01KS01FUFNDWjQ2UlBCNDJGRlJR",
+  "name": "ETH-AVM Light Client",
+  "description": null,
+  "website": "[link removed]",
+  "logo": null,
+  "categories": [
+    "api",
+    "algorand",
+    "ethereum",
+    "verification",
+    "x402"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "eth-avm-light-client.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 44,
+      "last_observed_at": 1791245249687,
+      "catalog_endpoint_count": 18,
+      "metadata": {
+        "domain": "eth-avm-light-client.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://eth-avm-light-client.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://eth-avm-light-client.vercel.app/llms.txt",
+            "name": "ETH-AVM Light Client",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:07:29 UTC"
+    },
+    {
+      "domain": "github.com",
+      "classification": "shared_platform_domain",
+      "provider": "github.com",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "github.com",
+        "classification": "shared_platform_domain",
+        "provider": "github.com",
+        "is_custom_domain_candidate": false,
+        "origin": "https://github.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790918076133,
+        "last_fetch_attempt_utc": "2026-10-02T05:14:36.133000+00:00",
+        "title": "GitHub · Change is constant. GitHub keeps you ahead.",
+        "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+        "site_name": "GitHub",
+        "logo": "[link removed]",
+        "banner": "https://images.ctfassets.net/8aevphvgewt8/4pe4eOtUJ0ARpZRE4fNekf/f52b1f9c52f059a33170229883731ed0/GH-Homepage-Universe-img.png",
+        "theme_color": "#1e2327",
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "[link removed]",
+            "name": "GitHub",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "x402endpoint-nu.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "x402endpoint-nu.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://x402endpoint-nu.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1788865096689,
+        "last_fetch_attempt_utc": "2026-09-08T10:58:16.689000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://x402endpoint-nu.vercel.app/llms.txt",
+            "name": "ETH-AVM Light Client",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTY5MTIwOS8wLzA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25691209/0/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787056665777,
+        "last_ts": 1791245249687
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny8xMDAvMA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/100/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057420142,
+        "last_ts": 1790558981281
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny8yLzA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/2/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057381671,
+        "last_ts": 1790559075093
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny8yNS8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/25/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057392359,
+        "last_ts": 1790559158135
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny80OC8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/48/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057460634,
+        "last_ts": 1790559224369
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny82Ny8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/67/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057433182,
+        "last_ts": 1790559285131
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny84MC8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/80/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057447868,
+        "last_ts": 1790559334908
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA2Ny85MC8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782067/90/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057405922,
+        "last_ts": 1790559384485
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5MC8zMS8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782090/31/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057764602,
+        "last_ts": 1790559423119
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5MC81NS8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782090/55/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057791750,
+        "last_ts": 1790559461756
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5MC81OS8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782090/59/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057711490,
+        "last_ts": 1790559489207
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5MS8xODgvMA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782091/188/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057727218,
+        "last_ts": 1790559522501
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5MS8xOTYvMA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782091/196/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057780294,
+        "last_ts": 1790559555551
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5Mi8xOTQvMA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782092/194/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057737218,
+        "last_ts": 1790559583165
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5Mi8yMDkvMA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782092/209/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057710445,
+        "last_ts": 1790559602531
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5Mi8yNC8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782092/24/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057750800,
+        "last_ts": 1790559627347
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5Mi80OS8w",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782092/49/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057668900,
+        "last_ts": 1790559643860
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vZXRoLWF2bS1saWdodC1jbGllbnQudmVyY2VsLmFwcC92ZXJpZnktcmVjZWlwdC8yNTc4MjA5Mi85LzA",
+        "url": "https://eth-avm-light-client.vercel.app/verify-receipt/25782092/9/0",
+        "method": "GET",
+        "description": "Verify an Ethereum receipt/log's inclusion via a real Algorand transaction against M7 (docs/design/007-receipt-log-proof.md), T1+T2, RPC-trusted receiptsRoot. GET /verify-receipt/{block_number}/{tx_index}/{log_index} -- e.g. /verify-receipt/25691209/0/0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "6XP7MJKMEPSCZ46RPB42FFRQGF7U5ACXLCXNCXWAVJUSP5J7U3ZFWBRIFQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "block_number": 25691209,
+              "trust_model": "rpc-trusted-receiptsRoot",
+              "verified_by": "Algorand app 3670577356, round 63966200",
+              "result": {
+                "rstatus": 1,
+                "rstatus_name": "R_INCLUDED",
+                "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "n_topics": 2,
+                "data_hash": "b8f4c61ca352c6a3690cc8c4ddb3f0f208c1d06087dab9db52baf8d9363c6362",
+                "data_len": 32,
+                "tx_type": 2,
+                "n_logs": 6,
+                "confirmed_round": 63966200
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787057682546,
+        "last_ts": 1790559660374
+      }
+    ],
+    "resource_count": 18,
+    "description_count": 18,
+    "mime_type_count": 18,
+    "accepts_count": 18,
+    "discovery_count": 18,
+    "input_documentation_count": 18,
+    "output_documentation_count": 18,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 3,
+    "cached_domain_metadata_count": 3,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

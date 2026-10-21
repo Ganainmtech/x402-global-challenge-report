@@ -1,0 +1,533 @@
+{
+  "merchant_id": "V1BZN1ZTSFRMU0kyU09HS0RXN1RSRlZZ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "www.qwibi.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 16,
+      "last_observed_at": 1791245332429,
+      "catalog_endpoint_count": 8,
+      "metadata": {
+        "domain": "www.qwibi.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://www.qwibi.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Qwibi",
+        "description": "Verified analyst work, paid one request at a time with x402 on Algorand.",
+        "site_name": "Qwibi",
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://www.qwibi.xyz/.well-known/agent.json",
+            "name": "Qwibi",
+            "description": "Pay-per-request AI analyst desk for agentic finance. Agents pay with x402 on Algorand for finished, cited, and cryptographically attested analyst deliverables."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://www.qwibi.xyz/llms.txt",
+            "name": "Qwibi",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:08:52 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvZGF0YS1jbGVhbg",
+        "url": "https://www.qwibi.xyz/api/x402/data-clean",
+        "method": "POST",
+        "description": "Clean and structure a raw CSV or JSON dataset into a normalized workbook with a data-quality report.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "sourceType": "csv",
+              "rawInput": "name,amount\nAlice,100"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "jobId": "00000000-0000-0000-0000-000000000000",
+              "deliverableUrl": "https://www.qwibi.xyz/report/{jobId}",
+              "verifyUrl": "https://www.qwibi.xyz/verify/{jobId}"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790855922976,
+        "last_ts": 1790855922857
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvZmluYW5jaWFsLW1vZGVs",
+        "url": "https://www.qwibi.xyz/api/x402/financial-model",
+        "method": "POST",
+        "description": "A real DCF spreadsheet with live cross-sheet formulas, labeled assumptions, and a one-page enterprise value summary.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "modelName": "Example DCF",
+              "initialRevenue": 1000000,
+              "years": 5
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "jobId": "00000000-0000-0000-0000-000000000000",
+              "deliverableUrl": "https://www.qwibi.xyz/report/{jobId}",
+              "verifyUrl": "https://www.qwibi.xyz/verify/{jobId}"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790856142114,
+        "last_ts": 1790856141998
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvZm9yZWNhc3Rpbmc",
+        "url": "https://www.qwibi.xyz/api/x402/forecasting",
+        "method": "POST",
+        "description": "Time-series forecast with a plain-English model card, or a rule-based strategy backtest (equity curve, drawdown, Sharpe).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "csvData": "date,value\n2026-01-01,10\n2026-01-02,12\n2026-01-03,14\n2026-01-04,16\n2026-01-05,18\n2026-01-06,20",
+              "targetColumn": "value",
+              "horizon": 2
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "forecasts": [
+                {
+                  "period": "2026-01-07",
+                  "forecast": 22
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790856013430,
+        "last_ts": 1790856013319
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvbWFya2V0LWludGVsbGlnZW5jZQ",
+        "url": "https://www.qwibi.xyz/api/x402/market-intelligence",
+        "method": "POST",
+        "description": "Crypto + equity market intelligence brief: real-time prices, an AI-written executive summary, delivered as a cited, attested PDF.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "cryptoSymbols": "BTC",
+              "stockTickers": "AAPL"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "jobId": "00000000-0000-0000-0000-000000000000",
+              "deliverableUrl": "https://www.qwibi.xyz/report/{jobId}",
+              "verifyUrl": "https://www.qwibi.xyz/verify/{jobId}"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790855821559,
+        "last_ts": 1790855821379
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvcmVwb3J0LXdyaXRldXA",
+        "url": "https://www.qwibi.xyz/api/x402/report-writeup",
+        "method": "POST",
+        "description": "A fully researched, cited, executive-ready report from one prompt, or a polished writeup of existing notes.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "mode": "writeup_existing",
+              "outputFormat": "project_report",
+              "topic": "Example project",
+              "existingWorkNotes": "Describe the completed work here."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "jobId": "00000000-0000-0000-0000-000000000000",
+              "deliverableUrl": "https://www.qwibi.xyz/report/{jobId}",
+              "verifyUrl": "https://www.qwibi.xyz/verify/{jobId}"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790856358133,
+        "last_ts": 1790856358019
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvdGV4dC10by1zcWwtYmk",
+        "url": "https://www.qwibi.xyz/api/x402/text-to-sql-bi",
+        "method": "POST",
+        "description": "Ask a database a question in plain English for a safe read-only SQL answer, or turn CSV data into a dashboard.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Which regions have the highest revenue?"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "jobId": "00000000-0000-0000-0000-000000000000",
+              "deliverableUrl": "https://www.qwibi.xyz/report/{jobId}",
+              "verifyUrl": "https://www.qwibi.xyz/verify/{jobId}"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790856452195,
+        "last_ts": 1790856452083
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvdmVyaWZ5",
+        "url": "https://www.qwibi.xyz/api/x402/verify",
+        "method": "POST",
+        "description": "Verify a Qwibi deliverable by job id or SHA-256 hash: returns attestation status, timestamp, file type, and source manifest.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "jobId": "00000000-0000-0000-0000-000000000000"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "verified",
+              "attestationHash": "8f3a19d2c41e...",
+              "fileType": "pdf",
+              "untampered": true
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790790454636,
+        "last_ts": 1791245332429
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3d3dy5xd2liaS54eXovYXBpL3g0MDIvd2FsbGV0LXN0YXRlbWVudA",
+        "url": "https://www.qwibi.xyz/api/x402/wallet-statement",
+        "method": "POST",
+        "description": "A bank-grade statement from on-chain wallet history: income, expenses, a stability score, and a full transaction ledger.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000000",
+            "asset": "31566704",
+            "payTo": "WPY7VSHTLSI2SOGKDW7TRFVYRTMME77NDU62QPGOGBEG32LULHCYDEIG4I",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "project": "Qwibi",
+              "asset": "31566704",
+              "currency": "USDC",
+              "entryType": "composite",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "addresses": "0x0000000000000000000000000000000000000000",
+              "template": "personal_review"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "delivered",
+              "jobId": "00000000-0000-0000-0000-000000000000",
+              "deliverableUrl": "https://www.qwibi.xyz/report/{jobId}",
+              "verifyUrl": "https://www.qwibi.xyz/verify/{jobId}"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790856265400,
+        "last_ts": 1790856265281
+      }
+    ],
+    "resource_count": 8,
+    "description_count": 8,
+    "mime_type_count": 8,
+    "accepts_count": 8,
+    "discovery_count": 8,
+    "input_documentation_count": 8,
+    "output_documentation_count": 8,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "www.qwibi.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "agent-json",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

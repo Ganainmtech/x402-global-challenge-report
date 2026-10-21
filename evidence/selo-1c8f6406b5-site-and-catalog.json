@@ -1,0 +1,221 @@
+{
+  "merchant_id": "TjM3SE1KQ0I0QkFJVEMyWlU3QzRYVzdQ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.useselo.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 10,
+      "last_observed_at": 1790776516989,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "api.useselo.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.useselo.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Selo",
+        "description": "CI for x402. It pays your endpoint before your users do.",
+        "site_name": "Selo",
+        "logo": "https://useselo.xyz/brand/selo-logo-512.png",
+        "banner": "https://useselo.xyz/og.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.useselo.xyz/.well-known/agent-card.json",
+            "name": "Selo",
+            "description": "CI for x402. It pays your endpoint before your users do. Run an authorized x402 release test. Selo settles the request, pays the target endpoint, verifies payment and response behavior, and returns an evidence-backed PASS, FAIL, or INCONCLUSIVE report."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.useselo.xyz/llms.txt",
+            "name": "Selo",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 13:55:16 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS51c2VzZWxvLnh5ei92MS9yZWxlYXNlLXRlc3Q",
+        "url": "https://api.useselo.xyz/v1/release-test",
+        "method": "POST",
+        "description": "Run an authorized x402 release test. Selo settles the request, pays the target endpoint, verifies payment and response behavior, and returns an evidence-backed PASS, FAIL, or INCONCLUSIVE report.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000000",
+            "asset": "31566704",
+            "payTo": "N37HMJCB4BAITC2ZU7C4XW7PUMCO4T3TUASHQEL6A4EWMLOTTHOB7IOOKY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "preflightId": "pfl_01J8Z3K6W2Q9V4N7T5R8M3X1CY",
+              "profile": "quick",
+              "expected": {
+                "status": 200,
+                "contentType": "application/json"
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "jobId": "job_EXAMPLE_JOB_ID",
+              "verdict": "PASS",
+              "target": "[local URL omitted]",
+              "checks": [
+                {
+                  "id": "handshake",
+                  "status": "PASS",
+                  "code": "HANDSHAKE_VALID",
+                  "blocking": true,
+                  "summary": "Example: the unpaid request returned a valid x402 v2 challenge.",
+                  "evidence": [
+                    "evd_EXAMPLE_HANDSHAKE"
+                  ]
+                },
+                {
+                  "id": "paid_delivery",
+                  "status": "PASS",
+                  "code": "PAID_AND_DELIVERED",
+                  "blocking": true,
+                  "summary": "Example: the downstream payment settled and the target returned 200.",
+                  "evidence": [
+                    "evd_EXAMPLE_PAID_RESPONSE",
+                    "evd_EXAMPLE_DOWNSTREAM_PAYMENT"
+                  ]
+                },
+                {
+                  "id": "response_contract",
+                  "status": "PASS",
+                  "code": "CONTRACT_MATCHED",
+                  "blocking": true,
+                  "summary": "Example: the paid response matched status 200 and content type application/json.",
+                  "evidence": [
+                    "evd_EXAMPLE_PAID_RESPONSE"
+                  ]
+                },
+                {
+                  "id": "discovery_contract",
+                  "status": "PASS",
+                  "code": "DISCOVERY_CONSISTENT",
+                  "blocking": true,
+                  "summary": "Example: the live challenge and the catalog record agree.",
+                  "evidence": [
+                    "evd_EXAMPLE_DISCOVERY"
+                  ]
+                },
+                {
+                  "id": "retry_safety",
+                  "status": "PASS",
+                  "code": "PASS_REPLAY_REJECTED",
+                  "blocking": true,
+                  "summary": "Example: replaying the identical signed payment was rejected with status 402.",
+                  "evidence": [
+                    "evd_EXAMPLE_REPLAY"
+                  ]
+                }
+              ],
+              "warnings": [],
+              "inconclusiveReason": null,
+              "money": {
+                "seloInboundTxId": "EXAMPLE_INBOUND_TXID",
+                "downstreamSpendUsdc": "0.01",
+                "downstreamTxIds": [
+                  "EXAMPLE_DOWNSTREAM_TXID"
+                ]
+              },
+              "reportUrl": "[local URL omitted]"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790542101479,
+        "last_ts": 1790776516989
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.useselo.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.callrack.xyz/v1/evidence,146,21.900000,17,0,0.000000,0,0.000000,0,2026-09-22 23:05:52 UTC,2026-10-04 22:05:21 UTC
+POST,https://api.callrack.xyz/v1/compare,121,24.200000,6,0,0.000000,0,0.000000,0,2026-09-22 23:12:29 UTC,2026-10-04 22:01:23 UTC
+POST,https://api.callrack.xyz/v1/verify,105,12.600000,18,0,0.000000,0,0.000000,0,2026-09-22 23:10:45 UTC,2026-10-05 13:53:03 UTC
+POST,https://api.callrack.xyz/v1/research,50,5.000000,7,0,0.000000,0,0.000000,0,2026-09-24 16:59:01 UTC,2026-10-02 07:29:07 UTC
+POST,https://api.callrack.xyz/v1/academic/search,35,2.730000,9,0,0.000000,0,0.000000,0,2026-09-22 06:41:45 UTC,2026-10-06 00:05:59 UTC
+POST,https://api.callrack.xyz/v1/government/census,24,1.920000,5,0,0.000000,0,0.000000,0,2026-09-27 00:08:40 UTC,2026-09-30 19:26:00 UTC
+POST,https://api.callrack.xyz/v1/academic/work,17,1.020000,7,0,0.000000,0,0.000000,0,2026-09-22 23:32:40 UTC,2026-10-04 08:04:20 UTC
+POST,https://api.callrack.xyz/v1/knowledge/search,16,0.960000,7,0,0.000000,0,0.000000,0,2026-09-24 11:41:45 UTC,2026-09-30 15:35:20 UTC
+POST,https://api.callrack.xyz/v1/weather,14,0.700000,5,0,0.000000,0,0.000000,0,2026-09-28 16:05:39 UTC,2026-10-04 08:26:21 UTC
+POST,https://api.callrack.xyz/v1/geocode,13,0.520000,5,0,0.000000,0,0.000000,0,2026-09-22 23:37:40 UTC,2026-10-02 07:51:15 UTC
+POST,https://api.callrack.xyz/v1/holidays,13,0.520000,6,0,0.000000,0,0.000000,0,2026-09-22 23:18:24 UTC,2026-09-30 14:34:15 UTC
+POST,https://api.callrack.xyz/v1/crypto/market,12,0.720000,5,0,0.000000,0,0.000000,0,2026-09-22 23:16:05 UTC,2026-10-04 08:24:01 UTC
+POST,https://api.callrack.xyz/v1/crypto/price,10,0.400000,6,0,0.000000,0,0.000000,0,2026-09-22 09:39:13 UTC,2026-10-04 08:20:07 UTC
+POST,https://api.callrack.xyz/v1/fx/rates,5,0.200000,3,0,0.000000,0,0.000000,0,2026-09-24 17:04:14 UTC,2026-10-04 07:48:50 UTC
+(not recorded),(not recorded),3,0.120000,1,0,0.000000,0,0.000000,0,2026-09-29 17:56:33 UTC,2026-09-29 17:58:10 UTC

@@ -1,0 +1,715 @@
+{
+  "merchant_id": "Tk1WTE9OV1ZSWlVUVVNIT1ZKTFBRWlRL",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "oyapicks.app",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 35,
+      "last_observed_at": 1790867265143,
+      "catalog_endpoint_count": 11,
+      "metadata": {
+        "domain": "oyapicks.app",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://oyapicks.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791122284154,
+        "last_fetch_attempt_utc": "2026-10-04T13:58:04.154000+00:00",
+        "title": "OyaPicks · Verified Track Record",
+        "description": "An AI that bets prediction markets in public, every call logged before the outcome. Its live market data is payable per call over x402.",
+        "site_name": "OyaPicks",
+        "logo": "https://oyapicks.app/apple-icon.png",
+        "banner": "https://oyapicks.app/opengraph-image.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://oyapicks.app/.well-known/x402",
+            "name": "OyaPicks",
+            "description": "Cross-venue prediction-market data for AI agents, payable per request over x402. Normalized market data from Polymarket and Alpha Arcade, backed by a public verifiable track record at https://oyapicks.app/track."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://oyapicks.app/llms.txt",
+            "name": "OyaPicks",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-01 15:07:45 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL2FscGhhLWJvb2s",
+        "url": "https://oyapicks.app/api/x402/alpha-book",
+        "method": "GET",
+        "description": "The complete live Alpha Arcade catalog in a single call: every open market with question, end date, 24h USD volume, outcome labels, per-outcome implied probabilities (0-1), categories, market URL, and per-outcome Algorand application IDs. Includes multi-choice markets. Sorted by 24h volume descending.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-alpha-book",
+              "venue": "alpha_arcade",
+              "asOf": "2026-01-01T00:00:00.000Z",
+              "count": 1,
+              "binaryCount": 1,
+              "multiChoiceCount": 0,
+              "markets": [
+                {
+                  "question": "Example market question?",
+                  "slug": "example-market-question",
+                  "venue": "alpha_arcade",
+                  "endDate": "2026-12-31T00:00:00.000Z",
+                  "volume24hUsd": 4949,
+                  "isMultiChoice": false,
+                  "outcomes": [
+                    "Yes",
+                    "No"
+                  ],
+                  "outcomePrices": [
+                    0.42,
+                    0.58
+                  ],
+                  "categories": [
+                    "Crypto"
+                  ],
+                  "marketUrl": "https://www.alphaarcade.com/market/example-market-question",
+                  "marketAppIds": [
+                    123456789,
+                    123456789
+                  ]
+                }
+              ],
+              "disclaimer": "Informational only. Not financial advice."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786354285756,
+        "last_ts": 1790559160743
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL2FuYWx5emUtYWxnbw",
+        "url": "https://oyapicks.app/api/x402/analyze-algo",
+        "method": "GET",
+        "description": "Top 3 prediction markets by 24h volume across Polymarket and Alpha Arcade: question, venue, implied probability, 24h USD volume, and resolution date.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-top-markets",
+              "count": 3,
+              "markets": [
+                {
+                  "market": "Example market question?",
+                  "venue": "polymarket",
+                  "impliedProbability": 0.42,
+                  "impliedProbabilityPct": 42,
+                  "volume24hUsd": 100000,
+                  "endDate": "2026-12-31T00:00:00Z"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782640314965,
+        "last_ts": 1784917260416
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL2FyYml0cmFnZS1hbGdv",
+        "url": "https://oyapicks.app/api/x402/arbitrage-algo",
+        "method": "GET",
+        "description": "Same outcome priced differently on Polymarket and Alpha Arcade: the event, the outcome, each venue's price, the gap in percentage points, and which venue is cheaper.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-arbitrage",
+              "count": 1,
+              "signals": [
+                {
+                  "event": "2026 FIFA World Cup Winner",
+                  "outcome": "Germany",
+                  "polymarket": {
+                    "question": "Will Germany win the 2026 FIFA World Cup?",
+                    "yesPrice": 0.0395
+                  },
+                  "alphaArcade": {
+                    "market": "2026 FIFA World Cup Winner",
+                    "price": 0.024
+                  },
+                  "gapPct": 2,
+                  "cheaperOn": "alpha_arcade"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782720669579,
+        "last_ts": 1790585347046
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL2Nsb3Npbmctc29vbi1hbGdv",
+        "url": "https://oyapicks.app/api/x402/closing-soon-algo",
+        "method": "GET",
+        "description": "Prediction markets resolving within 48 hours: question, venue, implied probability, 24h USD volume, and end date.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-closing-soon",
+              "windowHours": 48,
+              "count": 1,
+              "markets": [
+                {
+                  "market": "Example market question?",
+                  "venue": "polymarket",
+                  "impliedProbability": 0.42,
+                  "impliedProbabilityPct": 42,
+                  "volume24hUsd": 100000,
+                  "endDate": "2026-12-31T00:00:00Z"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782670677205,
+        "last_ts": 1790867254160
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL21vdmVycy1hbGdv",
+        "url": "https://oyapicks.app/api/x402/movers-algo",
+        "method": "GET",
+        "description": "Prediction markets with the biggest probability swings since the last snapshot: venue, question, previous price, new price, and percentage-point change.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-movers",
+              "count": 1,
+              "movers": [
+                {
+                  "venue": "polymarket",
+                  "question": "Example market question?",
+                  "oldPrice": 0.4,
+                  "newPrice": 0.55,
+                  "changePct": 15
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782640328146,
+        "last_ts": 1790867259662
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL25ldy1tYXJrZXRzLWFsZ28",
+        "url": "https://oyapicks.app/api/x402/new-markets-algo",
+        "method": "GET",
+        "description": "Prediction markets newly listed since the last snapshot: question, venue, implied probability, 24h USD volume, and resolution date.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-new-markets",
+              "count": 1,
+              "markets": [
+                {
+                  "market": "Example market question?",
+                  "venue": "alpha_arcade",
+                  "impliedProbability": 0.42,
+                  "impliedProbabilityPct": 42,
+                  "volume24hUsd": 100000,
+                  "endDate": "2026-12-31T00:00:00Z"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782670682974,
+        "last_ts": 1790867265143
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL3Byb2JhYmlsaXR5LWhpc3RvcnktYWxnbw",
+        "url": "https://oyapicks.app/api/x402/probability-history-algo",
+        "method": "GET",
+        "description": "Probability time series for one prediction market. Pass ?q= to select it; returns the matched market, venue, and dated price points in decimal and percent.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "q": "world cup"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-probability-history",
+              "query": "world cup",
+              "market": "Example market question?",
+              "venue": "polymarket",
+              "count": 2,
+              "points": [
+                {
+                  "time": "2026-06-26T00:00:00Z",
+                  "price": 0.41,
+                  "pricePct": 41
+                },
+                {
+                  "time": "2026-06-27T00:00:00Z",
+                  "price": 0.47,
+                  "pricePct": 47
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782699799689,
+        "last_ts": 1790867248678
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL3Jlc29sdXRpb25zLWFsZ28",
+        "url": "https://oyapicks.app/api/x402/resolutions-algo",
+        "method": "GET",
+        "description": "Recently resolved Polymarket prediction markets: question, winning outcome, resolution timestamp, and USD volume.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-resolutions",
+              "count": 1,
+              "resolutions": [
+                {
+                  "venue": "polymarket",
+                  "market": "Example market question?",
+                  "winningOutcome": "No",
+                  "resolvedAt": "2026-06-28T00:00:00Z",
+                  "volumeUsd": 125000
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782707681510,
+        "last_ts": 1790559381801
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL3NlYXJjaC1hbGdv",
+        "url": "https://oyapicks.app/api/x402/search-algo",
+        "method": "GET",
+        "description": "Keyword search of live Polymarket and Alpha Arcade prediction markets. Pass ?q= to get matching questions with venue, implied probability, 24h USD volume, and end date.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "q": "world cup"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-search",
+              "query": "world cup",
+              "count": 1,
+              "results": [
+                {
+                  "market": "Example market question?",
+                  "venue": "alpha_arcade",
+                  "impliedProbability": 0.5,
+                  "impliedProbabilityPct": 50,
+                  "volume24hUsd": 50000,
+                  "endDate": "2026-12-31T00:00:00Z"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782640320672,
+        "last_ts": 1790867237807
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL3NpbmdsZS1tYXJrZXQtYWxnbw",
+        "url": "https://oyapicks.app/api/x402/single-market-algo",
+        "method": "GET",
+        "description": "One prediction market by keyword: the single highest-volume live match, with venue, implied probability, 24h USD volume, and end date. Pass ?q=.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-single-market",
+              "query": "world cup",
+              "found": true,
+              "market": {
+                "question": "Example market question?",
+                "venue": "alpha_arcade",
+                "impliedProbability": 0.5,
+                "impliedProbabilityPct": 50,
+                "volume24hUsd": 50000,
+                "endDate": "2026-12-31T00:00:00Z"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785234668339,
+        "last_ts": 1790867243537
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vb3lhcGlja3MuYXBwL2FwaS94NDAyL3ZvbHVtZS1zcGlrZXMtYWxnbw",
+        "url": "https://oyapicks.app/api/x402/volume-spikes-algo",
+        "method": "GET",
+        "description": "Prediction markets with the largest 24h trading-volume jumps: venue, question, previous and new 24h volume, the multiple, and percent change.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "NMVLONWVRZUTUSHOVJLPQZTKII4RNCHA33R5HRRWHBCHGMU4BLIKIJAVA4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "product": "oyapicks-volume-spikes",
+              "count": 1,
+              "spikes": [
+                {
+                  "venue": "polymarket",
+                  "question": "Example market question?",
+                  "oldVolume24h": 12000,
+                  "newVolume24h": 48000,
+                  "multiple": 4,
+                  "changePct": 300
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1782697909945,
+        "last_ts": 1784948108705
+      }
+    ],
+    "resource_count": 11,
+    "description_count": 11,
+    "mime_type_count": 11,
+    "accepts_count": 11,
+    "discovery_count": 11,
+    "input_documentation_count": 11,
+    "output_documentation_count": 11,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "oyapicks.app"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

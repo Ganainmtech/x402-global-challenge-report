@@ -1,0 +1,471 @@
+{
+  "merchant_id": "QlJTTVdUTldGUlcyNkxVN0ZRN0NHMktZ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "agriintellect.site",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 181,
+      "last_observed_at": 1791245373930,
+      "catalog_endpoint_count": 5,
+      "metadata": {
+        "domain": "agriintellect.site",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://agriintellect.site",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791286054778,
+        "last_fetch_attempt_utc": "2026-10-06T11:27:34.778000+00:00",
+        "title": "AgriIntellect — Weather, Mandi & Fertilizer Advisory on WhatsApp",
+        "description": "AgriIntellect sends Maharashtra farmers real-time weather, nearest mandi rates, and government-registered fertilizer advice — directly on WhatsApp, in Marathi, Hindi or English.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:09:33 UTC"
+    },
+    {
+      "domain": "agrometeorological-api.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "agrometeorological-api.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://agrometeorological-api.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1788350802886,
+        "last_fetch_attempt_utc": "2026-09-02T12:06:42.886000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "fertilizer-platform-py.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "fertilizer-platform-py.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://fertilizer-platform-py.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1785564832861,
+        "last_fetch_attempt_utc": "2026-08-01T06:13:52.861000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "mandi-endpoint.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "mandi-endpoint.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://mandi-endpoint.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1785817402475,
+        "last_fetch_attempt_utc": "2026-08-04T04:23:22.475000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "topupendpoint.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1788350490930,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "topupendpoint.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://topupendpoint.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1788350666508,
+        "last_fetch_attempt_utc": "2026-09-02T12:04:26.508000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-02 12:01:30 UTC"
+    },
+    {
+      "domain": "weather-api-pd94.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "weather-api-pd94.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://weather-api-pd94.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1784914961609,
+        "last_fetch_attempt_utc": "2026-07-24T17:42:41.609000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FncmlpbnRlbGxlY3Quc2l0ZS9jcmVkaXRzLXRvcHVwL3BhY2syMA",
+        "url": "https://agriintellect.site/credits-topup/pack20",
+        "method": "POST",
+        "description": "Farmyworth 5-query credit pack (0.5 USDC)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "phone": "+919999999999"
+            },
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790781720692,
+        "last_ts": 1790936512760
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FncmlpbnRlbGxlY3Quc2l0ZS9jcmVkaXRzLXRvcHVwL3BhY2szMA",
+        "url": "https://agriintellect.site/credits-topup/pack30",
+        "method": "POST",
+        "description": "Farmyworth 10-query credit pack (1.0 USDC)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000000",
+            "payTo": "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "phone": "+919999999999"
+            },
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788351875818,
+        "last_ts": 1790566013441
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FncmlpbnRlbGxlY3Quc2l0ZS9mZXJ0aWxpemVyLWluZm8",
+        "url": "https://agriintellect.site/fertilizer-info",
+        "method": "POST",
+        "description": "Crop protection,Fertilizer & chemical advisory API for Maharashtra. Evaluates crops, pests, and fuzzy symptoms using an AI-backed diagnostic layer. Returns highly specific, CIBRC-approved chemical formulations, real-market brands, waiting periods, and safe dosage metrics.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "40000",
+            "payTo": "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "method": "POST",
+              "crop": "tomato",
+              "pest": [
+                "fruit borer",
+                "whitefly"
+              ],
+              "symptom": null,
+              "category_intent": null,
+              "missing_info": false
+            },
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787122188389,
+        "last_ts": 1790781786485
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FncmlpbnRlbGxlY3Quc2l0ZS9tYW5kaS1vcHRpbWl6ZQ",
+        "url": "https://agriintellect.site/mandi-optimize",
+        "method": "POST",
+        "description": "Enterprise agrilogistics & APMC price optimization API for Maharashtra. Evaluates live government APMC modal prices, calculates exact OSRM driving distances, determines commercial vehicle fleet requirements (Tata Ace to 10-Wheeler Heavy Trucks), accounts for statutory APMC deductions, and delivers risk-adjusted net profit ranges (conservative to optimistic) with agent execution rules.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "60000",
+            "payTo": "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "method": "POST",
+              "lat": 18.71,
+              "lon": 76.94,
+              "crop": "soybean",
+              "qty_quintals": 200,
+              "time_horizon": "now",
+              "radius_km": 80
+            },
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787114504867,
+        "last_ts": 1790559082792
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FncmlpbnRlbGxlY3Quc2l0ZS93ZWF0aGVyLXJpc2s",
+        "url": "https://agriintellect.site/weather-risk",
+        "method": "POST",
+        "description": "Advanced agrometeorological intelligence API. Delivers multi-horizon agronomic data: (1) 16-day forecast with derived biological & operational risk signals (GDD, spray windows); (2) ECMWF sub-seasonal trends; (3) NASA POWER 30-year climatology adjusted for ENSO/IOD states. Provides pure structured payloads optimized for AI agents, DeFi parametric insurance, and algorithmic agri-trading.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "15000",
+            "payTo": "BRSMWTNWFRW26LU7FQ7CG2KY65P5HTCBXX6QAOIEM35NESQFGWM4KWEYDU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "lat": 18.35,
+              "lon": 77.31,
+              "crop": "soybean"
+            },
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787075863889,
+        "last_ts": 1791245373930
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "agriintellect.site"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 6,
+    "cached_domain_metadata_count": 6,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

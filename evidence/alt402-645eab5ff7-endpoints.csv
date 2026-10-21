@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://one00xaltcoin.onrender.com/v1/digest,5,0.150000,2,0,0.000000,1,0.030000,0,2026-10-01 02:15:07 UTC,2026-10-04 12:28:50 UTC

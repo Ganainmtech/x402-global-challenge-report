@@ -1,0 +1,247 @@
+{
+  "merchant_id": "TFFFWlJNVjY2Wjc1SzdBUVBGTFI0TDY2",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "dollarone-x402-mainnet-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1790307309209,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "dollarone-x402-mainnet-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://dollarone-x402-mainnet-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "DollarOne x402 Tester",
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "http://dollarone-x402-mainnet-production.up.railway.app/.well-known/x402",
+            "name": "DollarOne Mexico Location Intelligence API",
+            "description": "Turn noisy Mexican location text into deterministic structured fields for routing, CRM cleanup, civic reports, checkout, delivery and agent workflows. Supports all Mexican states plus selected municipality enrichment, with confidence, warnings and provenance."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://dollarone-x402-mainnet-production.up.railway.app/llms.txt",
+            "name": "DollarOne Mexico Location Intelligence API",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title"
+        ],
+        "completeness_present": 1,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-25 03:35:09 UTC"
+    },
+    {
+      "domain": "dollarone-x402-paytest-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "dollarone-x402-paytest-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://dollarone-x402-paytest-production.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790305264872,
+        "last_fetch_attempt_utc": "2026-09-25T03:01:04.872000+00:00",
+        "title": "DollarOne x402 Tester",
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title"
+        ],
+        "completeness_present": 1,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vZG9sbGFyb25lLXg0MDItbWFpbm5ldC1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL3Jlc29sdmUtbG9jYXRpb24",
+        "url": "http://dollarone-x402-mainnet-production.up.railway.app/resolve-location",
+        "method": "POST",
+        "description": "Normalize a messy Mexican location string into structured state, municipality, postal-code signal, confidence, and provenance.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "LQEZRMV66Z75K7AQPFLR4L66MXTDTVWGKCPZNPESDGUQ3HEIMBZIAX7IPY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "query": "col centro vicente guerrero dgo"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country": "Mexico",
+              "state": "Durango",
+              "stateCode": "10",
+              "municipality": "Vicente Guerrero",
+              "locality": "Vicente Guerrero",
+              "postalCode": null,
+              "confidence": 0.9,
+              "matchedBy": [
+                "state_alias",
+                "municipality_alias"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790307309393,
+        "last_ts": 1790307309209
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vZG9sbGFyb25lLXg0MDItcGF5dGVzdC1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL3Jlc29sdmUtbG9jYXRpb24",
+        "url": "http://dollarone-x402-paytest-production.up.railway.app/resolve-location",
+        "method": "POST",
+        "description": "Normalize a messy Mexican location string into structured state, municipality, postal-code signal, confidence, and provenance.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "10000",
+            "asset": "10458941",
+            "payTo": "LQEZRMV66Z75K7AQPFLR4L66MXTDTVWGKCPZNPESDGUQ3HEIMBZIAX7IPY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "query": "col centro vicente guerrero dgo"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country": "Mexico",
+              "state": "Durango",
+              "stateCode": "10",
+              "municipality": "Vicente Guerrero",
+              "locality": "Vicente Guerrero",
+              "postalCode": null,
+              "confidence": 0.9,
+              "matchedBy": [
+                "state_alias",
+                "municipality_alias"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790305111451,
+        "last_ts": 1790305111126
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

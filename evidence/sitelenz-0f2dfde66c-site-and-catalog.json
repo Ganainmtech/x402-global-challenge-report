@@ -1,0 +1,614 @@
+{
+  "merchant_id": "MlVSWEVER09IVklaWUtVUFJRR1RDRk9Y",
+  "name": "SiteLenz",
+  "description": null,
+  "website": "https://api.sitelenz.online",
+  "logo": "https://api.sitelenz.online/logo.png",
+  "categories": [
+    "api",
+    "algorand",
+    "x402",
+    "website-analysis"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.sitelenz.online",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 652,
+      "last_observed_at": 1791245054285,
+      "catalog_endpoint_count": 10,
+      "metadata": {
+        "domain": "api.sitelenz.online",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.sitelenz.online",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 0,
+        "last_fetch_attempt_utc": null,
+        "title": "SiteLenz - Website Intelligence API",
+        "description": "SiteLenz is a pay-per-request Website Intelligence API. Give it a URL and get structured analysis of its technology, SEO, security, business, UX/accessibility, performance, screenshots, and more. Built for applications and AI agents, with each request paid in USDC through x402.",
+        "site_name": "SiteLenz",
+        "logo": "https://api.sitelenz.online/logo.png",
+        "banner": "https://api.sitelenz.online/og-image.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.sitelenz.online/.well-known/agent-card.json",
+            "name": "SiteLenz",
+            "description": "SiteLenz is a pay-per-request Website Intelligence API. Give it a URL and get structured analysis of its technology, SEO, security, business, UX/accessibility, performance, screenshots, and more. Built for applications and AI agents, with each request paid in USDC through x402."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.sitelenz.online/.well-known/agent.json",
+            "name": "SiteLenz",
+            "description": "SiteLenz is a pay-per-request Website Intelligence API. Give it a URL and get structured analysis of its technology, SEO, security, business, UX/accessibility, performance, screenshots, and more. Built for applications and AI agents, with each request paid in USDC through x402."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://api.sitelenz.online/.well-known/ai-plugin.json",
+            "name": "SiteLenz",
+            "description": "SiteLenz is a pay-per-request Website Intelligence API. Give it a URL and get structured analysis of its technology, SEO, security, business, UX/accessibility, performance, screenshots, and more. Built for applications and AI agents, with each request paid in USDC through x402."
+          },
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://api.sitelenz.online/.well-known/mcp.json",
+            "name": "SiteLenz",
+            "description": "SiteLenz is a pay-per-request Website Intelligence API. Give it a URL and get structured analysis of its technology, SEO, security, business, UX/accessibility, performance, screenshots, and more. Built for applications and AI agents, with each request paid in USDC through x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.sitelenz.online/.well-known/x402",
+            "name": "SiteLenz",
+            "description": "SiteLenz is a pay-per-request Website Intelligence API. Give it a URL and get structured analysis of its technology, SEO, security, business, UX/accessibility, performance, screenshots, and more. Built for applications and AI agents, with each request paid in USDC through x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.sitelenz.online/llms.txt",
+            "name": "SiteLenz - Website Intelligence API",
+            "description": null
+          }
+        ],
+        "agent_document_count": 6,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:04:14 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9haS1zdW1tYXJ5",
+        "url": "https://api.sitelenz.online/v1/analyze/ai-summary",
+        "method": "POST",
+        "description": "SiteLenz ai-summary analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "35000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "ai-summary",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968281952,
+        "last_ts": 1791226018264
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9idXNpbmVzcw",
+        "url": "https://api.sitelenz.online/v1/analyze/business",
+        "method": "POST",
+        "description": "SiteLenz business analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "business",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968109516,
+        "last_ts": 1791225888610
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9mdWxs",
+        "url": "https://api.sitelenz.online/v1/analyze/full",
+        "method": "POST",
+        "description": "SiteLenz full analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "800000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "full",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788977826943,
+        "last_ts": 1791239779523
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9wZXJmb3JtYW5jZQ",
+        "url": "https://api.sitelenz.online/v1/analyze/performance",
+        "method": "POST",
+        "description": "SiteLenz performance analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "performance",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968235674,
+        "last_ts": 1791225996182
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9zY3JlZW5zaG90cw",
+        "url": "https://api.sitelenz.online/v1/analyze/screenshots",
+        "method": "POST",
+        "description": "SiteLenz screenshots analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "screenshots",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968167135,
+        "last_ts": 1791225965939
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9zZWN1cml0eQ",
+        "url": "https://api.sitelenz.online/v1/analyze/security",
+        "method": "POST",
+        "description": "SiteLenz security analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "security",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968076555,
+        "last_ts": 1791225855508
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9zZW8",
+        "url": "https://api.sitelenz.online/v1/analyze/seo",
+        "method": "POST",
+        "description": "SiteLenz seo analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "seo",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968051696,
+        "last_ts": 1791225836135
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS9zdGFuZGFyZA",
+        "url": "https://api.sitelenz.online/v1/analyze/standard",
+        "method": "POST",
+        "description": "SiteLenz standard analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "400000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "standard",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788967977343,
+        "last_ts": 1791240021685
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS90ZWNobm9sb2d5",
+        "url": "https://api.sitelenz.online/v1/analyze/technology",
+        "method": "POST",
+        "description": "SiteLenz technology analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "technology",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788967927899,
+        "last_ts": 1791245054285
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5zaXRlbGVuei5vbmxpbmUvdjEvYW5hbHl6ZS91eC1hY2Nlc3NpYmlsaXR5",
+        "url": "https://api.sitelenz.online/v1/analyze/ux-accessibility",
+        "method": "POST",
+        "description": "SiteLenz ux-accessibility analysis",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "8000",
+            "asset": "31566704",
+            "payTo": "2URXEDGOHVIZYKUPRQGTCFOXJMVRZYUZLLOVX3KWYMB76CAZNOUBYSRM2Q",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "analyzeJobId": "sl_aj_01j8z9k3n8v5w6x7y8z9a0b1c2",
+              "status": "queued",
+              "endpoint": "ux-accessibility",
+              "createdAt": "2026-09-08T12:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788968142490,
+        "last_ts": 1791225935520
+      }
+    ],
+    "resource_count": 10,
+    "description_count": 10,
+    "mime_type_count": 10,
+    "accepts_count": 10,
+    "discovery_count": 10,
+    "input_documentation_count": 10,
+    "output_documentation_count": 10,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.sitelenz.online"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 6,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "mcp",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

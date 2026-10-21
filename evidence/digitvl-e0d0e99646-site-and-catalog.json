@@ -1,0 +1,133 @@
+{
+  "merchant_id": "U1c3N1lON0FYTEFPV1NBTDRVVUxTT1BK",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "digitvl-x402-gateway-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1790773150348,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "digitvl-x402-gateway-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "http://digitvl-x402-gateway-production.up.railway.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-30 12:59:10 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9kaWdpdHZsLXg0MDItZ2F0ZXdheS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL3VubG9jaw",
+        "url": "http://digitvl-x402-gateway-production.up.railway.app/unlock",
+        "method": "GET",
+        "description": "DIGITVL: unlock streaming access to an independent artist's track (hip-hop, R&B, afrobeats) for a USDC micropayment on Algorand.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "SW77YN7AXLAOWSAL4UULSOPJJ6DSAUYD6ARXREPFVWFAQGZIYU76DIXLCI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "track_id": "c4881155-f83d-4bcd-af16-e470906e82a4"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "track_id": "c4881155-f83d-4bcd-af16-e470906e82a4",
+              "title": "EAST",
+              "artist": "Mwosa",
+              "genre": "Hip-Hop & Trap",
+              "duration_seconds": 194.77,
+              "stream_url": "[local URL omitted]...",
+              "mime_type": "audio/mpeg",
+              "paid_via": "x402 / USDC on Algorand"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790773150528,
+        "last_ts": 1790773150348
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

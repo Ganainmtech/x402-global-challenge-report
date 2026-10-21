@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "eligible_merchant_count": 115,
+  "expected_mainnet_events": 872948,
+  "expected_micro_usdc": 108102651491,
+  "assertions": [
+    "Only policy-scoped merchants are exported; registration is a flag",
+    "All counted totals reconcile to the source data and the policy steps",
+    "Classifier recomputed from selected transactions",
+    "Merchant totals reconcile to the selected global union and the registered/unregistered split"
+  ]
+}

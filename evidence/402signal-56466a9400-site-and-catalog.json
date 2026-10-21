@@ -1,0 +1,171 @@
+{
+  "merchant_id": "TjJKU0paQ1NPUk1ZR1lPMk5TSVlSVUVN",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "402signal.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 196,
+      "last_observed_at": 1790770435091,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "402signal.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://402signal.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791223723013,
+        "last_fetch_attempt_utc": "2026-10-05T18:08:43.013000+00:00",
+        "title": "402Signal · Check the deal before your agent pays. Check the answer after.",
+        "description": "402Signal checks the live price and payment details against your rules before your AI agent pays, stops the payment if anything changed, and checks the answer against what you asked for up front.",
+        "site_name": "402Signal",
+        "logo": "https://402signal.com/favicon.svg",
+        "banner": "https://402signal.com/og.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://402signal.com/.well-known/mcp.json",
+            "name": "402Signal",
+            "description": "Check a paid API before your agent pays. 402Signal compares the seller's current price, recipient, network and exact request with your budget and rules; for a qualifying offer it returns a signed decision to verify before your own wallet pays. Its open-source client checks the answer against requirements set before paying. $0.003 USDC on Base, Solana or Algorand, only for a qualifying offer; misses are free. Your agent keeps its wallet. No guarantee of accuracy, identity, delivery or refunds."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://402signal.com/.well-known/x402",
+            "name": "402Signal",
+            "description": "Check a paid API before your agent pays. 402Signal compares the seller's current price, recipient, network and exact request with your budget and rules; for a qualifying offer it returns a signed decision to verify before your own wallet pays. Its open-source client checks the answer against requirements set before paying. $0.003 USDC on Base, Solana or Algorand, only for a qualifying offer; misses are free. Your agent keeps its wallet. No guarantee of accuracy, identity, delivery or refunds."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://402signal.com/llms.txt",
+            "name": "402Signal",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 12:13:55 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovLzQwMnNpZ25hbC5jb20vcm91dGU",
+        "url": "https://402signal.com/route",
+        "method": "POST",
+        "description": "402Signal checks x402 routes across Base, Solana, and Algorand before spending. $0.003 only when a valid live route is found. Normal typed misses are not settled. Seller payment is separate. Your agent keeps the wallet. Routing evidence enters the PQ Trust log on Algorand MainNet. Optional require_route_binding=true adds a signed v4 receipt for buyer-side comparison with current seller terms before signing. Guide: https://402signal.com/developers",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "N2JSJZCSORMYGYO2NSIYRUEMBFRHEOMYODVXV2MXYYHB5H2JVUGG6NJ4NQ",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USD Coin",
+              "facilitator": "https://facilitator.goplausible.xyz",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "need": "erc20 token balance",
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "live": true,
+              "url": "[local URL omitted]",
+              "status": 402,
+              "latency_ms": 87,
+              "has_402_challenge": true,
+              "probed_at": "2026-08-29T22:00:00-04:00",
+              "health": {
+                "live": true,
+                "last_probe": "2026-08-29T22:00:00-04:00",
+                "latency_ms": 87,
+                "has_402_challenge": true,
+                "status": 402
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788066294444,
+        "last_ts": 1790770435091
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "402signal.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "llms-txt",
+      "mcp",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

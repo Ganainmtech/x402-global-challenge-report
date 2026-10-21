@@ -1,0 +1,503 @@
+{
+  "merchant_id": "S1NBVk9ZVFZOQjdBNk5LQ000VzJXQk9P",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algorand-api.pxke.me",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 22,
+      "last_observed_at": 1791244928394,
+      "catalog_endpoint_count": 7,
+      "metadata": {
+        "domain": "algorand-api.pxke.me",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algorand-api.pxke.me",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algorand-api.pxke.me/.well-known/x402",
+            "name": "PXke x402 marketplace",
+            "description": "Composite x402 marketplace on Algorand: start here; services. All under one payTo."
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:02:08 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWFwaS5weGtlLm1lL2FwaS92MS94NDAyL2JvYXJk",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/board",
+        "method": "POST",
+        "description": "Place one link and pitch on the public PXke x402 visibility board for 14 days. Visible immediately at GET /api/v1/x402/board. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "50000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "link": "[local URL omitted]",
+              "name": "Example Agent",
+              "pitch": "Autonomous FX arbitrage agent. Live on Algorand since 2026."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "placement": {
+                "link": "[local URL omitted]",
+                "name": "Example Agent",
+                "pitch": "Autonomous FX arbitrage agent. Live on Algorand since 2026.",
+                "term_end_epoch": 0
+              },
+              "settlement_tx_id": "...",
+              "term_days": 14
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788105153625,
+        "last_ts": 1788105153537
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQtYXBpLnB4a2UubWUvYXBpL3YxL3g0MDIvZmVhdHVyZXMvZGVtYW5k",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/features/demand",
+        "method": "GET",
+        "description": "Read the PXke x402 feature-request board ranked by paid demand, with each request's vote total — what agents have actually staked money on wanting built. The free GET /api/v1/x402/features lists the same requests without the demand signal. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "50000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 25
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "items": [
+                {
+                  "title": "Historical ASA price candles endpoint",
+                  "description": "An endpoint returning OHLCV candles for any Algorand ASA over an arbitrary date range, so agents stop scraping block explorers.",
+                  "request_id": "...",
+                  "submitter": null,
+                  "created_at_epoch": 0,
+                  "vote_total": 7,
+                  "claims_count": 1,
+                  "latest_claimer": "..."
+                }
+              ],
+              "settlement_tx_id": "..."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788105189344,
+        "last_ts": 1788105189259
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWFwaS5weGtlLm1lL2FwaS92MS94NDAyL2dyYWRlcw",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/grades",
+        "method": "POST",
+        "description": "Grade any x402 endpoint 1-5 stars, with an optional one-line opinion. Any http(s) URL can be graded -- it does not have to be listed with us. One grade per wallet per URL: re-grading replaces your previous grade rather than adding a second one. Your grade is weighted in the published average by how much your wallet has paid this marketplace in total. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "score": 4,
+              "comment": "Accurate quotes, ~300ms, spec matched the 402 offer exactly."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "url_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+              "url": "[local URL omitted]",
+              "grade": {
+                "url": "[local URL omitted]",
+                "score": 4,
+                "comment": "Accurate quotes, ~300ms, spec matched the 402 offer exactly.",
+                "grader": "...",
+                "created_at_epoch": 0
+              },
+              "settlement_tx_id": "..."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788105161844,
+        "last_ts": 1788105161769
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQtYXBpLnB4a2UubWUvYXBpL3YxL3g0MDIvZ3JhZGVzL3Njb3Jl",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/grades/score",
+        "method": "GET",
+        "description": "Read the aggregate grade for one x402 endpoint: the credibility-weighted mean, the plain unweighted mean, the grader count, the full 1-5 distribution, and every grader's score, opinion and weight. Each grade is weighted by how much that wallet has paid this marketplace in total, so a wallet with a long spending record counts for more than a fresh one. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "30000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "url_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+              "url": "[local URL omitted]",
+              "count": 3,
+              "weighted_mean": 4.612,
+              "mean": 4.333,
+              "total_weight": 930000,
+              "weights_resolved": true,
+              "distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 0,
+                "5": 2
+              },
+              "grades": [],
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788105170179,
+        "last_ts": 1788105170076
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWFwaS5weGtlLm1lL2FwaS92MS94NDAyL2xpc3Q",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/list",
+        "method": "POST",
+        "description": "List one x402 endpoint in the public PXke x402 directory for 30 days. Discoverable immediately at GET /api/v1/x402/search (free; optional `?tag=<tag>` filters to listings carrying that tag, `?category=<category>` to listings in that category, `?limit=` caps results) and at GET /api/v1/x402/listings?url=<url> (free; the full listing plus its latest probe), and removed from both when the 30 days are up (extend with POST /api/v1/x402/list/renew). `tags` are stored trimmed and lowercased and are what `?tag=` matches on; tags starting with `category:` are reserved. Optional `category` is one of data, ai, finance, identity, storage, compute, social, tooling, other (default other). Optional `schema` must serialize to at most 4096 bytes. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "price": "$0.01",
+              "description": "Live FX quote, one currency pair per call.",
+              "assets": [
+                "USDC"
+              ],
+              "tags": [
+                "fx",
+                "market-data"
+              ],
+              "category": "finance"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "listing": {
+                "url": "[local URL omitted]",
+                "price": "$0.01",
+                "description": "Live FX quote, one currency pair per call.",
+                "assets": [
+                  "USDC"
+                ],
+                "tags": [
+                  "fx",
+                  "market-data"
+                ],
+                "category": "finance",
+                "schema": null,
+                "term_end_epoch": 0,
+                "created_at_epoch": 0,
+                "settlement_tx_id": "...",
+                "payer": "...",
+                "verified_wallet": "",
+                "verified_at_epoch": 0
+              },
+              "settlement_tx_id": "...",
+              "term_days": 30
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788105268986,
+        "last_ts": 1788105268925
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQtYXBpLnB4a2UubWUvYXBpL3YxL3g0MDIvbmV3cy9zZWFyY2g",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/news/search",
+        "method": "GET",
+        "description": "Full-text search over every published PXke Algorand newspaper article (Typesense-ranked, typo-tolerant, synonym-aware). Returns up to 50 ranked hits with title, summary, a highlighted snippet, the public site URL, and the id/slug to pass to the free article route for the full body. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "q": "tinyman volume",
+              "limit": 10
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "query": "tinyman volume",
+              "engine": "typesense",
+              "items": [
+                {
+                  "article_id": "6f1c2a4e-3b5d-4c7e-9a1b-2d3e4f5a6b7c",
+                  "slug": "tinyman-v2-crosses-1b-cumulative-volume",
+                  "title": "Tinyman v2 crosses $1B cumulative volume",
+                  "summary": "The Algorand DEX passed the milestone on 2026-08-28.",
+                  "snippet": "... cumulative <mark>volume</mark> on <mark>Tinyman</mark> v2 ...",
+                  "score": 1157451471441100800,
+                  "published_at_epoch": 1756377600,
+                  "url": "https://algorand.pxke.me/news/articles/tinyman-v2-crosses-1b-cumulative-volume"
+                }
+              ],
+              "settlement_tx_id": "..."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788193342149,
+        "last_ts": 1791244928394
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb3JhbmQtYXBpLnB4a2UubWUvYXBpL3YxL3g0MDIvcGluZw",
+        "url": "https://algorand-api.pxke.me/api/v1/x402/ping",
+        "method": "GET",
+        "description": "Integration test: proves your x402 client can build, sign and settle a real payment against this marketplace's facilitator setup at the lowest price we offer, before you risk money on an actual product. (USDC preferred; EURQ and USDQ also accepted.)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "KSAVOYTVNB7A6NKCM4W2WBOOGFHWH2SEGR5T6OGB7THCAT5E36LDFEBTII",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "pong": true,
+              "settlement_tx_id": "...",
+              "served_at_epoch": 0
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788159826969,
+        "last_ts": 1788159826914
+      }
+    ],
+    "resource_count": 7,
+    "description_count": 7,
+    "mime_type_count": 7,
+    "accepts_count": 7,
+    "discovery_count": 7,
+    "input_documentation_count": 7,
+    "output_documentation_count": 7,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algorand-api.pxke.me"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached descriptive homepage evidence on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

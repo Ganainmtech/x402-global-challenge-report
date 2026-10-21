@@ -1,0 +1,140 @@
+{
+  "merchant_id": "MklaVkRIMzZRRlBJUUZLT0JLSEFONENS",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "earnest.lxfoundry.ai",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 11,
+      "last_observed_at": 1791214043662,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "earnest.lxfoundry.ai",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://earnest.lxfoundry.ai",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791225096550,
+        "last_fetch_attempt_utc": "2026-10-05T18:31:36.550000+00:00",
+        "title": "Earnest",
+        "description": null,
+        "site_name": null,
+        "logo": "https://earnest.lxfoundry.ai/app/favicon.svg",
+        "banner": null,
+        "theme_color": "#f4efe6",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "logo",
+          "theme_color"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-05 15:27:23 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2Vhcm5lc3QubHhmb3VuZHJ5LmFpL2luZGV4",
+        "url": "https://earnest.lxfoundry.ai/index",
+        "method": "POST",
+        "description": "Your payment group must include a join call against the escrow application, naming the agreement given in extra.agreementId — a transfer with no join call is not a purchase and the USDC it sends cannot be recovered. Join a pool that buys one edition of the Algorand x402 Route Index — every Algorand USDC x402 route probed live, with its catalogued price beside the price it actually quotes. Your USDC is held by an Algorand escrow app until the edition whose sha256 was committed before you paid is delivered — released against matching bytes, refunded on-chain if the seats do not fill or the edition is not delivered by the deadline. One seat per address: a wallet that already holds a seat in this pool cannot buy a second one. Machine-verified only: no arbitration, no human in the loop.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000000",
+            "payTo": "2IZVDH36QFPIQFKOBKHAN4CREL4K77PXU6HQ5RMOF5E47DPE5XZ37Q772I",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "agreementId": 2,
+              "seatsTaken": 1,
+              "seatsTotal": 5,
+              "seatsLeft": 4,
+              "deadline": 1791194405,
+              "commitSha256": "a40ab58f47a662d3126fa843a5038b81d2bd0ca82854f2625e6a49ac33e4f2fb",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "agreementId": 42,
+              "seatsTotal": 5,
+              "deadline": 1758000000,
+              "commitSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790678246706,
+        "last_ts": 1791214043662
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "earnest.lxfoundry.ai"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

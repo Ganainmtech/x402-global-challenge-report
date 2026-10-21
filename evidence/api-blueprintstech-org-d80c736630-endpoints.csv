@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.blueprintstech.org/api/verify-counterparty,8,0.008000,2,8,0.008000,1,0.001000,0,2026-08-16 08:54:25 UTC,2026-09-28 01:38:58 UTC
+POST,https://api.blueprintstech.org/api/agent-preflight,1,0.003000,1,1,0.003000,1,0.003000,0,2026-08-16 08:48:21 UTC,2026-08-16 08:48:21 UTC
+POST,https://api.blueprintstech.org/api/verify-asset,1,0.001000,1,1,0.001000,1,0.001000,0,2026-08-16 08:54:48 UTC,2026-08-16 08:54:48 UTC

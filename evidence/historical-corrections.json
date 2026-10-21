@@ -1,0 +1,1214 @@
+{
+  "policy": "Exact payer–merchant pairs from manual funding traces; settlements and amounts are those counted in this report",
+  "entries": [
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+          "relation": "historically documented creation funding",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.493Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 7,
+      "micro_usdc": 3000000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": true
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:J7LWSZFK5ADDZMDODBL23ZAXNYZWZUKVO4RJABODRWHAPLC7DQTXJ3AB44",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "J7LWSZFK5ADDZMDODBL23ZAXNYZWZUKVO4RJABODRWHAPLC7DQTXJ3AB44",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "J7LWSZFK5ADDZMDODBL23ZAXNYZWZUKVO4RJABODRWHAPLC7DQTXJ3AB44",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.827Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 293,
+      "micro_usdc": 432450000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:DIRK6B7YI7HJO6BNGD4MUNQF2EO5KJ2CX4LLDFMY2K47AJTCE5QZQGFWIA",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "DIRK6B7YI7HJO6BNGD4MUNQF2EO5KJ2CX4LLDFMY2K47AJTCE5QZQGFWIA",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "DIRK6B7YI7HJO6BNGD4MUNQF2EO5KJ2CX4LLDFMY2K47AJTCE5QZQGFWIA",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.597Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 265,
+      "micro_usdc": 428350000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:TFEYXTEY7NFVVBVQVVAAU3TGPHU3NUSKGS7JB2AXCSLSXG4OGI5BHH45AE",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "TFEYXTEY7NFVVBVQVVAAU3TGPHU3NUSKGS7JB2AXCSLSXG4OGI5BHH45AE",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "TFEYXTEY7NFVVBVQVVAAU3TGPHU3NUSKGS7JB2AXCSLSXG4OGI5BHH45AE",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.145Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 295,
+      "micro_usdc": 448300000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:E7JNPX2IHICRJWNB4RIPTTYDMR7J7P3UAECBKNRFNSUDAYBF44ADPMYYQM",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "E7JNPX2IHICRJWNB4RIPTTYDMR7J7P3UAECBKNRFNSUDAYBF44ADPMYYQM",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "to": "E7JNPX2IHICRJWNB4RIPTTYDMR7J7P3UAECBKNRFNSUDAYBF44ADPMYYQM",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.657Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 301,
+      "micro_usdc": 441300000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:R5UKX7EKZIOMZC3SCUU7XAMB6KE5F5SB276ZJXOVGJZF3WTKKHXSTVYXL4",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "R5UKX7EKZIOMZC3SCUU7XAMB6KE5F5SB276ZJXOVGJZF3WTKKHXSTVYXL4",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "R5UKX7EKZIOMZC3SCUU7XAMB6KE5F5SB276ZJXOVGJZF3WTKKHXSTVYXL4",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.993Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 310,
+      "micro_usdc": 442750000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": true
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:GXC4LECQOJ24VIVEJDLTRUC4ESLYJSZLIHMLVB4DK7UFHPCTJX5GNM7KHY",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "GXC4LECQOJ24VIVEJDLTRUC4ESLYJSZLIHMLVB4DK7UFHPCTJX5GNM7KHY",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "to": "GXC4LECQOJ24VIVEJDLTRUC4ESLYJSZLIHMLVB4DK7UFHPCTJX5GNM7KHY",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.721Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 286,
+      "micro_usdc": 433950000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:RNI5ZZQ6R4IXOCI4JJNTRJO4DHCV4SXCG57IYWQFWNF7R55RQ2HZ3W73X4",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "RNI5ZZQ6R4IXOCI4JJNTRJO4DHCV4SXCG57IYWQFWNF7R55RQ2HZ3W73X4",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "to": "RNI5ZZQ6R4IXOCI4JJNTRJO4DHCV4SXCG57IYWQFWNF7R55RQ2HZ3W73X4",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.060Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 293,
+      "micro_usdc": 443350000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:K4DMTYMFQGI7W4U7ESDCFNRDFRC7GQSAE5344YRBKCWQ5RD3TEORRZX4QE",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "K4DMTYMFQGI7W4U7ESDCFNRDFRC7GQSAE5344YRBKCWQ5RD3TEORRZX4QE",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "K4DMTYMFQGI7W4U7ESDCFNRDFRC7GQSAE5344YRBKCWQ5RD3TEORRZX4QE",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.866Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 293,
+      "micro_usdc": 431300000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:A47DBNU3E5FI2QXOPV55LERSHR6BGJGTS4IRJTTORM4WT7MRLUUMRZL3DI",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "A47DBNU3E5FI2QXOPV55LERSHR6BGJGTS4IRJTTORM4WT7MRLUUMRZL3DI",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "A47DBNU3E5FI2QXOPV55LERSHR6BGJGTS4IRJTTORM4WT7MRLUUMRZL3DI",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.480Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 303,
+      "micro_usdc": 441250000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:EOH5LSTE5VGLSFEPFTCSNDNDK7GCPEWF4FR3PAVAYHQ4UBKXOCN3NOENPM",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "EOH5LSTE5VGLSFEPFTCSNDNDK7GCPEWF4FR3PAVAYHQ4UBKXOCN3NOENPM",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "to": "EOH5LSTE5VGLSFEPFTCSNDNDK7GCPEWF4FR3PAVAYHQ4UBKXOCN3NOENPM",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.663Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 268,
+      "micro_usdc": 429950000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:SAMRMQUEBZ46ROOOGEDHBOUESAANB4DNPZ2UUYBSXMXXXLXOBCK2QJH7H4",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "SAMRMQUEBZ46ROOOGEDHBOUESAANB4DNPZ2UUYBSXMXXXLXOBCK2QJH7H4",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "SAMRMQUEBZ46ROOOGEDHBOUESAANB4DNPZ2UUYBSXMXXXLXOBCK2QJH7H4",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.066Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 301,
+      "micro_usdc": 460400000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": true
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:WVV7HYITCZV2UFGAXS7YZVGHNMSMHS4X4QTNKRYWLQJKXKLQGLRB6RY5QI",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "WVV7HYITCZV2UFGAXS7YZVGHNMSMHS4X4QTNKRYWLQJKXKLQGLRB6RY5QI",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "to": "WVV7HYITCZV2UFGAXS7YZVGHNMSMHS4X4QTNKRYWLQJKXKLQGLRB6RY5QI",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.265Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 295,
+      "micro_usdc": 412250000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:VLF5X6XCV2KX3VGKBIUD4PVIF7A42MYZPH2LZIPI2F3PI7UZDOC4AUGWCQ",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "VLF5X6XCV2KX3VGKBIUD4PVIF7A42MYZPH2LZIPI2F3PI7UZDOC4AUGWCQ",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "VLF5X6XCV2KX3VGKBIUD4PVIF7A42MYZPH2LZIPI2F3PI7UZDOC4AUGWCQ",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.282Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 290,
+      "micro_usdc": 446100000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:VAWCZ27R2CWBQ7AZS4PJAHQHWVNACW74XUTMT4UYWBI5PPRA33UKUYKHKY",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "VAWCZ27R2CWBQ7AZS4PJAHQHWVNACW74XUTMT4UYWBI5PPRA33UKUYKHKY",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "to": "VAWCZ27R2CWBQ7AZS4PJAHQHWVNACW74XUTMT4UYWBI5PPRA33UKUYKHKY",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.216Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 316,
+      "micro_usdc": 427000000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:WAWPCDYDBOFHJXS7WS7MPM5LRHXZYOQ2X3LHMRWSRZWBOFE3HWL3E6IVZU",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "WAWPCDYDBOFHJXS7WS7MPM5LRHXZYOQ2X3LHMRWSRZWBOFE3HWL3E6IVZU",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "WAWPCDYDBOFHJXS7WS7MPM5LRHXZYOQ2X3LHMRWSRZWBOFE3HWL3E6IVZU",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.270Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 280,
+      "micro_usdc": 421800000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:YXF4NVJI3FOLPYXJLDQNQKX25UFMZQ7H2ZQYZGFOR7B6MYSBU3RCFBHJEU",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "YXF4NVJI3FOLPYXJLDQNQKX25UFMZQ7H2ZQYZGFOR7B6MYSBU3RCFBHJEU",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "to": "YXF4NVJI3FOLPYXJLDQNQKX25UFMZQ7H2ZQYZGFOR7B6MYSBU3RCFBHJEU",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.342Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 162,
+      "micro_usdc": 345300000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:3IY4AYKYVFJU3KGSL3MCPSV4TE75O3J2H7LQOW6NIXGOF2MUTDOWBN32AA",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "3IY4AYKYVFJU3KGSL3MCPSV4TE75O3J2H7LQOW6NIXGOF2MUTDOWBN32AA",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "3IY4AYKYVFJU3KGSL3MCPSV4TE75O3J2H7LQOW6NIXGOF2MUTDOWBN32AA",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.359Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 169,
+      "micro_usdc": 348200000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:F6CZ7MRKHEVI3D3TRSWCC7HSZHF6VNX6BQ33TDSGKNES7OPP3JKJFCARXU",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "F6CZ7MRKHEVI3D3TRSWCC7HSZHF6VNX6BQ33TDSGKNES7OPP3JKJFCARXU",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "F6CZ7MRKHEVI3D3TRSWCC7HSZHF6VNX6BQ33TDSGKNES7OPP3JKJFCARXU",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.656Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 158,
+      "micro_usdc": 342450000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:QMIOEOLSU4DMU4IP4YXL2HXSWNSSSF3SUGJ6OXAMBNEXO2KCYM2OJJFMZM",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "QMIOEOLSU4DMU4IP4YXL2HXSWNSSSF3SUGJ6OXAMBNEXO2KCYM2OJJFMZM",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "QMIOEOLSU4DMU4IP4YXL2HXSWNSSSF3SUGJ6OXAMBNEXO2KCYM2OJJFMZM",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.929Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 175,
+      "micro_usdc": 347450000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:YJEF3QYILQJNCPFMPJ6MSSO25FBO4YYSWJFK63OPE25LGKLASH4CF6PNVY",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "YJEF3QYILQJNCPFMPJ6MSSO25FBO4YYSWJFK63OPE25LGKLASH4CF6PNVY",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "56G27BZAYD7L77YFUE44VSEW37JOW6KQJG54PGFI6RHSRBOGYVXIH5ZEDI",
+          "to": "YJEF3QYILQJNCPFMPJ6MSSO25FBO4YYSWJFK63OPE25LGKLASH4CF6PNVY",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.283Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 161,
+      "micro_usdc": 335600000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": true
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:RSZ2NPAI4TWY55TITHSMHMZIRVZT7HI63WS5AHZCB446JORC5AD2NLTTM4",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "RSZ2NPAI4TWY55TITHSMHMZIRVZT7HI63WS5AHZCB446JORC5AD2NLTTM4",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "to": "RSZ2NPAI4TWY55TITHSMHMZIRVZT7HI63WS5AHZCB446JORC5AD2NLTTM4",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.053Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 164,
+      "micro_usdc": 357700000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:5APPWDRFPZ2RO7MRDJAP47SESKYQ4ZPNMWLCNO3Q2IPNK4EDYDD52G75AY",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "5APPWDRFPZ2RO7MRDJAP47SESKYQ4ZPNMWLCNO3Q2IPNK4EDYDD52G75AY",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "IC6F7DL53454B7DF53RH4EIR32VHYF6ELAKWIU4GDHOE6QNEITCRT5ZXEY",
+          "to": "5APPWDRFPZ2RO7MRDJAP47SESKYQ4ZPNMWLCNO3Q2IPNK4EDYDD52G75AY",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.378Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 158,
+      "micro_usdc": 345250000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:DYYKIAUPDKGNWOWTIIPFHTKCXH3J26STWAX5BPGPURFVPVLWFQGKHSCXEY",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "DYYKIAUPDKGNWOWTIIPFHTKCXH3J26STWAX5BPGPURFVPVLWFQGKHSCXEY",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "to": "DYYKIAUPDKGNWOWTIIPFHTKCXH3J26STWAX5BPGPURFVPVLWFQGKHSCXEY",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.569Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 156,
+      "micro_usdc": 352500000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": true
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:T3MZUB6KHIUNF6O7XQODT2YARPYH2DPVCTPLN4VLX7JGB3TGWJ4HG4XTNA",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "T3MZUB6KHIUNF6O7XQODT2YARPYH2DPVCTPLN4VLX7JGB3TGWJ4HG4XTNA",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "T3MZUB6KHIUNF6O7XQODT2YARPYH2DPVCTPLN4VLX7JGB3TGWJ4HG4XTNA",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:04.073Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 160,
+      "micro_usdc": 352250000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:BUUZBR76T3OX4UY2OLFNZ72DCUPD53QZLKJKLZ5EJ5CXBK7UGMK4MJFDME",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "BUUZBR76T3OX4UY2OLFNZ72DCUPD53QZLKJKLZ5EJ5CXBK7UGMK4MJFDME",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "6GXSIBJZIZ4PGSCU5Z7AB27AXR6J4GI52KDGNEH5ZF6CUSJ4K5BK2GONHA",
+          "to": "BUUZBR76T3OX4UY2OLFNZ72DCUPD53QZLKJKLZ5EJ5CXBK7UGMK4MJFDME",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.443Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 160,
+      "micro_usdc": 343600000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": true
+    },
+    {
+      "id": "finality-root-link:UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU:OGSPZOHNUXKPSHZ2Q2QAXP4QHDVQ2WWRKP5X3JAUHQUZ5VXRL3XTA6DPA4",
+      "receiver": "UEET5PA753P26B6LVUSXUKUYDVM33YLE6ETZWPLJDHJXQDKNYOUZPFKCSU",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "OGSPZOHNUXKPSHZ2Q2QAXP4QHDVQ2WWRKP5X3JAUHQUZ5VXRL3XTA6DPA4",
+      "kind": "finality-root-link",
+      "flag": "HISTORICAL-ROOT-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical manual trace joins this exact cached payer/funder path to the documented common root that funded the receiver.",
+        "Applies only to this exact receiver/payer pair; no attribution to later unprofiled wallets."
+      ],
+      "links": [
+        {
+          "from": "BWQIMTNYVJFYYNWN3BGNHC7HMAM7NW3YXXHUGRFLLGBLA3Q3NLHVZDMHLM",
+          "to": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "relation": "historically documented 2 ALGO opening transfer, 2026-09-18",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "4LV6LD3TUSFHGNTA3PVSQ5HUYDFT5VFJLCYV4O56IUAWH2GBQIHDWSB6LI",
+          "to": "OGSPZOHNUXKPSHZ2Q2QAXP4QHDVQ2WWRKP5X3JAUHQUZ5VXRL3XTA6DPA4",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T08:51:03.867Z",
+      "merchant_id": "WVo0V1JSUEYzMklQNFdHSDVLUk9ERjJL",
+      "settlements": 160,
+      "micro_usdc": 344050000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "agenthub-funding-link:G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4:PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+      "receiver": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+      "kind": "agenthub-funding-link",
+      "flag": "HISTORICAL-MERCHANT-FUNDING-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical source names the exact PT4 wallet and receiver; cached profiles join individual payer creation to PT4 by full address.",
+        "No truncated-address matching or extension to unprofiled new wallets."
+      ],
+      "links": [
+        {
+          "from": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+          "to": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "relation": "historical direct USDC funding (128 USDC); broader merchant-funded inflows documented in section 9.3",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T09:57:23.136Z",
+      "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+      "settlements": 2865,
+      "micro_usdc": 271590000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "agenthub-funding-link:G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4:XCBOQCLPKGO4KRIHSXVWTBULKFYZWKJQJ4SQFB7JS4IJ2FHKPBEBFEKZLU",
+      "receiver": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "XCBOQCLPKGO4KRIHSXVWTBULKFYZWKJQJ4SQFB7JS4IJ2FHKPBEBFEKZLU",
+      "kind": "agenthub-funding-link",
+      "flag": "HISTORICAL-MERCHANT-FUNDING-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical source names the exact PT4 wallet and receiver; cached profiles join individual payer creation to PT4 by full address.",
+        "No truncated-address matching or extension to unprofiled new wallets."
+      ],
+      "links": [
+        {
+          "from": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+          "to": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "relation": "historical direct USDC funding (128 USDC); broader merchant-funded inflows documented in section 9.3",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "to": "XCBOQCLPKGO4KRIHSXVWTBULKFYZWKJQJ4SQFB7JS4IJ2FHKPBEBFEKZLU",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T09:57:25.023Z",
+      "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+      "settlements": 4580,
+      "micro_usdc": 511360000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "agenthub-funding-link:G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4:FYFMQL2RMMWHHQSKW3IKO5EZJGOGB7RM4DJRJN2KEL35STU5HJ5O6FNLUI",
+      "receiver": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "FYFMQL2RMMWHHQSKW3IKO5EZJGOGB7RM4DJRJN2KEL35STU5HJ5O6FNLUI",
+      "kind": "agenthub-funding-link",
+      "flag": "HISTORICAL-MERCHANT-FUNDING-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical source names the exact PT4 wallet and receiver; cached profiles join individual payer creation to PT4 by full address.",
+        "No truncated-address matching or extension to unprofiled new wallets."
+      ],
+      "links": [
+        {
+          "from": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+          "to": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "relation": "historical direct USDC funding (128 USDC); broader merchant-funded inflows documented in section 9.3",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "to": "FYFMQL2RMMWHHQSKW3IKO5EZJGOGB7RM4DJRJN2KEL35STU5HJ5O6FNLUI",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T09:57:22.833Z",
+      "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+      "settlements": 3081,
+      "micro_usdc": 343530000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "agenthub-funding-link:G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4:VGNN7ZP6D3ROPCUXQUT4U7E3GLIUZXZZNC562T4NY7GHU2NVDMAASXLOHI",
+      "receiver": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "VGNN7ZP6D3ROPCUXQUT4U7E3GLIUZXZZNC562T4NY7GHU2NVDMAASXLOHI",
+      "kind": "agenthub-funding-link",
+      "flag": "HISTORICAL-MERCHANT-FUNDING-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical source names the exact PT4 wallet and receiver; cached profiles join individual payer creation to PT4 by full address.",
+        "No truncated-address matching or extension to unprofiled new wallets."
+      ],
+      "links": [
+        {
+          "from": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+          "to": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "relation": "historical direct USDC funding (128 USDC); broader merchant-funded inflows documented in section 9.3",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "to": "VGNN7ZP6D3ROPCUXQUT4U7E3GLIUZXZZNC562T4NY7GHU2NVDMAASXLOHI",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T09:57:24.277Z",
+      "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+      "settlements": 3219,
+      "micro_usdc": 357950000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "agenthub-funding-link:G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4:XXVL44QOVPLEAR7D5B4U7ELP7ZPAPKGW5IURNQWIYAUXM3IXTLR7WYPKRU",
+      "receiver": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "XXVL44QOVPLEAR7D5B4U7ELP7ZPAPKGW5IURNQWIYAUXM3IXTLR7WYPKRU",
+      "kind": "agenthub-funding-link",
+      "flag": "HISTORICAL-MERCHANT-FUNDING-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical source names the exact PT4 wallet and receiver; cached profiles join individual payer creation to PT4 by full address.",
+        "No truncated-address matching or extension to unprofiled new wallets."
+      ],
+      "links": [
+        {
+          "from": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+          "to": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "relation": "historical direct USDC funding (128 USDC); broader merchant-funded inflows documented in section 9.3",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "to": "XXVL44QOVPLEAR7D5B4U7ELP7ZPAPKGW5IURNQWIYAUXM3IXTLR7WYPKRU",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T09:57:24.442Z",
+      "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+      "settlements": 3035,
+      "micro_usdc": 341860000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    },
+    {
+      "id": "agenthub-funding-link:G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4:VGRBELPP3WIQTXBPQQYSEDXHC3PWYLPZGYZBJUNCBDP5SECXNM2VCZQG3E",
+      "receiver": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "payer": "VGRBELPP3WIQTXBPQQYSEDXHC3PWYLPZGYZBJUNCBDP5SECXNM2VCZQG3E",
+      "kind": "agenthub-funding-link",
+      "flag": "HISTORICAL-MERCHANT-FUNDING-LINK",
+      "supplementalSyntheticIndication": true,
+      "evidence": [
+        "Historical source names the exact PT4 wallet and receiver; cached profiles join individual payer creation to PT4 by full address.",
+        "No truncated-address matching or extension to unprofiled new wallets."
+      ],
+      "links": [
+        {
+          "from": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+          "to": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "relation": "historical direct USDC funding (128 USDC); broader merchant-funded inflows documented in section 9.3",
+          "source": "manual funding trace"
+        },
+        {
+          "from": "PT4OJDMDLR7GAPGGMJ7X57LS3PK47BRVXT7USQRE3YH6FEQ7L2FXDJUW2Y",
+          "to": "VGRBELPP3WIQTXBPQQYSEDXHC3PWYLPZGYZBJUNCBDP5SECXNM2VCZQG3E",
+          "relation": "creation funder in cached full-address profile",
+          "source": "manual funding trace"
+        }
+      ],
+      "sources": [
+        "manual funding trace"
+      ],
+      "profileCachedAt": "2026-10-03T09:57:23.474Z",
+      "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+      "settlements": 1065,
+      "micro_usdc": 117890000,
+      "subcentSettlements": 0,
+      "subcentMicroUsdc": 0,
+      "additionalToClassifier": false
+    }
+  ]
+}

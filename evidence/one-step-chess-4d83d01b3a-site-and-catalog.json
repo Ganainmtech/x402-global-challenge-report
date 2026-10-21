@@ -1,0 +1,149 @@
+{
+  "merchant_id": "SlROMkcyM1dQM0dCSUs3Q1pZQUJJNE5X",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "onestepchess.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 525733,
+      "last_observed_at": 1791286688279,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "onestepchess.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://onestepchess.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791224652147,
+        "last_fetch_attempt_utc": "2026-10-05T18:24:12.147000+00:00",
+        "title": "One Step Chess",
+        "description": "strangers and machines share a chess game — you play exactly one of its moves. paid per move in USDC on Algorand.",
+        "site_name": null,
+        "logo": "https://onestepchess.xyz/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://onestepchess.xyz/llms.txt",
+            "name": "One Step Chess — agent guide",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 11:38:08 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL29uZXN0ZXBjaGVzcy54eXovYXBpL3YxL21vdmVz",
+        "url": "https://onestepchess.xyz/api/v1/moves",
+        "method": "POST",
+        "description": "Submit one legal move to an active shared One Step Chess game and receive the committed move and Algorand settlement receipt.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "JTN2G23WP3GBIK7CZYABI4NWMKCN2YVSXDYHY4IMIQB7TPXPELRFGMYP64",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "move": "e2e4",
+              "claimId": "clm_example"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "moved",
+              "move": {
+                "uci": "e2e4",
+                "san": "e4"
+              },
+              "debitMicroUsdc": 1000,
+              "txid": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "explorerUrl": "https://allo.info/tx/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "fenAfterYourMove": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787262000627,
+        "last_ts": 1791286688279
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "onestepchess.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

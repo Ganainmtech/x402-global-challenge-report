@@ -1,0 +1,159 @@
+{
+  "merchant_id": "R09YUktERUdZS0pUTkFKU1BGQVZVUVFI",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "microvern-x402-mainnet.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 9,
+      "last_observed_at": 1791245260812,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "microvern-x402-mainnet.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://microvern-x402-mainnet.onrender.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:07:40 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL21pY3JvdmVybi14NDAyLW1haW5uZXQub25yZW5kZXIuY29tL3YxL2luc3BlY3QtdHJhbnNhY3Rpb24",
+        "url": "https://microvern-x402-mainnet.onrender.com/v1/inspect-transaction",
+        "method": "POST",
+        "description": "Inspect an unsigned Algorand transaction group before signing and return deterministic policy findings.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "GOXRKDEGYKJTNAJSPFAVUQQHHWMKBI7IW5PJ6G65X32OCYBMN6WYNNOPGE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "network": "algorand-mainnet",
+              "unsignedTransactionGroup": "haNmZWXNA+iiZnYBomdoxCBIY7UYpLPITsgQ8i1PEIHLD3HwWaesIN7GL39w5Qk6IqJsds0D6KR0eXBlo3BheQ==",
+              "policy": {
+                "maxAlgoSend": 1,
+                "allowRekey": false
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "allow",
+              "riskScore": 0,
+              "summary": "1 action analyzed; no configured policy violation found.",
+              "reviewSummary": {
+                "transactionCount": 1,
+                "totalAlgoSent": "0",
+                "totalUsdcSent": "0",
+                "totalFeeAlgo": "0.001",
+                "recipients": [],
+                "assetIds": []
+              },
+              "actions": [
+                {
+                  "index": 0,
+                  "type": "algo-transfer",
+                  "description": "Sends 0 ALGO.",
+                  "consequences": []
+                }
+              ],
+              "findings": [],
+              "policyEvaluation": {
+                "maxAlgoSend": "passed",
+                "allowRekey": "passed"
+              },
+              "rulesetVersion": "2026-09-mvp",
+              "disclaimer": "Deterministic, best-effort decision support; verify all transaction details before signing.",
+              "requestHash": "0000000000000000000000000000000000000000000000000000000000000000",
+              "reportChecksum": "1111111111111111111111111111111111111111111111111111111111111111"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790709467736,
+        "last_ts": 1791245260812
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

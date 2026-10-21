@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://alpha-hunter-x402-production.up.railway.app/v1/token/investigate,1,0.050000,1,0,0.000000,1,0.050000,0,2026-09-25 00:35:27 UTC,2026-09-25 00:35:27 UTC

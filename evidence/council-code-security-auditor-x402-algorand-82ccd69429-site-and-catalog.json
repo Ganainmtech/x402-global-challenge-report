@@ -1,0 +1,44 @@
+{
+  "merchant_id": "M1hGRkxORUFKU1JEWUFGREpRTFhWNU5G",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 0,
+    "cached_domain_metadata_count": 0,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "not_recorded",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "No catalog resources on included public domains."
+    ]
+  }
+}

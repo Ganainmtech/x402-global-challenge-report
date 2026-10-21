@@ -1,0 +1,389 @@
+{
+  "merchant_id": "UVdPV1UyRTZCQjc2SEVRUlJNWFdaMk1V",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algo.ochinimus.app",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 30,
+      "last_observed_at": 1791245379238,
+      "catalog_endpoint_count": 8,
+      "metadata": {
+        "domain": "algo.ochinimus.app",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algo.ochinimus.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "AgentFeed — forced-liquidation tape for AI agents, paid per call in USDC on Algorand",
+        "description": "Every forced liquidation across 700+ USDT perpetuals on Binance, Bybit and OKX, sold per call in USDC over x402 on Algorand mainnet. No API key, no account, no subscription. Every response says whether the number was measured, genuinely absent, or unmeasured, and unmeasured is never billed.",
+        "site_name": "AgentFeed — forced-liquidation tape for AI agents, paid per call in USDC on Algorand",
+        "logo": "https://algo.ochinimus.app/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algo.ochinimus.app/.well-known/x402",
+            "name": null,
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:09:39 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YxL2xpcXVpZGF0aW9ucy9jYXNjYWRl",
+        "url": "https://algo.ochinimus.app/v1/liquidations/cascade",
+        "method": "GET",
+        "description": "Cascade score for one symbol: whether current liquidation volume is clustered rather than spread, with the observation window it was computed over.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "symbol": "BTC",
+              "minutes": "60"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785938941029,
+        "last_ts": 1790559235402
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YxL2xpcXVpZGF0aW9ucy91bml2ZXJzZQ",
+        "url": "https://algo.ochinimus.app/v1/liquidations/universe",
+        "method": "GET",
+        "description": "Every symbol seen on the tape in a window, with row counts, so a caller can tell coverage from silence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "hours": "24"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785938707804,
+        "last_ts": 1790559337641
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YxL2xpcXVpZGF0aW9ucy93aW5kb3c",
+        "url": "https://algo.ochinimus.app/v1/liquidations/window",
+        "method": "GET",
+        "description": "Forced liquidation volume for one symbol over a recent window, split by exchange and by whether longs or shorts were liquidated.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "symbol": "SOL",
+              "hours": "24"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785938938506,
+        "last_ts": 1791245379238
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YxL3ZlbnVlcy9pbnRlZ3JpdHk",
+        "url": "https://algo.ochinimus.app/v1/venues/integrity",
+        "method": "GET",
+        "description": "Per exchange reporting integrity for the window: row counts, distinct symbols, and which exchanges undercount by design.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "hours": "24"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785938943332,
+        "last_ts": 1790559083412
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YyL2xpcXVpZGF0aW9ucy9jYXNjYWRl",
+        "url": "https://algo.ochinimus.app/v2/liquidations/cascade",
+        "method": "GET",
+        "description": "Cascade score for one symbol: whether current liquidation volume is clustered rather than spread, with the observation window it was computed over.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "symbol": "BTC",
+              "minutes": "60"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789558463932,
+        "last_ts": 1790559285142
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YyL2xpcXVpZGF0aW9ucy91bml2ZXJzZQ",
+        "url": "https://algo.ochinimus.app/v2/liquidations/universe",
+        "method": "GET",
+        "description": "Every symbol seen on the tape in a window, with row counts, so a caller can tell coverage from silence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "hours": "24"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789558477481,
+        "last_ts": 1790559387315
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YyL2xpcXVpZGF0aW9ucy93aW5kb3c",
+        "url": "https://algo.ochinimus.app/v2/liquidations/window",
+        "method": "GET",
+        "description": "Forced liquidation volume for one symbol over a recent window, split by exchange and by whether longs or shorts were liquidated.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "symbol": "SOL",
+              "hours": "24"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789569843528,
+        "last_ts": 1790558984052
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5vY2hpbmltdXMuYXBwL3YyL3ZlbnVlcy9pbnRlZ3JpdHk",
+        "url": "https://algo.ochinimus.app/v2/venues/integrity",
+        "method": "GET",
+        "description": "Per exchange reporting integrity for the window: row counts, distinct symbols, and which exchanges undercount by design.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "QWOWU2E6BB76HEQRRMXWZ2MU4HAQIYZWEPP2W7Y377ZRDIW7ZKD4MMMEPM",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "hours": "24"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789558493780,
+        "last_ts": 1790559163622
+      }
+    ],
+    "resource_count": 8,
+    "description_count": 8,
+    "mime_type_count": 8,
+    "accepts_count": 8,
+    "discovery_count": 8,
+    "input_documentation_count": 8,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algo.ochinimus.app"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

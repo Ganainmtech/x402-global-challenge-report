@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://cost-aware-inference-production.up.railway.app/v1/free-tier,964,96.400000,61,0,0.000000,961,96.100000,0,2026-10-01 00:48:47 UTC,2026-10-03 10:14:37 UTC
+POST,https://cost-aware-inference-production.up.railway.app/v1/goal-based-task,61,183.000000,46,0,0.000000,61,183.000000,0,2026-10-02 04:33:43 UTC,2026-10-02 08:52:52 UTC
+(not recorded),https://cost-aware-inference-production.up.railway.app/v1/chat/completions,1,0.003000,1,1,0.003000,1,0.003000,0,2026-09-29 21:30:38 UTC,2026-09-29 21:30:38 UTC

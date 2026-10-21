@@ -1,0 +1,141 @@
+{
+  "merchant_id": "VDJJM0ZLRFM1WVJVRzI2WkszWVZIQ0s0",
+  "name": "AlgoCheck",
+  "description": null,
+  "website": "https://algocheckmain.vercel.app",
+  "logo": "https://algocheckmain.vercel.app/favicon.svg",
+  "categories": [
+    "api",
+    "algorand",
+    "risk",
+    "x402"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algocheckmain.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 12,
+      "last_observed_at": 1791245387498,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "algocheckmain.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://algocheckmain.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791146625415,
+        "last_fetch_attempt_utc": "2026-10-04T20:43:45.415000+00:00",
+        "title": "AlgoCheck — ASA Risk Analysis",
+        "description": "AlgoCheck — Transparent risk analysis for Algorand Standard Assets.",
+        "site_name": null,
+        "logo": "https://algocheckmain.vercel.app/favicon.svg",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:09:47 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb2NoZWNrbWFpbi52ZXJjZWwuYXBwL2FwaS92MS9hbmFseXplLzMxNTY2NzA0",
+        "url": "https://algocheckmain.vercel.app/api/v1/analyze/31566704",
+        "method": "GET",
+        "description": "On-chain Algorand ASA risk report: mutable permissions, top-10 holder concentration, and creator history.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "T2I3FKDS5YRUG26ZK3YVHCK45G2OLNCTGWXIYF6J6M75KZB4Q33UWNRMPQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "asset_id": 31566704
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asset_id": 31566704,
+              "score": 62,
+              "flags": [
+                "Freeze authority enabled"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787176189679,
+        "last_ts": 1791245387498
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "merchant_id": "M1kyVjZPRFVWVUdNNFRYT0VYWTY1WUxN",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "canix402-api.compx.io",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 2304,
+      "last_observed_at": 1791277508328,
+      "catalog_endpoint_count": 17,
+      "metadata": {
+        "domain": "canix402-api.compx.io",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://canix402-api.compx.io",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791211415029,
+        "last_fetch_attempt_utc": "2026-10-05T14:43:35.029000+00:00",
+        "title": "CANIX402 | Hunting down the best yields",
+        "description": "Canix402 is an x402-paid DeFi opportunity API for autonomous agents. Discover endpoints, pay in USDC, and fetch normalized APY data — including wallet-personalized yield recommendations.",
+        "site_name": "CANIX402",
+        "logo": "https://canix402-api.compx.io/logo.png",
+        "banner": "https://canix402-api.compx.io/banner.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://canix402-api.compx.io/.well-known/agent-card.json",
+            "name": "canix402",
+            "description": "x402-gated DeFi data and walletless transaction API for agents. Paid requests settle in Algorand USDC, or Base USDC when that accept is listed, through the public Caddy gateway; no API keys or server-side wallet access."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://canix402-api.compx.io/.well-known/agent.json",
+            "name": "canix402",
+            "description": "x402-gated DeFi data and walletless transaction API for agents. Paid requests settle in Algorand USDC, or Base USDC when that accept is listed, through the public Caddy gateway; no API keys or server-side wallet access."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://canix402-api.compx.io/.well-known/ai-plugin.json",
+            "name": "canix402",
+            "description": "DeFi data and walletless transaction API for agents, paid per call with USDC using x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://canix402-api.compx.io/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://canix402-api.compx.io/llms.txt",
+            "name": "CANIX402",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 09:05:08 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2Nhbml4NDAyLWFwaS5jb21weC5pby9leGVjdXRpb24vcXVvdGVz",
+        "url": "https://canix402-api.compx.io/execution/quotes",
+        "method": "POST",
+        "description": "canix402 paid execution quote endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "100000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "quotes": [
+                {
+                  "input": {},
+                  "shapeKey": "tinyman-v2:lp:add:flexible"
+                }
+              ]
+            },
+            "bodyType": "json",
+            "method": "POST",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784671242857,
+        "last_ts": 1791018590904
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL29wcG9ydHVuaXRpZXM",
+        "url": "https://canix402-api.compx.io/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670946695,
+        "last_ts": 1791201991844
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL29wcG9ydHVuaXRpZXMvcGVyc29uYWxpemVk",
+        "url": "https://canix402-api.compx.io/opportunities/personalized",
+        "method": "GET",
+        "description": "canix402 wallet-personalized DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "50000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ"
+            },
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670936323,
+        "last_ts": 1791277355943
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL29wcG9ydHVuaXRpZXMvc2VhcmNo",
+        "url": "https://canix402-api.compx.io/opportunities/search",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {
+              "limit": "10",
+              "platform": "tinyman"
+            },
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784811208747,
+        "last_ts": 1791277383106
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Bvc2l0aW9ucw",
+        "url": "https://canix402-api.compx.io/positions",
+        "method": "GET",
+        "description": "canix402 wallet DeFi positions endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "5000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ"
+            },
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670973227,
+        "last_ts": 1791277229763
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Bvc2l0aW9ucy9jbGFpbWFibGU",
+        "url": "https://canix402-api.compx.io/positions/claimable",
+        "method": "GET",
+        "description": "canix402 claimable DeFi rewards endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "1000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ"
+            },
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786992118694,
+        "last_ts": 1791277257215
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9jb21weC9vcHBvcnR1bml0aWVz",
+        "url": "https://canix402-api.compx.io/protocols/compx/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670953677,
+        "last_ts": 1790559254762
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9kb3JrZmkvb3Bwb3J0dW5pdGllcw",
+        "url": "https://canix402-api.compx.io/protocols/dorkfi/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670954875,
+        "last_ts": 1790559301729
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9mb2xrcy1maW5hbmNlL29wcG9ydHVuaXRpZXM",
+        "url": "https://canix402-api.compx.io/protocols/folks-finance/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670948797,
+        "last_ts": 1791277508328
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9oYXlzdGFjay9vcHBvcnR1bml0aWVz",
+        "url": "https://canix402-api.compx.io/protocols/haystack/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785416054547,
+        "last_ts": 1790559395643
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9tb3JwaG8vb3Bwb3J0dW5pdGllcw",
+        "url": "https://canix402-api.compx.io/protocols/morpho/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790018212230,
+        "last_ts": 1790559428735
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9teXRoLWZpbmFuY2Uvb3Bwb3J0dW5pdGllcw",
+        "url": "https://canix402-api.compx.io/protocols/myth-finance/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784806312032,
+        "last_ts": 1790559472767
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9wYWN0L29wcG9ydHVuaXRpZXM",
+        "url": "https://canix402-api.compx.io/protocols/pact/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670957211,
+        "last_ts": 1790559497642
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy9yZXRpL29wcG9ydHVuaXRpZXM",
+        "url": "https://canix402-api.compx.io/protocols/reti/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784806310953,
+        "last_ts": 1790559541781
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2FuaXg0MDItYXBpLmNvbXB4LmlvL3Byb3RvY29scy90aW55bWFuL29wcG9ydHVuaXRpZXM",
+        "url": "https://canix402-api.compx.io/protocols/tinyman/opportunities",
+        "method": "GET",
+        "description": "canix402 paid DeFi data endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": []
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784670951333,
+        "last_ts": 1791018552650
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Nhbml4NDAyLWFwaS5jb21weC5pby9zZXNzaW9ucw",
+        "url": "https://canix402-api.compx.io/sessions",
+        "method": "POST",
+        "description": "canix402 prepaid session create endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "250000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {},
+            "bodyType": "json",
+            "method": "POST",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": {
+                "sessionId": "csess_example",
+                "status": "active"
+              }
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787923365112,
+        "last_ts": 1787923365015
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Nhbml4NDAyLWFwaS5jb21weC5pby9zd2Fwcy90cmFuc2FjdGlvbnM",
+        "url": "https://canix402-api.compx.io/swaps/transactions",
+        "method": "POST",
+        "description": "canix402 paid Haystack swap transaction endpoint",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "5000",
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 60,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "3Y2V6ODUVUGM4TXOEXY65YLMKMVLG4PB3GSOXDCJDE4X5YQA5JA3P2FHAQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "amount": "1000000",
+              "fromAssetId": 0,
+              "toAssetId": 31566704
+            },
+            "bodyType": "json",
+            "method": "POST",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "data": {
+                "encodedTransactions": []
+              }
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784803795807,
+        "last_ts": 1791018579951
+      }
+    ],
+    "resource_count": 17,
+    "description_count": 17,
+    "mime_type_count": 17,
+    "accepts_count": 17,
+    "discovery_count": 17,
+    "input_documentation_count": 17,
+    "output_documentation_count": 17,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "canix402-api.compx.io"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 5,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

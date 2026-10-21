@@ -1,0 +1,1379 @@
+{
+  "merchant_id": "TE43NDVVQ0RRTkZJQkRZNkpGVzdGTksz",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.synergybcpacific.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1770,
+      "last_observed_at": 1791262615620,
+      "catalog_endpoint_count": 7,
+      "metadata": {
+        "domain": "api.synergybcpacific.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.synergybcpacific.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791283201426,
+        "last_fetch_attempt_utc": "2026-10-06T10:40:01.426000+00:00",
+        "title": "Pacific Data Commons — Synergy Blockchain Pacific",
+        "description": "Sovereign Pacific data directory — x402-gated endpoints for AI agents and researchers",
+        "site_name": null,
+        "logo": null,
+        "banner": "https://api.synergybcpacific.com/images/sbp-logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.synergybcpacific.com/.well-known/x402",
+            "name": null,
+            "description": "Sovereign Pacific data directory — x402-gated endpoints for AI agents and researchers. Built on Algorand. Data sovereignty enforced — providers control their own infrastructure."
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "banner"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 04:56:55 UTC"
+    },
+    {
+      "domain": "pdc-pilot-endpoint.synergyblockchaintf.workers.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Cloudflare Workers",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 977,
+      "last_observed_at": 1791262623860,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "pdc-pilot-endpoint.synergyblockchaintf.workers.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Cloudflare Workers",
+        "is_custom_domain_candidate": false,
+        "origin": "https://pdc-pilot-endpoint.synergyblockchaintf.workers.dev",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1791215913403,
+        "last_fetch_attempt_utc": "2026-10-05T15:58:33.403000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 04:57:03 UTC"
+    },
+    {
+      "domain": "pdcdirectory-api-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1983,
+      "last_observed_at": 1788140682892,
+      "catalog_endpoint_count": 7,
+      "metadata": {
+        "domain": "pdcdirectory-api-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://pdcdirectory-api-production.up.railway.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1791220477976,
+        "last_fetch_attempt_utc": "2026-10-05T17:14:37.976000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-08-31 01:44:42 UTC"
+    },
+    {
+      "domain": "pdcpilot-endpoint-production.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 904,
+      "last_observed_at": 1788140663855,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "pdcpilot-endpoint-production.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://pdcpilot-endpoint-production.up.railway.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1789362567355,
+        "last_fetch_attempt_utc": "2026-09-14T05:09:27.355000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-08-31 01:44:23 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL2FsZ29yYW5kL3dhbGxldC1iYWxhbmNl",
+        "url": "https://api.synergybcpacific.com/algorand/wallet-balance",
+        "method": "GET",
+        "description": "Algorand wallet balance lookup: given any Algorand address, returns ALGO balance, USDC balance (asset 31566704), USDC opt-in status, and account existence. Nodely primary, AlgoNode fallback. Useful for counterparty checks before x402 payments.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "exists": true,
+              "status": "Online",
+              "algo_balance": 12.5,
+              "usdc_balance": 100.25,
+              "usdc_opted_in": true,
+              "usdc_asset_id": 31566704,
+              "min_balance_algo": 0.1,
+              "network": "mainnet",
+              "queried_at": "2026-08-22T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788580629208,
+        "last_ts": 1791186859136
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL2ZpbmFuY2UvZng",
+        "url": "https://api.synergybcpacific.com/finance/fx",
+        "method": "GET",
+        "description": "Pacific FX rates: WST, FJD, TOP, PGK, SBD, VUV plus AUD, NZD, EUR, GBP, JPY, CNY, ALGO, and USDC, base USD. Optional conversion via ?from=&to=&amount=. Updated daily, 60-minute cache.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "from": "WST",
+              "to": "USD",
+              "amount": 100
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "base": "USD",
+              "timestamp": "2026-08-25T00:00:00.000Z",
+              "source": "currency-api",
+              "rates": {
+                "WST": 2.72,
+                "FJD": 2.19,
+                "TOP": 2.41,
+                "PGK": 4.44,
+                "SBD": 8.01,
+                "VUV": 118.36,
+                "AUD": 1.4,
+                "NZD": 1.67,
+                "EUR": 0.86,
+                "GBP": 0.73,
+                "JPY": 159.1,
+                "CNY": 6.72,
+                "ALGO": 0.092,
+                "USDC": 1
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788580634610,
+        "last_ts": 1791244980496
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL2ludGVsbGlnZW5jZS9wYWNpZmljLWJyaWVm",
+        "url": "https://api.synergybcpacific.com/intelligence/pacific-brief",
+        "method": "GET",
+        "description": "Pacific Intelligence Orchestrator: autonomously pays 3 live PDC sub-endpoints (fisheries stock summary, FX rates, Algorand wallet-balance check) via x402, then synthesises the results into a structured intelligence brief using Claude. One payment triggers multiple sub-payments settling on Algorand Mainnet. Specify topic (fisheries/marine/ocean/economic/climate/general) and country code (WS/FJ/TO/PG/SB/VU/CK/NU) to shape which findings are emphasised. Returns executive summary, key findings, data sources, synthetic-data warning, and the full sub-payment trail.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "topic": "fisheries",
+              "country": "WS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "topic": "fisheries",
+              "country": "WS",
+              "executive_summary": "Synthetic demo fisheries data shows a healthy skipjack stock index alongside stable FX conditions for Samoa.",
+              "key_findings": [
+                "Skipjack stock index 0.92 in the synthetic demo dataset (fisheries)",
+                "WST/USD rate stable (finance)",
+                "SBP payTo wallet funded and USDC opted-in (algorand)"
+              ],
+              "data_sources": [
+                {
+                  "name": "fisheries",
+                  "queried_at": "2026-08-25T00:00:00.000Z",
+                  "category": "fisheries"
+                },
+                {
+                  "name": "fx",
+                  "queried_at": "2026-08-25T00:00:00.000Z",
+                  "category": "finance"
+                },
+                {
+                  "name": "wallet_balance",
+                  "queried_at": "2026-08-25T00:00:00.000Z",
+                  "category": "algorand"
+                }
+              ],
+              "limitations": "Fisheries data is synthetic demonstration data, not a real stock assessment.",
+              "confidence": "high",
+              "data_warning": "SYNTHETIC DATA: This dataset demonstrates the Pacific Data Commons payment infrastructure. All values are fabricated.",
+              "payments": [
+                {
+                  "endpoint": "https://pdcpilot-endpoint-production.up.railway.app/summary",
+                  "category": "fisheries",
+                  "tx_id": "…",
+                  "amount_usdc": 0.01
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/finance/fx",
+                  "category": "finance",
+                  "tx_id": "…",
+                  "amount_usdc": 0.001
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/algorand/wallet-balance",
+                  "category": "algorand",
+                  "tx_id": "…",
+                  "amount_usdc": 0.005
+                }
+              ],
+              "total_sub_payments_usdc": 0.016,
+              "orchestrated_at": "2026-08-25T00:00:00.000Z",
+              "run_id": "…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788598512471,
+        "last_ts": 1791224970331
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL2ludGVsbGlnZW5jZS9wYWNpZmljLXRyYXZlbA",
+        "url": "https://api.synergybcpacific.com/intelligence/pacific-travel",
+        "method": "GET",
+        "description": "Pacific Travel Intelligence Orchestrator: given a destination and travel window, autonomously queries upcoming events, live exchange rates, real-time weather, tourism arrival/spend statistics, and seasonal marine conditions, then synthesises a structured travel intelligence brief using Claude. Designed for travel agents, booking platforms, and AI travel assistants. One payment triggers multiple sub-payments to Pacific data providers. Returns executive summary, upcoming events, weather, exchange rates, tourism statistics, booking advice, and the full payment trail.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "destination": "WS",
+              "travel_window": "christmas_2026"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "destination": "WS",
+              "travel_window": "christmas_2026",
+              "executive_summary": "Samoa's Christmas and New Year peak season overlaps favourably with excellent current weather and stable FX conditions.",
+              "upcoming_events": [
+                {
+                  "name": "Samoa Christmas and New Year",
+                  "dates": "2026-12-20 to 2027-01-05",
+                  "impact": "very_high"
+                }
+              ],
+              "seasonal_context": "Synthetic demo marine data shows stable conditions for the travel window.",
+              "exchange_rates": {
+                "note": "Live rates from currency-api, base USD.",
+                "key_rates": {
+                  "WST": 2.72
+                }
+              },
+              "weather": {
+                "current_conditions": "25.8°C, Partly cloudy",
+                "week_summary": "Excellent conditions — 27°C average, mostly dry",
+                "tourism_rating": "Excellent",
+                "forecast_days": 7
+              },
+              "tourism_stats": {
+                "country_code": "WS",
+                "country_name": "Samoa",
+                "year": 2023,
+                "international_arrivals": 164000,
+                "tourism_receipts_usd_millions": 180.5,
+                "avg_spend_per_visitor_usd": 1100,
+                "avg_length_stay_days": 8.5,
+                "peak_months": [
+                  "December",
+                  "January",
+                  "July",
+                  "August"
+                ],
+                "low_months": [
+                  "March",
+                  "April",
+                  "May"
+                ],
+                "source": "World Bank / Samoa Tourism Authority",
+                "data_quality": "verified"
+              },
+              "booking_advice": "Book at least 3 months ahead — flights from Auckland and Sydney fill up by October.",
+              "data_sources": [
+                {
+                  "name": "events",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "events"
+                },
+                {
+                  "name": "fx",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "finance"
+                },
+                {
+                  "name": "fisheries",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "fisheries"
+                },
+                {
+                  "name": "weather",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "weather"
+                },
+                {
+                  "name": "tourism_stats",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "tourism_stats"
+                }
+              ],
+              "data_warning": "Only the fisheries/marine component of this brief is demonstration data — SYNTHETIC DATA: This dataset demonstrates the Pacific Data Commons payment infrastructure. All values are fabricated. All other sections (events, exchange rates, weather, tourism statistics) are live, real data.",
+              "confidence": "high",
+              "payments": [
+                {
+                  "endpoint": "https://api.synergybcpacific.com/pacific/events",
+                  "category": "events",
+                  "tx_id": "…",
+                  "amount_usdc": 0.002
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/finance/fx",
+                  "category": "finance",
+                  "tx_id": "…",
+                  "amount_usdc": 0.001
+                },
+                {
+                  "endpoint": "https://pdcpilot-endpoint-production.up.railway.app/summary",
+                  "category": "fisheries",
+                  "tx_id": "…",
+                  "amount_usdc": 0.01
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/pacific/weather",
+                  "category": "weather",
+                  "tx_id": "…",
+                  "amount_usdc": 0.002
+                }
+              ],
+              "total_sub_payments_usdc": 0.015,
+              "orchestrated_at": "2026-08-27T00:00:00.000Z",
+              "run_id": "…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788598531533,
+        "last_ts": 1791224989691
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL3BhY2lmaWMvZXZlbnRz",
+        "url": "https://api.synergybcpacific.com/pacific/events",
+        "method": "GET",
+        "description": "Upcoming Pacific Island events: festivals, concerts, sporting events, cultural celebrations, and national days. Filter by country (WS/FJ/TO/PG/SB/VU/CK), days ahead (1-365), and category. Returns structured event data including dates, attendance, tourism impact, and booking advice. Sourced from SPTO, tourism authorities, and official event sources.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "WS",
+              "days_ahead": 90,
+              "category": "festival"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "results": [
+                {
+                  "id": "…",
+                  "name": "Teuila Tourism Festival",
+                  "category": "festival",
+                  "country_code": "WS",
+                  "country_name": "Samoa",
+                  "start_date": "2026-09-01",
+                  "end_date": "2026-09-05",
+                  "tourism_impact": "very_high",
+                  "booking_lead_time": "2 months ahead"
+                }
+              ],
+              "count": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788580640041,
+        "last_ts": 1791224975884
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL3BhY2lmaWMvd2VhdGhlcg",
+        "url": "https://api.synergybcpacific.com/pacific/weather",
+        "method": "GET",
+        "description": "Real-time weather and 7-day forecast for Pacific Island destinations. Returns current temperature, humidity, precipitation, wind speed, and conditions plus a 7-day forecast with daily tourism ratings (Excellent/Good/Fair/Poor). Data from Open-Meteo (ECMWF model), updated hourly. Requires country: WS (Samoa), FJ (Fiji), TO (Tonga), PG (Papua New Guinea), SB (Solomon Islands), VU (Vanuatu), CK (Cook Islands).",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "WS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country_code": "WS",
+              "country_name": "Samoa",
+              "current": {
+                "temperature_c": 25.8,
+                "humidity_percent": 78,
+                "precipitation_mm": 0,
+                "wind_speed_kmh": 4.3,
+                "conditions": "Partly cloudy",
+                "tourism_rating": "Excellent"
+              },
+              "forecast_7_day": [
+                {
+                  "date": "2026-08-27",
+                  "temp_max_c": 26.8,
+                  "temp_min_c": 25.3,
+                  "precipitation_mm": 0.2,
+                  "conditions": "Drizzle",
+                  "tourism_rating": "Excellent"
+                }
+              ],
+              "week_summary": "Excellent conditions — 27°C average, mostly dry",
+              "queried_at": "2026-08-27T00:00:00.000Z",
+              "source": "open-meteo"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788580645495,
+        "last_ts": 1791224995249
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnN5bmVyZ3liY3BhY2lmaWMuY29tL3NlYXJjaA",
+        "url": "https://api.synergybcpacific.com/search",
+        "method": "GET",
+        "description": "Search Pacific data endpoints by category, country, price, keywords",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "category": "fisheries",
+              "keywords": "tuna stock",
+              "country": "WS",
+              "trust_tier": "bronze",
+              "price_max": 1,
+              "time_period_start": 2020,
+              "page": 1,
+              "limit": 20
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "results": [
+                {
+                  "id": "…",
+                  "title": "Pacific Fisheries Status",
+                  "category": "fisheries",
+                  "trust_tier": "bronze"
+                }
+              ],
+              "page": 1,
+              "limit": 20,
+              "totalCount": 5
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788580618378,
+        "last_ts": 1791262615620
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjLXBpbG90LWVuZHBvaW50LnN5bmVyZ3libG9ja2NoYWludGYud29ya2Vycy5kZXYvc3VtbWFyeQ",
+        "url": "https://pdc-pilot-endpoint.synergyblockchaintf.workers.dev/summary",
+        "method": "GET",
+        "description": "Key findings summary for Pacific Tuna Stock Assessment â PDC Demo (Synthetic). Returns stock status by species, coverage statistics, and 3 key findings. SYNTHETIC DEMO DATA.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "merchant_description": "Sovereign data marketplace for Pacific Island institutions. AI agents pay Pacific institutions directly in USDC per query.",
+              "merchant_url": "https://pdcweb-production.up.railway.app",
+              "service": "pacific-data-commons-pilot",
+              "category": "fisheries",
+              "tier": "summary",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema_version": "pdp-1.0",
+              "paid_tier": "summary",
+              "data": {
+                "total_records": 18,
+                "species_covered": [
+                  "skipjack",
+                  "yellowfin",
+                  "bigeye"
+                ],
+                "zones_covered": [
+                  "samoa_eez",
+                  "tonga_eez"
+                ],
+                "stock_status": [
+                  {
+                    "species": "skipjack",
+                    "latest_year": 2023,
+                    "stock_index": 0.92,
+                    "status": "healthy"
+                  }
+                ],
+                "key_findings": [
+                  "Skipjack remains the dominant species with stock index 0.92 in 2023"
+                ]
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788598504284,
+        "last_ts": 1791262623860
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL2FsZ29yYW5kL3dhbGxldC1iYWxhbmNl",
+        "url": "https://pdcdirectory-api-production.up.railway.app/algorand/wallet-balance",
+        "method": "GET",
+        "description": "Algorand wallet balance lookup: given any Algorand address, returns ALGO balance, USDC balance (asset 31566704), USDC opt-in status, and account existence. Nodely primary, AlgoNode fallback. Useful for counterparty checks before x402 payments.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "exists": true,
+              "status": "Online",
+              "algo_balance": 12.5,
+              "usdc_balance": 100.25,
+              "usdc_opted_in": true,
+              "usdc_asset_id": 31566704,
+              "min_balance_algo": 0.1,
+              "network": "mainnet",
+              "queried_at": "2026-08-22T00:00:00.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787621884130,
+        "last_ts": 1788140642081
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL2ZpbmFuY2UvZng",
+        "url": "https://pdcdirectory-api-production.up.railway.app/finance/fx",
+        "method": "GET",
+        "description": "Pacific FX rates: WST, FJD, TOP, PGK, SBD, VUV plus AUD, NZD, EUR, GBP, JPY, CNY, ALGO, and USDC, base USD. Optional conversion via ?from=&to=&amount=. Updated daily, 60-minute cache.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "from": "WST",
+              "to": "USD",
+              "amount": 100
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "base": "USD",
+              "timestamp": "2026-08-25T00:00:00.000Z",
+              "source": "currency-api",
+              "rates": {
+                "WST": 2.72,
+                "FJD": 2.19,
+                "TOP": 2.41,
+                "PGK": 4.44,
+                "SBD": 8.01,
+                "VUV": 118.36,
+                "AUD": 1.4,
+                "NZD": 1.67,
+                "EUR": 0.86,
+                "GBP": 0.73,
+                "JPY": 159.1,
+                "CNY": 6.72,
+                "ALGO": 0.092,
+                "USDC": 1
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787621889569,
+        "last_ts": 1788140663857
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL2ludGVsbGlnZW5jZS9wYWNpZmljLWJyaWVm",
+        "url": "https://pdcdirectory-api-production.up.railway.app/intelligence/pacific-brief",
+        "method": "GET",
+        "description": "Pacific Intelligence Orchestrator: autonomously pays 3 live PDC sub-endpoints (fisheries stock summary, FX rates, Algorand wallet-balance check) via x402, then synthesises the results into a structured intelligence brief using Claude. One payment triggers multiple sub-payments settling on Algorand Mainnet. Specify topic (fisheries/marine/ocean/economic/climate/general) and country code (WS/FJ/TO/PG/SB/VU/CK/NU) to shape which findings are emphasised. Returns executive summary, key findings, data sources, synthetic-data warning, and the full sub-payment trail.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "topic": "fisheries",
+              "country": "WS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "topic": "fisheries",
+              "country": "WS",
+              "executive_summary": "Synthetic demo fisheries data shows a healthy skipjack stock index alongside stable FX conditions for Samoa.",
+              "key_findings": [
+                "Skipjack stock index 0.92 in the synthetic demo dataset (fisheries)",
+                "WST/USD rate stable (finance)",
+                "SBP payTo wallet funded and USDC opted-in (algorand)"
+              ],
+              "data_sources": [
+                {
+                  "name": "fisheries",
+                  "queried_at": "2026-08-25T00:00:00.000Z",
+                  "category": "fisheries"
+                },
+                {
+                  "name": "fx",
+                  "queried_at": "2026-08-25T00:00:00.000Z",
+                  "category": "finance"
+                },
+                {
+                  "name": "wallet_balance",
+                  "queried_at": "2026-08-25T00:00:00.000Z",
+                  "category": "algorand"
+                }
+              ],
+              "limitations": "Fisheries data is synthetic demonstration data, not a real stock assessment.",
+              "confidence": "high",
+              "data_warning": "SYNTHETIC DATA: This dataset demonstrates the Pacific Data Commons payment infrastructure. All values are fabricated.",
+              "payments": [
+                {
+                  "endpoint": "https://pdcpilot-endpoint-production.up.railway.app/summary",
+                  "category": "fisheries",
+                  "tx_id": "…",
+                  "amount_usdc": 0.01
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/finance/fx",
+                  "category": "finance",
+                  "tx_id": "…",
+                  "amount_usdc": 0.001
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/algorand/wallet-balance",
+                  "category": "algorand",
+                  "tx_id": "…",
+                  "amount_usdc": 0.005
+                }
+              ],
+              "total_sub_payments_usdc": 0.016,
+              "orchestrated_at": "2026-08-25T00:00:00.000Z",
+              "run_id": "…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787626967841,
+        "last_ts": 1788140652992
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL2ludGVsbGlnZW5jZS9wYWNpZmljLXRyYXZlbA",
+        "url": "https://pdcdirectory-api-production.up.railway.app/intelligence/pacific-travel",
+        "method": "GET",
+        "description": "Pacific Travel Intelligence Orchestrator: given a destination and travel window, autonomously queries upcoming events, live exchange rates, real-time weather, tourism arrival/spend statistics, and seasonal marine conditions, then synthesises a structured travel intelligence brief using Claude. Designed for travel agents, booking platforms, and AI travel assistants. One payment triggers multiple sub-payments to Pacific data providers. Returns executive summary, upcoming events, weather, exchange rates, tourism statistics, booking advice, and the full payment trail.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "destination": "WS",
+              "travel_window": "christmas_2026"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "destination": "WS",
+              "travel_window": "christmas_2026",
+              "executive_summary": "Samoa's Christmas and New Year peak season overlaps favourably with stable FX conditions and healthy synthetic marine indicators.",
+              "upcoming_events": [
+                {
+                  "name": "Samoa Christmas and New Year",
+                  "dates": "2026-12-20 to 2027-01-05",
+                  "impact": "very_high"
+                }
+              ],
+              "seasonal_context": "Synthetic demo marine data shows stable conditions for the travel window.",
+              "exchange_rates": {
+                "note": "Live rates from currency-api, base USD.",
+                "key_rates": {
+                  "WST": 2.72
+                }
+              },
+              "booking_advice": "Book at least 3 months ahead — flights from Auckland and Sydney fill up by October.",
+              "data_sources": [
+                {
+                  "name": "events",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "events"
+                },
+                {
+                  "name": "fx",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "finance"
+                },
+                {
+                  "name": "fisheries",
+                  "queried_at": "2026-08-27T00:00:00.000Z",
+                  "category": "fisheries"
+                }
+              ],
+              "data_warning": "SYNTHETIC DATA: This dataset demonstrates the Pacific Data Commons payment infrastructure. All values are fabricated.",
+              "confidence": "high",
+              "payments": [
+                {
+                  "endpoint": "https://api.synergybcpacific.com/pacific/events",
+                  "category": "events",
+                  "tx_id": "…",
+                  "amount_usdc": 0.002
+                },
+                {
+                  "endpoint": "https://api.synergybcpacific.com/finance/fx",
+                  "category": "finance",
+                  "tx_id": "…",
+                  "amount_usdc": 0.001
+                },
+                {
+                  "endpoint": "https://pdcpilot-endpoint-production.up.railway.app/summary",
+                  "category": "fisheries",
+                  "tx_id": "…",
+                  "amount_usdc": 0.01
+                }
+              ],
+              "total_sub_payments_usdc": 0.013,
+              "orchestrated_at": "2026-08-27T00:00:00.000Z",
+              "run_id": "…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787794191771,
+        "last_ts": 1788140677468
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL3BhY2lmaWMvZXZlbnRz",
+        "url": "https://pdcdirectory-api-production.up.railway.app/pacific/events",
+        "method": "GET",
+        "description": "Upcoming Pacific Island events: festivals, concerts, sporting events, cultural celebrations, and national days. Filter by country (WS/FJ/TO/PG/SB/VU/CK), days ahead (1-365), and category. Returns structured event data including dates, attendance, tourism impact, and booking advice. Sourced from SPTO, tourism authorities, and official event sources.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "WS",
+              "days_ahead": 90,
+              "category": "festival"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "results": [
+                {
+                  "id": "…",
+                  "name": "Teuila Tourism Festival",
+                  "category": "festival",
+                  "country_code": "WS",
+                  "country_name": "Samoa",
+                  "start_date": "2026-09-01",
+                  "end_date": "2026-09-05",
+                  "tourism_impact": "very_high",
+                  "booking_lead_time": "2 months ahead"
+                }
+              ],
+              "count": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787806890608,
+        "last_ts": 1788140663854
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL3BhY2lmaWMvd2VhdGhlcg",
+        "url": "https://pdcdirectory-api-production.up.railway.app/pacific/weather",
+        "method": "GET",
+        "description": "Real-time weather and 7-day forecast for Pacific Island destinations. Returns current temperature, humidity, precipitation, wind speed, and conditions plus a 7-day forecast with daily tourism ratings (Excellent/Good/Fair/Poor). Data from Open-Meteo (ECMWF model), updated hourly. Requires country: WS (Samoa), FJ (Fiji), TO (Tonga), PG (Papua New Guinea), SB (Solomon Islands), VU (Vanuatu), CK (Cook Islands).",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "country": "WS"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "country_code": "WS",
+              "country_name": "Samoa",
+              "current": {
+                "temperature_c": 25.8,
+                "humidity_percent": 78,
+                "precipitation_mm": 0,
+                "wind_speed_kmh": 4.3,
+                "conditions": "Partly cloudy",
+                "tourism_rating": "Excellent"
+              },
+              "forecast_7_day": [
+                {
+                  "date": "2026-08-27",
+                  "temp_max_c": 26.8,
+                  "temp_min_c": 25.3,
+                  "precipitation_mm": 0.2,
+                  "conditions": "Drizzle",
+                  "tourism_rating": "Excellent"
+                }
+              ],
+              "week_summary": "Excellent conditions — 27°C average, mostly dry",
+              "queried_at": "2026-08-27T00:00:00.000Z",
+              "source": "open-meteo"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787805493382,
+        "last_ts": 1788140682892
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjZGlyZWN0b3J5LWFwaS1wcm9kdWN0aW9uLnVwLnJhaWx3YXkuYXBwL3NlYXJjaA",
+        "url": "https://pdcdirectory-api-production.up.railway.app/search",
+        "method": "GET",
+        "description": "Search Pacific data endpoints by category, country, price, keywords",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "category": "fisheries",
+              "keywords": "tuna stock",
+              "country": "WS",
+              "trust_tier": "bronze",
+              "price_max": 1,
+              "time_period_start": 2020,
+              "page": 1,
+              "limit": 20
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "results": [
+                {
+                  "id": "…",
+                  "title": "Pacific Fisheries Status",
+                  "category": "fisheries",
+                  "trust_tier": "bronze"
+                }
+              ],
+              "page": 1,
+              "limit": 20,
+              "totalCount": 5
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787034318545,
+        "last_ts": 1788140603945
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vcGRjcGlsb3QtZW5kcG9pbnQtcHJvZHVjdGlvbi51cC5yYWlsd2F5LmFwcC9zdW1tYXJ5",
+        "url": "https://pdcpilot-endpoint-production.up.railway.app/summary",
+        "method": "GET",
+        "description": "Key findings summary for Pacific Tuna Stock Assessment â PDC Demo (Synthetic). Returns stock status by species, coverage statistics, and 3 key findings. SYNTHETIC DEMO DATA.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "LN745UCDQNFIBDY6JFW7FNK333MADQZQVQFMCVR3GXXUTB52O2NYPZN3YY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "service": "pacific-data-commons-pilot",
+              "category": "fisheries",
+              "tier": "summary",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema_version": "pdp-1.0",
+              "paid_tier": "summary",
+              "data": {
+                "total_records": 18,
+                "species_covered": [
+                  "skipjack",
+                  "yellowfin",
+                  "bigeye"
+                ],
+                "zones_covered": [
+                  "samoa_eez",
+                  "tonga_eez"
+                ],
+                "stock_status": [
+                  {
+                    "species": "skipjack",
+                    "latest_year": 2023,
+                    "stock_index": 0.92,
+                    "status": "healthy"
+                  }
+                ],
+                "key_findings": [
+                  "Skipjack remains the dominant species with stock index 0.92 in 2023"
+                ]
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786926338493,
+        "last_ts": 1788140663855
+      }
+    ],
+    "resource_count": 16,
+    "description_count": 16,
+    "mime_type_count": 0,
+    "accepts_count": 16,
+    "discovery_count": 16,
+    "input_documentation_count": 16,
+    "output_documentation_count": 16,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.synergybcpacific.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 4,
+    "cached_domain_metadata_count": 4,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

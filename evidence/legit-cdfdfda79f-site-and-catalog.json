@@ -1,0 +1,316 @@
+{
+  "merchant_id": "TEdUNDdSVkg2U1RISkY1UFdVM0JYMlM1",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "legit.gonna.bond",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 13,
+      "last_observed_at": 1791245059764,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "legit.gonna.bond",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://legit.gonna.bond",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "LEGIT",
+        "description": "Trust scores and organic demand intelligence for the x402 agentic economy. Every agent asks. LEGIT answers. Live trust scores for x402 merchants across Algorand, Base, Solana and every chain we index.",
+        "site_name": null,
+        "logo": "https://legit.gonna.bond/apple-touch-icon.png",
+        "banner": "https://legit.gonna.bond/og.png",
+        "theme_color": "#0a0a0f",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://legit.gonna.bond/.well-known/agent-card.json",
+            "name": "LEGIT",
+            "description": "LEGIT is the trust oracle for the x402 agentic economy: trust-check any merchant address across 20 chains before routing a payment. Grades and scores come from live measurements, not self-reported data. Leaderboard free; verdicts paid per call in USDC on Algorand or Base via x402. Created by GONNA."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://legit.gonna.bond/.well-known/agent.json",
+            "name": "LEGIT",
+            "description": "LEGIT is the trust oracle for the x402 agentic economy: trust-check any merchant address across 20 chains before routing a payment. Grades and scores come from live measurements, not self-reported data. Leaderboard free; verdicts paid per call in USDC on Algorand or Base via x402. Created by GONNA."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://legit.gonna.bond/.well-known/x402",
+            "name": "LEGIT",
+            "description": "LEGIT: trust scores and organic demand intelligence for the x402 agentic economy. Created by GONNA."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://legit.gonna.bond/llms.txt",
+            "name": "LEGIT",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:04:19 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vbGVnaXQuZ29ubmEuYm9uZC92MS9jb21wYXJl",
+        "url": "https://legit.gonna.bond/v1/compare",
+        "method": "GET",
+        "description": "LEGIT: trust scores and organic demand intelligence for the x402 agentic economy. Created by GONNA.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "4000",
+            "asset": "31566704",
+            "payTo": "LGT47RVH6STHJF5PWU3BX2S5D4M5UN2TFXOESL34KDFRXMEYDCDVQWCM6M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "symbol": "USDC"
+            },
+            "resource": "https://legit.gonna.bond/v1/compare"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "addresses": "ADDRESS_A,ADDRESS_B"
+            }
+          },
+          "inputSchema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "addresses": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000,
+                "description": "Comma-separated list of 2 to 5 merchant addresses to compare head-to-head, e.g. ?addresses=ADDR_A,ADDR_B. Optional: when omitted, LEGIT compares the top merchants of the current default ranking and discloses the choice in the defaults_applied response field. Untracked addresses are reported with score=null and cannot win."
+              }
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "generated_at": "2026-01-01T00:00:00+00:00",
+              "entries": [
+                {
+                  "address": "ADDRESS_A",
+                  "name": "Merchant A",
+                  "score": 82.5,
+                  "grade": "B",
+                  "provisional": false,
+                  "uptime_pct": 99.5,
+                  "latency_p50_ms": 210,
+                  "sample_size": 12,
+                  "settle_count": 340,
+                  "network": "algorand-mainnet",
+                  "explorer_url": "https://allo.info/account/ADDRESS_A",
+                  "tracked": true
+                },
+                {
+                  "address": "ADDRESS_B",
+                  "name": null,
+                  "score": null,
+                  "grade": null,
+                  "provisional": false,
+                  "uptime_pct": null,
+                  "latency_p50_ms": null,
+                  "sample_size": 0,
+                  "settle_count": 0,
+                  "network": null,
+                  "explorer_url": null,
+                  "tracked": false
+                }
+              ],
+              "winner": "ADDRESS_A",
+              "rationale": "Merchant A wins: highest trust score (82.5 vs 71.0)."
+            },
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "properties": {
+                "generated_at": {
+                  "type": "string",
+                  "description": "ISO-8601 UTC timestamp of this comparison."
+                },
+                "entries": {
+                  "type": "array",
+                  "description": "One entry per compared address, in request order.",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "address": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "score": {
+                        "type": [
+                          "number",
+                          "null"
+                        ],
+                        "description": "Trust score 0-100; null when the address is untracked or has never been scored."
+                      },
+                      "grade": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "provisional": {
+                        "type": "boolean"
+                      },
+                      "uptime_pct": {
+                        "type": [
+                          "number",
+                          "null"
+                        ]
+                      },
+                      "latency_p50_ms": {
+                        "type": [
+                          "number",
+                          "null"
+                        ]
+                      },
+                      "sample_size": {
+                        "type": "integer",
+                        "description": "Independent measurements behind the score."
+                      },
+                      "settle_count": {
+                        "type": "integer",
+                        "description": "Real x402 payments settled (adoption signal)."
+                      },
+                      "network": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "explorer_url": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "tracked": {
+                        "type": "boolean",
+                        "description": "False for untracked addresses: score=null and ineligible to win."
+                      }
+                    },
+                    "required": [
+                      "address",
+                      "score",
+                      "tracked"
+                    ]
+                  }
+                },
+                "winner": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "Winning address, or null when no tracked entry has a score."
+                },
+                "rationale": {
+                  "type": "string",
+                  "description": "One plain-English sentence naming the winner and deciding factor(s)."
+                },
+                "defaults_applied": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Wave 41c: query parameters LEGIT defaulted because the call omitted them ('addresses' when the default ranking supplied the compared addresses, echoed by the entries). Absent on calls with explicit parameters."
+                }
+              },
+              "required": [
+                "generated_at",
+                "entries",
+                "winner",
+                "rationale"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": true,
+        "output_schema_present": true,
+        "first_seen": 1786622819203,
+        "last_ts": 1791245059764
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 1,
+    "output_schema_count": 1
+  },
+  "custom_domain_candidates": [
+    "legit.gonna.bond"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": []
+  }
+}

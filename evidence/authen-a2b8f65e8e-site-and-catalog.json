@@ -1,0 +1,260 @@
+{
+  "merchant_id": "RTY0QlFJT1hLVFQ0QlZNSUZZMlM1V1gz",
+  "name": "Authen",
+  "description": null,
+  "website": "https://authen.hvym.link",
+  "logo": "https://authen.hvym.link/logo.png",
+  "categories": [
+    "provenance",
+    "notarization",
+    "c2pa",
+    "developer tools",
+    "algorand",
+    "x402",
+    "x402-global-challenge"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "authen.hvym.link",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 9,
+      "last_observed_at": 1789557580867,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "authen.hvym.link",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://authen.hvym.link",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791180313182,
+        "last_fetch_attempt_utc": "2026-10-05T06:05:13.182000+00:00",
+        "title": "Authen — verifiable provenance for agents",
+        "description": "Notarize any bytes over x402 on Algorand mainnet and get a signed, timestamped attestation checkable offline by anyone. Verification is free, forever.",
+        "site_name": "Authen",
+        "logo": "https://authen.hvym.link/logo.png",
+        "banner": "https://authen.hvym.link/og-image.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-16 11:19:40 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2F1dGhlbi5odnltLmxpbmsvYXBpL3YxL2MycGEvc2lnbg",
+        "url": "https://authen.hvym.link/api/v1/c2pa/sign",
+        "method": "POST",
+        "description": "Embed C2PA Content Credentials into an image. POST the image bytes with an image/* Content-Type and receive the same image with a signed C2PA manifest embedded, plus an Authen attestation carried inside the manifest and in the X-Authen-Attestation header. Signed by a short-lived leaf under this node's app CA; the CA fingerprint is returned in X-Authen-CA-Fingerprint. Reading a manifest back is free at POST /api/v1/c2pa/verify. NOTE: this node's CA is not on the C2PA conformance trust list, so conformant validators will report the signature as cryptographically valid but the signer as untrusted.",
+        "mime_type": "image/jpeg",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "150000",
+            "payTo": "E64BQIOXKTT4BVMIFY2S5WX337FT6MLF66UPZEUPDYAKT4QIFOXXQCR24Q",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "image_base64": "<standard base64 of the image>",
+              "media_type": "image/png"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "body": "<the same image with a C2PA manifest embedded>",
+              "X-Authen-Attestation": "<b64url-sig>.<b64url-payload>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786716554506,
+        "last_ts": null
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2F1dGhlbi5odnltLmxpbmsvYXBpL3YxL21hbmlmZXN0",
+        "url": "https://authen.hvym.link/api/v1/manifest",
+        "method": "POST",
+        "description": "Notarize a manifest of physical property. POST the Merkle root of your item records and receive one signed, timestamped attestation covering the whole set, priced per manifest rather than per item. Any single item can then be proven to have been in the signed set using an inclusion proof, WITHOUT disclosing the other items - so one disputed bar can be evidenced without publishing an inventory. This node never receives the items, only the root and a count, and stores neither. The tree construction is published and verification is free and offline at POST /api/v1/manifest/verify. The attestation asserts that this node observed that root at that time - not the accuracy of any record, nor ownership or existence of the property described.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "250000",
+            "payTo": "E64BQIOXKTT4BVMIFY2S5WX337FT6MLF66UPZEUPDYAKT4QIFOXXQCR24Q",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "root": "<64 hex chars: sha256 Merkle root of the item records>",
+              "n": 42,
+              "label": "HK consignment 2026-08"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "attestation": "<b64url-sig>.<b64url-payload>",
+              "payload": {
+                "h": "<sha256 merkle root hex>",
+                "i": "merkle-root-observed-at",
+                "k": "<ed25519 public key hex>",
+                "n": 42,
+                "t": 1786000000,
+                "v": 1
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788261933522,
+        "last_ts": 1789557580867
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2F1dGhlbi5odnltLmxpbmsvYXBpL3YxL25vdGFyaXpl",
+        "url": "https://authen.hvym.link/api/v1/notarize",
+        "method": "POST",
+        "description": "Notarize any bytes. POST the content and receive a signed, timestamped attestation that this node observed data with that SHA-256 digest at that moment. Ed25519 detached signature in b64url(sig).b64url(payload) form, verifiable offline by anyone. Verification is free at POST /api/v1/verify; the signing key is published at GET /api/v1/identity. The attestation asserts observation and time only - not authorship, ownership, or prior existence.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "50000",
+            "payTo": "E64BQIOXKTT4BVMIFY2S5WX337FT6MLF66UPZEUPDYAKT4QIFOXXQCR24Q",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "content_base64": "<standard base64 of the bytes to notarize>",
+              "media_type": "application/pdf"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "attestation": "<b64url-sig>.<b64url-payload>",
+              "payload": {
+                "h": "<sha256 hex>",
+                "i": "sha256-observed-at",
+                "k": "<ed25519 public key hex>",
+                "s": 1024,
+                "t": 1786000000,
+                "v": 1
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786715106336,
+        "last_ts": 1786759898814
+      }
+    ],
+    "resource_count": 3,
+    "description_count": 3,
+    "mime_type_count": 3,
+    "accepts_count": 3,
+    "discovery_count": 3,
+    "input_documentation_count": 3,
+    "output_documentation_count": 3,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "authen.hvym.link"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

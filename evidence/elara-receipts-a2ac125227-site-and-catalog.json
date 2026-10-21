@@ -1,0 +1,166 @@
+{
+  "merchant_id": "MlBXR1VLRTRWV1VYWFozSVBQWDJXNEZV",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "elara-verify-x402.name-redacted.workers.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Cloudflare Workers",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 10,
+      "last_observed_at": 1791245121997,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "elara-verify-x402.name-redacted.workers.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Cloudflare Workers",
+        "is_custom_domain_candidate": false,
+        "origin": "https://elara-verify-x402.name-redacted.workers.dev",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:05:21 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2VsYXJhLXZlcmlmeS14NDAyLmFpdmVsaWtpdm9kamEud29ya2Vycy5kZXYvdmVyaWZ5L3JlY29yZA",
+        "url": "https://elara-verify-x402.name-redacted.workers.dev/verify/record",
+        "method": "POST",
+        "description": "Post-quantum verification of an Elara ValidationRecord (ML-DSA-65 \"Dilithium3\"): signature over canonical record bytes, structural checks, tri-state verdict, plus an Ed25519-countersigned attestation binding {input hash, verdict, this payment's Algorand transaction id}. Fast tier: Dilithium3-only records; SPHINCS+ dual-signature records are declined honestly. Same Rust verifier as the elara-verify crate on crates.io.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "2PWGUKE4VWUXXZ3IPPX2W4FUTVXAW3HQLBO2GZJZFX4UXWFNSUMWEGSSXE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "id": "019f4e4f-22a8-74b2-82c4-69350e210fe9",
+              "version": 5,
+              "classification": "Public",
+              "sig_algorithm": 1,
+              "content_hash": "u8[32] — SHA3-256 of the record content",
+              "creator_public_key": "u8[1952] — ML-DSA-65 (\"Dilithium3\") public key",
+              "signature": "u8[3309] — ML-DSA-65 signature over the canonical record bytes",
+              "itc_stamp": [
+                1,
+                0,
+                2
+              ],
+              "nonce": 53724,
+              "timestamp": 1783725236.9,
+              "parents": [],
+              "metadata": {}
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": {
+                "verdict": "VERIFIED",
+                "glyph": "✓",
+                "checks": [
+                  {
+                    "name": "signature",
+                    "status": "pass",
+                    "glyph": "✓",
+                    "detail": "ML-DSA-65 signature valid over canonical bytes"
+                  }
+                ],
+                "reason": "ok"
+              },
+              "input_sha256": "<sha256 of the exact request bytes>",
+              "verifier": "elara-verify (wasm)",
+              "attestation": {
+                "v": 1,
+                "alg": "Ed25519",
+                "pq": false,
+                "key_id": "9eb858f6e154f927",
+                "payment_txid": "<this call's Algorand payment transaction id>",
+                "issued_at": "<RFC3339 timestamp>",
+                "signature_b64": "<base64 Ed25519 countersignature>",
+                "public_key_raw_b64": "z7Mpsyv0L0D6CBiVYZoB3BnVNTMbP0cFCm2JapZX9DI="
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788601659338,
+        "last_ts": 1791245121997
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

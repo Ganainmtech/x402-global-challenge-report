@@ -1,0 +1,2 @@
+network,receiver,payer,class,settlements,usdc,subcent_events,subcent_usdc,synthetic_events,historical_supplement_events,evidence,cache_timestamp,profile_assessment
+algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=,SW77YN7AXLAOWSAL4UULSOPJJ6DSAUYD6ARXREPFVWFAQGZIYU76DIXLCI,GKPKFEK5QY3Y43RNCTSCTRVKUO7AXH2AOALWMF4FG4X3LAVFIJIOKRBBVQ,MERCHANT-FUNDED,1,0.050000,0,0.000000,1,0,created by merchant; merchant sent 2.00 ALGO; merchant sent 1.00 USDC ×1 (2000% of paid),2026-10-08T08:10:24.364Z,synthetic-indicated

@@ -1,0 +1,379 @@
+{
+  "merchant_id": "RjIyVVdNNEhENDVRS0RMTkdUNjZDUjZY",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.d0xeddev.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 43,
+      "last_observed_at": 1791245173524,
+      "catalog_endpoint_count": 5,
+      "metadata": {
+        "domain": "api.d0xeddev.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.d0xeddev.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "NEURAL_MESH — Brain & Spine",
+        "description": "A self-organizing, self-forgetting memory mesh. Firing-synapse brain + the Spine: D0xed Devs' agentic pipeline in a humanoid body.",
+        "site_name": "NEURAL_MESH",
+        "logo": "https://api.d0xeddev.com/apple-touch-icon.png",
+        "banner": "https://api.d0xeddev.com/brain/og.png",
+        "theme_color": "#000818",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:06:13 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9hcGkuZDB4ZWRkZXYuY29tL2FnZW50LWludGVs",
+        "url": "http://api.d0xeddev.com/agent-intel",
+        "method": "GET",
+        "description": "Agent intelligence: metadata for D0XEDDEV ecosystem agents (devio, helixa, neural-mesh, pcmd) by id. Real agent registry, one request at a time.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "F22UWM4HD45QKDLNGT66CR6XJEANNRXUF2WKBF42VV333INY3O3YJMF55U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "agentId": "devio"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "data": {
+                "id": "devio",
+                "name": "DEVIO",
+                "type": "base-agent",
+                "chain": "base",
+                "capabilities": [
+                  "x402-payments",
+                  "scam-detection",
+                  "trading-signals"
+                ],
+                "status": "active"
+              },
+              "metadata": {
+                "provider": "Devio Registry",
+                "version": "2.1.0",
+                "cost": "0.05 USDC"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786302808595,
+        "last_ts": null
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vYXBpLmQweGVkZGV2LmNvbS9zY2FtLXNjb3Jl",
+        "url": "http://api.d0xeddev.com/scam-score",
+        "method": "POST",
+        "description": "Scam score: heuristic risk score (0-100) for any EVM wallet address. Format validation, known-scam blacklist, EIP-55 checksum, entropy analysis. Real engine, no fabrication.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F22UWM4HD45QKDLNGT66CR6XJEANNRXUF2WKBF42VV333INY3O3YJMF55U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "0x1234...",
+              "chain": "base"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "data": {
+                "address": "0x...",
+                "score": 12,
+                "risk": "low",
+                "factors": [
+                  "Deterministic hash seed → base contribution 12/25"
+                ],
+                "engine": "devio-heuristic-2.0"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786303382910,
+        "last_ts": 1786303387602
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9hcGkuZDB4ZWRkZXYuY29tL3RyYWRpbmctc2lnbmFscw",
+        "url": "http://api.d0xeddev.com/trading-signals",
+        "method": "GET",
+        "description": "Trading signals: real-time ETH price, 24h change, and signal direction from live market data. Honest 503 degradation when data source is unreachable.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F22UWM4HD45QKDLNGT66CR6XJEANNRXUF2WKBF42VV333INY3O3YJMF55U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "pair": "ETH/USDC",
+              "timeframe": "1h"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "data": {
+                "pair": "ETH/USDC",
+                "price": 3500.42,
+                "change24h": 2.3,
+                "signal": "NEUTRAL",
+                "confidence": 0.5
+              },
+              "metadata": {
+                "provider": "CoinGecko",
+                "version": "2.1.0",
+                "cost": "0.01 USDC"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786303463617,
+        "last_ts": 1786303465924
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmQweGVkZGV2LmNvbS9hbGdvcmFuZC14NDAyL21lc2gvdG9rZW5z",
+        "url": "https://api.d0xeddev.com/algorand-x402/mesh/tokens",
+        "method": "GET",
+        "description": "Multi-chain token aggregator: scored + risk-flagged tokens across Base, Solana, and Algorand. Composite 0-99 opportunity score, wash-trading + thin-liquidity heuristics. Live data from GeckoTerminal, DexScreener, Vestige.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F22UWM4HD45QKDLNGT66CR6XJEANNRXUF2WKBF42VV333INY3O3YJMF55U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "chain": "solana",
+              "min_score": 50
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "data": {
+                "count": 2,
+                "tokens": [
+                  {
+                    "token": "DRB",
+                    "chain": "base",
+                    "score": 99,
+                    "verdict": "ARMED",
+                    "liq": 1559177,
+                    "vol24h": 1483941,
+                    "risk_flags": []
+                  }
+                ]
+              },
+              "metadata": {
+                "provider": "MESH Multi-Chain Aggregator",
+                "version": "1.0.0",
+                "cost": "0.02 USDC"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788012143541,
+        "last_ts": 1790558959285
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmQweGVkZGV2LmNvbS9hbGdvcmFuZC14NDAyL3RyYWRpbmctc2lnbmFscw",
+        "url": "https://api.d0xeddev.com/algorand-x402/trading-signals",
+        "method": "GET",
+        "description": "Trading signals: real-time ETH price, 24h change, and signal direction from live market data. Honest 503 degradation when data source is unreachable.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F22UWM4HD45QKDLNGT66CR6XJEANNRXUF2WKBF42VV333INY3O3YJMF55U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "pair": "ETH/USDC",
+              "timeframe": "1h"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "success": true,
+              "data": {
+                "pair": "ETH/USDC",
+                "price": 3500.42,
+                "change24h": 2.3,
+                "signal": "NEUTRAL",
+                "confidence": 0.5
+              },
+              "metadata": {
+                "provider": "CoinGecko",
+                "version": "2.1.0",
+                "cost": "0.01 USDC"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786306987752,
+        "last_ts": 1791245173524
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 5,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.d0xeddev.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

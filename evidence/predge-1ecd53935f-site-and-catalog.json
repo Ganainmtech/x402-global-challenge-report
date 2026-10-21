@@ -1,0 +1,155 @@
+{
+  "merchant_id": "NUJOSURNSjZZU01aTkZYWDNFWVJQSEZa",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.predge.io",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 5,
+      "last_observed_at": 1791245111146,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "api.predge.io",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.predge.io",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790965428052,
+        "last_fetch_attempt_utc": "2026-10-02T18:23:48.052000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.predge.io/.well-known/agent.json",
+            "name": "Predge",
+            "description": "A verification and dispute layer for agent payments. The acceptance test is hashed and chain-timestamped before the work exists; the verdict is written once, reverts on any rewrite, and carries an ed25519 attestation that anyone verifies offline against a published key without calling Predge. Because the test is deterministic, the verdict is backed by a slashable stablecoin bond: the contract recomputes the hash itself, so anyone can take the bond by proving a dishonest verdict on-chain. No arbi"
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:05:11 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnByZWRnZS5pby92MS93aGFsZXMvbGF0ZXN0",
+        "url": "https://api.predge.io/v1/whales/latest",
+        "method": "GET",
+        "description": "Latest Polymarket whale trades (15 min delay). Trades >= $10,000 notional with market, side, size, price, wallet address and Predge wallet score (0-100, 30d win rate). Source: Predge whale-tracking pipeline (@predge_alerts_bot). Query param: limit (1-100, default 50).",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "5BNIDMJ6YSMZNFXX3EYRPHFZYCV6HWWI2L2CC5A6HXMHHDQERGVFRL3LK4",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 50
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "count": 1,
+              "delay_minutes": 15,
+              "whale_min_usd": 10000,
+              "trades": [
+                {
+                  "platform": "polymarket",
+                  "condition_id": "0x178a746e2b342c25b1d78d0f0d0ea77157c9b6d40b2e97ffbf827cd7f9994c39",
+                  "market_title": "Will the Fed cut rates in September?",
+                  "market_slug": "fed-rate-cut-september",
+                  "category": "economics",
+                  "side": "yes",
+                  "price": 0.62,
+                  "size_usd": 25400,
+                  "wallet": "0x8dab6cf42d7e4d1cd6cca897b9e12a8cbe6d69e8",
+                  "wallet_score": 81,
+                  "wallet_win_rate_30d": 0.67,
+                  "tx_hash": "0x6a7de5…",
+                  "block_timestamp": "2026-07-17T09:41:02.000Z"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790964453196,
+        "last_ts": 1791245111146
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 0,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.predge.io"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "agent-json"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached descriptive homepage evidence on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

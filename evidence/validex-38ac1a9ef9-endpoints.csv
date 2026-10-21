@@ -1,0 +1,9 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.validex.space/v1/validate/full,106,37.100000,19,0,0.000000,0,0.000000,0,2026-09-12 11:42:15 UTC,2026-10-04 12:18:38 UTC
+POST,https://api.validex.space/v1/validate/quick,104,20.800000,20,0,0.000000,0,0.000000,0,2026-09-12 11:38:07 UTC,2026-10-06 10:33:32 UTC
+POST,https://api.validex.space/v1/validate/ai,99,14.850000,20,0,0.000000,0,0.000000,0,2026-09-12 11:57:46 UTC,2026-10-06 11:11:09 UTC
+POST,https://api.validex.space/v1/validate/trust,82,4.100000,37,0,0.000000,0,0.000000,0,2026-09-12 12:00:54 UTC,2026-10-06 00:10:45 UTC
+POST,https://api.validex.space/v1/validate/web,70,4.200000,36,0,0.000000,0,0.000000,0,2026-09-12 12:01:38 UTC,2026-10-04 12:10:36 UTC
+POST,https://api.validex.space/v1/validate/security,66,3.300000,38,0,0.000000,0,0.000000,0,2026-09-12 11:58:16 UTC,2026-10-04 12:09:18 UTC
+POST,https://api.validex.space/v1/validate/engineering,50,4.000000,27,0,0.000000,0,0.000000,0,2026-09-12 12:01:54 UTC,2026-10-04 12:10:14 UTC
+POST,https://api.validex.space/v1/validate/compare,3,0.450000,2,0,0.000000,0,0.000000,0,2026-09-20 22:59:06 UTC,2026-09-23 08:05:50 UTC

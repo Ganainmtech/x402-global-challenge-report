@@ -1,0 +1,13 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://algorand-inteligence-api-production.up.railway.app/watch/poll,2,0.020000,1,0,0.000000,2,0.020000,0,2026-07-26 15:46:58 UTC,2026-07-26 15:56:21 UTC
+(not recorded),(not recorded),1,0.030000,1,0,0.000000,0,0.000000,0,2026-07-27 22:30:29 UTC,2026-07-27 22:30:29 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/ask,1,0.120000,1,0,0.000000,1,0.120000,0,2026-07-26 15:57:08 UTC,2026-07-26 15:57:08 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/contract/analyze,1,0.050000,1,0,0.000000,1,0.050000,0,2026-07-26 15:56:50 UTC,2026-07-26 15:56:50 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/discover,1,0.030000,1,0,0.000000,1,0.030000,0,2026-07-26 15:56:38 UTC,2026-07-26 15:56:38 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/portfolio,1,0.040000,1,0,0.000000,1,0.040000,0,2026-07-26 15:56:42 UTC,2026-07-26 15:56:42 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/reputation,1,0.020000,1,0,0.000000,1,0.020000,0,2026-07-26 15:56:34 UTC,2026-07-26 15:56:34 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/smart-money,1,0.100000,1,0,0.000000,1,0.100000,0,2026-07-26 15:56:59 UTC,2026-07-26 15:56:59 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/token/analyze,1,0.050000,1,0,0.000000,1,0.050000,0,2026-07-26 15:56:46 UTC,2026-07-26 15:56:46 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/tx/explain,1,0.020000,1,0,0.000000,1,0.020000,0,2026-07-26 15:56:26 UTC,2026-07-26 15:56:26 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/tx/simulate,1,0.020000,1,0,0.000000,1,0.020000,0,2026-07-26 15:56:30 UTC,2026-07-26 15:56:30 UTC
+POST,https://algorand-inteligence-api-production.up.railway.app/wallet/analyze,1,0.080000,1,0,0.000000,1,0.080000,0,2026-07-26 15:56:55 UTC,2026-07-26 15:56:55 UTC

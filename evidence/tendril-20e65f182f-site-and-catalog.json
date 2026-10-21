@@ -1,0 +1,347 @@
+{
+  "merchant_id": "WklLN1FRRTdaWDQ0NlRXM1BON1BRNVVE",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "tendril.007575.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 29,
+      "last_observed_at": 1785868804389,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "tendril.007575.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://tendril.007575.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790968835960,
+        "last_fetch_attempt_utc": "2026-10-02T19:20:35.960000+00:00",
+        "title": "TENDRIL",
+        "description": "Rent a sandboxed SSH machine by the hour. Pay per call with x402 on Algorand, in USDC.",
+        "site_name": "TENDRIL",
+        "logo": "https://tendrilhq.com/favicon.svg",
+        "banner": "https://tendrilhq.com/og.png",
+        "theme_color": "#fbfbf9",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-04 18:40:04 UTC"
+    },
+    {
+      "domain": "tendrilhq.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1311,
+      "last_observed_at": 1791264667507,
+      "catalog_endpoint_count": 4,
+      "metadata": {
+        "domain": "tendrilhq.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://tendrilhq.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791224580935,
+        "last_fetch_attempt_utc": "2026-10-05T18:23:00.935000+00:00",
+        "title": "Tendril — Rent Real Compute by the Second",
+        "description": "Rent and contribute sandboxed compute with x402 on Algorand.",
+        "site_name": "TENDRIL",
+        "logo": "https://tendrilhq.com/favicon.svg",
+        "banner": "https://tendrilhq.com/og.png",
+        "theme_color": "#fbfbf9",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 05:31:07 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3RlbmRyaWxocS5jb20veDQwMi9rZXlz",
+        "url": "https://tendrilhq.com/x402/keys",
+        "method": "POST",
+        "description": "Mint a contributor API key (1 USDC on-chain). Earnings pay to the signed-in wallet.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000000",
+            "asset": "31566704",
+            "payTo": "ZIK7QQE7ZX446TW3PN7PQ5UDZNTY7JI5RYNTIU3LPEYBOSTVWI6PTNSWKI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "name": "USDC",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "label": "my-machine"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": {
+                "id": 1,
+                "preview": "tdr_…abc",
+                "label": "my-machine",
+                "createdAt": 1720000000000
+              },
+              "secret": "[redacted]"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787137329877,
+        "last_ts": 1790243790498
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3RlbmRyaWxocS5jb20veDQwMi9yZW50",
+        "url": "https://tendrilhq.com/x402/rent",
+        "method": "POST",
+        "description": "Open a metered session on ChboWQ7VcR (4 vCPU, 23GB) for a 0.05 USDC gate fee. Time is then billed from credit at 12 USDC/hr for as long as you keep it.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "ZIK7QQE7ZX446TW3PN7PQ5UDZNTY7JI5RYNTIU3LPEYBOSTVWI6PTNSWKI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "name": "USDC",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "nodeId": "wbVu3T-ru3",
+              "sshPubKey": "ssh-ed25519 AAAA…"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "leaseId": "lease_9k2m",
+              "leaseToken": "eyJhbGciOi…",
+              "ssh": {
+                "host": "bore.pub",
+                "port": 41823,
+                "username": "root",
+                "command": "ssh [email removed] -p 41823"
+              },
+              "startedAt": "2026-08-01T10:14:02Z",
+              "fundedUntil": "2026-08-01T11:14:02Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787137354507,
+        "last_ts": 1791235270395
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3RlbmRyaWxocS5jb20veDQwMi9ydW4",
+        "url": "https://tendrilhq.com/x402/run",
+        "method": "POST",
+        "description": "Run code on a rented Linux machine and get its stdout back. Flat 1 USDC per job. POST `{\"payload\": \"<python>\"}` and, with no lease token, Tendril picks the best-value idle machine, executes it in a throwaway sandbox and bills the seconds it took from your credit. Send a lease token instead to run it inside a machine you already hold.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000000",
+            "asset": "31566704",
+            "payTo": "ZIK7QQE7ZX446TW3PN7PQ5UDZNTY7JI5RYNTIU3LPEYBOSTVWI6PTNSWKI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "name": "USDC",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "payload": "print('hello from the sandbox')"
+            },
+            "bodyType": "json",
+            "method": "POST",
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "execution": {
+                "balance": "4998333",
+                "costAtomic": "1667",
+                "nodeId": "wbVu3T-ru3",
+                "seconds": 12
+              },
+              "jobId": "a1b2c3",
+              "ok": true,
+              "result": "hello from the sandbox\n"
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787410139542,
+        "last_ts": 1791264667507
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3RlbmRyaWxocS5jb20veDQwMi90b3B1cA",
+        "url": "https://tendrilhq.com/x402/topup",
+        "method": "POST",
+        "description": "Credit 1 USDC to the paying address. Pay from a wallet you control: the balance is keyed to the sender and can only be spent by signing from that address.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000000",
+            "asset": "31566704",
+            "payTo": "ZIK7QQE7ZX446TW3PN7PQ5UDZNTY7JI5RYNTIU3LPEYBOSTVWI6PTNSWKI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "name": "USDC",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "AGENT7XYZ…",
+              "credited": "5000000",
+              "balance": "7250000",
+              "asset": {
+                "id": "10458941",
+                "decimals": 6,
+                "symbol": "USDC"
+              },
+              "payment": {
+                "txid": "ABC…",
+                "network": "algorand:SGO1…"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787137303020,
+        "last_ts": 1791235086572
+      }
+    ],
+    "resource_count": 4,
+    "description_count": 4,
+    "mime_type_count": 4,
+    "accepts_count": 4,
+    "discovery_count": 4,
+    "input_documentation_count": 4,
+    "output_documentation_count": 4,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "tendril.007575.xyz",
+    "tendrilhq.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

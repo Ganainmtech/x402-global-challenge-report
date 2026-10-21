@@ -1,0 +1,204 @@
+{
+  "merchant_id": "S0M0NEdSWVFEVUxQRUFDUjdGNURBRURJ",
+  "name": "CryptoEsim",
+  "description": null,
+  "website": "https://cryptoesim-eqyv.onrender.com",
+  "logo": "https://cryptoesim-engine.onrender.com/brand.svg",
+  "categories": [
+    "travel",
+    "connectivity"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "cryptoesim-engine.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3175,
+      "last_observed_at": 1791286206814,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "cryptoesim-engine.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://cryptoesim-engine.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791213227783,
+        "last_fetch_attempt_utc": "2026-10-05T15:13:47.783000+00:00",
+        "title": "CryptoEsim",
+        "description": "CryptoEsim: buy a travel eSIM or compatible data top-up with Algorand USDC; retrieve delivery and a signed receipt using the same private order.",
+        "site_name": "CryptoEsim",
+        "logo": null,
+        "banner": "https://cryptoesim-engine.onrender.com/brand.svg",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://cryptoesim-engine.onrender.com/.well-known/x402",
+            "name": "CryptoEsim",
+            "description": "CryptoEsim: buy a travel eSIM or compatible data top-up with Algorand USDC; retrieve delivery and a signed receipt using the same private order."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://cryptoesim-engine.onrender.com/llms.txt",
+            "name": "CryptoEsim",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 11:30:06 UTC"
+    },
+    {
+      "domain": "cryptoesim-eqyv.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "cryptoesim-eqyv.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://cryptoesim-eqyv.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791213197947,
+        "last_fetch_attempt_utc": "2026-10-05T15:13:17.947000+00:00",
+        "title": "CryptoEsim — eSIM with USDC on Algorand",
+        "description": "Buy your travel eSIM with USDC on Algorand.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": "#100c0d",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "theme_color"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2NyeXB0b2VzaW0tZW5naW5lLm9ucmVuZGVyLmNvbS9hcGkvcGF5",
+        "url": "https://cryptoesim-engine.onrender.com/api/pay",
+        "method": "POST",
+        "description": "CryptoEsim: buy a travel eSIM or compatible data top-up with Algorand USDC; retrieve delivery and a signed receipt using the same private order.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "990000",
+            "payTo": "KC44GRYQDULPEACR7F5DAEDIZUMFMPWLA4GG3FQVQT2FYOZHY2CRSDZBE4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "quoteRequired": true,
+              "planId": "ES_1_7",
+              "country": "ES"
+            }
+          }
+        ],
+        "discovery": {
+          "name": "CryptoEsim",
+          "description": "CryptoEsim: buy a travel eSIM or compatible data top-up with Algorand USDC; retrieve delivery and a signed receipt using the same private order.",
+          "tags": [
+            "x402-global-challenge",
+            "esim",
+            "travel",
+            "connectivity"
+          ],
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "order_id": "00000000-0000-4000-8000-000000000000"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "order_id": "00000000-0000-4000-8000-000000000000",
+              "status": "issuing",
+              "next_action": "recover_same_order"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790695653284,
+        "last_ts": 1791286206814
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

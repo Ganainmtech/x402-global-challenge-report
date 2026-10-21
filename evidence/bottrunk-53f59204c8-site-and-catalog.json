@@ -1,0 +1,513 @@
+{
+  "merchant_id": "VVRXUzMzVE03SVQ3TklOSlNGV1M1S1ZH",
+  "name": "BotTrunk",
+  "description": null,
+  "website": "https://bottrunk.com",
+  "logo": "https://bottrunk.com/icon.png",
+  "categories": [
+    "web data",
+    "developer tools",
+    "human services",
+    "payments",
+    "algorand"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.bottrunk.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 31,
+      "last_observed_at": 1791245393071,
+      "catalog_endpoint_count": 6,
+      "metadata": {
+        "domain": "api.bottrunk.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.bottrunk.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 0,
+        "last_fetch_attempt_utc": null,
+        "title": "BotTrunk — services your agent can buy",
+        "description": "A catalog of services an AI agent can buy on its own: pay per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys.",
+        "site_name": "BotTrunk",
+        "logo": "https://api.bottrunk.com/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.bottrunk.com/.well-known/agent-card.json",
+            "name": "BotTrunk",
+            "description": "Services an AI agent can buy on its own, paid per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.bottrunk.com/.well-known/agent.json",
+            "name": "BotTrunk",
+            "description": "Services an AI agent can buy on its own, paid per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://api.bottrunk.com/.well-known/mcp.json",
+            "name": "BotTrunk MCP",
+            "description": "MCP server exposing BotTrunk's x402-paid tools. The agent pays from its own Algorand wallet."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.bottrunk.com/.well-known/x402",
+            "name": "BotTrunk",
+            "description": "Services an AI agent can buy on its own, paid per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.bottrunk.com/llms.txt",
+            "name": "BotTrunk",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:09:53 UTC"
+    },
+    {
+      "domain": "bottrunk.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "bottrunk.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://bottrunk.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791265073292,
+        "last_fetch_attempt_utc": "2026-10-06T05:37:53.292000+00:00",
+        "title": "BotTrunk — services your agent can buy",
+        "description": "A catalog of services an AI agent can buy on its own: pay per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys.",
+        "site_name": "BotTrunk",
+        "logo": "https://bottrunk.com/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://bottrunk.com/.well-known/agent-card.json",
+            "name": "BotTrunk",
+            "description": "Services an AI agent can buy on its own, paid per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://bottrunk.com/.well-known/agent.json",
+            "name": "BotTrunk",
+            "description": "Services an AI agent can buy on its own, paid per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://bottrunk.com/.well-known/mcp.json",
+            "name": "BotTrunk MCP",
+            "description": "Free, read-only MCP server for BotTrunk's catalog: what is for sale, what it costs and how to pay. To buy, run the local server (npx -y bottrunk-mcp), which pays from the agent's own Algorand wallet."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://bottrunk.com/.well-known/x402",
+            "name": "BotTrunk",
+            "description": "Services an AI agent can buy on its own, paid per call in USDC over x402 on Algorand. Data utilities and work done by real people. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://bottrunk.com/llms.txt",
+            "name": "BotTrunk",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ib3R0cnVuay5jb20vcy9kZXBvc2l0LWJhYy0xMDAw",
+        "url": "https://api.bottrunk.com/s/deposit-bac-1000",
+        "method": "POST",
+        "description": "Send 1,000 lempiras to any BAC Credomatic account in Honduras. Priced in USDC at the day's Banco Central reference rate with a fixed spread and fee; a person makes the bank transfer within 24 hours and returns the receipt reference. Poll GET /orders/{order_id} for status. 41.423714 USDC per call, paid over x402 on Algorand. No account or API key; a call that fails is not charged.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "41482957",
+            "asset": "31566704",
+            "payTo": "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "beneficiary_name": "María Pérez",
+              "account_number": "123456789",
+              "concept": "Pago factura 1043",
+              "contact_email": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "order_id": "8kPz3n…",
+              "status": "pending",
+              "amount_hnl": 1000,
+              "eta": "within 24 hours",
+              "status_url": "https://api.bottrunk.com/orders/8kPz3n…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789507513390,
+        "last_ts": 1789507513270
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ib3R0cnVuay5jb20vcy9kb21haW4tZG5z",
+        "url": "https://api.bottrunk.com/s/domain-dns",
+        "method": "POST",
+        "description": "The full DNS record set of a domain in one call — A, AAAA, MX, NS, TXT, CNAME — with a read on what the records give away: which provider handles the mail, whether SPF and DMARC are set, and which services the domain has verified. Useful for checking whether a company is real and who hosts it. 0.03 USDC per call, paid over x402 on Algorand. No account or API key; a call that fails is not charged.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "domain": "stripe.com"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "a": [
+                "34.120.54.55"
+              ],
+              "mx": [],
+              "ns": [],
+              "txt": [],
+              "hints": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789152421052,
+        "last_ts": 1790559199514
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ib3R0cnVuay5jb20vcy9leHRyYWN0LWxpbmtz",
+        "url": "https://api.bottrunk.com/s/extract-links",
+        "method": "POST",
+        "description": "Every link on a page resolved to an absolute URL, de-duplicated, with its anchor text and rel, and split into internal and external. What a crawling agent needs to decide where to go next, without downloading and parsing the HTML itself. 0.02 USDC per call, paid over x402 on Algorand. No account or API key; a call that fails is not charged.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "same_host": false,
+              "limit": 100
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "links": [],
+              "total": 87,
+              "internal": 64,
+              "external": 23
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789152410183,
+        "last_ts": 1791245393071
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ib3R0cnVuay5jb20vcy9wYWdlLW1ldGFkYXRh",
+        "url": "https://api.bottrunk.com/s/page-metadata",
+        "method": "POST",
+        "description": "Everything a machine needs to describe a page it has not read: title, meta description, canonical URL, language, favicon, the full OpenGraph and Twitter card sets, any RSS/Atom feeds it advertises, and its robots directive. One request instead of fetching and parsing HTML yourself. 0.02 USDC per call, paid over x402 on Algorand. No account or API key; a call that fails is not charged.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "https://stripe.com"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "title": "Stripe | Financial Infrastructure",
+              "description": "…",
+              "canonical": "…",
+              "open_graph": {},
+              "twitter": {},
+              "feeds": [],
+              "favicon": "…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789152404819,
+        "last_ts": 1790559036524
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ib3R0cnVuay5jb20vcy9zY3JhcGUtbWFya2Rvd24",
+        "url": "https://api.bottrunk.com/s/scrape-markdown",
+        "method": "POST",
+        "description": "Any public page as clean, LLM-ready markdown. Nav, scripts and footers stripped; links and structure preserved. Optional CSS selector to scope the extraction. 0.09 USDC per call, paid over x402 on Algorand. No account or API key; a call that fails is not charged.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE",
+            "maxTimeoutSeconds": 60,
+            "resource": "https://api.bottrunk.com/s/scrape-markdown",
+            "description": "Any public page as clean, LLM-ready markdown.",
+            "mimeType": "application/json",
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "render_js": false,
+              "selector": "…"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "markdown": "# Pricing\n\nSimple, honest pricing…",
+              "title": "Pricing — Example",
+              "word_count": 412
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789090994941,
+        "last_ts": 1789504550924
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5ib3R0cnVuay5jb20vcy91cmwtaGVhbHRo",
+        "url": "https://api.bottrunk.com/s/url-health",
+        "method": "POST",
+        "description": "Is this URL alive, where does it end up, and when does its certificate expire? Returns the status code, the full redirect chain with per-hop timings, the response headers that matter, and the TLS issuer and expiry date. The checks a careful human runs before trusting a link. 0.02 USDC per call, paid over x402 on Algorand. No account or API key; a call that fails is not charged.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "UTWS33TM7IT7NINJSFWS5KVGL73G4ERJMYDKHF7KE4WDXHYO4L7V2PNMRE",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "https://bottrunk.com"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "status": 200,
+              "final_url": "…",
+              "chain": [],
+              "response_ms": 284,
+              "tls": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789152415607,
+        "last_ts": 1790559124873
+      }
+    ],
+    "resource_count": 6,
+    "description_count": 6,
+    "mime_type_count": 6,
+    "accepts_count": 6,
+    "discovery_count": 6,
+    "input_documentation_count": 6,
+    "output_documentation_count": 6,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.bottrunk.com",
+    "bottrunk.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 10,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "mcp",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

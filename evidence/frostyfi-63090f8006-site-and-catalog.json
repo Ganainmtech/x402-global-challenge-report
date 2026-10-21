@@ -1,0 +1,175 @@
+{
+  "merchant_id": "Q1hGQkRFUFpTNEEzRTVLQ1pDVDRGRTJT",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "x402.frostylabs.ai",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 33,
+      "last_observed_at": 1791121807253,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "x402.frostylabs.ai",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://x402.frostylabs.ai",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "FrostyFi x402 Agents on Algorand",
+        "description": "Pay-per-call AI agents on Algorand: ASA safety intelligence, wallet analytics and liquidity reports, settled in USDC via x402 through the GoPlausible facilitator.",
+        "site_name": null,
+        "logo": "https://x402.frostylabs.ai/favicon.ico",
+        "banner": "https://app.frostylabs.ai/frosty_logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://x402.frostylabs.ai/.well-known/agent-card.json",
+            "name": "FrostyFi x402 Agents on Algorand",
+            "description": "Pay-per-call AI agents on Algorand by FrostyLabs, settled in USDC via x402 through the GoPlausible facilitator. No accounts or API keys; callers are charged only when a run succeeds. Agents: ASA Safety Intelligence, Stock Event Advisor (Algorand)."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://x402.frostylabs.ai/.well-known/agent.json",
+            "name": "FrostyFi x402 Agents on Algorand",
+            "description": "Pay-per-call AI agents on Algorand by FrostyLabs, settled in USDC via x402 through the GoPlausible facilitator. No accounts or API keys; callers are charged only when a run succeeds. Agents: ASA Safety Intelligence, Stock Event Advisor (Algorand)."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://x402.frostylabs.ai/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://x402.frostylabs.ai/llms.txt",
+            "name": "FrostyFi x402 Agents on Algorand",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-04 13:50:07 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3g0MDIuZnJvc3R5bGFicy5haS9hc2EtaW50ZWwvYTJh",
+        "url": "https://x402.frostylabs.ai/asa-intel/a2a",
+        "method": "POST",
+        "description": "ASA safety intelligence: freeze/clawback/manager flags, holder concentration, price and liquidity history, and a 1–10 safety score for any Algorand asset id",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "CXFBDEPZS4A3E5KCZCT4FE2SGRAOXR4PHUP3Z5434BVCRYPLHDTUMTNSRU",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "jsonrpc": "2.0",
+              "id": 1,
+              "method": "message/send",
+              "params": {
+                "message": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "Hello"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "output": {
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789578174245,
+        "last_ts": 1791121807253
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "x402.frostylabs.ai"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

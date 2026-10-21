@@ -1,0 +1,15 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+(not recorded),https://api.proptech.watch/stats,13,0.120000,1,2,0.010000,0,0.000000,0,2026-07-22 14:16:39 UTC,2026-08-13 12:10:58 UTC
+GET,https://api.proptech.watch/hot-zones,12,0.120000,2,0,0.000000,0,0.000000,0,2026-08-11 16:10:30 UTC,2026-10-06 00:06:35 UTC
+(not recorded),https://api.proptech.watch/transfers,12,0.120000,1,0,0.000000,0,0.000000,0,2026-08-08 18:57:35 UTC,2026-08-13 12:11:02 UTC
+(not recorded),https://api.proptech.watch/peers,6,0.060000,1,0,0.000000,0,0.000000,0,2026-08-08 19:02:42 UTC,2026-08-09 17:24:46 UTC
+GET,https://api.proptech.watch/peers,6,0.060000,3,0,0.000000,0,0.000000,0,2026-08-11 15:38:13 UTC,2026-09-28 01:29:24 UTC
+GET,https://api.proptech.watch/volume-leaders,5,0.050000,2,0,0.000000,0,0.000000,0,2026-08-11 16:08:17 UTC,2026-09-28 01:32:24 UTC
+(not recorded),https://api.proptech.watch/volume-leaders,4,0.040000,1,0,0.000000,0,0.000000,0,2026-08-08 19:12:22 UTC,2026-08-09 17:08:46 UTC
+(not recorded),https://api.proptech.watch/hot-zones,3,0.030000,1,0,0.000000,0,0.000000,0,2026-08-08 19:11:38 UTC,2026-08-11 15:07:06 UTC
+GET,https://api.proptech.watch/transfers,3,0.030000,2,0,0.000000,0,0.000000,0,2026-08-11 22:27:27 UTC,2026-09-28 01:30:58 UTC
+(not recorded),https://api.proptech.watch/transfers/6423232,3,0.030000,1,0,0.000000,0,0.000000,0,2026-08-13 12:10:32 UTC,2026-08-13 12:16:36 UTC
+(not recorded),https://api.proptech.watch/transfers/6416228,1,0.010000,1,0,0.000000,0,0.000000,0,2026-08-13 12:17:01 UTC,2026-08-13 12:17:01 UTC
+(not recorded),https://api.proptech.watch/transfers/6423270,1,0.010000,1,0,0.000000,0,0.000000,0,2026-08-13 12:16:51 UTC,2026-08-13 12:16:51 UTC
+(not recorded),https://api.proptech.watch/transfers/6423465,1,0.010000,1,0,0.000000,0,0.000000,0,2026-08-13 12:32:27 UTC,2026-08-13 12:32:27 UTC
+(not recorded),https://api.proptech.watch/transfers/6423538,1,0.010000,1,0,0.000000,0,0.000000,0,2026-08-13 12:16:43 UTC,2026-08-13 12:16:43 UTC

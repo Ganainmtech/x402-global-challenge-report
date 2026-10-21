@@ -1,0 +1,627 @@
+{
+  "merchant_id": "SEZISTVNRjRDNTVBWVVTUTJKRDJBRllN",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api-algo.stelardigital.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 14,
+      "last_observed_at": 1791245084135,
+      "catalog_endpoint_count": 5,
+      "metadata": {
+        "domain": "api-algo.stelardigital.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api-algo.stelardigital.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Stelar Digital",
+        "description": "Machine-payable x402 API on Algorand mainnet — Stelar Digital.",
+        "site_name": "Stelar Digital",
+        "logo": "https://api-algo.stelardigital.com/icon-s-512.png",
+        "banner": "https://api-algo.stelardigital.com/logo-512.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api-algo.stelardigital.com/.well-known/agent-card.json",
+            "name": "stelar-x402-algorand",
+            "description": "Live x402 endpoints from an AI-managed crypto portfolio: telemetry, price checks, grid parameters, and a free-tier x402 Doctor conformance check for other builders' paid endpoints. One human. One AI. A whole company."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api-algo.stelardigital.com/.well-known/x402",
+            "name": "Stelar Digital",
+            "description": "Live x402 endpoints from an AI-managed crypto portfolio: telemetry, price checks, grid parameters, and a free-tier x402 Doctor conformance check for other builders' paid endpoints. One human. One AI. A whole company."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api-algo.stelardigital.com/llms.txt",
+            "name": "Stelar Digital x402 API — Algorand mainnet — pay-per-call market data & tools",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:04:44 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLWFsZ28uc3RlbGFyZGlnaXRhbC5jb20vY29uZm9ybWFuY2U",
+        "url": "https://api-algo.stelardigital.com/conformance",
+        "method": "GET",
+        "description": "402-layer conformance check of a fellow builder's x402 endpoint — pass/fail/warn report + a public badge on pass. Never pays the target. ?url=[local URL omitted]",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "maxAmountRequired": "50000",
+            "amount": "50000",
+            "resource": "https://api-algo.stelardigital.com/conformance",
+            "description": "402-layer conformance check of a fellow builder's x402 endpoint — pass/fail/warn report + a public badge on pass. Never pays the target. ?url=[local URL omitted]",
+            "mimeType": "application/json",
+            "payTo": "HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU",
+            "maxTimeoutSeconds": 60,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "outputSchema": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "url": "[local URL omitted]"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "rail": "algorand-mainnet",
+                  "target": "[local URL omitted]",
+                  "conformant": true,
+                  "checks_passed": 9,
+                  "checks_total": 9
+                }
+              }
+            },
+            "discoveryInfo": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "url": "[local URL omitted]"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "rail": "algorand-mainnet",
+                  "target": "[local URL omitted]",
+                  "conformant": true,
+                  "checks_passed": 9,
+                  "checks_total": 9
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "example"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "rail": "algorand-mainnet",
+              "target": "[local URL omitted]",
+              "conformant": true,
+              "checks_passed": 9,
+              "checks_total": 9
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787613781523,
+        "last_ts": 1787613781174
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLWFsZ28uc3RlbGFyZGlnaXRhbC5jb20vZG9jdG9yY2hlY2s",
+        "url": "https://api-algo.stelardigital.com/doctorcheck",
+        "method": "GET",
+        "description": "Machine-to-machine x402 Doctor pass/fail micro-check (same free-tier engine as stelardigital.com/x402-doctor) — grade + per-check results, JSON. Never pays the target. GET or POST ?url=[local URL omitted]",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "maxAmountRequired": "20000",
+            "amount": "20000",
+            "resource": "https://api-algo.stelardigital.com/doctorcheck",
+            "description": "Machine-to-machine x402 Doctor pass/fail micro-check (same free-tier engine as stelardigital.com/x402-doctor) — grade + per-check results, JSON. Never pays the target. GET or POST ?url=[local URL omitted]",
+            "mimeType": "application/json",
+            "payTo": "HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU",
+            "maxTimeoutSeconds": 60,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "outputSchema": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "url": "[local URL omitted]"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "rail": "algorand-mainnet",
+                  "product": "x402 Doctor micro-check (paid, per-call)",
+                  "checked_at": "2026-08-06T11:00:00Z",
+                  "pass": true,
+                  "score": "9/9"
+                }
+              }
+            },
+            "discoveryInfo": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "url": "[local URL omitted]"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "rail": "algorand-mainnet",
+                  "product": "x402 Doctor micro-check (paid, per-call)",
+                  "checked_at": "2026-08-06T11:00:00Z",
+                  "pass": true,
+                  "score": "9/9"
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "example"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "rail": "algorand-mainnet",
+              "product": "x402 Doctor micro-check (paid, per-call)",
+              "checked_at": "2026-08-06T11:00:00Z",
+              "pass": true,
+              "score": "9/9"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787613776071,
+        "last_ts": 1787613775741
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLWFsZ28uc3RlbGFyZGlnaXRhbC5jb20vZ3JpZHBhcmFtcw",
+        "url": "https://api-algo.stelardigital.com/gridparams",
+        "method": "GET",
+        "description": "Recommended grid parameters (count, spacing, band, per-grid allocation) from live 24h market structure. ?asset=SOL&capital=1000",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "maxAmountRequired": "50000",
+            "amount": "50000",
+            "resource": "https://api-algo.stelardigital.com/gridparams",
+            "description": "Recommended grid parameters (count, spacing, band, per-grid allocation) from live 24h market structure. ?asset=SOL&capital=1000",
+            "mimeType": "application/json",
+            "payTo": "HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU",
+            "maxTimeoutSeconds": 60,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "outputSchema": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "asset": "SOL",
+                  "capital": "1000"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "asset": "SOL",
+                  "symbol": "SOLUSDT",
+                  "as_of": 1785964910,
+                  "last_price": 168.42,
+                  "day_range_pct": 5.31,
+                  "recommendation": {
+                    "grids": 40,
+                    "spacing_pct": 0.18,
+                    "band_low": 157.68,
+                    "band_high": 175.57,
+                    "per_grid_usd": 25,
+                    "buy_side_bias": "contrarian - grids buy weakness, sell strength"
+                  }
+                }
+              }
+            },
+            "discoveryInfo": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "asset": "SOL",
+                  "capital": "1000"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "asset": "SOL",
+                  "symbol": "SOLUSDT",
+                  "as_of": 1785964910,
+                  "last_price": 168.42,
+                  "day_range_pct": 5.31,
+                  "recommendation": {
+                    "grids": 40,
+                    "spacing_pct": 0.18,
+                    "band_low": 157.68,
+                    "band_high": 175.57,
+                    "per_grid_usd": 25,
+                    "buy_side_bias": "contrarian - grids buy weakness, sell strength"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "asset": "SOL",
+              "capital": "example"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asset": "SOL",
+              "symbol": "SOLUSDT",
+              "as_of": 1785964910,
+              "last_price": 168.42,
+              "day_range_pct": 5.31,
+              "recommendation": {
+                "grids": 40,
+                "spacing_pct": 0.18,
+                "band_low": 157.68,
+                "band_high": 175.57,
+                "per_grid_usd": 25,
+                "buy_side_bias": "contrarian - grids buy weakness, sell strength"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787613743457,
+        "last_ts": 1790559196842
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLWFsZ28uc3RlbGFyZGlnaXRhbC5jb20vcHJpY2VjaGVjaw",
+        "url": "https://api-algo.stelardigital.com/pricecheck",
+        "method": "GET",
+        "description": "Current price, 24h/7d change, and bull/bear/neutral signal for a crypto asset. ?asset=SOL",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "maxAmountRequired": "5000",
+            "amount": "5000",
+            "resource": "https://api-algo.stelardigital.com/pricecheck",
+            "description": "Current price, 24h/7d change, and bull/bear/neutral signal for a crypto asset. ?asset=SOL",
+            "mimeType": "application/json",
+            "payTo": "HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU",
+            "maxTimeoutSeconds": 60,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "outputSchema": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "asset": "SOL"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "asset": "SOL",
+                  "symbol": "SOLUSDT",
+                  "price": 168.42,
+                  "chg_24h": -1.83,
+                  "chg_7d": 4.21,
+                  "signal": "neutral",
+                  "as_of": 1785964910
+                }
+              }
+            },
+            "discoveryInfo": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true,
+                "queryParams": {
+                  "asset": "SOL"
+                }
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "asset": "SOL",
+                  "symbol": "SOLUSDT",
+                  "price": 168.42,
+                  "chg_24h": -1.83,
+                  "chg_7d": 4.21,
+                  "signal": "neutral",
+                  "as_of": 1785964910
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "asset": "SOL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asset": "SOL",
+              "symbol": "SOLUSDT",
+              "price": 168.42,
+              "chg_24h": -1.83,
+              "chg_7d": 4.21,
+              "signal": "neutral",
+              "as_of": 1785964910
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787613738055,
+        "last_ts": 1791245084135
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLWFsZ28uc3RlbGFyZGlnaXRhbC5jb20vdGVsZW1ldHJ5",
+        "url": "https://api-algo.stelardigital.com/telemetry",
+        "method": "GET",
+        "description": "Live telemetry of an AI-managed long-horizon crypto portfolio - allocation, reconciled P&L, signal votes, and the human-approval trail for every trade.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "maxAmountRequired": "5000",
+            "amount": "5000",
+            "resource": "https://api-algo.stelardigital.com/telemetry",
+            "description": "Live telemetry of an AI-managed long-horizon crypto portfolio - allocation, reconciled P&L, signal votes, and the human-approval trail for every trade.",
+            "mimeType": "application/json",
+            "payTo": "HFHI5MF4C55AYUSQ2JD2AFYMUHWBNSE3SGU6N2YZ5ET5FUZD5YHZHXSWXU",
+            "maxTimeoutSeconds": 60,
+            "asset": "31566704",
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "name": "USDC",
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "outputSchema": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "portfolio_usd": 4021.95,
+                  "assets": [
+                    {
+                      "asset": "SOL",
+                      "allocation_pct": 41.2,
+                      "pnl_usd": -12.4
+                    }
+                  ],
+                  "signal_votes": {
+                    "trend": "neutral",
+                    "band": "hold"
+                  },
+                  "as_of": 1785964910
+                }
+              }
+            },
+            "discoveryInfo": {
+              "input": {
+                "type": "http",
+                "method": "GET",
+                "discoverable": true
+              },
+              "output": {
+                "type": "json",
+                "example": {
+                  "portfolio_usd": 4021.95,
+                  "assets": [
+                    {
+                      "asset": "SOL",
+                      "allocation_pct": 41.2,
+                      "pnl_usd": -12.4
+                    }
+                  ],
+                  "signal_votes": {
+                    "trend": "neutral",
+                    "band": "hold"
+                  },
+                  "as_of": 1785964910
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "portfolio_usd": 4021.95,
+              "assets": [
+                {
+                  "asset": "SOL",
+                  "allocation_pct": 41.2,
+                  "pnl_usd": -12.4
+                }
+              ],
+              "signal_votes": {
+                "trend": "neutral",
+                "band": "hold"
+              },
+              "as_of": 1785964910
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787237189498,
+        "last_ts": 1790558928684
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 5,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api-algo.stelardigital.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

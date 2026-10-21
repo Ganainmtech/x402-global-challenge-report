@@ -1,0 +1,184 @@
+{
+  "merchant_id": "M1QyQlY2WTJMVEJES1lFVlFJTFFFVUVC",
+  "name": "Alt402",
+  "description": null,
+  "website": "https://one00xaltcoin.onrender.com",
+  "logo": "https://one00xaltcoin.onrender.com/logo.png",
+  "categories": [
+    "crypto",
+    "market-intelligence",
+    "ai-agents",
+    "x402"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "one00xaltcoin.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 5,
+      "last_observed_at": 1791116930069,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "one00xaltcoin.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://one00xaltcoin.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791146620200,
+        "last_fetch_attempt_utc": "2026-10-04T20:43:40.200000+00:00",
+        "title": "Alt402 - find 100x altcoins before they move",
+        "description": "Market intelligence for altcoins, built for AI agents: 100x candidate scores, coin screener, 24h rank climbers, hot sectors and coin scorecards from CoinMarketCap data, paid in USDC on Algorand with x402.",
+        "site_name": "Alt402",
+        "logo": "https://one00xaltcoin.onrender.com/logo.svg",
+        "banner": "https://one00xaltcoin.onrender.com/logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://one00xaltcoin.onrender.com/.well-known/agent-card.json",
+            "name": "Alt402",
+            "description": "Market intelligence for altcoins, built for AI agents: 100x candidate scores, coin screener, 24h rank climbers, hot sectors and coin scorecards from CoinMarketCap data, paid in USDC on Algorand with x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://one00xaltcoin.onrender.com/.well-known/x402",
+            "name": "Alt402",
+            "description": "Market intelligence for altcoins: find small caps with 100x potential before they move."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://one00xaltcoin.onrender.com/llms.txt",
+            "name": "Alt402",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-04 12:28:50 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vb25lMDB4YWx0Y29pbi5vbnJlbmRlci5jb20vdjEvZGlnZXN0",
+        "url": "https://one00xaltcoin.onrender.com/v1/digest",
+        "method": "GET",
+        "description": "Daily altcoin digest in one call: the top 5 100x candidates with scores, the 3 biggest 24h rank climbers and the 3 hottest sectors with their leading coins.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "3T2BV6Y2LTBDKYEVQILQEUEB2H4U47YGYMK54N2PJRK2AJIX6OQX3QHGMQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "gems": 5
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "data": {
+                "top_gems": [
+                  {
+                    "symbol": "PAID",
+                    "score": 67,
+                    "market_cap": 10500000,
+                    "change_24h_pct": -15.4
+                  }
+                ],
+                "climbers": [
+                  {
+                    "symbol": "KSM",
+                    "rank_then": 265,
+                    "rank": 197
+                  }
+                ],
+                "hot_sectors": [
+                  {
+                    "tag": "account-abstraction",
+                    "heat": 20
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790820907368,
+        "last_ts": 1791116930069
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "merchant_id": "M1FBSlhKVkcyWjRJUEVLQzUzU1lWSEw3",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.ripar.io",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 20,
+      "last_observed_at": 1791245213961,
+      "catalog_endpoint_count": 4,
+      "metadata": {
+        "domain": "api.ripar.io",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.ripar.io",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Ripar",
+        "description": "Trust and verification for x402 on Algorand. Check an endpoint before you list it, check a payee before you pay it, prove a settlement after it lands.",
+        "site_name": "Ripar",
+        "logo": "https://api.ripar.io/icon.png",
+        "banner": "https://api.ripar.io/opengraph-image",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.ripar.io/.well-known/agent.json",
+            "name": "Ripar",
+            "description": "Text utilities, payable per call over x402 on Algorand MainNet."
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:06:53 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5yaXBhci5pby9hcGkvcGF5ZWUtY2hlY2s",
+        "url": "https://api.ripar.io/api/payee-check",
+        "method": "POST",
+        "description": "Before an agent pays an Algorand address: does it exist, can it receive USDC, how much has it really been paid over x402, is it Bazaar-listed, is it registered. Facts from chain, no invented score.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "3QAJXJVG2Z4IPEKC53SYVHL7P5ILE3CT2T3BW6VPJ5WCOY7M7QDJHELWNY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "3QAJXJVG2Z4IPEKC53SYVHL7P5ILE3CT2T3BW6VPJ5WCOY7M7QDJHELWNY"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "3QAJXJ…",
+              "exists": true,
+              "canReceiveUsdc": true,
+              "received": {
+                "transfers": 3,
+                "x402": 2
+              },
+              "facts": [
+                "Account exists."
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789715127511,
+        "last_ts": 1791245213961
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5yaXBhci5pby9hcGkvc3VtbWFyaXpl",
+        "url": "https://api.ripar.io/api/summarize",
+        "method": "POST",
+        "description": "Summarise any text payload into whole sentences.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "3QAJXJVG2Z4IPEKC53SYVHL7P5ILE3CT2T3BW6VPJ5WCOY7M7QDJHELWNY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "text": "Algorand finalises blocks in under three seconds. It has no forks. Fees are a fraction of a cent."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "summary": "Algorand finalises blocks in under three seconds.",
+              "chars": 94,
+              "summaryChars": 49,
+              "sentences": 3,
+              "compression": 0.52
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789711939333,
+        "last_ts": 1790558967431
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5yaXBhci5pby9hcGkvdmVyaWZ5LXNldHRsZW1lbnQ",
+        "url": "https://api.ripar.io/api/verify-settlement",
+        "method": "POST",
+        "description": "Verify an Algorand transaction is a real x402 settlement and decode what it moved.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "3QAJXJVG2Z4IPEKC53SYVHL7P5ILE3CT2T3BW6VPJ5WCOY7M7QDJHELWNY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "txid": "YSA2EI7DEYRHVCBQC4SXWCGPCR2FX7OZK7FL6C3LF3CCGSI2RQ2A"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txid": "YSA2EI7DEYRHVCBQC4SXWCGPCR2FX7OZK7FL6C3LF3CCGSI2RQ2A",
+              "settled": true
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789715133015,
+        "last_ts": 1790559061271
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5yaXBhci5pby9hcGkveDQwMi1jaGVjaw",
+        "url": "https://api.ripar.io/api/x402-check",
+        "method": "POST",
+        "description": "Check an x402 endpoint on Algorand before you list it: valid 402, USDC, payTo opted in, public resource URL (no [local URL omitted]), Bazaar-listable, challenge-ready.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "3QAJXJVG2Z4IPEKC53SYVHL7P5ILE3CT2T3BW6VPJ5WCOY7M7QDJHELWNY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "https://api.ripar.io/api/summarize"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "url": "https://api.ripar.io/api/summarize",
+              "listable": true,
+              "challengeReady": true,
+              "passed": 12,
+              "of": 12,
+              "fix": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789715122079,
+        "last_ts": 1790559147035
+      }
+    ],
+    "resource_count": 4,
+    "description_count": 4,
+    "mime_type_count": 4,
+    "accepts_count": 4,
+    "discovery_count": 4,
+    "input_documentation_count": 4,
+    "output_documentation_count": 4,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.ripar.io"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "agent-json"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

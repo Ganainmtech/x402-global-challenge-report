@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://brandforge-cyan.vercel.app/v1/brand-kit,7,0.210000,2,0,0.000000,1,0.030000,0,2026-09-30 20:56:31 UTC,2026-10-06 00:10:20 UTC

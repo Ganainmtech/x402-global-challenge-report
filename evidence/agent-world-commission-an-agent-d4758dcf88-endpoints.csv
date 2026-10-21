@@ -1,0 +1,18 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://blocksigner.org/commission/sol,16,0.080000,3,16,0.080000,6,0.030000,0,2026-08-25 23:51:24 UTC,2026-10-06 00:05:16 UTC
+GET,https://blocksigner.org/commission/ask,9,0.090000,3,0,0.000000,5,0.050000,0,2026-08-25 23:51:43 UTC,2026-09-28 01:36:49 UTC
+GET,https://blocksigner.org/commission/mara,7,0.035000,3,7,0.035000,5,0.025000,0,2026-08-25 23:51:30 UTC,2026-09-28 01:30:41 UTC
+GET,https://blocksigner.org/commission/pulse,7,0.070000,5,0,0.000000,3,0.030000,0,2026-08-28 01:43:53 UTC,2026-10-01 15:04:27 UTC
+GET,https://blocksigner.org/commission/scout,7,0.350000,2,0,0.000000,5,0.250000,0,2026-08-26 00:10:02 UTC,2026-09-28 01:39:10 UTC
+GET,https://blocksigner.org/commission/tovi,7,0.035000,3,7,0.035000,5,0.025000,0,2026-08-25 23:51:35 UTC,2026-09-28 01:34:28 UTC
+GET,https://blocksigner.org/commission/episode,6,0.030000,2,6,0.030000,4,0.020000,0,2026-08-27 23:49:55 UTC,2026-09-28 01:28:54 UTC
+GET,https://blocksigner.org/commission/visit,6,0.030000,2,6,0.030000,4,0.020000,0,2026-08-27 23:50:00 UTC,2026-09-28 01:35:18 UTC
+(not recorded),(not recorded),4,0.075000,1,1,0.005000,4,0.075000,0,2026-08-25 22:18:58 UTC,2026-09-09 00:51:55 UTC
+GET,https://blocksigner.org/commission/duel,4,0.020000,2,4,0.020000,2,0.010000,0,2026-08-28 01:42:12 UTC,2026-09-28 01:26:05 UTC
+GET,https://blocksigner.org/commission/signals,4,0.020000,2,4,0.020000,2,0.010000,0,2026-08-28 01:38:29 UTC,2026-09-28 01:32:13 UTC
+GET,https://blocksigner.org/commission/washcheck,4,0.020000,3,4,0.020000,1,0.005000,0,2026-09-24 05:09:30 UTC,2026-10-01 15:04:32 UTC
+GET,https://blocksigner.org/commission/washreport,4,0.080000,3,0,0.000000,1,0.020000,0,2026-09-24 05:09:22 UTC,2026-10-01 15:04:38 UTC
+GET,https://blocksigner.org/commission/dispatch,3,0.030000,2,0,0.000000,1,0.010000,0,2026-09-09 00:58:33 UTC,2026-09-28 01:37:16 UTC
+GET,https://blocksigner.org/commission/washclusters,3,0.150000,2,0,0.000000,1,0.050000,0,2026-09-24 22:18:09 UTC,2026-09-28 01:39:29 UTC
+GET,(not recorded),1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-09 00:56:11 UTC,2026-09-09 00:56:11 UTC
+GET,https://provenance.q3epzs69b902a.us-west-2.cs.amazonlightsail.com/score/JTN2G23WP3GBIK7CZYABI4NWMKCN2YVSXDYHY4IMIQB7TPXPELRFGMYP64,1,0.050000,1,0,0.000000,1,0.050000,0,2026-08-26 00:00:06 UTC,2026-08-26 00:00:06 UTC

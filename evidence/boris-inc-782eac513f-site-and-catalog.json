@@ -1,0 +1,165 @@
+{
+  "merchant_id": "R040Sk9MSVdKTUlZMkRFRkJVSkdNVE4y",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algo.borisinc.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3,
+      "last_observed_at": 1786946516171,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "algo.borisinc.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algo.borisinc.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Aegis on Algorand — the trust layer for the x402 agent economy",
+        "description": "Trust checks, free discovery and cross-chain routing for Algorand x402 payments. Gasless USDC settlement on Algorand mainnet via the GoPlausible facilitator, verified by purchase, not by self-report.",
+        "site_name": "Boris Inc",
+        "logo": "https://algo.borisinc.com/favicon.ico",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://algo.borisinc.com/.well-known/agent-card.json",
+            "name": "Aegis on Algorand",
+            "description": "The trust and marketplace layer for the x402 agent economy, live on Algorand mainnet. Verify whether any x402 service actually delivers before you pay it; discover the Algorand x402 ecosystem; route payments across Algorand and Base; buy LLM cognition. Paid per call in USDC on Algorand (ASA 31566704) via the GoPlausible facilitator. No account, no API key."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algo.borisinc.com/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://algo.borisinc.com/llms.txt",
+            "name": "Aegis on Algorand (algo.borisinc.com) — trust + marketplace for the x402 agent economy",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-17 06:01:56 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnby5ib3Jpc2luYy5jb20vdHJ1c3Q",
+        "url": "https://algo.borisinc.com/trust",
+        "method": "GET",
+        "description": "Aegis delivery-verified trust check for an x402 service — is it safe to pay?",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "GN4JOLIWJMIY2DEFBUJGMTN2XODXQSETXOKFT2X7ZUCZLEYPDNFZ47SUDE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "url": "[local URL omitted]",
+              "match": "exact",
+              "trust_score": 98.7,
+              "tier": "verified",
+              "delivery_verified": true,
+              "n_probes": 20,
+              "recommendation": "safe to transact"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786946516773,
+        "last_ts": 1786946516171
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algo.borisinc.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

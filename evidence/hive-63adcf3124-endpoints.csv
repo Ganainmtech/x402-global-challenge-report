@@ -1,0 +1,7 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,http://head-hive.fly.dev/api/memory/recall,146,0.292000,1,146,0.292000,0,0.000000,0,2026-08-06 01:20:19 UTC,2026-08-08 02:29:34 UTC
+POST,http://head-hive.fly.dev/api/ask,123,1.230000,1,0,0.000000,0,0.000000,0,2026-08-06 01:27:15 UTC,2026-08-08 00:46:01 UTC
+POST,http://head-hive.fly.dev/api/memory/store,80,0.400000,2,80,0.400000,0,0.000000,0,2026-08-05 23:22:15 UTC,2026-08-08 02:22:54 UTC
+POST,http://head-hive.fly.dev/api/extract,19,0.380000,1,0,0.000000,0,0.000000,0,2026-08-06 01:28:37 UTC,2026-08-08 02:23:55 UTC
+POST,http://head-hive.fly.dev/api/plan,18,0.900000,1,0,0.000000,0,0.000000,0,2026-08-06 01:29:52 UTC,2026-08-08 02:21:31 UTC
+POST,http://head-hive.fly.dev/api/analyze,1,0.100000,1,0,0.000000,0,0.000000,0,2026-08-06 17:17:48 UTC,2026-08-06 17:17:48 UTC

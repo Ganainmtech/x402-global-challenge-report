@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://validpay.uk/v1/weather,8,0.008000,3,8,0.008000,5,0.005000,0,2026-07-29 02:21:29 UTC,2026-08-17 03:36:17 UTC
+GET,https://validpay-production.up.railway.app/v1/weather,3,0.003000,2,3,0.003000,2,0.002000,0,2026-07-29 02:19:14 UTC,2026-08-17 03:36:06 UTC
+(not recorded),(not recorded),2,0.002000,1,2,0.002000,0,0.000000,0,2026-08-07 04:54:28 UTC,2026-08-23 09:22:45 UTC

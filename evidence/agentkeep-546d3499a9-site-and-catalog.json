@@ -1,0 +1,1747 @@
+{
+  "merchant_id": "MlZJVTJOMjVTMlRSQUo1NFpUVVk1Q1NG",
+  "name": "AgentKeep",
+  "description": null,
+  "website": "https://agentkeep.online",
+  "logo": null,
+  "categories": [
+    "api",
+    "algorand",
+    "x402",
+    "agent-os",
+    "memory",
+    "fetch",
+    "budget",
+    "notify"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "agent-keep-3jimn6j2va-ew.a.run.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Google Cloud Run",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 4,
+      "last_observed_at": 1790205321757,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "agent-keep-3jimn6j2va-ew.a.run.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Google Cloud Run",
+        "is_custom_domain_candidate": false,
+        "origin": "https://agent-keep-3jimn6j2va-ew.a.run.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 0,
+        "last_fetch_attempt_utc": null,
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://agent-keep-3jimn6j2va-ew.a.run.app/.well-known/x402",
+            "name": null,
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-23 23:15:21 UTC"
+    },
+    {
+      "domain": "agent-keep-684642514120.europe-west1.run.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Google Cloud Run",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 15,
+      "last_observed_at": 1790251550161,
+      "catalog_endpoint_count": 7,
+      "metadata": {
+        "domain": "agent-keep-684642514120.europe-west1.run.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Google Cloud Run",
+        "is_custom_domain_candidate": false,
+        "origin": "https://agent-keep-684642514120.europe-west1.run.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 0,
+        "last_fetch_attempt_utc": null,
+        "title": "AgentKeep — agent OS primitives, paid per request (x402 / Algorand USDC)",
+        "description": "Wallet-scoped OS primitives for AI agents — memory, fetch, budget receipts, trust, and owner-bound notify. No signup, no API keys. Pay per call with x402 (USDC on Algorand Mainnet via GoPlausible).",
+        "site_name": "AgentKeep",
+        "logo": null,
+        "banner": null,
+        "theme_color": "#0B1F1A",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://agent-keep-684642514120.europe-west1.run.app/.well-known/agent-card.json",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped OS primitives for AI agents — memory, fetch, budget receipts, trust, and owner-bound notify. No signup, no API keys. Pay per call with x402 (USDC on Algorand Mainnet via GoPlausible)."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://agent-keep-684642514120.europe-west1.run.app/.well-known/agent.json",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped OS primitives for AI agents — memory, fetch, budget receipts, trust, and owner-bound notify. No signup, no API keys. Pay per call with x402 (USDC on Algorand Mainnet via GoPlausible)."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://agent-keep-684642514120.europe-west1.run.app/.well-known/x402",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped agent OS primitives over x402: memory, fetch, budget receipts, trust probes, and owner-bound notify. No signup — pay per call in USDC on Algorand Mainnet via GoPlausible. Challenge tag: x402-global-challenge."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://agent-keep-684642514120.europe-west1.run.app/llms.txt",
+            "name": "AgentKeep",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "theme_color"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-24 12:05:50 UTC"
+    },
+    {
+      "domain": "agentkeep.online",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "agentkeep.online",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://agentkeep.online",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790789347279,
+        "last_fetch_attempt_utc": "2026-09-30T17:29:07.279000+00:00",
+        "title": "AgentKeep — Keep going.",
+        "description": "OS primitives for wallet agents: memory, files, human approval, receipts. Pay USDC per call on Algorand.",
+        "site_name": "AgentKeep",
+        "logo": "https://agentkeep.online/brand/logo.png",
+        "banner": "https://agentkeep.online/brand/logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://agentkeep.online/.well-known/agent.json",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped memory, fetch, receipts, trust, and human approval for AI agents. Pay per call with x402 USDC on Algorand Mainnet. No signup and no API key."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://agentkeep.online/.well-known/ai-plugin.json",
+            "name": "AgentKeep",
+            "description": "Wallet memory, URL fetch, receipts, and human approval. Pay per call with USDC on Algorand."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://agentkeep.online/llms.txt",
+            "name": "AgentKeep",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "api.agentkeep.online",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 76,
+      "last_observed_at": 1791244942170,
+      "catalog_endpoint_count": 17,
+      "metadata": {
+        "domain": "api.agentkeep.online",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.agentkeep.online",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "AgentKeep API — wallet memory, fetch, receipts, and notify (x402)",
+        "description": "HTTP API for AI agents. Pay per request with USDC on Algorand Mainnet through the GoPlausible x402 facilitator. No signup and no API keys. Product site: agentkeep.online.",
+        "site_name": "AgentKeep",
+        "logo": null,
+        "banner": null,
+        "theme_color": "#0B1F1A",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.agentkeep.online/.well-known/agent-card.json",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped OS primitives for AI agents — memory, fetch, budget receipts, trust, and owner-bound notify. No signup, no API keys. Pay per call with x402 (USDC on Algorand Mainnet via GoPlausible)."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.agentkeep.online/.well-known/agent.json",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped OS primitives for AI agents — memory, fetch, budget receipts, trust, and owner-bound notify. No signup, no API keys. Pay per call with x402 (USDC on Algorand Mainnet via GoPlausible)."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.agentkeep.online/.well-known/x402",
+            "name": "AgentKeep",
+            "description": "Wallet-scoped agent OS primitives over x402: memory, fetch, budget receipts, trust probes, and owner-bound notify. No signup — pay per call in USDC on Algorand Mainnet via GoPlausible. Challenge tag: x402-global-challenge."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.agentkeep.online/llms.txt",
+            "name": "AgentKeep",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "theme_color"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:02:22 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UFVUOmh0dHBzOi8vYWdlbnQta2VlcC0zamltbjZqMnZhLWV3LmEucnVuLmFwcC92MS9tZW1vcnkvYWdlbnRrZWVw",
+        "url": "https://agent-keep-3jimn6j2va-ew.a.run.app/v1/memory/agentkeep",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (â¤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/agentkeep",
+              "resource_url": "https://agent-keep-3jimn6j2va-ew.a.run.app/v1/memory/agentkeep",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790205321819,
+        "last_ts": 1790205321757
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYWdlbnQta2VlcC0zamltbjZqMnZhLWV3LmEucnVuLmFwcC92MS9tZW1vcnkvY2FuYXJ5",
+        "url": "https://agent-keep-3jimn6j2va-ew.a.run.app/v1/memory/canary",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (â¤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "1000",
+            "asset": "10458941",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 10458941,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB); returns metadata and payment receipt.",
+              "resource": "PUT /v1/memory/canary",
+              "resource_url": "https://agent-keep-3jimn6j2va-ew.a.run.app/v1/memory/canary",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB); returns metadata and payment receipt.",
+              "resource": "PUT /v1/memory/canary",
+              "resource_url": "https://agent-keep-3jimn6j2va-ew.a.run.app/v1/memory/canary",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790202438195,
+        "last_ts": 1790205305283
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50LWtlZXAtNjg0NjQyNTE0MTIwLmV1cm9wZS13ZXN0MS5ydW4uYXBwL3YxL2FydGlmYWN0cw",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/artifacts",
+        "method": "POST",
+        "description": "Upload bytes (â¤10MiB; no HTML/JS). Returns a public HTTPS URL + sha256 and payment receipt. Stored on R2 when configured.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Upload bytes (≤10MiB; no HTML/JS). Returns a public HTTPS URL + sha256 and payment receipt. Stored on R2 when configured.",
+              "resource": "POST /v1/artifacts",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/artifacts",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "note": "raw body bytes; Content-Type required"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "a1b2…",
+              "url": "[local URL omitted]",
+              "sha256": "…",
+              "bytes": 12
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790245011932,
+        "last_ts": 1790250636822
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnQta2VlcC02ODQ2NDI1MTQxMjAuZXVyb3BlLXdlc3QxLnJ1bi5hcHAvdjEvYnVkZ2V0L3JlY2VpcHRz",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/budget/receipts",
+        "method": "GET",
+        "description": "Export recent settled/credited ledger rows for the paying wallet.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Export recent settled/credited ledger rows for the paying wallet.",
+              "resource": "GET /v1/budget/receipts",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/budget/receipts",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "receipts": [
+                {
+                  "receipt_id": "rcpt_…",
+                  "route": "PUT /v1/memory/plan",
+                  "status": "settled"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790244995590,
+        "last_ts": 1790250625613
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50LWtlZXAtNjg0NjQyNTE0MTIwLmV1cm9wZS13ZXN0MS5ydW4uYXBwL3YxL2ZldGNo",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/fetch",
+        "method": "POST",
+        "description": "Fetch a public HTTPS URL to text/markdown with SSRF protections; returns truncated body + receipt.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Fetch a public HTTPS URL to text/markdown with SSRF protections; returns truncated body + receipt.",
+              "resource": "POST /v1/fetch",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/fetch",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "method": "GET"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": 200,
+              "content_type": "text/html",
+              "body_preview": "<!doctype html>…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790244989924,
+        "last_ts": 1790250620030
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYWdlbnQta2VlcC02ODQ2NDI1MTQxMjAuZXVyb3BlLXdlc3QxLnJ1bi5hcHAvdjEvbWVtb3J5L2NhbmFyeQ",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/memory/canary",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (â¤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/canary",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/memory/canary",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790244981618,
+        "last_ts": 1790250611673
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50LWtlZXAtNjg0NjQyNTE0MTIwLmV1cm9wZS13ZXN0MS5ydW4uYXBwL3YxL25vdGlmeQ",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/notify",
+        "method": "POST",
+        "description": "Create an owner-bound human approval/Q&A ticket (email/Telegram already bound by owner). Returns pending ticket id â poll GET /v1/notify/{id}; never blocks on max_wait_seconds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Create an owner-bound human approval/Q&A ticket (email/Telegram already bound by owner). Returns pending ticket id — poll GET /v1/notify/{id}; never blocks on max_wait_seconds.",
+              "resource": "POST /v1/notify",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/notify",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "question": "Approve $0.05 fetch?"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "ntf_…",
+              "status": "pending"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790251550197,
+        "last_ts": 1790251550161
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50LWtlZXAtNjg0NjQyNTE0MTIwLmV1cm9wZS13ZXN0MS5ydW4uYXBwL3YxL293bmVyL2JpbmQvZW1haWw",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/owner/bind/email",
+        "method": "POST",
+        "description": "Start owner email bind (magic link).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Start owner email bind (magic link).",
+              "resource": "POST /v1/owner/bind/email",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/owner/bind/email",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "email": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "bound",
+              "email": "[local URL omitted]"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790251216746,
+        "last_ts": 1790251541975
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnQta2VlcC02ODQ2NDI1MTQxMjAuZXVyb3BlLXdlc3QxLnJ1bi5hcHAvdjEvdHJ1c3Q",
+        "url": "https://agent-keep-684642514120.europe-west1.run.app/v1/trust",
+        "method": "GET",
+        "description": "Probe a URL for reachability and basic x402 Payment-Required signals.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Probe a URL for reachability and basic x402 Payment-Required signals.",
+              "resource": "GET /v1/trust",
+              "resource_url": "https://agent-keep-684642514120.europe-west1.run.app/v1/trust",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "reachable": true,
+              "status": 200,
+              "hints": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790245000926,
+        "last_ts": 1790250631204
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudGtlZXAub25saW5lL3YxL2FydGlmYWN0cw",
+        "url": "https://api.agentkeep.online/v1/artifacts",
+        "method": "POST",
+        "description": "Upload bytes (≤10MiB; no HTML/JS). Returns a public HTTPS URL + sha256 and payment receipt. Stored on R2 when configured.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Upload bytes (≤10MiB; no HTML/JS). Returns a public HTTPS URL + sha256 and payment receipt. Stored on R2 when configured.",
+              "resource": "POST /v1/artifacts",
+              "resource_url": "https://api.agentkeep.online/v1/artifacts",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "note": "raw body bytes; Content-Type required"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "a1b2…",
+              "url": "[local URL omitted]",
+              "sha256": "…",
+              "bytes": 12
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415176383,
+        "last_ts": 1790714907007
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvYnVkZ2V0L3JlY2VpcHRz",
+        "url": "https://api.agentkeep.online/v1/budget/receipts",
+        "method": "GET",
+        "description": "Export recent settled/credited ledger rows for the paying wallet.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Export recent settled/credited ledger rows for the paying wallet.",
+              "resource": "GET /v1/budget/receipts",
+              "resource_url": "https://api.agentkeep.online/v1/budget/receipts",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "receipts": [
+                {
+                  "receipt_id": "rcpt_…",
+                  "route": "PUT /v1/memory/plan",
+                  "status": "settled"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415165579,
+        "last_ts": 1790849288355
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudGtlZXAub25saW5lL3YxL2ZldGNo",
+        "url": "https://api.agentkeep.online/v1/fetch",
+        "method": "POST",
+        "description": "Fetch a public HTTPS URL to text/markdown with SSRF protections; returns truncated body + receipt.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Fetch a public HTTPS URL to text/markdown with SSRF protections; returns truncated body + receipt.",
+              "resource": "POST /v1/fetch",
+              "resource_url": "https://api.agentkeep.online/v1/fetch",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "method": "GET"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": 200,
+              "content_type": "text/html",
+              "body_preview": "<!doctype html>…"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415160202,
+        "last_ts": 1790769944113
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5",
+        "url": "https://api.agentkeep.online/v1/memory",
+        "method": "GET",
+        "description": "List wallet-scoped memory keys (no values).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "List wallet-scoped memory keys (no values).",
+              "resource": "GET /v1/memory",
+              "resource_url": "https://api.agentkeep.online/v1/memory",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "keys": [
+                {
+                  "key": "plan",
+                  "updated_at": "2026-09-24T00:00:00.000Z"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415154724,
+        "last_ts": 1791244942170
+      },
+      {
+        "id": "REVMRVRFOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L2NhbmFyeQ",
+        "url": "https://api.agentkeep.online/v1/memory/canary",
+        "method": "DELETE",
+        "description": "Delete a wallet-scoped memory key.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Delete a wallet-scoped memory key.",
+              "resource": "DELETE /v1/memory/canary",
+              "resource_url": "https://api.agentkeep.online/v1/memory/canary",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "DELETE",
+            "queryParams": {},
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "deleted": true
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415184496,
+        "last_ts": 1790415184460
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L2NhbmFyeQ",
+        "url": "https://api.agentkeep.online/v1/memory/canary",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/canary",
+              "resource_url": "https://api.agentkeep.online/v1/memory/canary",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415149290,
+        "last_ts": 1790607034246
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L2ZvdW5kZXJzLW5vdGU",
+        "url": "https://api.agentkeep.online/v1/memory/founders-note",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/founders-note",
+              "resource_url": "https://api.agentkeep.online/v1/memory/founders-note",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790714993009,
+        "last_ts": 1790714992974
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L2xhdW5jaC1ub3Rlcw",
+        "url": "https://api.agentkeep.online/v1/memory/launch-notes",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/launch-notes",
+              "resource_url": "https://api.agentkeep.online/v1/memory/launch-notes",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790770115142,
+        "last_ts": 1790770115099
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L21lZGl0YXRpb24tZmlsZQ",
+        "url": "https://api.agentkeep.online/v1/memory/meditation-file",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/meditation-file",
+              "resource_url": "https://api.agentkeep.online/v1/memory/meditation-file",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790714920918,
+        "last_ts": 1790714920855
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L3BlcnNvbmFsLXBob3Rv",
+        "url": "https://api.agentkeep.online/v1/memory/personal-photo",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/personal-photo",
+              "resource_url": "https://api.agentkeep.online/v1/memory/personal-photo",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790616034140,
+        "last_ts": 1790616034067
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L3JlaGVhcnNhbDpncmFudC1ub3RlczoxOTIyMjk",
+        "url": "https://api.agentkeep.online/v1/memory/rehearsal:grant-notes:192229",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/rehearsal:grant-notes:192229",
+              "resource_url": "https://api.agentkeep.online/v1/memory/rehearsal:grant-notes:192229",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790623363409,
+        "last_ts": 1790623363338
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L3JlaGVhcnNhbDpsYXVuY2gtZmlsbToyMTQxMTg",
+        "url": "https://api.agentkeep.online/v1/memory/rehearsal:launch-film:214118",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/rehearsal:launch-film:214118",
+              "resource_url": "https://api.agentkeep.online/v1/memory/rehearsal:launch-film:214118",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790631694781,
+        "last_ts": 1790631694729
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L3Rhc2s6Z3JhbnQ6bm90ZXM",
+        "url": "https://api.agentkeep.online/v1/memory/task:grant:notes",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/task:grant:notes",
+              "resource_url": "https://api.agentkeep.online/v1/memory/task:grant:notes",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790608161475,
+        "last_ts": 1790608161409
+      },
+      {
+        "id": "UFVUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvbWVtb3J5L3Rlc3Qtbm90ZQ",
+        "url": "https://api.agentkeep.online/v1/memory/test-note",
+        "method": "PUT",
+        "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Store a wallet-scoped key/value (≤64KiB JSON/text). Returns key metadata plus an x402 payment receipt. Tenant = paying Algorand wallet; other wallets get 404.",
+              "resource": "PUT /v1/memory/test-note",
+              "resource_url": "https://api.agentkeep.online/v1/memory/test-note",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "PUT",
+            "bodyType": "json",
+            "body": {
+              "value": {
+                "note": "hello"
+              },
+              "content_type": "application/json"
+            },
+            "pathParams": {
+              "key": "plan"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "key": "plan",
+              "updated_at": "2026-09-24T00:00:00.000Z",
+              "expires_at": "2026-10-01T00:00:00.000Z",
+              "receipt": {
+                "receipt_id": "rcpt_…",
+                "status": "settled"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790615678556,
+        "last_ts": 1790615678513
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudGtlZXAub25saW5lL3YxL25vdGlmeQ",
+        "url": "https://api.agentkeep.online/v1/notify",
+        "method": "POST",
+        "description": "Create an owner-bound human approval/Q&A ticket (email/Telegram already bound by owner). Returns pending ticket id — poll GET /v1/notify/{id}; never blocks on max_wait_seconds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Create an owner-bound human approval/Q&A ticket (email/Telegram already bound by owner). Returns pending ticket id — poll GET /v1/notify/{id}; never blocks on max_wait_seconds.",
+              "resource": "POST /v1/notify",
+              "resource_url": "https://api.agentkeep.online/v1/notify",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "question": "Approve $0.05 fetch?"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "ntf_…",
+              "status": "pending"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790484454569,
+        "last_ts": 1790559293430
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudGtlZXAub25saW5lL3YxL293bmVyL2JpbmQvZW1haWw",
+        "url": "https://api.agentkeep.online/v1/owner/bind/email",
+        "method": "POST",
+        "description": "Start owner email bind (magic link).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Start owner email bind (magic link).",
+              "resource": "POST /v1/owner/bind/email",
+              "resource_url": "https://api.agentkeep.online/v1/owner/bind/email",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "email": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "bound",
+              "email": "[local URL omitted]"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790484053342,
+        "last_ts": 1790559246473
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFnZW50a2VlcC5vbmxpbmUvdjEvdHJ1c3Q",
+        "url": "https://api.agentkeep.online/v1/trust",
+        "method": "GET",
+        "description": "Probe a URL for reachability and basic x402 Payment-Required signals.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "2VIU2N25S2TRAJ54ZTUY5CSFADU6Y5KEMKAWTRWR2ODNTPULNGHBKWEPTQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "asa_id": 31566704,
+              "adapter": "live",
+              "description": "Probe a URL for reachability and basic x402 Payment-Required signals.",
+              "resource": "GET /v1/trust",
+              "resource_url": "https://api.agentkeep.online/v1/trust",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "reachable": true,
+              "status": 200,
+              "hints": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790415170991,
+        "last_ts": 1790559008890
+      }
+    ],
+    "resource_count": 26,
+    "description_count": 26,
+    "mime_type_count": 26,
+    "accepts_count": 26,
+    "discovery_count": 26,
+    "input_documentation_count": 26,
+    "output_documentation_count": 26,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "agentkeep.online",
+    "api.agentkeep.online"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 4,
+    "cached_domain_metadata_count": 4,
+    "domains_with_cached_descriptive_homepage_evidence": 3,
+    "agent_document_count": 12,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

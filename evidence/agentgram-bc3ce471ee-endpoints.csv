@@ -1,0 +1,7 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://agentgram.onrender.com/x402/v1/send,2,0.020000,1,0,0.000000,2,0.020000,0,2026-10-03 11:50:17 UTC,2026-10-03 11:50:51 UTC
+POST,https://agentgram.onrender.com/v1/agents,1,0.030000,1,0,0.000000,1,0.030000,0,2026-10-03 11:48:54 UTC,2026-10-03 11:48:54 UTC
+PUT,https://agentgram.onrender.com/v1/agents/agt_hesxkob6z4pvdamnqn5nmxdmipho5sbu/prekeys,1,0.010000,1,0,0.000000,1,0.010000,0,2026-10-03 11:49:00 UTC,2026-10-03 11:49:00 UTC
+GET,https://agentgram.onrender.com/v1/directory,1,0.020000,1,0,0.000000,1,0.020000,0,2026-10-03 11:49:33 UTC,2026-10-03 11:49:33 UTC
+POST,https://agentgram.onrender.com/x402/v1/read,1,0.020000,1,0,0.000000,1,0.020000,0,2026-10-03 11:52:27 UTC,2026-10-03 11:52:27 UTC
+POST,https://agentgram.onrender.com/x402/v1/recall,1,0.020000,1,0,0.000000,1,0.020000,0,2026-10-03 11:52:55 UTC,2026-10-03 11:52:55 UTC

@@ -1,0 +1,501 @@
+{
+  "merchant_id": "QVFZV05ITzZRV0I0QUI0U0hJVk1OWkwy",
+  "name": "HelixBox",
+  "description": null,
+  "website": "https://helix-box.vercel.app",
+  "logo": "https://helix-box.vercel.app/helixbox.png",
+  "categories": [
+    "developer-tools",
+    "cli",
+    "mobile-ide",
+    "agent-sessions"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "helix-box.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "helix-box.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://helix-box.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791244662264,
+        "last_fetch_attempt_utc": "2026-10-05T23:57:42.264000+00:00",
+        "title": "HelixBox | Your development environment, in your pocket",
+        "description": "Your laptop does the work. Keep building from your phone. Coding agents, editor, browser, terminal, and Git in one app.",
+        "site_name": "HelixBox",
+        "logo": "https://helix-box.vercel.app/assets/images/helixbox-splash.png",
+        "banner": "https://helix-box.vercel.app/assets/images/helixbox-splash.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "helixbox-manager.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3918,
+      "last_observed_at": 1791286702082,
+      "catalog_endpoint_count": 6,
+      "metadata": {
+        "domain": "helixbox-manager.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://helixbox-manager.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791250870250,
+        "last_fetch_attempt_utc": "2026-10-06T01:41:10.250000+00:00",
+        "title": "HelixBox | Your development environment, in your pocket",
+        "description": "Your laptop does the work. Keep building from your phone. Coding agents, editor, browser, terminal, and Git in one app.",
+        "site_name": "HelixBox",
+        "logo": "https://helix-box.vercel.app/assets/images/helixbox-splash.png",
+        "banner": "https://helix-box.vercel.app/assets/images/helixbox-splash.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://helixbox-manager.onrender.com/.well-known/x402",
+            "name": "HelixBox",
+            "description": "Use your full development environment from your phone with time-bound, micro-billed agent sessions."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://helixbox-manager.onrender.com/llms.txt",
+            "name": "HelixBox",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 11:38:22 UTC"
+    },
+    {
+      "domain": "helixbox-manager.onrender.com:10000",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1789100720209,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "helixbox-manager.onrender.com:10000",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://helixbox-manager.onrender.com:10000",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 0,
+        "last_fetch_attempt_utc": null,
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-11 04:25:20 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vaGVsaXhib3gtbWFuYWdlci5vbnJlbmRlci5jb20vdjIveDQwMi9jbGkvaG91cg",
+        "url": "http://helixbox-manager.onrender.com/v2/x402/cli/hour",
+        "method": "POST",
+        "description": "One hour of HelixBox agent session access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "250000",
+            "asset": "10458941",
+            "payTo": "7LO7JTJT4DJU5N2KF5Y2HB4WATGPPSOB2O3BFAR32DC3YMA5PMZ6TYEBDQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786274267836,
+        "last_ts": 1786376748323
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vaGVsaXhib3gtbWFuYWdlci5vbnJlbmRlci5jb20vdjIveDQwMi9jb2RleC1hZ2VudA",
+        "url": "http://helixbox-manager.onrender.com/v2/x402/codex-agent",
+        "method": "POST",
+        "description": "One hour of HelixBox AI agent session and remote CLI access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "250000",
+            "asset": "10458941",
+            "payTo": "7LO7JTJT4DJU5N2KF5Y2HB4WATGPPSOB2O3BFAR32DC3YMA5PMZ6TYEBDQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786335855094,
+        "last_ts": 1786869533719
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2hlbGl4Ym94LW1hbmFnZXIub25yZW5kZXIuY29tL3YyL3g0MDIvYWdlbnQtc2Vzc2lvbi0xaG91cg",
+        "url": "https://helixbox-manager.onrender.com/v2/x402/agent-session-1hour",
+        "method": "POST",
+        "description": "One hour of HelixBox AI agent session and remote CLI access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "name": "HelixBox",
+          "description": "One hour of HelixBox AI agent session and remote CLI access.",
+          "tags": [
+            "x402-global-challenge",
+            "cli",
+            "mobile-ide",
+            "agent-sessions"
+          ],
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "code": "helixbox-agent-session-pass"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "code": "helixbox-agent-session-pass",
+              "expiresAt": 1790700841000
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788157416828,
+        "last_ts": 1788856905082
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2hlbGl4Ym94LW1hbmFnZXIub25yZW5kZXIuY29tL3YyL3g0MDIvY2xpL2hvdXI",
+        "url": "https://helixbox-manager.onrender.com/v2/x402/cli/hour",
+        "method": "POST",
+        "description": "One hour of HelixBox agent session access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "name": "HelixBox",
+          "description": "One hour of HelixBox agent session access.",
+          "tags": [
+            "x402-global-challenge",
+            "cli",
+            "mobile-ide",
+            "agent-sessions"
+          ],
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "code": "helixbox-agent-session-pass"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "code": "helixbox-agent-session-pass",
+              "expiresAt": 1790700841000
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787577023664,
+        "last_ts": 1791286702082
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2hlbGl4Ym94LW1hbmFnZXIub25yZW5kZXIuY29tL3YyL3g0MDIvY29kZXgtYWdlbnQ",
+        "url": "https://helixbox-manager.onrender.com/v2/x402/codex-agent",
+        "method": "POST",
+        "description": "One hour of HelixBox AI agent session and remote CLI access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "7LO7JTJT4DJU5N2KF5Y2HB4WATGPPSOB2O3BFAR32DC3YMA5PMZ6TYEBDQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787596652722,
+        "last_ts": 1787924384124
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2hlbGl4Ym94LW1hbmFnZXIub25yZW5kZXIuY29tL3YyL3g0MDIvcHJlbWl1bS93ZWVr",
+        "url": "https://helixbox-manager.onrender.com/v2/x402/premium/week",
+        "method": "POST",
+        "description": "Seven days of HelixBox premium agent session access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000000",
+            "asset": "31566704",
+            "payTo": "7LO7JTJT4DJU5N2KF5Y2HB4WATGPPSOB2O3BFAR32DC3YMA5PMZ6TYEBDQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000000",
+            "asset": "31566704",
+            "payTo": "AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787595042405,
+        "last_ts": 1789978637494
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2hlbGl4Ym94LW1hbmFnZXIub25yZW5kZXIuY29tOjEwMDAwL3YyL3g0MDIvY2xpL2hvdXI",
+        "url": "https://helixbox-manager.onrender.com:10000/v2/x402/cli/hour",
+        "method": "POST",
+        "description": "One hour of HelixBox agent session access.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "AQYWNHO6QWB4AB4SHIVMNZL2QN2ZQIYYO3Z27DJCUOILZ43YGGZUIPAURY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {},
+            "method": "POST"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789100720387,
+        "last_ts": 1789100720209
+      }
+    ],
+    "resource_count": 7,
+    "description_count": 7,
+    "mime_type_count": 7,
+    "accepts_count": 7,
+    "discovery_count": 7,
+    "input_documentation_count": 7,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": true,
+    "linked_domain_count": 3,
+    "cached_domain_metadata_count": 3,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

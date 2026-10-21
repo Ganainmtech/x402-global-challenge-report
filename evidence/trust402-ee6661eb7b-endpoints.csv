@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://trust402.name-redacted.deno.net/v1/trust,5,0.250000,3,0,0.000000,4,0.200000,0,2026-09-30 07:52:34 UTC,2026-10-01 07:10:04 UTC

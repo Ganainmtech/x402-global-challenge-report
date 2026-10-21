@@ -1,0 +1,172 @@
+{
+  "merchant_id": "WEZWQkE1R0pBWEpCUldMRVJWT1RaSDU3",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "midax402.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 12,
+      "last_observed_at": 1791245431580,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "midax402.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://midax402.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791166942944,
+        "last_fetch_attempt_utc": "2026-10-05T02:22:22.944000+00:00",
+        "title": "MIDAX402 — Independent verification for x402 services",
+        "description": "Independent verification for x402 services — check instead of believe.",
+        "site_name": null,
+        "logo": "https://midax402.com/favicon.ico",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://midax402.com/.well-known/agent-card.json",
+            "name": "MIDAX402",
+            "description": "MIDAX402. Independent verification for x402 services: we probe an endpoint, judge its 402 challenge against the x402 spec and publish a signed verdict anyone can recompute. Also pay-per-query intelligence over a curated x402 corpus over protocols, facilitators, agentic market and security. x402 intelligence in Spanish. Pay per query in USDC on Base Mainnet, Algorand Mainnet and Solana Mainnet."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://midax402.com/.well-known/agent.json",
+            "name": "MIDAX402",
+            "description": "MIDAX402. Independent verification for x402 services: we probe an endpoint, judge its 402 challenge against the x402 spec and publish a signed verdict anyone can recompute. Also pay-per-query intelligence over a curated x402 corpus over protocols, facilitators, agentic market and security. x402 intelligence in Spanish. Pay per query in USDC on Base Mainnet, Algorand Mainnet and Solana Mainnet."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://midax402.com/.well-known/x402",
+            "name": "MIDAX402",
+            "description": "MIDAX402 well-known discovery. Independent verification for x402 services: we read an endpoint's 402 challenge, judge it against the x402 spec and sign the verdict. Also paid routes for pay-per-query intelligence over a curated x402 corpus, semantic search and live metrics, payable on Base Mainnet, Algorand Mainnet and Solana Mainnet."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://midax402.com/llms.txt",
+            "name": "MIDAX402",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:10:31 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL21pZGF4NDAyLmNvbS9taWRhcy1vcHMvYmFzaWM",
+        "url": "https://midax402.com/midas-ops/basic",
+        "method": "POST",
+        "description": "Midax402: x402 ecosystem intelligence — protocols, facilitators, services, market trends, and agent commerce across the x402 ecosystem. We do not grade our own answer. The verdict states whether the query could be grounded on retrieved corpus evidence ('answered' / 'needs_more_data'), and evidence_grade ('thin' / 'moderate' / 'broad') describes the evidence we looked at -- auditable by you against the retrieved_corpus_ids in the same response. The 0-100 confidence_score is DEPRECATED and is removed after 2026-09-11; during the transition it projects the band and carries confidence_score_deprecated=true. Payload version is now 2.0.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "30000",
+            "payTo": "XFVBA5GJAXJBRWLERVOTZH57NEGPCOP276U4N2E2LCMYWVVESQQPAPBODQ",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "name": "USDC",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "query": "Analyze the x402 payment flow, facilitator options, security mitigations, or integration patterns for agent commerce."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "endpoint": "Midax402",
+              "tier": "basic",
+              "verdict": "answered",
+              "evidence_grade": "broad",
+              "summary": "The CDP Facilitator processes ~N requests/day across known x402 services. Top categories: crypto_data, storage, social_intelligence.",
+              "disclaimer": "Non-personalized analysis of x402 ecosystem data, not financial advice."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787604023079,
+        "last_ts": 1791245431580
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "midax402.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

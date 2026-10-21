@@ -1,0 +1,167 @@
+{
+  "merchant_id": "Uk1NRDdLVzVGNjI3UTcyQUpLTlpFSUVQ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "vet402-algorand.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3,
+      "last_observed_at": 1790481073170,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "vet402-algorand.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://vet402-algorand.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "vet402: pays the x402 endpoint you name and checks the delivery",
+        "description": "vet402 pays the x402 endpoint you name on Algorand, checks that the answer has the fields the seller declared, and returns ALLOW or REFUSE with both payment tx ids.",
+        "site_name": "vet402",
+        "logo": "https://vet402-algorand.vercel.app/icon-512.png",
+        "banner": "https://vet402-algorand.vercel.app/icon-512.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-27 03:51:13 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vdmV0NDAyLWFsZ29yYW5kLnZlcmNlbC5hcHAvdjEvY2hlY2s",
+        "url": "https://vet402-algorand.vercel.app/v1/check",
+        "method": "GET",
+        "description": "Check an x402 seller before your first payment to it: vet402 pays it once with its own wallet and tells you if the delivery matched the listing (GET endpoints).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "RMMD7KW5F627Q72AJKNZEIEP33I3RD4VSCBGUSYVUTPZARJ6PDBNPIY33Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "url": "[local URL omitted]"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "ALLOW",
+              "reason": "delivered",
+              "target": "[local URL omitted]",
+              "customerPayment": {
+                "transaction": "TXID_CUSTOMER...",
+                "network": "algorand:...",
+                "amount": "50000",
+                "payTo": "VET402..."
+              },
+              "declared": {
+                "description": "Weather data",
+                "mimeType": "application/json",
+                "expectedKeys": [
+                  "weather",
+                  "temperature"
+                ]
+              },
+              "price": {
+                "amountAtomic": "5000",
+                "usdc": "0.005000",
+                "payTo": "SELLER...",
+                "network": "algorand:...",
+                "asset": "31566704"
+              },
+              "downstreamPayment": {
+                "success": true,
+                "transaction": "TXID_SELLER...",
+                "network": "algorand:..."
+              },
+              "delivery": {
+                "status": 200,
+                "contentType": "application/json",
+                "bytes": 64,
+                "summary": "object{weather:string=\"sunny\", temperature:number=70}",
+                "missingKeys": []
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790479078945,
+        "last_ts": 1790481073170
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

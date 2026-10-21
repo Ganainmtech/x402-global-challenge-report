@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://algo.borisinc.com/trust,3,0.030000,1,0,0.000000,0,0.000000,0,2026-08-17 01:11:22 UTC,2026-08-17 06:01:56 UTC

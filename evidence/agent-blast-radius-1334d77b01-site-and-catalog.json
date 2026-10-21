@@ -1,0 +1,113 @@
+{
+  "merchant_id": "NEhCTUlUS0lTMzZBU1ZKSkZPTjZYNUZP",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "abr.kloudle.dev",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 11,
+      "last_observed_at": 1791245470205,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "abr.kloudle.dev",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://abr.kloudle.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791044528754,
+        "last_fetch_attempt_utc": "2026-10-03T16:22:08.754000+00:00",
+        "title": "Agent Blast Radius · See what an agent running as you can reach.",
+        "description": "Agent Blast Radius inventories the credentials an unsandboxed coding agent could read on your machine, then sells verifier manifests over x402 so the checks run locally. Secrets never leave the machine.",
+        "site_name": "Agent Blast Radius",
+        "logo": "https://abr.kloudle.dev/apple-touch-icon.png",
+        "banner": "https://abr.kloudle.dev/og-image.png",
+        "theme_color": "#7d00ff",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://abr.kloudle.dev/.well-known/agent-card.json",
+            "name": "Agent Blast Radius",
+            "description": "Agent Blast Radius inventories the credentials an unsandboxed coding agent could read on your machine, then sells verifier manifests over x402 so the checks run locally. Secrets never leave the machine. The paid route sells a verifier command manifest for a scan shape (class counts only); it never executes checks or receives credentials."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://abr.kloudle.dev/.well-known/x402",
+            "name": "Agent Blast Radius",
+            "description": "ABR CLI buys a local verifier command manifest for eligible secret findings. Secrets, profile names, paths, scan reports, and provider identities stay on the user's machine."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://abr.kloudle.dev/llms.txt",
+            "name": "Agent Blast Radius",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:11:10 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "abr.kloudle.dev"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No catalog resources on included public domains."
+    ]
+  }
+}

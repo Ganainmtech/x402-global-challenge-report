@@ -1,0 +1,212 @@
+{
+  "merchant_id": "WkpFQzZKTUNOWVpGSlVRSUE0S1JWWFBU",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Heroku",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 7,
+      "last_observed_at": 1785508995232,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Heroku",
+        "is_custom_domain_candidate": false,
+        "origin": "http://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791239332183,
+        "last_fetch_attempt_utc": "2026-10-05T22:28:52.183000+00:00",
+        "title": "IPFS Pay-to-Pin Gateway",
+        "description": "Pay-per-request infrastructure API that solves one of the biggest bottlenecks in the AI industry: giving autonomous agents reliable access to decentralized IPFS storage.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/.well-known/agent-card.json",
+            "name": "IPFS Pay-to-Pin Gateway",
+            "description": "Upload a file as Base64 JSON. On x402 microUSDC payment, the server pins it to IPFS for 365 days with optional /renew extension."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/llms.txt",
+            "name": "IPFS Pay-to-Pin Gateway — Agent Reference",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-07-31 14:43:15 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vaXBmcy1wYXktdG8tcGluLW1haW5uZXQtYzU1ZTMzNDZiNzUyLmhlcm9rdWFwcC5jb20vYXBpL3YxL3Bpbg",
+        "url": "http://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/api/v1/pin",
+        "method": "POST",
+        "description": "Upload one file as a Base64-encoded JSON payload",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10328",
+            "asset": "31566704",
+            "payTo": "ZJEC6JMCNYZFJUQIA4KRVXPTU34F2UQCRZEB5BX5ZS57CPVKTUFK3WA5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "filename": "example.png",
+              "data": "base64_encoded_string_here..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "message": "Payment verified. File pinned permanently.",
+              "filename": "pinned_file.png",
+              "ipfs_cid": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+              "cid": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+              "gateway_url": "https://gateway.pinata.cloud/ipfs/bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785064449811,
+        "last_ts": 1785508995232
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2lwZnMtcGF5LXRvLXBpbi1tYWlubmV0LWM1NWUzMzQ2Yjc1Mi5oZXJva3VhcHAuY29tL2FwaS92MS9waW4",
+        "url": "https://ipfs-pay-to-pin-mainnet-c55e3346b752.herokuapp.com/api/v1/pin",
+        "method": "POST",
+        "description": "Upload one file as a Base64-encoded JSON payload; on successful payment, the service pins it to IPFS and returns cid, ipfs_cid, and gateway_url.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10328",
+            "asset": "31566704",
+            "payTo": "ZJEC6JMCNYZFJUQIA4KRVXPTU34F2UQCRZEB5BX5ZS57CPVKTUFK3WA5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "filename": "example.png",
+              "data": "base64_encoded_string_here..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "status": "success",
+              "message": "Payment verified. File pinned permanently.",
+              "filename": "pinned_file.png",
+              "ipfs_cid": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+              "cid": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+              "gateway_url": "https://gateway.pinata.cloud/ipfs/bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785063621029,
+        "last_ts": 1785064377595
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "merchant_id": "NVQ2R1RFTU1RV1lRTlpEVVoyRUlEVzYy",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.scrape402.site",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 876,
+      "last_observed_at": 1790417857935,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "api.scrape402.site",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "http://api.scrape402.site",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791225130079,
+        "last_fetch_attempt_utc": "2026-10-05T18:32:10.079000+00:00",
+        "title": "Scrape402 | Pay-per-request web scraping API for AI agents",
+        "description": "Scrape402 is a pay-per-request web scraping API for autonomous AI agents. Send any URL, bypass Cloudflare and anti-bot protections, get clean markdown — paid via x402 USDC micro-payments on Algorand.",
+        "site_name": "Scrape402",
+        "logo": "https://api.scrape402.site/public/logo.png",
+        "banner": "https://api.scrape402.site/public/logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "http://api.scrape402.site/.well-known/agent-card.json",
+            "name": "scrape402",
+            "description": "Pay-per-request web scraping API for autonomous AI agents. Send a URL, get clean markdown. Paid natively via x402 USDC micro-payments on Algorand."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "http://api.scrape402.site/.well-known/ai-plugin.json",
+            "name": "scrape402",
+            "description": "Pay-per-request web scraping API for AI agents. Send any URL, bypass anti-bot protections, and get clean markdown — paid via x402 USDC on Algorand."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "http://api.scrape402.site/.well-known/x402",
+            "name": "scrape402",
+            "description": "x402-gated web scraping API. Extract clean markdown from any URL, paid per request with USDC on Algorand."
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-26 10:17:37 UTC"
+    },
+    {
+      "domain": "scrape402.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "scrape402.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "http://scrape402.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Scrape402",
+        "description": "Scrape402 is a pay-per-request infrastructure API that solves one of the biggest bottlenecks in the AI industry: giving autonomous agents reliable access to the internet.",
+        "site_name": null,
+        "logo": null,
+        "banner": "https://api.scrape402.site/public/logo.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "banner"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHA6Ly9hcGkuc2NyYXBlNDAyLnNpdGUvc2NyYXBl",
+        "url": "http://api.scrape402.site/scrape",
+        "method": "GET",
+        "description": "Extract clean, markdown-formatted text from any given URL, bypassing common web blocks.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "5T6GTEMMQWYQNZDUZ2EIDW62HVUJ7IGMQQNJXSW23CHMZKQJ2Z3YB3JFTU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "CWJ5TEHVHBCUJLOK6JD7R7XKT3YVYWTGV7567PSVLKXQAYLS2XJN4M3ZPY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": 31566704,
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "markdown": "# Extracted Title\n\nClean text content...",
+              "url": "[local URL omitted]",
+              "timestamp": "2026-07-23T20:58:25.403Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784738820989,
+        "last_ts": 1790417857935
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9zY3JhcGU0MDIudmVyY2VsLmFwcC9zY3JhcGU",
+        "url": "http://scrape402.vercel.app/scrape",
+        "method": "GET",
+        "description": "Extract clean, markdown-formatted text from any given URL, bypassing common web blocks.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100000",
+            "asset": "10458941",
+            "payTo": "5T6GTEMMQWYQNZDUZ2EIDW62HVUJ7IGMQQNJXSW23CHMZKQJ2Z3YB3JFTU",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "markdown": "# Extracted Title\n\nClean text content...",
+              "url": "[local URL omitted]",
+              "timestamp": "2026-07-22T14:11:51.685Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784729517377,
+        "last_ts": null
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.scrape402.site"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "ai-plugin",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,http://digitvl-x402-gateway-production.up.railway.app/unlock,1,0.050000,1,0,0.000000,1,0.050000,0,2026-09-30 12:59:10 UTC,2026-09-30 12:59:10 UTC

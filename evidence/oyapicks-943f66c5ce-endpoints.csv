@@ -1,0 +1,11 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://oyapicks.app/api/x402/closing-soon-algo,8,0.160000,3,0,0.000000,0,0.000000,0,2026-07-25 02:52:47 UTC,2026-10-01 15:07:34 UTC
+GET,https://oyapicks.app/api/x402/new-markets-algo,5,0.150000,3,0,0.000000,0,0.000000,0,2026-07-25 02:55:47 UTC,2026-10-01 15:07:45 UTC
+GET,https://oyapicks.app/api/x402/arbitrage-algo,4,0.200000,2,0,0.000000,0,0.000000,0,2026-09-22 07:17:10 UTC,2026-09-28 08:49:07 UTC
+GET,https://oyapicks.app/api/x402/single-market-algo,4,0.040000,2,0,0.000000,0,0.000000,0,2026-07-28 10:31:09 UTC,2026-10-01 15:07:23 UTC
+GET,https://oyapicks.app/api/x402/alpha-book,3,0.090000,2,0,0.000000,0,0.000000,0,2026-08-10 09:31:28 UTC,2026-09-28 01:32:40 UTC
+GET,https://oyapicks.app/api/x402/movers-algo,3,0.090000,2,0,0.000000,0,0.000000,0,2026-09-27 04:52:13 UTC,2026-10-01 15:07:39 UTC
+GET,https://oyapicks.app/api/x402/resolutions-algo,3,0.090000,2,0,0.000000,0,0.000000,0,2026-07-25 02:55:28 UTC,2026-09-28 01:36:21 UTC
+GET,https://oyapicks.app/api/x402/search-algo,3,0.060000,2,0,0.000000,0,0.000000,0,2026-09-27 04:50:08 UTC,2026-10-01 15:07:17 UTC
+GET,https://oyapicks.app/api/x402/probability-history-algo,1,0.030000,1,0,0.000000,0,0.000000,0,2026-10-01 15:07:28 UTC,2026-10-01 15:07:28 UTC
+GET,https://oyapicks.app/api/x402/volume-spikes-algo,1,0.030000,1,0,0.000000,0,0.000000,0,2026-07-25 02:55:08 UTC,2026-07-25 02:55:08 UTC

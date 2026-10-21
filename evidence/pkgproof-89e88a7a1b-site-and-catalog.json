@@ -1,0 +1,240 @@
+{
+  "merchant_id": "TkUzSEJTSDRNWkxDSjNHNVVQWUJUSUhH",
+  "name": "pkgproof",
+  "description": null,
+  "website": "https://pkgproof.net",
+  "logo": "https://pkgproof.net/apple-touch-icon.png",
+  "categories": [
+    "npm",
+    "security",
+    "supply-chain",
+    "package-verification",
+    "typosquat",
+    "malware"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "pkgproof.net",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "pkgproof.net",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://pkgproof.net",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791146615458,
+        "last_fetch_attempt_utc": "2026-10-04T20:43:35.458000+00:00",
+        "title": "pkgproof: check an npm package before it gets installed",
+        "description": "Stolen publish tokens, install scripts that fire the moment you add a package, names one keystroke off the real thing. pkgproof reads an npm package before you install it and answers in one word: safe, caution, or block. $0.05 a check.",
+        "site_name": "pkgproof",
+        "logo": "https://pkgproof.net/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": "#f2f0e7",
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://pkgproof.net/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://pkgproof.net/llms.txt",
+            "name": "pkgproof",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "theme_color"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "x402-algo.pkgproof.net",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 36,
+      "last_observed_at": 1791245459184,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "x402-algo.pkgproof.net",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://x402-algo.pkgproof.net",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "pkgproof: check an npm package before it gets installed",
+        "description": "Stolen publish tokens, install scripts that fire the moment you add a package, names one keystroke off the real thing. pkgproof reads an npm package before you install it and answers in one word: safe, caution, or block. $0.05 a check.",
+        "site_name": "pkgproof",
+        "logo": "https://pkgproof.net/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": "#f2f0e7",
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://x402-algo.pkgproof.net/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://x402-algo.pkgproof.net/llms.txt",
+            "name": "pkgproof",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "theme_color"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:10:59 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3g0MDItYWxnby5wa2dwcm9vZi5uZXQvdjEvdmVyaWZ5",
+        "url": "https://x402-algo.pkgproof.net/v1/verify",
+        "method": "POST",
+        "description": "Verify one npm package before install: eight checks covering advisories, install scripts, typosquat names and repository provenance. Answers safe, caution, block or does_not_exist, each reason sourced.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "NE3HBSH4MZLCJ3G5UPYBTIHGRCQ5M7K5N2ROWCBK6EQFR62FEROLBVQTTQ",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "ecosystem": "npm",
+              "name": "left-pad",
+              "version": "1.3.0"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ecosystem": "npm",
+              "name": "left-pad",
+              "version": "1.3.0",
+              "verdict": "safe",
+              "reasons": [
+                {
+                  "verdict": "safe",
+                  "code": "package_exists",
+                  "kind": "fact",
+                  "source": "npm registry",
+                  "detail": "left-pad 1.3.0 is published on the npm registry."
+                },
+                {
+                  "verdict": "safe",
+                  "code": "no_known_advisories",
+                  "kind": "fact",
+                  "source": "osv.dev",
+                  "detail": "OSV lists no advisories for this version."
+                }
+              ],
+              "sources": {
+                "npm registry": "https://registry.npmjs.org",
+                "osv.dev": "https://api.osv.dev"
+              },
+              "checked_at": "2026-08-26T12:00:00Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787835417637,
+        "last_ts": 1791245459184
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "pkgproof.net",
+    "x402-algo.pkgproof.net"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

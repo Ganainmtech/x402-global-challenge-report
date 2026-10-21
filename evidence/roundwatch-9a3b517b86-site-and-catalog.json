@@ -1,0 +1,169 @@
+{
+  "merchant_id": "RVFQTE4zMkhQTFBHQkNOUE9aVUw2Qkwz",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "roundwatch-api.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 7,
+      "last_observed_at": 1790697877596,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "roundwatch-api.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://roundwatch-api.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791150077211,
+        "last_fetch_attempt_utc": "2026-10-04T21:41:17.211000+00:00",
+        "title": "RoundWatch — Algorand x402 Payment Monitoring API",
+        "description": "Durable payment monitoring for one exact future Algorand USDC payment, with verified on-chain evidence.",
+        "site_name": "RoundWatch",
+        "logo": "https://roundwatch.observer/favicon.svg",
+        "banner": "https://roundwatch.observer/roundwatch-og.jpg",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://roundwatch-api.onrender.com/llms.txt",
+            "name": "RoundWatch",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-29 16:04:37 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3JvdW5kd2F0Y2gtYXBpLm9ucmVuZGVyLmNvbS92MS93YXRjaA",
+        "url": "https://roundwatch-api.onrender.com/v1/watch",
+        "method": "POST",
+        "description": "Monitor one exact future Algorand USDC payment on mainnet when no transaction ID exists yet. RoundWatch persists scan progress across restarts and returns a watch ID for later verified on-chain evidence. The watch has a 500-turn bounded background work budget. Eligibility lasts 1800000 ms from durable watch preparation before x402 settlement completes, so settlement time consumes the window. The watched payment must confirm in a round strictly greater than activationRound; a same-round payment is ineligible. Its Algorand block round-time must be strictly earlier than expiresAt; a payment exactly at the deadline is ineligible.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "EQPLN32HPLPGBCNPOZUL6BL34CTNQGT3VAAMNAJWSIZGQ5CUNXOHB634XY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "idempotencyKey": "replace-with-unique-idempotency-key",
+              "expectedSender": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAKQ4C4",
+              "expectedReceiver": "AEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEA5RCDXMI",
+              "atomicAmount": "1000000",
+              "invoiceNote": "replace-with-unique-invoice-note"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "watchId": "WATCH_ID_RETURNED_AFTER_SUCCESSFUL_PAID_CREATION",
+              "workUnitBudget": 500,
+              "eligibilityTtlMs": 1800000,
+              "eligibility": {
+                "ttlMs": 1800000,
+                "startsAt": "durable_watch_preparation_before_x402_settlement",
+                "settlementTimeConsumesEligibilityWindow": true,
+                "roundBoundary": {
+                  "field": "confirmed-round",
+                  "operator": ">",
+                  "reference": "activationRound",
+                  "sameActivationRoundEligible": false,
+                  "example": "If activationRound is 100, confirmed round 100 is ineligible and round 101 is the first eligible round."
+                },
+                "timeBoundary": {
+                  "field": "round-time",
+                  "operator": "<",
+                  "reference": "expiresAt",
+                  "exactDeadlineEligible": false,
+                  "timestampPrecision": "seconds",
+                  "example": "A transaction whose block timestamp equals expiresAt is ineligible; the block timestamp must be strictly earlier."
+                }
+              },
+              "expiresAt": "ISO_8601_DEADLINE_RETURNED_FOR_THIS_WATCH",
+              "message": "Example only. A real watch is returned only if x402 settlement and durable activation succeed"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789554365997,
+        "last_ts": 1790697877596
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

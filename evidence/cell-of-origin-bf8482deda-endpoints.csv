@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.celloforigin.com/enter,16,0.160000,2,0,0.000000,0,0.000000,0,2026-09-04 05:04:22 UTC,2026-10-06 00:06:05 UTC
+(not recorded),https://api.celloforigin.com/convert,2,0.040000,1,0,0.000000,0,0.000000,0,2026-09-09 21:57:23 UTC,2026-09-09 21:57:31 UTC
+(not recorded),https://api.celloforigin.com/side,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-09 09:27:42 UTC,2026-09-09 09:28:07 UTC

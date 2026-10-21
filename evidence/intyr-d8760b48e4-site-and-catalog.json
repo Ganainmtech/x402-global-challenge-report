@@ -1,0 +1,213 @@
+{
+  "merchant_id": "RVhXWVhDQVBKN0JVVktBTkdGTU5UQUxU",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "intyr.name-redacted.workers.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Cloudflare Workers",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 7,
+      "last_observed_at": 1791245486806,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "intyr.name-redacted.workers.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Cloudflare Workers",
+        "is_custom_domain_candidate": false,
+        "origin": "https://intyr.name-redacted.workers.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Intyr",
+        "description": "An x402-paid API that checks, commits and recovers multi-supplier trips for AI agents, with a free public verifier.",
+        "site_name": "Intyr",
+        "logo": "https://intyr.name-redacted.workers.dev/apple-touch-icon.png",
+        "banner": "https://intyr.name-redacted.workers.dev/og.png",
+        "theme_color": "#FFFFFF",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://intyr.name-redacted.workers.dev/.well-known/agent-card.json",
+            "name": "Intyr",
+            "description": "When an AI agent books a flight, a hotel and a transfer from different suppliers and one fails, Intyr stops or unwinds the rest inside limits set before paying, and leaves a receipt anyone can check."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://intyr.name-redacted.workers.dev/.well-known/agent.json",
+            "name": "Intyr",
+            "description": "When an AI agent books a flight, a hotel and a transfer from different suppliers and one fails, Intyr stops or unwinds the rest inside limits set before paying, and leaves a receipt anyone can check."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://intyr.name-redacted.workers.dev/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://intyr.name-redacted.workers.dev/llms.txt",
+            "name": "Intyr",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:11:26 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2ludHlyLnRpbWpvc2g1MDcud29ya2Vycy5kZXYvdjEvdHJpcHMvY2hlY2s",
+        "url": "https://intyr.name-redacted.workers.dev/v1/trips/check",
+        "method": "POST",
+        "description": "Send 2 to 6 legs (flight, hotel, transfer). Get a safe commit order, the firmness of each leg, what cannot be undone, a verdict.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "EXWYXCAPJ7BUVKANGFMNTALTCTFJNV2AYKB3ERKVVKRXOJJREGQ5NJBKUI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "currency": "USD",
+              "legs": [
+                {
+                  "leg_id": "hotel-1",
+                  "type": "HOTEL",
+                  "supplier": "example-hotels",
+                  "offer_ref": "offer-hotel-001",
+                  "price": {
+                    "amount_minor": 41000,
+                    "currency": "USD"
+                  },
+                  "preparation_mode": "REVALIDATED",
+                  "refundable": true,
+                  "clocks": {
+                    "price_valid_until": "2026-10-05T12:00:00Z",
+                    "free_cancel_until": "2026-11-01T12:00:00Z",
+                    "refund_destination": "CASH",
+                    "refund_amount_certainty": "QUOTED",
+                    "supplier_can_cancel": true
+                  }
+                },
+                {
+                  "leg_id": "flight-1",
+                  "type": "FLIGHT",
+                  "supplier": "example-airline",
+                  "offer_ref": "offer-flight-001",
+                  "price": {
+                    "amount_minor": 52000,
+                    "currency": "USD"
+                  },
+                  "preparation_mode": "INSTANT_COMMIT_ONLY",
+                  "refundable": false,
+                  "clocks": {
+                    "price_valid_until": "2026-10-05T12:30:00Z"
+                  },
+                  "depends_on": [
+                    "hotel-1"
+                  ]
+                }
+              ],
+              "limits": {
+                "max_total_minor": 100000
+              }
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "plan_id": "pln_example",
+              "verdict": "COMMIT_NOW",
+              "commit_order": [
+                "hotel-1",
+                "flight-1"
+              ],
+              "payment_state": "CONFIRMED"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790809218889,
+        "last_ts": 1791245486806
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

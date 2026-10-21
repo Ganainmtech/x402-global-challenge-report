@@ -1,0 +1,2 @@
+network,receiver,payer,class,settlements,usdc,subcent_events,subcent_usdc,synthetic_events,historical_supplement_events,evidence,cache_timestamp,profile_assessment
+algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=,EGPVIZOE3U3VHBK5A3Z2LYTE64L4FSCVAB6YAKIGWZDU5GENB5DM74V7DQ,VJKFOHSTMOCTVH2DDHMQMAKWDMXA5K6UCEQ53WDVKHCCNF2G6522ZFFIMI,NO-LINK-DETECTED,42,5.400000,0,0.000000,0,0,merchant sent 2.27 USDC ×11 (42% of paid); throwaway wallet; 68% of gaps < 60s; same funder as merchant (hub),2026-10-03T09:56:54.685Z,no-link-detected

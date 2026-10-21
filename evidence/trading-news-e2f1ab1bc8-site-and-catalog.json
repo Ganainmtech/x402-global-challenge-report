@@ -1,0 +1,241 @@
+{
+  "merchant_id": "RUg1QkhXSVNQQjdNRUlJVEpJV0YyVkIz",
+  "name": "Trading News",
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "x402-trading-news.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 32982,
+      "last_observed_at": 1791144538562,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "x402-trading-news.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://x402-trading-news.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791246819062,
+        "last_fetch_attempt_utc": "2026-10-06T00:33:39.062000+00:00",
+        "title": "Trading News",
+        "description": "News for each asset, ranked by relevance. With sources, dates and an explanation of the selection.",
+        "site_name": "Trading News",
+        "logo": "https://fastapi.tiangolo.com/img/favicon.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-04 20:08:58 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi10cmFkaW5nLW5ld3Mub25yZW5kZXIuY29tL2FwaS92MS9tYXJrZXQtc2lnbmFsL2J0Yw",
+        "url": "https://x402-trading-news.onrender.com/api/v1/market-signal/BTC",
+        "method": "GET",
+        "description": "Trading News · ranked asset news report · RSS sources; an empty/unavailable result returns a labeled template without settlement",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "200000",
+            "payTo": "EH5BHWISPB7MEIITJIWF2VB3YFN2RZLJMWBRV6CBJV76FBAEAALL6XKSQE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema_version": "2.4",
+              "symbol": "BTC",
+              "status": "ok",
+              "day_utc": "2026-10-03",
+              "channel": "api",
+              "news_found": true,
+              "importance": "all",
+              "best_article": {
+                "id": "3f2a9c1e7b4d5a6f8e0b",
+                "title": "Example headline about BTC",
+                "url": "[local URL omitted]",
+                "source": "Example News",
+                "published_at": "2026-10-03T08:15:00+00:00",
+                "score": 7.4,
+                "insight": {
+                  "importance": {
+                    "level": "medium"
+                  },
+                  "recommendation": {
+                    "signal": "HOLD",
+                    "reason": "insufficient"
+                  }
+                }
+              },
+              "stats": {
+                "unique": 1
+              },
+              "billing": {
+                "charged": true,
+                "replayed": false
+              }
+            }
+          },
+          "name": "Trading News",
+          "tags": [
+            "x402-global-challenge",
+            "news",
+            "crypto"
+          ],
+          "description": "Selected asset news with source links and provenance"
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790607447774,
+        "last_ts": 1790980278970
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8veDQwMi10cmFkaW5nLW5ld3Mub25yZW5kZXIuY29tL2FwaS93ZWIvdjEvbWFya2V0LXNpZ25hbC9idGM",
+        "url": "https://x402-trading-news.onrender.com/api/web/v1/market-signal/BTC",
+        "method": "GET",
+        "description": "Trading News · ranked asset news report",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "200000",
+            "payTo": "EH5BHWISPB7MEIITJIWF2VB3YFN2RZLJMWBRV6CBJV76FBAEAALL6XKSQE",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema_version": "2.4",
+              "symbol": "BTC",
+              "status": "ok",
+              "day_utc": "2026-10-03",
+              "channel": "api",
+              "news_found": true,
+              "importance": "all",
+              "best_article": {
+                "id": "3f2a9c1e7b4d5a6f8e0b",
+                "title": "Example headline about BTC",
+                "url": "[local URL omitted]",
+                "source": "Example News",
+                "published_at": "2026-10-03T08:15:00+00:00",
+                "score": 7.4,
+                "insight": {
+                  "importance": {
+                    "level": "medium"
+                  },
+                  "recommendation": {
+                    "signal": "HOLD",
+                    "reason": "insufficient"
+                  }
+                }
+              },
+              "stats": {
+                "unique": 1
+              },
+              "billing": {
+                "charged": true,
+                "replayed": false
+              }
+            }
+          },
+          "name": "Trading News",
+          "tags": [
+            "x402-global-challenge",
+            "news",
+            "crypto"
+          ],
+          "description": "Selected asset news with source links and provenance"
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1791144538918,
+        "last_ts": 1791144538562
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

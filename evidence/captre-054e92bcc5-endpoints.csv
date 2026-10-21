@@ -1,0 +1,3 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://captre.onrender.com/attest,7,0.070000,4,0,0.000000,7,0.070000,0,2026-09-02 08:15:44 UTC,2026-09-02 08:16:42 UTC
+POST,https://captre.onrender.com/revoke,1,0.010000,1,0,0.000000,1,0.010000,0,2026-09-02 08:16:11 UTC,2026-09-02 08:16:11 UTC

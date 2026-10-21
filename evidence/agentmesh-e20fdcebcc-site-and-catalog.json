@@ -1,0 +1,572 @@
+{
+  "merchant_id": "TTZKUU5KVlgzMkhFTjJMUzVXMldYMlBN",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "canix402-api.compx.io",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "canix402-api.compx.io",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://canix402-api.compx.io",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791211415029,
+        "last_fetch_attempt_utc": "2026-10-05T14:43:35.029000+00:00",
+        "title": "CANIX402 | Hunting down the best yields",
+        "description": "Canix402 is an x402-paid DeFi opportunity API for autonomous agents. Discover endpoints, pay in USDC, and fetch normalized APY data — including wallet-personalized yield recommendations.",
+        "site_name": "CANIX402",
+        "logo": "https://canix402-api.compx.io/logo.png",
+        "banner": "https://canix402-api.compx.io/banner.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://canix402-api.compx.io/.well-known/agent-card.json",
+            "name": "canix402",
+            "description": "x402-gated DeFi data and walletless transaction API for agents. Paid requests settle in Algorand USDC, or Base USDC when that accept is listed, through the public Caddy gateway; no API keys or server-side wallet access."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://canix402-api.compx.io/.well-known/agent.json",
+            "name": "canix402",
+            "description": "x402-gated DeFi data and walletless transaction API for agents. Paid requests settle in Algorand USDC, or Base USDC when that accept is listed, through the public Caddy gateway; no API keys or server-side wallet access."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://canix402-api.compx.io/.well-known/ai-plugin.json",
+            "name": "canix402",
+            "description": "DeFi data and walletless transaction API for agents, paid per call with USDC using x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://canix402-api.compx.io/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://canix402-api.compx.io/llms.txt",
+            "name": "CANIX402",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "wailist-agentmesh-production-f943.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 2,
+      "last_observed_at": 1785618009030,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "wailist-agentmesh-production-f943.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://wailist-agentmesh-production-f943.up.railway.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1785609194666,
+        "last_fetch_attempt_utc": "2026-08-01T18:33:14.666000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-08-01 21:00:09 UTC"
+    },
+    {
+      "domain": "www.agent-mesh.app",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 2192,
+      "last_observed_at": 1791277558232,
+      "catalog_endpoint_count": 4,
+      "metadata": {
+        "domain": "www.agent-mesh.app",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://www.agent-mesh.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791283060695,
+        "last_fetch_attempt_utc": "2026-10-06T10:37:40.695000+00:00",
+        "title": "AgentMesh",
+        "description": "Design, deploy, and monitor AI agent workflows.",
+        "site_name": "AgentMesh",
+        "logo": "https://www.agent-mesh.app/logo.png",
+        "banner": "https://www.agent-mesh.app/opengraph-image.png",
+        "theme_color": "#08070c",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://www.agent-mesh.app/.well-known/agent-card.json",
+            "name": "AgentMesh",
+            "description": "Design, deploy, and monitor AI agent workflows. Agents call tools through function calling and pay for x402-gated endpoints on Algorand mid-run, without a human in the loop."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://www.agent-mesh.app/llms.txt",
+            "name": "AgentMesh",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 09:05:58 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vd3d3LmFnZW50LW1lc2guYXBwL2FwaS94NDAyL3JlbGF5",
+        "url": "https://www.agent-mesh.app/api/x402/relay",
+        "method": "GET",
+        "description": "AgentMesh x402 relay — pays real x402 endpoints on your behalf. Append ?target=<url> to route a specific payment through this relay.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1000000",
+            "resource": "https://www.agent-mesh.app/api/x402/relay",
+            "description": "AgentMesh — give your AI agents a wallet, let them pay their own way",
+            "mimeType": "application/json",
+            "payTo": "M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A",
+            "maxTimeoutSeconds": 300,
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "method": "GET",
+                    "queryParams": {
+                      "target": "https://tendrilregister.007575.xyz/topup"
+                    },
+                    "type": "http"
+                  },
+                  "output": {
+                    "example": {
+                      "note": "the target endpoint's own paid response, forwarded unmodified",
+                      "ok": true
+                    },
+                    "type": "json"
+                  }
+                },
+                "routeTemplate": "/api/x402/relay",
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "properties": {
+                    "input": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "method": {
+                          "enum": [
+                            "GET"
+                          ],
+                          "type": "string"
+                        },
+                        "queryParams": {
+                          "type": "object"
+                        },
+                        "type": {
+                          "const": "http",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "type": "object"
+                    },
+                    "output": {
+                      "properties": {
+                        "example": {
+                          "type": "object"
+                        },
+                        "type": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ],
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ],
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {
+              "target": "https://tendrilregister.007575.xyz/topup"
+            },
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "note": "the target endpoint's own paid response, forwarded unmodified",
+              "ok": true
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786822574386,
+        "last_ts": 1791264659234
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vd3d3LmFnZW50LW1lc2guYXBwL2FwaS94NDAyL3JlbGF5L3BsYXRmb3JtLWZlZQ",
+        "url": "https://www.agent-mesh.app/api/x402/relay/platform-fee",
+        "method": "GET",
+        "description": "AgentMesh platform fee — flat per-call markup, settled from the platform spend wallet to the platform revenue wallet",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1500000",
+            "resource": "https://www.agent-mesh.app/api/x402/relay/platform-fee",
+            "description": "AgentMesh platform fee — flat per-call markup, settled from the platform spend wallet to the platform revenue wallet",
+            "mimeType": "application/json",
+            "payTo": "M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A",
+            "maxTimeoutSeconds": 300,
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "method": "GET",
+                    "type": "http"
+                  }
+                },
+                "routeTemplate": "/api/x402/relay/platform-fee",
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "properties": {
+                    "input": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "method": {
+                          "enum": [
+                            "GET"
+                          ],
+                          "type": "string"
+                        },
+                        "type": {
+                          "const": "http",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ],
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786796197219,
+        "last_ts": 1791264672607
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vd3d3LmFnZW50LW1lc2guYXBwL2FwaS94NDAyL3JlbGF5L3J1bi1mdW5kaW5n",
+        "url": "https://www.agent-mesh.app/api/x402/relay/run-funding",
+        "method": "GET",
+        "description": "AgentMesh workflow run funding — pre-settled pool for this run's downstream x402 tool calls",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1510000",
+            "resource": "https://www.agent-mesh.app/api/x402/relay/run-funding",
+            "description": "AgentMesh workflow run funding — pre-settled pool for this run's downstream x402 tool calls",
+            "mimeType": "application/json",
+            "payTo": "M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A",
+            "maxTimeoutSeconds": 300,
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "method": "GET",
+                    "type": "http"
+                  }
+                },
+                "routeTemplate": "/api/x402/relay/run-funding",
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "properties": {
+                    "input": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "method": {
+                          "enum": [
+                            "GET"
+                          ],
+                          "type": "string"
+                        },
+                        "type": {
+                          "const": "http",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ],
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787363591224,
+        "last_ts": 1791201964089
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vd3d3LmFnZW50LW1lc2guYXBwL2FwaS94NDAyL3JlbGF5L3J1bi10b3RhbA",
+        "url": "https://www.agent-mesh.app/api/x402/relay/run-total",
+        "method": "GET",
+        "description": "AgentMesh workflow run total — lump-sum settlement of this run's platform-billed work",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "60000",
+            "resource": "https://www.agent-mesh.app/api/x402/relay/run-total",
+            "description": "AgentMesh workflow run total — lump-sum settlement of this run's platform-billed work",
+            "mimeType": "application/json",
+            "payTo": "M6JQNJVX32HEN2LS5W2WX2PMSXPDHHKADVUATIQ5KQIVVVHSVILQNOS62A",
+            "maxTimeoutSeconds": 300,
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "method": "GET",
+                    "type": "http"
+                  }
+                },
+                "routeTemplate": "/api/x402/relay/run-total",
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "properties": {
+                    "input": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "method": {
+                          "enum": [
+                            "GET"
+                          ],
+                          "type": "string"
+                        },
+                        "type": {
+                          "const": "http",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ],
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "type": "http"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787374467542,
+        "last_ts": 1791277558232
+      }
+    ],
+    "resource_count": 4,
+    "description_count": 4,
+    "mime_type_count": 4,
+    "accepts_count": 4,
+    "discovery_count": 4,
+    "input_documentation_count": 4,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "canix402-api.compx.io",
+    "www.agent-mesh.app"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 3,
+    "cached_domain_metadata_count": 3,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 7,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

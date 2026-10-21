@@ -1,0 +1,171 @@
+{
+  "merchant_id": "S1hBRlVRTEZKSkg3U09ZNU1ZU08yUksz",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "x402.darkhold.dev",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 19,
+      "last_observed_at": 1791245464689,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "x402.darkhold.dev",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://x402.darkhold.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880469,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.469000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://x402.darkhold.dev/llms.txt",
+            "name": "x402-agent-api",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:11:04 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3g0MDIuZGFya2hvbGQuZGV2L3YxL2JyaWVm",
+        "url": "https://x402.darkhold.dev/v1/brief",
+        "method": "POST",
+        "description": "Keyword-filtered multi-topic intel brief with source links (extractive; citations from retrieved feed items)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "KXAFUQLFJJH7SOY5MYSO2RK3A5LDKKFTZJV3GIEIX2HHKJDEYR7MX7KN4Q",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "keywords": [
+                "kubernetes",
+                "ai"
+              ],
+              "topics": [
+                "tech",
+                "security"
+              ],
+              "format": "json",
+              "max_items_per_topic": 5
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "generated_at": "2026-01-01T00:00:00.000Z",
+              "topics": [
+                {
+                  "id": "tech",
+                  "items": [
+                    {
+                      "headline": "Example headline",
+                      "summary": "Extractive summary from ingested feeds.",
+                      "why_it_matters": "Context for the reader.",
+                      "references": [
+                        {
+                          "title": "Source",
+                          "url": "[local URL omitted]",
+                          "published_at": "2026-01-01T00:00:00.000Z"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "meta": {
+                "model": "extractive",
+                "sources_used": 12,
+                "store_age_s": 3600,
+                "synthesize": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790838494327,
+        "last_ts": 1791245464689
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 1,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "x402.darkhold.dev"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached descriptive homepage evidence on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

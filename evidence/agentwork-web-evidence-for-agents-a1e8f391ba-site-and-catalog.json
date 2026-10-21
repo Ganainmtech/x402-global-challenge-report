@@ -1,0 +1,410 @@
+{
+  "merchant_id": "UEZIWUxWSFg3N0FOTlFWRjY3TEs2RVZZ",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.agentwork.run",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 20,
+      "last_observed_at": 1791245105789,
+      "catalog_endpoint_count": 5,
+      "metadata": {
+        "domain": "api.agentwork.run",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.agentwork.run",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "AgentWork — Web evidence for agents",
+        "description": "Web reads and change checks: $0.005 on Base, $0.01 on Algorand; digital PDF-to-text $0.01. Structured JSON, hashes and x402 USDC. No API key.",
+        "site_name": null,
+        "logo": "https://api.agentwork.run/icon.svg",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.agentwork.run/.well-known/agent-card.json",
+            "name": "AgentWork Web Evidence",
+            "description": "Extract webpage and digital PDF text for RAG and research; detect documentation, pricing and policy changes with hashes and line differences. USDC on Base or Algorand."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.agentwork.run/.well-known/x402",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.agentwork.run/llms.txt",
+            "name": "AgentWork Web Evidence",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:05:05 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudHdvcmsucnVuL3YxL2pvYnM",
+        "url": "https://api.agentwork.run/v1/jobs",
+        "method": "POST",
+        "description": "No-LLM host smoke: disk, load, memory, open_for_work. Cheapest settle test on dual-rail USDC.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "80000",
+            "asset": "31566704",
+            "payTo": "UKVN5G2BYZPHMYFBW6C2574F6AZ3F2ACQLBLZJI62RPXBXHDHL62R3Q344",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "eip155:8453",
+            "amount": "10000",
+            "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "payTo": "0xca11d50B661310A915B34Ff17B7e9E9f74c1388b",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USD Coin",
+              "version": "2",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "skill": "host.report"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "job_id": "uuid",
+              "status": "queued",
+              "skill": "host.report",
+              "price": "$0.01"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786087403037,
+        "last_ts": 1786695387579
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudHdvcmsucnVuL3YxL2pvYnMvY29kZS5maXhfZnJvbV9sb2c",
+        "url": "https://api.agentwork.run/v1/jobs/code.fix_from_log",
+        "method": "POST",
+        "description": "CI/error log triage: paste a failing build or runtime log. Returns ordered diagnosis, likely root cause, and concrete fix steps. Rebuy on every new failure. Dual-rail USDC (Base + Algorand).",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "eip155:8453",
+            "amount": "80000",
+            "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "payTo": "0xca11d50B661310A915B34Ff17B7e9E9f74c1388b",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USD Coin",
+              "version": "2",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "skill": "code.fix_from_log",
+              "log": "Error: Cannot find module 'express'\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)",
+              "context": "Node 20 CI after package.json edit",
+              "json_only": true
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "job_id": "uuid",
+              "status": "queued",
+              "skill": "code.fix_from_log",
+              "price": "$0.08",
+              "poll": "https://api.agentwork.run/v1/jobs/uuid"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786695436870,
+        "last_ts": 1786695437100
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudHdvcmsucnVuL3YxL3BkZi9yZWFk",
+        "url": "https://api.agentwork.run/v1/pdf/read",
+        "method": "POST",
+        "description": "Extract embedded text from a public digital PDF into page-numbered JSON for RAG, research and document ingestion. $0.01 USDC on Base or Algorand per successful document. Up to 20 pages, 5 MiB and 100,000 returned characters. Source and text SHA-256 hashes; empty-page and truncation warnings. No OCR, password-protected PDFs, table reconstruction or image understanding. Failed extractions are not settled.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PFHYLVHX77ANNQVF67LK6EVYB34D5VDIUOWLOL5SX367M366DBLOQQAOCA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "page_count": 1,
+              "pages": [
+                {
+                  "page": 1,
+                  "text": "Dummy PDF file",
+                  "characters": 14
+                }
+              ],
+              "text": "Dummy PDF file",
+              "ocr_performed": false,
+              "warnings": [
+                "Embedded text only; images and table structure are not extracted."
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788864247278,
+        "last_ts": 1790559039285
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudHdvcmsucnVuL3YxL3dlYi9jaGFuZ2Vz",
+        "url": "https://api.agentwork.run/v1/web/changes",
+        "method": "POST",
+        "description": "Change monitoring for public webpages — text_sha256 or previous_text diff for documentation, pricing-page and policy monitoring. $0.005 USDC Base / $0.01 Algorand. Caller stores baseline; no server watch list. HTML/text only; no JS render. Failed checks not settled.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "UKVN5G2BYZPHMYFBW6C2574F6AZ3F2ACQLBLZJI62RPXBXHDHL62R3Q344",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PFHYLVHX77ANNQVF67LK6EVYB34D5VDIUOWLOL5SX367M366DBLOQQAOCA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]",
+              "previous_text": "Example Domain\nOld text."
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "url": "[local URL omitted]",
+              "fetched_at": "2026-09-08T00:00:00Z",
+              "comparison": {
+                "changed": true,
+                "added": [
+                  "New line"
+                ],
+                "removed": [
+                  "Old line"
+                ]
+              },
+              "text": "Example Domain\nNew line"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788859182343,
+        "last_ts": 1791245105789
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hZ2VudHdvcmsucnVuL3YxL3dlYi9yZWFk",
+        "url": "https://api.agentwork.run/v1/web/read",
+        "method": "POST",
+        "description": "Webpage text extraction — public URL to clean text, headings, links and SHA-256 for RAG and research. $0.005 USDC Base / $0.01 Algorand. Synchronous JSON; no account. HTML/text only; respects robots.txt; no JS render or paywall bypass. Failed reads not settled.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "UKVN5G2BYZPHMYFBW6C2574F6AZ3F2ACQLBLZJI62RPXBXHDHL62R3Q344",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PFHYLVHX77ANNQVF67LK6EVYB34D5VDIUOWLOL5SX367M366DBLOQQAOCA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "url": "[local URL omitted]",
+              "final_url": "[local URL omitted]",
+              "title": "Example Domain",
+              "text": "Example Domain\nThis domain is for use in illustrative examples.",
+              "text_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+              "fetched_at": "2026-09-08T00:00:00Z",
+              "javascript_rendered": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788859176971,
+        "last_ts": 1790558928774
+      }
+    ],
+    "resource_count": 5,
+    "description_count": 5,
+    "mime_type_count": 5,
+    "accepts_count": 5,
+    "discovery_count": 5,
+    "input_documentation_count": 5,
+    "output_documentation_count": 5,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.agentwork.run"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

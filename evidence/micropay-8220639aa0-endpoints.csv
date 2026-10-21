@@ -1,0 +1,13 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.micropay.website/api/v1/chat/completions,124,11.780000,16,0,0.000000,0,0.000000,0,2026-08-03 14:42:24 UTC,2026-10-06 07:23:53 UTC
+POST,https://api.micropay.website/api/v1/images/generations,76,36.210000,12,0,0.000000,0,0.000000,0,2026-08-03 14:39:03 UTC,2026-10-06 07:09:43 UTC
+POST,https://api.micropay.website/api/v1/ide/agent,12,1.200000,1,0,0.000000,0,0.000000,0,2026-09-29 19:36:51 UTC,2026-09-29 21:41:21 UTC
+POST,https://micropay.website/api/v1/chat/completions,7,0.620000,1,0,0.000000,0,0.000000,0,2026-07-28 12:16:25 UTC,2026-07-28 12:57:53 UTC
+POST,https://api.micropay.website/api/v1/agents/degensensei-9828fe/chat,3,1.400000,2,0,0.000000,0,0.000000,0,2026-09-18 15:14:24 UTC,2026-09-25 10:56:13 UTC
+POST,https://code.micropay.website/api/v1/ide/agent,3,0.090000,1,0,0.000000,0,0.000000,0,2026-07-29 13:38:38 UTC,2026-07-29 13:43:02 UTC
+POST,https://micropay.website/api/v1/ide/agent,3,0.300000,1,0,0.000000,0,0.000000,0,2026-07-28 12:22:39 UTC,2026-07-28 12:30:06 UTC
+POST,https://api.micropay.website/api/v1/agents/astrotutor-ai-a4a055/chat,2,0.020000,1,0,0.000000,0,0.000000,0,2026-09-29 19:57:09 UTC,2026-09-29 19:58:01 UTC
+POST,https://micropay.website/api/v1/images/generations,2,0.200000,1,0,0.000000,0,0.000000,0,2026-07-28 12:24:36 UTC,2026-07-28 12:25:13 UTC
+POST,https://api.micropay.website/api/v1/agents/travelmate-41c806/chat,1,0.400000,1,0,0.000000,0,0.000000,0,2026-09-25 11:00:09 UTC,2026-09-25 11:00:09 UTC
+POST,https://api.micropay.website/api/v1/audio/transcriptions,1,0.400000,1,0,0.000000,0,0.000000,0,2026-08-16 02:23:34 UTC,2026-08-16 02:23:34 UTC
+POST,https://app.micropay.website/api/v1/chat/completions,1,0.030000,1,0,0.000000,0,0.000000,0,2026-07-29 13:36:25 UTC,2026-07-29 13:36:25 UTC

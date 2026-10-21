@@ -1,0 +1,415 @@
+{
+  "merchant_id": "UEJCNTRQV0JQQksyQzNNVTIyWE43UFNE",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "head-hive.fly.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Fly.io",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 387,
+      "last_observed_at": 1786156174367,
+      "catalog_endpoint_count": 6,
+      "metadata": {
+        "domain": "head-hive.fly.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Fly.io",
+        "is_custom_domain_candidate": false,
+        "origin": "http://head-hive.fly.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791283321803,
+        "last_fetch_attempt_utc": "2026-10-06T10:42:01.803000+00:00",
+        "title": "Head · Hive",
+        "description": "Hive sells AI reasoning skills and agent infrastructure (memory, inbox, escrow, job queues) over the open x402 standard. Pay per call in USDC on Algorand MainNet via the GoPlausible facilitator (Global x402 Challenge). Base settlement is optional when configured. No Hive account or API key — payment is the credential.",
+        "site_name": "Hive",
+        "logo": "https://head-hive.fly.dev/logo.png",
+        "banner": "https://head-hive.fly.dev/og.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "http://head-hive.fly.dev/.well-known/agent-card.json",
+            "name": "Hive",
+            "description": "Hive sells AI reasoning skills and agent infrastructure (memory, inbox, escrow, job queues) over the open x402 standard. Pay per call in USDC on Algorand MainNet via the GoPlausible facilitator (Global x402 Challenge). Base settlement is optional when configured. No Hive account or API key — payment is the credential."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "http://head-hive.fly.dev/.well-known/ai-plugin.json",
+            "name": "Head · Hive",
+            "description": "AI skills and agent infrastructure, paid per request in USDC — for people, teams, and autonomous agents."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "http://head-hive.fly.dev/.well-known/x402",
+            "name": "Hive",
+            "description": "Hive sells AI reasoning skills and agent infrastructure (memory, inbox, escrow, job queues) over the open x402 standard. Pay per call in USDC on Algorand MainNet via the GoPlausible facilitator (Global x402 Challenge). Base settlement is optional when configured. No Hive account or API key — payment is the credential."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://head-hive.fly.dev/llms.txt",
+            "name": "Head · Hive",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-08 02:29:34 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vaGVhZC1oaXZlLmZseS5kZXYvYXBpL2FuYWx5emU",
+        "url": "http://head-hive.fly.dev/api/analyze",
+        "method": "POST",
+        "description": "Structured Analysis — Analyst, risk-assessor, and contrarian sub-agents examine a question from independent angles; a critic loop enforces quality.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "PBB54PWBPBK2C3MU22XN7PSD6WECYVY2ONJVI34OLYCY7UHSFY4RJIW5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "task": "Structured Analysis: merchant probe / discovery example",
+              "context": "Optional context for the agent team."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "service": "analyze",
+              "unlocked": true,
+              "result": "Paid deliverable for this route (shape varies by service)."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786036666360,
+        "last_ts": 1786036668039
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vaGVhZC1oaXZlLmZseS5kZXYvYXBpL2Fzaw",
+        "url": "http://head-hive.fly.dev/api/ask",
+        "method": "POST",
+        "description": "Quick Answer — Single expert agent answers a question directly. Cheapest tier, no team fan-out.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "PBB54PWBPBK2C3MU22XN7PSD6WECYVY2ONJVI34OLYCY7UHSFY4RJIW5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "task": "Quick Answer: merchant probe / discovery example",
+              "context": "Optional context for the agent team."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "service": "ask",
+              "unlocked": true,
+              "result": "Paid deliverable for this route (shape varies by service)."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785979634759,
+        "last_ts": 1786149961667
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vaGVhZC1oaXZlLmZseS5kZXYvYXBpL2V4dHJhY3Q",
+        "url": "http://head-hive.fly.dev/api/extract",
+        "method": "POST",
+        "description": "Structured Extraction — Precision extraction engine: turns raw text (context) into exactly the JSON structure described in the task. High-volume workhorse for agent pipelines.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "PBB54PWBPBK2C3MU22XN7PSD6WECYVY2ONJVI34OLYCY7UHSFY4RJIW5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "task": "Structured Extraction: merchant probe / discovery example",
+              "context": "Optional context for the agent team."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "service": "extract",
+              "unlocked": true,
+              "result": "Paid deliverable for this route (shape varies by service)."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785979716400,
+        "last_ts": 1786155835387
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vaGVhZC1oaXZlLmZseS5kZXYvYXBpL21lbW9yeS9yZWNhbGw",
+        "url": "http://head-hive.fly.dev/api/memory/recall",
+        "method": "POST",
+        "description": "Agent Memory — Recall — Fetch one key, search (q) across keys/values, or list recent memories in your namespace.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "PBB54PWBPBK2C3MU22XN7PSD6WECYVY2ONJVI34OLYCY7UHSFY4RJIW5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "token": "merchant-probe-token-16chars"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "service": "memory.recall",
+              "unlocked": true,
+              "result": "Paid deliverable for this route (shape varies by service)."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785979218080,
+        "last_ts": 1786156174367
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vaGVhZC1oaXZlLmZseS5kZXYvYXBpL21lbW9yeS9zdG9yZQ",
+        "url": "http://head-hive.fly.dev/api/memory/store",
+        "method": "POST",
+        "description": "Agent Memory — Store — Durable key-value memory for agents. Namespace is derived from your secret token (no accounts). Value up to 64KB; optional TTL.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "PBB54PWBPBK2C3MU22XN7PSD6WECYVY2ONJVI34OLYCY7UHSFY4RJIW5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "token": "merchant-probe-token-16chars",
+              "key": "probe-key",
+              "value": "probe-value"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "service": "memory.store",
+              "unlocked": true,
+              "result": "Paid deliverable for this route (shape varies by service)."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785972134505,
+        "last_ts": 1786155774447
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vaGVhZC1oaXZlLmZseS5kZXYvYXBpL3BsYW4",
+        "url": "http://head-hive.fly.dev/api/plan",
+        "method": "POST",
+        "description": "Multi-Step Plan — Strategist + pragmatist sub-agents draft an actionable step-by-step plan, refined by a critic loop.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "PBB54PWBPBK2C3MU22XN7PSD6WECYVY2ONJVI34OLYCY7UHSFY4RJIW5IY",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "task": "Multi-Step Plan: merchant probe / discovery example",
+              "context": "Optional context for the agent team."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "service": "plan",
+              "unlocked": true,
+              "result": "Paid deliverable for this route (shape varies by service)."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785979791616,
+        "last_ts": 1786155691203
+      }
+    ],
+    "resource_count": 6,
+    "description_count": 6,
+    "mime_type_count": 6,
+    "accepts_count": 6,
+    "discovery_count": 6,
+    "input_documentation_count": 6,
+    "output_documentation_count": 6,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

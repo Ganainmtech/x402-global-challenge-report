@@ -1,0 +1,1633 @@
+{
+  "merchant_id": "Nkw0TjRVNDNEWEZER0FBUENTRkRKUUhC",
+  "name": "AlgoFile Storage",
+  "description": null,
+  "website": "https://algofile.io",
+  "logo": "https://algofile.io/logo_mini.png",
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algofile.io",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "algofile.io",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algofile.io",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791225019840,
+        "last_fetch_attempt_utc": "2026-10-05T18:30:19.840000+00:00",
+        "title": "AlgoFile Storage",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payments",
+        "site_name": null,
+        "logo": "https://algofile.io/logo_mini.png",
+        "banner": "https://algofile.io/logo_mini.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://algofile.io/.well-known/agent-card.json",
+            "name": "AlgoFile Storage",
+            "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://algofile.io/llms.txt",
+            "name": "AlgoFile Storage",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "api.algofile.io",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 23,
+      "last_observed_at": 1791244947594,
+      "catalog_endpoint_count": 7,
+      "metadata": {
+        "domain": "api.algofile.io",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.algofile.io",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791268161483,
+        "last_fetch_attempt_utc": "2026-10-06T06:29:21.483000+00:00",
+        "title": "AlgoFile Storage",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "site_name": "AlgoFile Storage",
+        "logo": "https://algofile.io/logo_mini.png",
+        "banner": "https://algofile.io/logo_mini.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.algofile.io/llms.txt",
+            "name": "AlgoFile Storage",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:02:27 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYWxnb2ZpbGUuaW8vYnV5LWN1c3RvbS1idWNrZXQ",
+        "url": "https://algofile.io/buy-custom-bucket",
+        "method": "GET",
+        "description": "AlgoFile Decentralized IPFS Storage Network",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://algofile.io/buy-custom-bucket",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "timestamp": "2026-08-11T04:48:29.827Z",
+            "resource": {
+              "url": "https://algofile.io/buy-custom-bucket",
+              "serviceName": "AlgoFile Network",
+              "description": "AlgoFile Decentralized IPFS Storage Network",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "bazaar",
+                "hackathon",
+                "x402-global-challenge"
+              ]
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {}
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "network": "Algorand",
+                      "ipfsGateway": "https://ipfs.filebase.io",
+                      "ratePerGbUsd": 0.4,
+                      "status": "operational"
+                    }
+                  },
+                  "title": "AlgoFile Network",
+                  "description": "AlgoFile Decentralized IPFS Storage Network",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "bazaar",
+                    "hackathon",
+                    "x402-global-challenge"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "network": "Algorand",
+              "ipfsGateway": "https://ipfs.filebase.io",
+              "ratePerGbUsd": 0.4,
+              "status": "operational"
+            }
+          },
+          "title": "AlgoFile Network",
+          "description": "AlgoFile Decentralized IPFS Storage Network",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "bazaar",
+            "hackathon",
+            "x402-global-challenge"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786423711124,
+        "last_ts": 1786426495170
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29maWxlLmlvL2J1eS1jdXN0b20tYnVja2V0",
+        "url": "https://algofile.io/buy-custom-bucket",
+        "method": "POST",
+        "description": "AlgoFile Decentralized IPFS Storage Network",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "23438",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://algofile.io/buy-custom-bucket",
+            "extra": {
+              "tag": "x402-global-challenge",
+              "planType": "custom",
+              "capacityGb": 0.009765625,
+              "durationMonths": 6,
+              "isCustomStorage": true,
+              "asset": "31566704"
+            },
+            "timestamp": "2026-08-11T04:48:35.479Z",
+            "resource": {
+              "url": "https://algofile.io/buy-custom-bucket",
+              "serviceName": "AlgoFile Network",
+              "description": "AlgoFile Decentralized IPFS Storage Network",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "bazaar",
+                "hackathon",
+                "x402-global-challenge"
+              ]
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "POST",
+                    "bodyType": "json",
+                    "body": {
+                      "planType": "custom",
+                      "durationMonths": 6,
+                      "capacityGb": 0.009765625
+                    }
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "txId": "ABC...",
+                      "bucketName": "algofile-bucket-1"
+                    }
+                  },
+                  "title": "AlgoFile Network",
+                  "description": "AlgoFile Decentralized IPFS Storage Network",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "bazaar",
+                    "hackathon",
+                    "x402-global-challenge"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "POST"
+                          ]
+                        },
+                        "bodyType": {
+                          "type": "string",
+                          "enum": [
+                            "json",
+                            "form-data",
+                            "text"
+                          ]
+                        },
+                        "body": {
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method",
+                        "bodyType",
+                        "body"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "planType": "custom",
+              "durationMonths": 6,
+              "capacityGb": 0.009765625
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txId": "ABC...",
+              "bucketName": "algofile-bucket-1"
+            }
+          },
+          "title": "AlgoFile Network",
+          "description": "AlgoFile Decentralized IPFS Storage Network",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "bazaar",
+            "hackathon",
+            "x402-global-challenge"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786423716611,
+        "last_ts": 1786427050591
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29maWxlLmlvL2FwaS9hbGdvZmlsZS91cGxvYWQ",
+        "url": "https://api.algofile.io/api/algofile/upload",
+        "method": "GET",
+        "description": "AlgoFile Decentralized IPFS Storage Network",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "26454",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/algofile/upload",
+            "extra": {
+              "fileName": "artwork.png",
+              "fileSizeGb": 0.0018169321119785309,
+              "priceUsd": 0.026453545689582827,
+              "platform": "AlgoFile Storage Network",
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "timestamp": "2026-08-11T05:54:13.945Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/algofile/upload",
+              "serviceName": "AlgoFile Network",
+              "description": "AlgoFile Decentralized IPFS Storage Network",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "bazaar",
+                "hackathon",
+                "x402-global-challenge"
+              ]
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {}
+                  },
+                  "title": "AlgoFile Network",
+                  "description": "AlgoFile Decentralized IPFS Storage Network",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "bazaar",
+                    "hackathon",
+                    "x402-global-challenge"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "title": "AlgoFile Network",
+          "description": "AlgoFile Decentralized IPFS Storage Network",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "bazaar",
+            "hackathon",
+            "x402-global-challenge"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": false,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786427655675,
+        "last_ts": 1786502666549
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29maWxlLmlvL2FwaS9wdXJjaGFzZXMveDQwMi12ZXJpZnk",
+        "url": "https://api.algofile.io/api/purchases/x402-verify",
+        "method": "GET",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "23438",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/purchases/x402-verify",
+            "extra": {
+              "tag": "x402-global-challenge",
+              "planType": "custom",
+              "capacityGb": 0.009765625,
+              "durationMonths": 6,
+              "isCustomStorage": true,
+              "asset": "31566704"
+            },
+            "tag": "x402-global-challenge",
+            "timestamp": "2026-08-11T21:23:15.567Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/purchases/x402-verify",
+              "name": "AlgoFile Asset",
+              "title": "AlgoFile Asset",
+              "serviceName": "AlgoFile Asset",
+              "description": "Algofile: Buying custom bucket",
+              "iconUrl": "blob:https://algofile.io/aba1db19-670c-4378-a9f7-2d5e23a15f55",
+              "icon": "blob:https://algofile.io/aba1db19-670c-4378-a9f7-2d5e23a15f55",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "bazaar",
+                "hackathon",
+                "x402-global-challenge"
+              ]
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {
+                      "planType": "custom",
+                      "durationMonths": 6,
+                      "capacityGb": 0.009765625
+                    }
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "txId": "ABC...",
+                      "bucketName": "algofile-bucket-1"
+                    }
+                  },
+                  "title": "AlgoFile Asset",
+                  "name": "AlgoFile Asset",
+                  "serviceName": "AlgoFile Asset",
+                  "description": "Algofile: Buying custom bucket",
+                  "iconUrl": "blob:https://algofile.io/aba1db19-670c-4378-a9f7-2d5e23a15f55",
+                  "icon": "blob:https://algofile.io/aba1db19-670c-4378-a9f7-2d5e23a15f55",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "bazaar",
+                    "hackathon",
+                    "x402-global-challenge"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "planType": "custom",
+              "durationMonths": 6,
+              "capacityGb": 0.009765625
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txId": "ABC...",
+              "bucketName": "algofile-bucket-1"
+            }
+          },
+          "title": "AlgoFile Asset",
+          "name": "AlgoFile Asset",
+          "serviceName": "AlgoFile Asset",
+          "description": "Algofile: Buying custom bucket",
+          "iconUrl": "blob:https://algofile.io/aba1db19-670c-4378-a9f7-2d5e23a15f55",
+          "icon": "blob:https://algofile.io/aba1db19-670c-4378-a9f7-2d5e23a15f55",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "bazaar",
+            "hackathon",
+            "x402-global-challenge"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786483397036,
+        "last_ts": 1786499123314
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hbGdvZmlsZS5pby9hcGkvcHVyY2hhc2VzL3g0MDItdmVyaWZ5",
+        "url": "https://api.algofile.io/api/purchases/x402-verify",
+        "method": "POST",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "23438",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/purchases/x402-verify",
+            "extra": {
+              "tag": "x402-global-challenge",
+              "planType": "custom",
+              "capacityGb": 0.009765625,
+              "durationMonths": 6,
+              "isCustomStorage": true,
+              "asset": "31566704"
+            },
+            "timestamp": "2026-08-11T05:48:51.968Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/purchases/x402-verify",
+              "serviceName": "AlgoFile Network",
+              "description": "AlgoFile Decentralized IPFS Storage Network",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "bazaar",
+                "hackathon",
+                "x402-global-challenge"
+              ]
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "POST",
+                    "bodyType": "json",
+                    "body": {
+                      "planType": "custom",
+                      "durationMonths": 6,
+                      "capacityGb": 0.009765625
+                    }
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "txId": "ABC...",
+                      "bucketName": "algofile-bucket-1"
+                    }
+                  },
+                  "title": "AlgoFile Network",
+                  "description": "AlgoFile Decentralized IPFS Storage Network",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "bazaar",
+                    "hackathon",
+                    "x402-global-challenge"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "POST"
+                          ]
+                        },
+                        "bodyType": {
+                          "type": "string",
+                          "enum": [
+                            "json",
+                            "form-data",
+                            "text"
+                          ]
+                        },
+                        "body": {
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method",
+                        "bodyType",
+                        "body"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "planType": "custom",
+              "durationMonths": 6,
+              "capacityGb": 0.009765625
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txId": "ABC...",
+              "bucketName": "algofile-bucket-1"
+            }
+          },
+          "title": "AlgoFile Network",
+          "description": "AlgoFile Decentralized IPFS Storage Network",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "bazaar",
+            "hackathon",
+            "x402-global-challenge"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786427333076,
+        "last_ts": 1786592970769
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5hbGdvZmlsZS5pby9hcGkvdjMvcHVyY2hhc2VzL3g0MDItdmVyaWZ5",
+        "url": "https://api.algofile.io/api/v3/purchases/x402-verify",
+        "method": "POST",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "23438",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/v3/purchases/x402-verify",
+            "tag": "x402-global-challenge",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "planType": "custom",
+              "capacityGb": 0.009765625,
+              "durationMonths": 6,
+              "isCustomStorage": true,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "timestamp": "2026-08-13T05:56:28.826Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/v3/purchases/x402-verify",
+              "name": "AlgoFile Asset",
+              "title": "AlgoFile Asset",
+              "serviceName": "AlgoFile Asset",
+              "description": "Algofile: Buying custom bucket",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "icon": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "x402-global-challenge",
+                "hackathon",
+                "bazaar"
+              ]
+            },
+            "tags": [
+              "x402-global-challenge",
+              "hackathon",
+              "bazaar"
+            ],
+            "accepts": [
+              {
+                "scheme": "exact",
+                "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+                "asset": "31566704",
+                "amount": "23438",
+                "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+                "maxTimeoutSeconds": 300,
+                "url": "https://api.algofile.io/api/v3/purchases/x402-verify",
+                "tag": "x402-global-challenge",
+                "extra": {
+                  "asset": "31566704",
+                  "tag": "x402-global-challenge",
+                  "planType": "custom",
+                  "capacityGb": 0.009765625,
+                  "durationMonths": 6,
+                  "isCustomStorage": true,
+                  "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+                }
+              }
+            ],
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "POST",
+                    "bodyType": "json",
+                    "body": {
+                      "planType": "custom",
+                      "durationMonths": 6,
+                      "capacityGb": 0.009765625
+                    }
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "txId": "ABC...",
+                      "bucketName": "algofile-bucket-1"
+                    }
+                  },
+                  "title": "AlgoFile Asset",
+                  "name": "AlgoFile Asset",
+                  "serviceName": "AlgoFile Asset",
+                  "description": "Algofile: Buying custom bucket",
+                  "iconUrl": "https://algofile.io/logo_mini.png",
+                  "icon": "https://algofile.io/logo_mini.png",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "x402-global-challenge",
+                    "hackathon",
+                    "bazaar"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "POST"
+                          ]
+                        },
+                        "bodyType": {
+                          "type": "string",
+                          "enum": [
+                            "json",
+                            "form-data",
+                            "text"
+                          ]
+                        },
+                        "body": {
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method",
+                        "bodyType",
+                        "body"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              },
+              "x402-merchant": {
+                "info": {
+                  "name": "AlgoFile Asset",
+                  "website": "https://algofile.io",
+                  "logo": "https://algofile.io/logo_mini.png",
+                  "categories": [
+                    "x402-global-challenge",
+                    "algorand",
+                    "x402",
+                    "integrated-storage"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "required": [
+                    "name"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "website": {
+                      "type": "string"
+                    },
+                    "logo": {
+                      "type": "string"
+                    },
+                    "categories": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "planType": "custom",
+              "durationMonths": 6,
+              "capacityGb": 0.009765625
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txId": "ABC...",
+              "bucketName": "algofile-bucket-1"
+            }
+          },
+          "title": "AlgoFile Asset",
+          "name": "AlgoFile Asset",
+          "serviceName": "AlgoFile Asset",
+          "description": "Algofile: Buying custom bucket",
+          "iconUrl": "https://algofile.io/logo_mini.png",
+          "icon": "https://algofile.io/logo_mini.png",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "x402-global-challenge",
+            "hackathon",
+            "bazaar"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786600589963,
+        "last_ts": 1790285745539
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29maWxlLmlvL2FwaS92My94NDAyL2JhemFhci9hc3NldC1pbmZv",
+        "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-info",
+        "method": "GET",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-info",
+            "tag": "x402-global-challenge",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "timestamp": "2026-08-13T05:56:21.027Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-info",
+              "name": "AlgoFile Storage",
+              "title": "AlgoFile Storage",
+              "serviceName": "AlgoFile Storage",
+              "description": "Returns storage pricing, IPFS gateway metrics, and node status for single asset minting on AlgoFile Storage [x402-global-challenge #asset_info_e5f6]",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "icon": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "x402-global-challenge",
+                "hackathon",
+                "bazaar"
+              ]
+            },
+            "tags": [
+              "x402-global-challenge",
+              "hackathon",
+              "bazaar"
+            ],
+            "accepts": [
+              {
+                "scheme": "exact",
+                "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+                "asset": "31566704",
+                "amount": "1000",
+                "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+                "maxTimeoutSeconds": 300,
+                "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-info",
+                "tag": "x402-global-challenge",
+                "extra": {
+                  "asset": "31566704",
+                  "tag": "x402-global-challenge",
+                  "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+                }
+              }
+            ],
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {}
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "network": "Algorand",
+                      "ipfsGateway": "https://ipfs.filebase.io",
+                      "ratePerGbUsd": 0.4,
+                      "status": "operational"
+                    }
+                  },
+                  "title": "AlgoFile Storage",
+                  "name": "AlgoFile Storage",
+                  "serviceName": "AlgoFile Storage",
+                  "description": "Returns storage pricing, IPFS gateway metrics, and node status for single asset minting on AlgoFile Storage [x402-global-challenge #asset_info_e5f6]",
+                  "iconUrl": "https://algofile.io/logo_mini.png",
+                  "icon": "https://algofile.io/logo_mini.png",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "x402-global-challenge",
+                    "hackathon",
+                    "bazaar"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              },
+              "x402-merchant": {
+                "info": {
+                  "name": "AlgoFile Storage",
+                  "website": "https://algofile.io",
+                  "logo": "https://algofile.io/logo_mini.png",
+                  "categories": [
+                    "x402-global-challenge",
+                    "algorand",
+                    "x402",
+                    "integrated-storage"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "required": [
+                    "name"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "website": {
+                      "type": "string"
+                    },
+                    "logo": {
+                      "type": "string"
+                    },
+                    "categories": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "network": "Algorand",
+              "ipfsGateway": "https://ipfs.filebase.io",
+              "ratePerGbUsd": 0.4,
+              "status": "operational"
+            }
+          },
+          "title": "AlgoFile Storage",
+          "name": "AlgoFile Storage",
+          "serviceName": "AlgoFile Storage",
+          "description": "Returns storage pricing, IPFS gateway metrics, and node status for single asset minting on AlgoFile Storage [x402-global-challenge #asset_info_e5f6]",
+          "iconUrl": "https://algofile.io/logo_mini.png",
+          "icon": "https://algofile.io/logo_mini.png",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "x402-global-challenge",
+            "hackathon",
+            "bazaar"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786600582557,
+        "last_ts": 1786610734940
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29maWxlLmlvL2FwaS92My94NDAyL2JhemFhci9hc3NldC1zdG9yYWdlLWluZm8",
+        "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-storage-info",
+        "method": "GET",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-storage-info",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "timestamp": "2026-08-15T20:31:53.724Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-storage-info",
+              "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+              "mimeType": "application/json",
+              "serviceName": "AlgoFile Storage",
+              "iconUrl": "https://algofile.io/logo_mini.png"
+            },
+            "accepts": [
+              {
+                "scheme": "exact",
+                "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+                "asset": "31566704",
+                "amount": "1000",
+                "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+                "maxTimeoutSeconds": 300,
+                "url": "https://api.algofile.io/api/v3/x402/bazaar/asset-storage-info",
+                "extra": {
+                  "asset": "31566704",
+                  "tag": "x402-global-challenge",
+                  "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+                }
+              }
+            ],
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {
+                      "schema": {
+                        "type": "object",
+                        "properties": {},
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "network": "Algorand",
+                      "ipfsGateway": "https://ipfs.filebase.io",
+                      "ratePerGbUsd": 0.4,
+                      "status": "operational"
+                    }
+                  }
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                },
+                "discoverable": true,
+                "category": "decentralized-storage",
+                "tags": []
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {
+              "schema": {
+                "type": "object",
+                "properties": {},
+                "additionalProperties": false
+              }
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "network": "Algorand",
+              "ipfsGateway": "https://ipfs.filebase.io",
+              "ratePerGbUsd": 0.4,
+              "status": "operational"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786825914144,
+        "last_ts": 1791244947594
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29maWxlLmlvL2FwaS94NDAyL2JhemFhci9hc3NldC1pbmZv",
+        "url": "https://api.algofile.io/api/x402/bazaar/asset-info",
+        "method": "GET",
+        "description": "AlgoFile Integrated IPFS Storage Network & x402 Micro-payment Protocol",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "6L4N4U43DXFDGAAPCSFDJQHBIRQO37W3EX7MHKIHX5DQOAQOME6QWXD57M",
+            "maxTimeoutSeconds": 300,
+            "url": "https://api.algofile.io/api/x402/bazaar/asset-info",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge"
+            },
+            "timestamp": "2026-08-11T05:19:26.994Z",
+            "resource": {
+              "url": "https://api.algofile.io/api/x402/bazaar/asset-info",
+              "serviceName": "AlgoFile Network",
+              "description": "AlgoFile Decentralized IPFS Storage Network",
+              "iconUrl": "https://algofile.io/logo_mini.png",
+              "mimeType": "application/json",
+              "tag": "x402-global-challenge",
+              "tags": [
+                "bazaar",
+                "hackathon",
+                "x402-global-challenge"
+              ]
+            },
+            "extensions": {
+              "bazaar": {
+                "info": {
+                  "input": {
+                    "type": "http",
+                    "method": "GET",
+                    "queryParams": {}
+                  },
+                  "output": {
+                    "type": "json",
+                    "example": {
+                      "network": "Algorand",
+                      "ipfsGateway": "https://ipfs.filebase.io",
+                      "ratePerGbUsd": 0.4,
+                      "status": "operational"
+                    }
+                  },
+                  "title": "AlgoFile Network",
+                  "description": "AlgoFile Decentralized IPFS Storage Network",
+                  "tag": "x402-global-challenge",
+                  "tags": [
+                    "bazaar",
+                    "hackathon",
+                    "x402-global-challenge"
+                  ]
+                },
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "input": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "const": "http"
+                        },
+                        "method": {
+                          "type": "string",
+                          "enum": [
+                            "GET"
+                          ]
+                        },
+                        "queryParams": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "method"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "output": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "GET",
+            "queryParams": {}
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "network": "Algorand",
+              "ipfsGateway": "https://ipfs.filebase.io",
+              "ratePerGbUsd": 0.4,
+              "status": "operational"
+            }
+          },
+          "title": "AlgoFile Network",
+          "description": "AlgoFile Decentralized IPFS Storage Network",
+          "tag": "x402-global-challenge",
+          "tags": [
+            "bazaar",
+            "hackathon",
+            "x402-global-challenge"
+          ]
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786425568311,
+        "last_ts": 1786592967177
+      }
+    ],
+    "resource_count": 9,
+    "description_count": 9,
+    "mime_type_count": 9,
+    "accepts_count": 9,
+    "discovery_count": 9,
+    "input_documentation_count": 9,
+    "output_documentation_count": 8,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algofile.io",
+    "api.algofile.io"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

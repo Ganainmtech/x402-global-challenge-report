@@ -1,0 +1,1058 @@
+{
+  "merchant_id": "TURCSk1NNlJKNFRNN1c1RklUWjNNV0pU",
+  "name": "Play Clock",
+  "description": null,
+  "website": "https://playclock.xyz",
+  "logo": "https://api.playclock.xyz/apple-touch-icon.png",
+  "categories": [
+    "fantasy-football",
+    "nfl",
+    "sports-analytics",
+    "api",
+    "algorand",
+    "x402"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.playclock.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 34,
+      "last_observed_at": 1790733509731,
+      "catalog_endpoint_count": 10,
+      "metadata": {
+        "domain": "api.playclock.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.playclock.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Play Clock",
+        "description": "Pay-per-answer NFL fantasy football analysis. One question, one USDC micropayment on Algorand, no account and no subscription.",
+        "site_name": null,
+        "logo": "https://api.playclock.xyz/apple-touch-icon.png",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.playclock.xyz/llms.txt",
+            "name": "Play Clock",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 01:58:29 UTC"
+    },
+    {
+      "domain": "playclock.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "playclock.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://playclock.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790789244100,
+        "last_fetch_attempt_utc": "2026-09-30T17:27:24.100000+00:00",
+        "title": "Play Clock — pay-per-answer fantasy football intelligence",
+        "description": "One fantasy football answer at a time. Start/sit calls, waiver boards and roster audits grounded in real usage data, paid for in USDC micropayments on Algorand. No subscription, no account.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnBsYXljbG9jay54eXovdjEvZHJhZnQtYm9hcmQ",
+        "url": "https://api.playclock.xyz/v1/draft-board",
+        "method": "GET",
+        "description": "A tiered board of 200 players ranked against where the market drafts them, with prior-season usage behind every ranking and the values and reaches called out. **Use when** an agent is preparing for or sitting in a fantasy draft. Season-scoped, not weekly. Ranks against Sleeper draft popularity, which is a market signal and not a consensus ADP.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "200000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 200
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Bijan Robinson heads the board; eight players are ranked well above the market.",
+              "confidence": "high",
+              "reasoning": "The board starts from draft-popularity order and shifts on prior-season usage.",
+              "stats_cited": [
+                {
+                  "stat": "market_rank",
+                  "value": 14,
+                  "player": "Jaylen Waddle",
+                  "source": "sleeper players/search_rank"
+                }
+              ],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "season": 2026,
+              "scoring": "ppr",
+              "tiers": [
+                {
+                  "tier": 1,
+                  "label": "Picks 1-6 · RB/WR",
+                  "players": [
+                    {
+                      "player_id": "8155",
+                      "name": "Bijan Robinson",
+                      "position": "RB",
+                      "team": "ATL",
+                      "rank": 1,
+                      "market_rank": 2,
+                      "value_delta": 1,
+                      "note": "78% snap share, 6 red-zone touches (94th percentile at RB)."
+                    }
+                  ]
+                }
+              ],
+              "values": [],
+              "reaches": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045486530,
+        "last_ts": 1790045486301
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5wbGF5Y2xvY2sueHl6L3YxL2RyYWZ0LXJlcG9ydA",
+        "url": "https://api.playclock.xyz/v1/draft-report",
+        "method": "POST",
+        "description": "Grade one manager's completed draft: every pick scored against the market rank it was taken at, positional balance, best and worst picks, and what to do before Week 1. **Use when** an agent is given a Sleeper draft id or username after a draft. Grades one roster, so it needs to know whose.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "sleeper_username": "ryan"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "B+ draft: three clear values, one reach, no position left short.",
+              "confidence": "medium",
+              "reasoning": "Picks averaged +11 ranks of value against where the market drafts them.",
+              "stats_cited": [
+                {
+                  "stat": "market_rank",
+                  "value": 41,
+                  "player": "Jaylen Waddle",
+                  "source": "sleeper players/search_rank"
+                }
+              ],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "draft_id": "1234567890",
+              "season": 2026,
+              "grade": "B+",
+              "roster": [
+                {
+                  "player_id": "6786",
+                  "name": "Jaylen Waddle",
+                  "position": "WR",
+                  "team": "MIA",
+                  "round": 5,
+                  "pick_no": 53,
+                  "market_rank": 41,
+                  "value_delta": -12
+                }
+              ],
+              "positional_balance": [
+                {
+                  "position": "RB",
+                  "grade": "A-",
+                  "note": "5 rostered — a workable RB room."
+                }
+              ],
+              "best_picks": [],
+              "worst_picks": [],
+              "week_one_plan": [
+                "No structural holes. Watch the depth charts."
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790094685123,
+        "last_ts": 1790094684921
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5wbGF5Y2xvY2sueHl6L3YxL21hdGNodXA",
+        "url": "https://api.playclock.xyz/v1/matchup",
+        "method": "POST",
+        "description": "Rank two to four players against each other for one week, with the opponent defense, weather and injury news that decide it. **Use when** an agent must choose between named players for a lineup slot. For a single player use /v1/player; for a whole lineup use /v1/roster.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "200000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "players": [
+                "Bijan Robinson",
+                "De'Von Achane"
+              ],
+              "week": 5
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Start Robinson over Achane; the matchup gap outweighs the talent gap.",
+              "confidence": "high",
+              "reasoning": "Atlanta draws the 30th-ranked run defense while Miami faces a top-five front.",
+              "stats_cited": [],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "week": 5,
+              "ranked": [
+                {
+                  "rank": 1,
+                  "player_id": "8155",
+                  "name": "Bijan Robinson",
+                  "position": "RB",
+                  "team": "ATL",
+                  "opponent": "CAR",
+                  "projection_note": "Volume floor of 20 touches against a bottom-tier front.",
+                  "def_vs_pos_rank": 2,
+                  "call": "start"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045505577,
+        "last_ts": 1790733224409
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5wbGF5Y2xvY2sueHl6L3YxL3BsYXllcg",
+        "url": "https://api.playclock.xyz/v1/player",
+        "method": "POST",
+        "description": "One player in depth: four weeks of usage, schedule difficulty, current injury and beat-writer news, and a start/sit verdict. **Use when** an agent is asked about a specific player by name. Cheapest paid endpoint; prefer it over /v1/matchup when only one player is in question.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "name": "Bijan Robinson",
+              "week": 5
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Start him with confidence; the usage trend is the highest of his career.",
+              "confidence": "high",
+              "reasoning": "Snap share and red-zone touches have both risen in each of the last three weeks.",
+              "stats_cited": [],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "player": {
+                "player_id": "8155",
+                "name": "Bijan Robinson",
+                "position": "RB",
+                "team": "ATL",
+                "status": null,
+                "recent_weeks": [
+                  {
+                    "week": 4,
+                    "opponent": "TB",
+                    "fantasy_points": 21.4,
+                    "snap_pct": 0.82,
+                    "targets": 5,
+                    "target_share": 0.16,
+                    "carries": 18,
+                    "rz_touches": 4
+                  }
+                ],
+                "usage_trajectory": "rising: +11pp snap share over four weeks",
+                "schedule_outlook": "Two bottom-five run defenses in the next three weeks."
+              },
+              "week": 5
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045500170,
+        "last_ts": 1790485224362
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnBsYXljbG9jay54eXovdjEvcmVwb3J0",
+        "url": "https://api.playclock.xyz/v1/report",
+        "method": "GET",
+        "description": "The whole week in one briefing: players emerging before consensus, injury fallout and handcuffs, stock up and down, rookies and streamers. **Use when** an agent needs broad weekly context rather than an answer about a particular player or team. The widest and most expensive league-wide read.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "350000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "week": 5
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Week 5 was an injury week; the waiver wire matters more than the matchups.",
+              "confidence": "high",
+              "reasoning": "Three backfields changed hands, and each created a startable replacement.",
+              "stats_cited": [],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "week": 5,
+              "season": 2026,
+              "emerging": [
+                {
+                  "player_id": "11596",
+                  "name": "Jalen McMillan",
+                  "position": "WR",
+                  "team": "TB",
+                  "note": "Target share up 11pp over two weeks while rostership lags."
+                }
+              ],
+              "injury_fallout": [
+                {
+                  "injured_player": "Example Starter",
+                  "team": "TEN",
+                  "status": "Out 4-6 weeks",
+                  "beneficiaries": [
+                    {
+                      "player_id": "8146",
+                      "name": "Tyjae Spears",
+                      "position": "RB",
+                      "team": "TEN",
+                      "note": "Direct handcuff; 71% snaps once the starter left."
+                    }
+                  ]
+                }
+              ],
+              "stock_up": [],
+              "stock_down": [],
+              "rookie_watch": [],
+              "streamers": []
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045481110,
+        "last_ts": 1790045480897
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5wbGF5Y2xvY2sueHl6L3YxL3Jvc3Rlcg",
+        "url": "https://api.playclock.xyz/v1/roster",
+        "method": "POST",
+        "description": "Audit a whole fantasy roster: positional grades, this week's start/sit calls, drop candidates, and the best adds actually available in that league. **Use when** an agent has a Sleeper username or a list of rostered players and is asked what to do with the team.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "350000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "sleeper_username": "example_manager",
+              "week": 5
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Strong at receiver, thin at running back; one waiver claim fixes the week.",
+              "confidence": "medium",
+              "reasoning": "Two of three starting backs are in committees, which caps the weekly floor.",
+              "stats_cited": [],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "week": 5,
+              "sleeper_username": "example_manager",
+              "league_id": "1049283746152738291",
+              "positional_grades": [
+                {
+                  "position": "RB",
+                  "grade": "C+",
+                  "note": "No back clears 60% of snaps."
+                }
+              ],
+              "start_sit": [
+                {
+                  "player_id": "8155",
+                  "name": "Bijan Robinson",
+                  "position": "RB",
+                  "call": "start",
+                  "reason": "Bell-cow usage against a bottom-five run defense."
+                }
+              ],
+              "drop_candidates": [
+                {
+                  "player_id": "4034",
+                  "name": "Example Bench Back",
+                  "position": "RB",
+                  "reason": "Snap share under 20% for four straight weeks.",
+                  "risk": "low"
+                }
+              ],
+              "waiver_adds": [
+                {
+                  "player_id": "8146",
+                  "name": "Tyjae Spears",
+                  "position": "RB",
+                  "team": "TEN",
+                  "reason": "Free in your league and inherits a full workload.",
+                  "priority": 1
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045538383,
+        "last_ts": 1790045538285
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnBsYXljbG9jay54eXovdjEvc2xlZXBlcnM",
+        "url": "https://api.playclock.xyz/v1/sleepers",
+        "method": "GET",
+        "description": "Eight to twelve low-rostered players to start this week, with snap share, target share, red-zone work and the matchup behind each. **Use when** an agent needs lineup options the market has not priced in yet. Weekly and league-wide; for one named player use /v1/player.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "200000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "week": 5
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Four low-rostered pass catchers have both usage and matchup on their side.",
+              "confidence": "high",
+              "reasoning": "Each pick clears a 15% target share and faces a bottom-eight defense by position.",
+              "stats_cited": [
+                {
+                  "stat": "target_share",
+                  "value": 0.23,
+                  "player": "Jalen McMillan",
+                  "source": "nflverse weekly_stats 2026w4"
+                }
+              ],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "week": 5,
+              "season": 2026,
+              "picks": [
+                {
+                  "player_id": "11596",
+                  "name": "Jalen McMillan",
+                  "position": "WR",
+                  "team": "TB",
+                  "opponent": "NO",
+                  "confidence": "medium",
+                  "usage_note": "23% target share over the last two weeks, up from 12%.",
+                  "matchup_note": "New Orleans allows the 4th-most fantasy points to slot WRs.",
+                  "rationale": "Volume plus a soft interior coverage draw makes him a flex play."
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045470279,
+        "last_ts": 1790552060963
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5wbGF5Y2xvY2sueHl6L3YxL3RlYW0tcmVwb3J0",
+        "url": "https://api.playclock.xyz/v1/team-report",
+        "method": "POST",
+        "description": "A roster graded against the other teams in its actual league, with fixes drawn only from that league's free agents and a manager review (optimal versus started lineup, luck, lineup efficiency). **Use when** an agent has a Sleeper league and is asked how a team really compares. Needs live league history; /v1/roster is the cheaper answer when it does not.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "sleeper_username": "example_manager",
+              "league_id": "1049283746152738291",
+              "week": 5
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "A top-three roster managed to a bottom-three lineup efficiency.",
+              "confidence": "medium",
+              "reasoning": "You have left 84 points on the bench, the second-worst mark in the league.",
+              "stats_cited": [],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "week": 5,
+              "season": 2026,
+              "sleeper_username": "example_manager",
+              "league_id": "1049283746152738291",
+              "league_name": "The Example League",
+              "positional_strength_vs_league": [
+                {
+                  "position": "WR",
+                  "league_rank": 2,
+                  "league_size": 12,
+                  "points_per_week": 38.4,
+                  "league_avg_points_per_week": 31.1,
+                  "grade": "A-"
+                }
+              ],
+              "deficiencies": [
+                {
+                  "position": "RB",
+                  "severity": "high",
+                  "detail": "9th of 12 in RB points per week, 6.2 below league average.",
+                  "available_fixes": [
+                    {
+                      "player_id": "8146",
+                      "name": "Tyjae Spears",
+                      "position": "RB",
+                      "team": "TEN",
+                      "why": "Unrostered in your league and inherits a starter's workload."
+                    }
+                  ]
+                }
+              ],
+              "manager_review": {
+                "bench_points_lost": 84.2,
+                "optimal_vs_actual": 84.2,
+                "lineup_efficiency_pct": 88.1,
+                "efficiency_rank": 10,
+                "league_size": 12,
+                "luck_note": "2nd in points for, 5th in record: you have drawn the top scorers.",
+                "expected_wins": 3.6,
+                "actual_wins": 2,
+                "mis_start_patterns": [
+                  "Started the lower-projected TE in 3 of 5 weeks (-19.4)."
+                ],
+                "observations": [
+                  "Sets lineups early in the week, before Friday injury news."
+                ]
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790094668584,
+        "last_ts": 1790733509731
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnBsYXljbG9jay54eXovdjEvdHJlbmRpbmc",
+        "url": "https://api.playclock.xyz/v1/trending",
+        "method": "GET",
+        "description": "Top 25 Sleeper trending adds and drops, each with the usage numbers behind the move and an add/fade/hold verdict. **Use when** an agent needs to know who fantasy managers are picking up right now and whether the crowd is right. Covers the whole league, not one team.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "lookback_hours": 24
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "Nine of the top ten adds are opportunity-driven, not talent-driven.",
+              "confidence": "high",
+              "reasoning": "Three lead backs left week 5 with injuries, which explains the top of the board.",
+              "stats_cited": [
+                {
+                  "stat": "snap_pct",
+                  "value": 0.71,
+                  "player": "Tyjae Spears",
+                  "source": "nflverse weekly_stats 2026w5"
+                }
+              ],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "players": [
+                {
+                  "player_id": "8146",
+                  "name": "Tyjae Spears",
+                  "position": "RB",
+                  "team": "TEN",
+                  "trend": "add",
+                  "trend_count": 41233,
+                  "analysis": "Inherits the backfield with the starter on IR; 71% of snaps.",
+                  "verdict": "add"
+                }
+              ],
+              "lookback_hours": 24
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790041925657,
+        "last_ts": 1790732621886
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLnBsYXljbG9jay54eXovdjEvd2FpdmVycw",
+        "url": "https://api.playclock.xyz/v1/waivers",
+        "method": "GET",
+        "description": "Ranked waiver-wire targets with a suggested FAB bid and a stash-or-start label on each. **Use when** an agent is asked who to claim this week and how much to spend. League-wide; for adds available in one specific league use /v1/roster.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "200000",
+            "payTo": "MDBJMM6RJ4TM7W5FITZ3MWJTGTHMC4SKQJWRWI2JCQUKIR5LA7BPIUTMMM",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "week": 5
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "verdict": "One must-claim back, then a steep drop to streamers.",
+              "confidence": "high",
+              "reasoning": "Only the top target has both a vacated workload and a favourable schedule.",
+              "stats_cited": [],
+              "sources": [
+                {
+                  "title": "Beat writer: snap share climbing",
+                  "url": "[local URL omitted]",
+                  "published": "2026-10-06"
+                }
+              ],
+              "meta": {
+                "generated_at": "2026-10-07T13:05:00Z",
+                "data_freshness": {
+                  "weekly_stats": "2026-10-07T09:00:00Z",
+                  "trending": "2026-10-07T12:30:00Z"
+                },
+                "model": "gemini-3.7-flash",
+                "cache": "fresh",
+                "attribution": "Data: nflverse (CC-BY 4.0), Sleeper"
+              },
+              "week": 5,
+              "season": 2026,
+              "board": [
+                {
+                  "rank": 1,
+                  "player_id": "8146",
+                  "name": "Tyjae Spears",
+                  "position": "RB",
+                  "team": "TEN",
+                  "trend_count": 41233,
+                  "stash_or_start": "start",
+                  "fab_bid_pct": 28,
+                  "rationale": "Inherits a 20-touch role with the starter on IR."
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790045475676,
+        "last_ts": 1790733095308
+      }
+    ],
+    "resource_count": 10,
+    "description_count": 10,
+    "mime_type_count": 10,
+    "accepts_count": 10,
+    "discovery_count": 10,
+    "input_documentation_count": 10,
+    "output_documentation_count": 10,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.playclock.xyz",
+    "playclock.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 1,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

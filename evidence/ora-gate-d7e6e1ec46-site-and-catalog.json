@@ -1,0 +1,370 @@
+{
+  "merchant_id": "VFZYWUJSSTZINU01UklQUUVIUzVaWk9Y",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "ora-gate-mainnet.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 12,
+      "last_observed_at": 1790776522596,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "ora-gate-mainnet.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://ora-gate-mainnet.vercel.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "ORA Gate | Agent actions, shared impact",
+        "description": "Discover how every 100 eligible settled agent credits form one tree-request batch for the configured Digital Humani provider workflow.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://ora-gate-mainnet.vercel.app/.well-known/agent-card.json",
+            "name": "ORA Gate",
+            "description": "Paid x402 messaging and durable impact-credit accounting with a configured Digital Humani provider workflow."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://ora-gate-mainnet.vercel.app/.well-known/agent.json",
+            "name": "ORA Gate",
+            "description": "Paid x402 messaging and durable impact-credit accounting with a configured Digital Humani provider workflow."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://ora-gate-mainnet.vercel.app/.well-known/x402",
+            "name": null,
+            "description": "Capability: deliver exactly one plain-text message to the requested ORA Gate recipient. Price: 0.01 MainNet USDC (10000 atomic units; ASA 31566704; 6 decimals). Payment: x402 v2 exact on Algorand MainNet; payment identifier required; buyer pays the canonical merchant payTo. If accepts.extra.feePayer is present, it is the facilitator-supplied fee-sponsorship account and does not replace payTo. Success: exactly one economic action, one delivery, and a durable receipt containing actionId, messageId"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://ora-gate-mainnet.vercel.app/llms.txt",
+            "name": "ORA Gate",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 13:55:22 UTC"
+    },
+    {
+      "domain": "ora-gate-testnet.vercel.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Vercel",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1788325736142,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "ora-gate-testnet.vercel.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Vercel",
+        "is_custom_domain_candidate": false,
+        "origin": "https://ora-gate-testnet.vercel.app",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1788052605676,
+        "last_fetch_attempt_utc": "2026-08-30T01:16:45.676000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-09-02 05:08:56 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL29yYS1nYXRlLW1haW5uZXQudmVyY2VsLmFwcC9hcGkvb3JhLWdhdGUvaW1wYWN0L2NvbnRyaWJ1dGU",
+        "url": "https://ora-gate-mainnet.vercel.app/api/ora-gate/impact/contribute",
+        "method": "POST",
+        "description": "Contribute one verified impact credit. Every 100 eligible settled credits form one tree-request batch for provider dispatch.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 300,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "TVXYBRI6H5M5RIPQEHS5ZZOXR7RS3FUVYKIJ3DTV6C6F5ULLQEZM47OKRM",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "idempotencyKey": "ora-gate-impact-idempotency"
+            },
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "code": "completed",
+              "actionId": "6b2f0f17-45f3-4c1a-9b3e-2f5d7a8c9012",
+              "receiptId": "8d4b2f39-67a5-4e3c-9d5a-4b7f9cad1234",
+              "contributionId": "6b2f0f17-45f3-4c1a-9b3e-2f5d7a8c9012",
+              "creditsRequired": 100,
+              "contributionStatus": "credited",
+              "creditsContributed": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789592864629,
+        "last_ts": 1789592864509
+      },
+      {
+        "id": "UE9TVDpodHRwczovL29yYS1nYXRlLW1haW5uZXQudmVyY2VsLmFwcC9hcGkvb3JhLWdhdGUvbWVzc2FnZS9tYWlubmV0YWdlbnQ",
+        "url": "https://ora-gate-mainnet.vercel.app/api/ora-gate/message/mainnetagent",
+        "method": "POST",
+        "description": "Capability: deliver exactly one plain-text message to the requested ORA Gate recipient. Price: 0.01 MainNet USDC (10000 atomic units; ASA 31566704; 6 decimals). Payment: x402 v2 exact on Algorand MainNet; payment identifier required; buyer pays the canonical merchant payTo. If accepts.extra.feePayer is present, it is the facilitator-supplied fee-sponsorship account and does not replace payTo. Success: exactly one economic action, one delivery, and a durable receipt containing actionId, messageId, receiptId, and completedAt. Safe retry: reuse the same idempotency key and payment identity. Payment uncertain: DO NOT PAY AGAIN; reconcile or retry the existing payment identity. Duplicate: the same key and message replay the durable result. Conflict: the same key with a different message is rejected. Settlement timeout: 300 seconds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 300,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "TVXYBRI6H5M5RIPQEHS5ZZOXR7RS3FUVYKIJ3DTV6C6F5ULLQEZM47OKRM",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "message": "Deliver one paid plain-text message to the requested ORA Gate recipient.",
+              "idempotencyKey": "ora-gate-message-idempotency"
+            },
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "pathParams": {
+              "username": "mainnetagent"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "code": "completed",
+              "receipt": {
+                "actionId": "6b2f0f17-45f3-4c1a-9b3e-2f5d7a8c9012",
+                "messageId": "7c3a1e28-56f4-4d2b-8c4f-3a6e8b9d0123",
+                "receiptId": "8d4b2f39-67a5-4e3c-9d5a-4b7f9cad1234",
+                "completedAt": "2026-08-31T00:00:00.000Z"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789268137046,
+        "last_ts": 1789268136930
+      },
+      {
+        "id": "UE9TVDpodHRwczovL29yYS1nYXRlLW1haW5uZXQudmVyY2VsLmFwcC9hcGkvb3JhLWdhdGUvbWVzc2FnZS9vcmFfYWdlbnQ",
+        "url": "https://ora-gate-mainnet.vercel.app/api/ora-gate/message/ora_agent",
+        "method": "POST",
+        "description": "Capability: deliver exactly one plain-text message to the requested ORA Gate recipient. Price: 0.01 MainNet USDC (10000 atomic units; ASA 31566704; 6 decimals). Payment: x402 v2 exact on Algorand MainNet; payment identifier required; buyer pays the canonical merchant payTo. If accepts.extra.feePayer is present, it is the facilitator-supplied fee-sponsorship account and does not replace payTo. Success: exactly one economic action, one delivery, and a durable receipt containing actionId, messageId, receiptId, and completedAt. Safe retry: reuse the same idempotency key and payment identity. Payment uncertain: DO NOT PAY AGAIN; reconcile or retry the existing payment identity. Duplicate: the same key and message replay the durable result. Conflict: the same key with a different message is rejected. Settlement timeout: 300 seconds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 300,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "TVXYBRI6H5M5RIPQEHS5ZZOXR7RS3FUVYKIJ3DTV6C6F5ULLQEZM47OKRM",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "message": "Deliver one paid plain-text message to the requested ORA Gate recipient.",
+              "idempotencyKey": "ora-gate-message-idempotency"
+            },
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "pathParams": {
+              "username": "ora_agent"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "code": "completed",
+              "receipt": {
+                "actionId": "6b2f0f17-45f3-4c1a-9b3e-2f5d7a8c9012",
+                "messageId": "7c3a1e28-56f4-4d2b-8c4f-3a6e8b9d0123",
+                "receiptId": "8d4b2f39-67a5-4e3c-9d5a-4b7f9cad1234",
+                "completedAt": "2026-08-31T00:00:00.000Z"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790542107038,
+        "last_ts": 1790776522596
+      },
+      {
+        "id": "UE9TVDpodHRwczovL29yYS1nYXRlLXRlc3RuZXQudmVyY2VsLmFwcC9hcGkvb3JhLWdhdGUvbWVzc2FnZS9tYWlubmV0YWdlbnQ",
+        "url": "https://ora-gate-testnet.vercel.app/api/ora-gate/message/mainnetagent",
+        "method": "POST",
+        "description": "Capability: deliver exactly one plain-text message to the requested ORA Gate recipient. Price: 0.01 MainNet USDC (10000 atomic units; ASA 31566704; 6 decimals). Payment: x402 v2 exact on Algorand MainNet; payment identifier required; buyer pays the canonical merchant payTo. If accepts.extra.feePayer is present, it is the facilitator-supplied fee-sponsorship account and does not replace payTo. Success: exactly one economic action, one delivery, and a durable receipt containing actionId, messageId, receiptId, and completedAt. Safe retry: reuse the same idempotency key and payment identity. Payment uncertain: DO NOT PAY AGAIN; reconcile or retry the existing payment identity. Duplicate: the same key and message replay the durable result. Conflict: the same key with a different message is rejected. Settlement timeout: 300 seconds.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "10000",
+            "asset": "31566704",
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            },
+            "maxTimeoutSeconds": 300,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "TVXYBRI6H5M5RIPQEHS5ZZOXR7RS3FUVYKIJ3DTV6C6F5ULLQEZM47OKRM",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "body": {
+              "message": "Deliver one paid plain-text message to the requested ORA Gate recipient.",
+              "idempotencyKey": "ora-gate-message-idempotency"
+            },
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "pathParams": {
+              "username": "mainnetagent"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "ok": true,
+              "code": "completed",
+              "receipt": {
+                "actionId": "6b2f0f17-45f3-4c1a-9b3e-2f5d7a8c9012",
+                "messageId": "7c3a1e28-56f4-4d2b-8c4f-3a6e8b9d0123",
+                "receiptId": "8d4b2f39-67a5-4e3c-9d5a-4b7f9cad1234",
+                "completedAt": "2026-08-31T00:00:00.000Z"
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788325736291,
+        "last_ts": 1788325736142
+      }
+    ],
+    "resource_count": 4,
+    "description_count": 4,
+    "mime_type_count": 4,
+    "accepts_count": 4,
+    "discovery_count": 4,
+    "input_documentation_count": 4,
+    "output_documentation_count": 4,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 4,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

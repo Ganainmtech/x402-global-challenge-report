@@ -1,0 +1,11 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://a-identity.xyz/api/x402/algorand/tools/pay_check,713,3565.000000,48,0,0.000000,713,3565.000000,0,2026-09-28 09:28:23 UTC,2026-10-05 22:26:10 UTC
+POST,https://a-identity.xyz/api/x402/algorand/tools/verify_agent,441,440.001000,49,1,0.001000,441,440.001000,0,2026-09-12 18:42:43 UTC,2026-10-05 22:27:02 UTC
+POST,https://a-identity.xyz/api/x402/algorand/tools/reputation_score,421,840.002000,49,1,0.002000,421,840.002000,0,2026-09-12 18:59:50 UTC,2026-10-05 22:26:51 UTC
+POST,https://a-identity.xyz/api/x402/algorand/tools/risk_check,359,1785.055000,50,1,0.005000,359,1785.055000,0,2026-09-12 19:00:01 UTC,2026-10-05 22:25:24 UTC
+POST,https://a-identity.xyz/api/x402/algorand/tools/agent_passport,358,3570.010000,49,0,0.000000,358,3570.010000,0,2026-09-12 19:00:10 UTC,2026-10-05 22:25:16 UTC
+POST,https://a-identity.xyz/api/x402/algorand/tools/agent_batch_audit,330,5280.000000,48,0,0.000000,330,5280.000000,0,2026-09-28 10:40:42 UTC,2026-10-05 22:25:43 UTC
+(not recorded),https://a-identity-backend.onrender.com/api/x402/algorand/tools/verify_agent,2,0.002000,1,2,0.002000,2,0.002000,0,2026-08-29 23:52:23 UTC,2026-08-30 00:14:18 UTC
+(not recorded),https://a-identity-backend.onrender.com/api/x402/algorand/tools/agent_passport,1,0.010000,1,0,0.000000,1,0.010000,0,2026-08-30 00:05:20 UTC,2026-08-30 00:05:20 UTC
+(not recorded),https://a-identity-backend.onrender.com/api/x402/algorand/tools/reputation_score,1,0.002000,1,1,0.002000,1,0.002000,0,2026-08-30 00:05:09 UTC,2026-08-30 00:05:09 UTC
+(not recorded),https://a-identity-backend.onrender.com/api/x402/algorand/tools/risk_check,1,0.005000,1,1,0.005000,1,0.005000,0,2026-08-30 00:05:14 UTC,2026-08-30 00:05:14 UTC

@@ -1,0 +1,167 @@
+{
+  "merchant_id": "RlZFSkRDUUZDSFZHNFk2TTJKVkFENEw0",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "iomarkets.app",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 4,
+      "last_observed_at": 1790804517790,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "iomarkets.app",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://iomarkets.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "IoMarkets Topup — real-world checkout for AI agents",
+        "description": "IoMarkets Topup: real-world checkout for AI agents. Mobile airtime & data top-ups and travel eSIMs in 150+ countries, paid per order in USDC on Algorand via x402. Settle first, deliver second, refund on-chain, signed receipts, public ledger. Part of the IoMarkets® ecosystem.",
+        "site_name": "IoMarkets.app",
+        "logo": "https://iomarkets.app/apple-touch-icon.png",
+        "banner": "https://iomarkets.app/brand/logo-og.png",
+        "theme_color": "#0F2557",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://iomarkets.app/.well-known/agent-card.json",
+            "name": "IoMarkets Topup",
+            "description": "Real-world checkout for AI agents. Buys physical-world goods and services for an agent's principal in 150+ countries — currently mobile airtime and data top-ups and travel eSIMs — paid per order in USDC on Algorand (mainnet) over x402. No account, no API key, no card. Money settles on-chain before anything is bought; a failed delivery is refunded to the paying address on-chain automatically; every terminal order carries an ed25519-signed receipt naming both transaction ids, and the full order le"
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://iomarkets.app/.well-known/agent.json",
+            "name": "IoMarkets Topup",
+            "description": "Real-world checkout for AI agents. Buys physical-world goods and services for an agent's principal in 150+ countries — currently mobile airtime and data top-ups and travel eSIMs — paid per order in USDC on Algorand (mainnet) over x402. No account, no API key, no card. Money settles on-chain before anything is bought; a failed delivery is refunded to the paying address on-chain automatically; every terminal order carries an ed25519-signed receipt naming both transaction ids, and the full order le"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://iomarkets.app/llms.txt",
+            "name": "IoMarkets Topup — real-world checkout for AI agents (x402 on Algorand)",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-30 21:41:57 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2lvbWFya2V0cy5hcHAvdjEvb3JkZXJz",
+        "url": "https://iomarkets.app/v1/orders",
+        "method": "POST",
+        "description": "Buy a real-world product or send an international payment for an AI agent's principal — mobile airtime/data top-ups, travel eSIMs, prepaid bills and bank / mobile-money / UPI payouts in 150+ countries — paid per order in USDC on Algorand. Flow: GET /v1/lookup?phone=… or GET /v1/catalog?type=esim&country=IN → POST /v1/quote → pay this route with {quoteId} → poll GET /v1/orders/{id} until delivered. Every delivered or refunded order carries an ed25519-signed receipt naming the on-chain settlement (and refund) txid; failed deliveries are refunded on-chain automatically.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15310000",
+            "asset": "31566704",
+            "payTo": "FVEJDCQFCHVG4Y6M2JVAD4L447E2R2OHJKT5APXV7AZI7XXOQU6RUVSKCA",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "quoteId": "q_… (from POST /v1/quote)"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "orderId": "ord_…",
+              "status": "paid",
+              "type": "topup",
+              "country": "IN",
+              "brand": "JIO",
+              "price_usdc": "3.900000",
+              "settlement_txid": "…",
+              "status_url": "https://iomarkets.app/v1/orders/ord_…",
+              "terminal": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788040101192,
+        "last_ts": 1790804517790
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 0,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "iomarkets.app"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

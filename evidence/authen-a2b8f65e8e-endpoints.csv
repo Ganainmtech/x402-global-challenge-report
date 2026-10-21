@@ -1,0 +1,4 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://authen.hvym.link/api/v1/notarize,5,0.250000,5,0,0.000000,5,0.250000,0,2026-08-13 23:27:38 UTC,2026-08-15 02:11:38 UTC
+POST,https://authen.hvym.link/api/v1/c2pa/sign,2,0.300000,2,0,0.000000,2,0.300000,0,2026-08-14 03:34:17 UTC,2026-08-14 14:13:09 UTC
+POST,https://authen.hvym.link/api/v1/manifest,2,0.500000,2,0,0.000000,0,0.000000,0,2026-09-01 11:25:33 UTC,2026-09-16 11:19:40 UTC

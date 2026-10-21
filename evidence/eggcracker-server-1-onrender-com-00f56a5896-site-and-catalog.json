@@ -1,0 +1,164 @@
+{
+  "merchant_id": "SUJUM0dEVTJRNEtCTVNBTk1JTTRDSUxF",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "eggcracker-server-1.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1786063349383,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "eggcracker-server-1.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "https://eggcracker-server-1.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880711,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.711000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-08-07 00:42:29 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2VnZ2NyYWNrZXItc2VydmVyLTEub25yZW5kZXIuY29tL3RydXN0LWNoZWNr",
+        "url": "https://eggcracker-server-1.onrender.com/trust-check",
+        "method": "POST",
+        "description": "Eggcracker news article credibility score - Five Core Values journalism analysis",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "IBT3GDU2Q4KBMSANMIM4CILEMGP7ABN7XKTJHD2XRLVIB2FHJ2FCSNQGZ4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "schema_version": "1.0",
+              "evaluated_at": "2026-07-12T16:29:10.498Z",
+              "url": "[local URL omitted]",
+              "publisher": "[local URL omitted]",
+              "word_count": 842,
+              "credibility_score": 4,
+              "score_range": "-5 to 10",
+              "reporting_type": "fact reporting",
+              "five_core_values": {
+                "truth_accuracy": {
+                  "penalty": 0,
+                  "reason": "Claims are attributed and independently verifiable."
+                },
+                "independence": {
+                  "penalty": -3,
+                  "reason": "Outlet's undisclosed conflict is publicly known and relevant."
+                },
+                "fairness_impartiality": {
+                  "penalty": -3,
+                  "reason": "Disagreement in the record is flattened into a single viewpoint."
+                },
+                "humanity": {
+                  "penalty": 0,
+                  "reason": "Affected people are treated as people."
+                },
+                "accountability": {
+                  "penalty": 0,
+                  "reason": "No known correction issue applies."
+                }
+              },
+              "fouls": 2,
+              "flags": [],
+              "fact_vs_opinion": {
+                "classification": "fact",
+                "confidence": "moderate",
+                "reason": "Central claims are attributed to named sources throughout, but one section shifts into unattributed characterization without attribution."
+              },
+              "eggcracker_version": "1.0"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784992600179,
+        "last_ts": 1786092499642
+      }
+    ],
+    "resource_count": 1,
+    "description_count": 1,
+    "mime_type_count": 0,
+    "accepts_count": 1,
+    "discovery_count": 1,
+    "input_documentation_count": 1,
+    "output_documentation_count": 1,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 0,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached descriptive homepage evidence on included public domains.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

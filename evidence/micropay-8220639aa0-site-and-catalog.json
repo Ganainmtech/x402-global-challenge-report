@@ -1,0 +1,1146 @@
+{
+  "merchant_id": "M1EzVElTUk5ER1k1S1BaS0Y0REpJNkRG",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.micropay.website",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 219,
+      "last_observed_at": 1791271433287,
+      "catalog_endpoint_count": 7,
+      "metadata": {
+        "domain": "api.micropay.website",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.micropay.website",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791228609597,
+        "last_fetch_attempt_utc": "2026-10-05T19:30:09.597000+00:00",
+        "title": "Micropay — Pay-per-use AI gateway",
+        "description": "Pay-per-use AI and Algorand developer tools settled in USDC through x402 — chat, images, and audio across popular models.",
+        "site_name": "Micropay",
+        "logo": "https://micropay.website/apple-touch-icon.png",
+        "banner": "https://micropay.website/assets/brand/og.png",
+        "theme_color": "#111111",
+        "agent_documents": [
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.micropay.website/.well-known/agent.json",
+            "name": "Micropay",
+            "description": "Pay-per-use AI and Algorand developer tools settled in USDC through x402 — chat, images, and audio across popular models at 0.1–0.4 USDC per call."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.micropay.website/.well-known/x402",
+            "name": "Micropay",
+            "description": "Pay-per-use AI and Algorand developer tools settled in USDC through x402 — chat, images, and audio across popular models."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.micropay.website/llms.txt",
+            "name": "Micropay — llms.txt",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 07:23:53 UTC"
+    },
+    {
+      "domain": "app.micropay.website",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 1,
+      "last_observed_at": 1785332185242,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "app.micropay.website",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://app.micropay.website",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791210008324,
+        "last_fetch_attempt_utc": "2026-10-05T14:20:08.324000+00:00",
+        "title": "Micropay",
+        "description": "Pay-per-use AI on Algorand.",
+        "site_name": "Micropay",
+        "logo": "https://app.micropay.website/favicon.svg",
+        "banner": "https://micropay.website/og.png",
+        "theme_color": "#111111",
+        "agent_documents": [
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://app.micropay.website/.well-known/ai-plugin.json",
+            "name": "Micropay",
+            "description": "Pay-per-use AI for chat, images, and audio. Settle each request in USDC on Algorand via x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://app.micropay.website/llms.txt",
+            "name": "Micropay",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-07-29 13:36:25 UTC"
+    },
+    {
+      "domain": "code.micropay.website",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 3,
+      "last_observed_at": 1785332582140,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "code.micropay.website",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://code.micropay.website",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791197647081,
+        "last_fetch_attempt_utc": "2026-10-05T10:54:07.081000+00:00",
+        "title": "Micropay Code",
+        "description": "Build and deploy Algorand TypeScript applications with pay-per-use AI.",
+        "site_name": "Micropay",
+        "logo": "https://code.micropay.website/favicon.svg",
+        "banner": "https://code.micropay.website/og.png",
+        "theme_color": "#09c72b",
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-07-29 13:43:02 UTC"
+    },
+    {
+      "domain": "micropay-testnet.netlify.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Netlify",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "micropay-testnet.netlify.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Netlify",
+        "is_custom_domain_candidate": false,
+        "origin": "https://micropay-testnet.netlify.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791199148758,
+        "last_fetch_attempt_utc": "2026-10-05T11:19:08.758000+00:00",
+        "title": "Micropay — Pay-per-use AI gateway",
+        "description": "Pay-per-use AI for chat, images, and audio across popular models. Pay with your Algorand wallet in USDC via x402 — no subscriptions or API keys.",
+        "site_name": "Micropay",
+        "logo": "https://micropay-testnet.netlify.app/apple-touch-icon.png",
+        "banner": "https://micro-pay.xyz/og.png",
+        "theme_color": "#09C72B",
+        "agent_documents": [
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://micropay-testnet.netlify.app/.well-known/ai-plugin.json",
+            "name": "Micropay",
+            "description": "Pay-per-use AI for chat, images, and audio. Settle each request in USDC on Algorand via x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://micropay-testnet.netlify.app/llms.txt",
+            "name": "Micropay",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    },
+    {
+      "domain": "micropay.website",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 12,
+      "last_observed_at": 1785243473798,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "micropay.website",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://micropay.website",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791203081370,
+        "last_fetch_attempt_utc": "2026-10-05T12:24:41.370000+00:00",
+        "title": "Micropay — Pay-per-use AI gateway",
+        "description": "Pay-per-use AI for chat, images, and audio across popular models. Pay with your Algorand wallet in USDC via x402 — no subscriptions or API keys.",
+        "site_name": "Micropay",
+        "logo": "https://micropay.website/apple-touch-icon.png",
+        "banner": "https://micropay.website/og.png",
+        "theme_color": "#111111",
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://micropay.website/llms.txt",
+            "name": "Micropay — llms.txt",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-07-28 12:57:53 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9hZ2VudHMvYXN0cm90dXRvci1haS1hNGEwNTUvY2hhdA",
+        "url": "https://api.micropay.website/api/v1/agents/astrotutor-ai-a4a055/chat",
+        "method": "POST",
+        "description": "Paid chat agent \"AstroTutor AI\" — answers using its knowledge base.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "agent",
+              "product": "app",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "choices": [
+                {
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790711829306,
+        "last_ts": 1790711881636
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9hZ2VudHMvZGVnZW5zZW5zZWktOTgyOGZlL2NoYXQ",
+        "url": "https://api.micropay.website/api/v1/agents/degensensei-9828fe/chat",
+        "method": "POST",
+        "description": "Paid chat agent \"DegenSensei ð¸\" â answers using its knowledge base.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "agent",
+              "product": "app",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "choices": [
+                {
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789744464984,
+        "last_ts": 1790333773942
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9hZ2VudHMvdHJhdmVsbWF0ZS00MWM4MDYvY2hhdA",
+        "url": "https://api.micropay.website/api/v1/agents/travelmate-41c806/chat",
+        "method": "POST",
+        "description": "Paid chat agent \"TravelMate\" â answers using its knowledge base.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "400000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "agent",
+              "product": "app",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "choices": [
+                {
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790334010240,
+        "last_ts": 1790334009867
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9hdWRpby90cmFuc2NyaXB0aW9ucw",
+        "url": "https://api.micropay.website/api/v1/audio/transcriptions",
+        "method": "POST",
+        "description": "Speech-to-text transcription by whisper-large-v3, returning the spoken content as text.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "400000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "audio",
+              "product": "app",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "form-data",
+            "body": {
+              "file": "audio file",
+              "model": "model-id"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "text": "Transcribed speech"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786143650458,
+        "last_ts": 1786847044460
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9jaGF0L2NvbXBsZXRpb25z",
+        "url": "https://api.micropay.website/api/v1/chat/completions",
+        "method": "POST",
+        "description": "OpenAI-compatible chat completion from , returning assistant messages with optional SSE token streaming.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "chat",
+              "product": "app",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "model-id",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "choices": [
+                {
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785768142982,
+        "last_ts": 1791271433287
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9pZGUvYWdlbnQ",
+        "url": "https://api.micropay.website/api/v1/ide/agent",
+        "method": "POST",
+        "description": "Algorand TypeScript IDE assistance from gpt-5-mini, returning code guidance with project file and compile tool support.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "ide",
+              "product": "code",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "model-id",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Review this contract"
+                }
+              ]
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "choices": [
+                {
+                  "message": {
+                    "role": "assistant",
+                    "content": "Contract review"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790710611446,
+        "last_ts": 1790718081183
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9pbWFnZXMvZ2VuZXJhdGlvbnM",
+        "url": "https://api.micropay.website/api/v1/images/generations",
+        "method": "POST",
+        "description": "Image generated from a text prompt by z-image-turbo, returned as a base64-encoded PNG.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "routeKind": "images",
+              "product": "app",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "model-id",
+              "prompt": "A sunrise over mountains"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "data": [
+                {
+                  "b64_json": "base64-encoded-png"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785767941942,
+        "last_ts": 1791270583498
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwcC5taWNyb3BheS53ZWJzaXRlL2FwaS92MS9jaGF0L2NvbXBsZXRpb25z",
+        "url": "https://app.micropay.website/api/v1/chat/completions",
+        "method": "POST",
+        "description": "OpenAI-compatible chat completions with optional SSE streaming across Micropay's catalog of popular LLMs",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-oss-120b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  },
+                  "finish_reason": "stop"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785332183002,
+        "last_ts": 1785332185242
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2NvZGUubWljcm9wYXkud2Vic2l0ZS9hcGkvdjEvaWRlL2FnZW50",
+        "url": "https://code.micropay.website/api/v1/ide/agent",
+        "method": "POST",
+        "description": "Micropay IDE assistant with project file tools, compile, and Algorand TypeScript knowledge",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-oss-120b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  },
+                  "finish_reason": "stop"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785332316401,
+        "last_ts": 1785332627449
+      },
+      {
+        "id": "UE9TVDpodHRwczovL21pY3JvcGF5LXRlc3RuZXQubmV0bGlmeS5hcHAvYXBpL3YxL2NoYXQvY29tcGxldGlvbnM",
+        "url": "https://micropay-testnet.netlify.app/api/v1/chat/completions",
+        "method": "POST",
+        "description": "OpenAI-compatible chat completions with optional SSE streaming across Micropay's catalog of popular LLMs",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100000",
+            "asset": "10458941",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-oss-120b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  },
+                  "finish_reason": "stop"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785080560744,
+        "last_ts": 1785226085786
+      },
+      {
+        "id": "UE9TVDpodHRwczovL21pY3JvcGF5LXRlc3RuZXQubmV0bGlmeS5hcHAvYXBpL3YxL2ltYWdlcy9nZW5lcmF0aW9ucw",
+        "url": "https://micropay-testnet.netlify.app/api/v1/images/generations",
+        "method": "POST",
+        "description": "OpenAI-compatible image generation returning base64 PNG (b64_json) for Micropay models",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100000",
+            "asset": "10458941",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "10458941",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-image-1",
+              "prompt": "A calm lake at dawn",
+              "response_format": "b64_json"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "created": 1700000000,
+              "data": [
+                {
+                  "b64_json": "<base64-png>"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785075124322,
+        "last_ts": null
+      },
+      {
+        "id": "UE9TVDpodHRwczovL21pY3JvcGF5LndlYnNpdGUvYXBpL3YxL2NoYXQvY29tcGxldGlvbnM",
+        "url": "https://micropay.website/api/v1/chat/completions",
+        "method": "POST",
+        "description": "OpenAI-compatible chat completions with optional SSE streaming across Micropay's catalog of popular LLMs",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-oss-120b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  },
+                  "finish_reason": "stop"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785240984337,
+        "last_ts": 1785243473798
+      },
+      {
+        "id": "UE9TVDpodHRwczovL21pY3JvcGF5LndlYnNpdGUvYXBpL3YxL2lkZS9hZ2VudA",
+        "url": "https://micropay.website/api/v1/ide/agent",
+        "method": "POST",
+        "description": "Micropay IDE assistant with project file tools, compile, and Algorand TypeScript knowledge",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-oss-120b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Hello"
+                }
+              ],
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl_example",
+              "object": "chat.completion",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "Hello!"
+                  },
+                  "finish_reason": "stop"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785241357991,
+        "last_ts": 1785241806381
+      },
+      {
+        "id": "UE9TVDpodHRwczovL21pY3JvcGF5LndlYnNpdGUvYXBpL3YxL2ltYWdlcy9nZW5lcmF0aW9ucw",
+        "url": "https://micropay.website/api/v1/images/generations",
+        "method": "POST",
+        "description": "OpenAI-compatible image generation returning base64 PNG (b64_json) for Micropay image models",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "3Q3TISRNDGY5KPZKF4DJI6DF3Z6OAJT7OB6UJ6HV7DE4NQONWKIKX4NNHI",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "asset": "31566704",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge",
+              "decimals": 6
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gpt-image-1",
+              "prompt": "A calm lake at dawn",
+              "response_format": "b64_json"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "created": 1700000000,
+              "data": [
+                {
+                  "b64_json": "<base64-png>"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785241474263,
+        "last_ts": null
+      }
+    ],
+    "resource_count": 14,
+    "description_count": 14,
+    "mime_type_count": 14,
+    "accepts_count": 14,
+    "discovery_count": 14,
+    "input_documentation_count": 14,
+    "output_documentation_count": 14,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.micropay.website",
+    "app.micropay.website",
+    "code.micropay.website",
+    "micropay.website"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 5,
+    "cached_domain_metadata_count": 5,
+    "domains_with_cached_descriptive_homepage_evidence": 5,
+    "agent_document_count": 8,
+    "agent_document_types": [
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

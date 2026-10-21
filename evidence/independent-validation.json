@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "scope": {
+    "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "network_name": "Algorand mainnet",
+    "asset": "USDC",
+    "outcome": "successful settlement",
+    "campaign_tag": "x402-global-challenge",
+    "excluded_in_order": [
+      "developer-flagged settlements",
+      "localhost-hosted resources",
+      "merchants on the active blocklist",
+      "self-payments",
+      "merchants without a Bazaar listing"
+    ],
+    "registration": "flag; merchants without a submission row are included and flagged NOT REGISTERED",
+    "settlements_without_public_resource_host": "counted; resource locator redacted",
+    "data_through": "2026-10-06 11:40:37 UTC"
+  },
+  "source_registration_rows": 106,
+  "registration_rows": 82,
+  "eligible_merchants": 115,
+  "registered_merchants": 75,
+  "unregistered_merchants": 40,
+  "independently_eligible_merchants": 115,
+  "merchant_dataset_entries": 115,
+  "artifacts_scanned": 701,
+  "gzip_transaction_files_checked": 115,
+  "transaction_rows_checked": 872948,
+  "independent_source_rows_selected": 872948,
+  "relative_markdown_links_checked": 1600,
+  "broken_links": [],
+  "email_leak_files": [],
+  "crm_identifier_leak_files": [],
+  "nonpublic_url_files": [],
+  "unexpected_artifacts": [],
+  "checks": [
+    "Merchants and settlements in scope independently reconstructed from the submission CSV and source data (campaign tag, developer flag, localhost, blocklist, self-payment, Bazaar listing)",
+    "Registration flags, registered/unregistered totals and excluded self-payments reconcile to source",
+    "Only eligible merchant dossier and evidence artifacts exist",
+    "Every exported event matches scoped local source identity, amount, locator and tag/developer evidence",
+    "Original emails and CRM identifiers absent from generated and decompressed report subtree",
+    "Every relative Markdown link stays inside the report subtree",
+    "Only public URLs are published; other locators are redacted",
+    "Transaction, payer, endpoint and daily metrics reconcile to selected cohort only",
+    "Site-domain observation counts and latest times match exact selected origin host/port",
+    "Classifier contains exactly selected payer pairs with recomputed settlement and volume totals"
+  ]
+}

@@ -1,0 +1,1786 @@
+{
+  "merchant_id": "Rjc2VFZIQVRHMkxKT01VT0VGTlNESk1F",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "civitas-api.civitasv.workers.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Cloudflare Workers",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 4113,
+      "last_observed_at": 1791286688420,
+      "catalog_endpoint_count": 33,
+      "metadata": {
+        "domain": "civitas-api.civitasv.workers.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Cloudflare Workers",
+        "is_custom_domain_candidate": false,
+        "origin": "https://civitas-api.civitasv.workers.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791239637058,
+        "last_fetch_attempt_utc": "2026-10-05T22:33:57.058000+00:00",
+        "title": "Civitas",
+        "description": "Universal Consent Layer, For Personal Data",
+        "site_name": "Civitas",
+        "logo": "https://civitas-api.civitasv.workers.dev/logo.png",
+        "banner": "https://civitas-api.civitasv.workers.dev/logo.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 11:38:08 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL2F0dGVzdA",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/attest",
+        "method": "POST",
+        "description": "Notarize a document on Algorand: send its SHA-256 (the document never leaves you) and get back the unsigned 0-ALGO anchor transaction to sign. Verify later for free at GET /v1/attest/{txId}.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "650000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "from": "SIGNER_ALGORAND_ADDRESS",
+              "sha256": "<64-hex-sha256>",
+              "label": "contract-v2.pdf"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "transactions": [
+                "<base64-unsigned-txn>"
+              ],
+              "txId": "<algorand-tx-id>",
+              "sha256": "<hex>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174131717,
+        "last_ts": 1791276432083
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL2NvbnNlbnQvMi9yZWNlaXB0",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/consent/2/receipt",
+        "method": "POST",
+        "description": "Compliance receipt for a Civitas consent request: canonical snapshot of the on-chain consent at the current round, its SHA-256, and an anchor transaction for the org or user to sign.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "50000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "from": "ORG_OR_USER_ALGORAND_ADDRESS"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "receipt": {
+                "requestId": 1,
+                "status": "approved"
+              },
+              "receiptHash": "<hex>",
+              "transactions": [
+                "<base64>"
+              ],
+              "txId": "<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174114887,
+        "last_ts": 1790174114815
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvY29uc2VudC8yL3ZlcmlmeQ",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/consent/2/verify",
+        "method": "GET",
+        "description": "Check whether a Civitas consent request is live right now: status, expiry and the exact fields the user shared. No API key needed.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "requestId": 1,
+              "status": "approved",
+              "valid": true,
+              "sharedFieldNames": [
+                "Full Name"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174106528,
+        "last_ts": 1790174106461
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL2NvbnNlbnQvNC9yZWNlaXB0",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/consent/4/receipt",
+        "method": "POST",
+        "description": "Compliance receipt for a Civitas consent request: canonical snapshot of the on-chain consent at the current round, its SHA-256, and an anchor transaction for the org or user to sign.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "250000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "from": "ORG_OR_USER_ALGORAND_ADDRESS"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "receipt": {
+                "requestId": 1,
+                "status": "approved"
+              },
+              "receiptHash": "<hex>",
+              "transactions": [
+                "<base64>"
+              ],
+              "txId": "<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790175590673,
+        "last_ts": 1790175590590
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvY29uc2VudC80L3ZlcmlmeQ",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/consent/4/verify",
+        "method": "GET",
+        "description": "Check whether a Civitas consent request is live right now: status, expiry and the exact fields the user shared. No API key needed.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "requestId": 1,
+              "status": "approved",
+              "valid": true,
+              "sharedFieldNames": [
+                "Full Name"
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790175585014,
+        "last_ts": 1790175584999
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL2NvbnNlbnQvY3JlYXRl",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/consent/create",
+        "method": "POST",
+        "description": "Build an on-chain Algorand consent request: returns the unsigned transaction group (ALGO box payment + consent app call) for the org to sign and submit.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100000",
+            "asset": "10458941",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "orgAddress": "ORG_ALGORAND_ADDRESS",
+              "userAddress": "USER_ALGORAND_ADDRESS",
+              "docType": 0,
+              "reason": "KYC verification",
+              "requestedFields": 1,
+              "durationHours": 24
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "transactions": [
+                "<base64-unsigned-txn>"
+              ],
+              "groupId": "<base64-group-id>",
+              "requestId": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1784910975749,
+        "last_ts": 1790175573869
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL2lkZW50aXR5L3Byb29m",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/identity/proof",
+        "method": "POST",
+        "description": "Proof that an Algorand address holds a Civitas identity of a given document type (Aadhaar, PAN, Voter ID), pinned to a round. Reveals existence only, never document contents.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "USER_ALGORAND_ADDRESS",
+              "docType": 0
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "proof": {
+                "registered": true,
+                "holds": true,
+                "round": 1
+              },
+              "proofHash": "<hex>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174151032,
+        "last_ts": 1791276939137
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL21lc3NhZ2Uvc2VuZA",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/message/send",
+        "method": "POST",
+        "description": "Send an end-to-end encrypted message on Algorand: returns the unsigned 0-ALGO payment transaction whose note carries the sealed ciphertext, for the sender to sign and submit.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "100000",
+            "asset": "10458941",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "from": "SENDER_ALGORAND_ADDRESS",
+              "to": "RECIPIENT_ALGORAND_ADDRESS",
+              "mode": "sealed",
+              "note": "<base64-sealed-note-bytes>"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "transactions": [
+                "<base64-unsigned-txn>"
+              ],
+              "txId": "<algorand-tx-id>",
+              "network": "testnet"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785623113210,
+        "last_ts": 1791277007667
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2F0dGVzdGF0aW9ucy8lN2JhZGRyZXNzJTdk",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/attestations/%7Baddress%7D",
+        "method": "GET",
+        "description": "Document attestations (SHA-256 anchors) signed by an Algorand address, newest first, with round and timestamp. Paginate with ?next=. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "350000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 25
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "attestations": [
+                {
+                  "txId": "<id>",
+                  "sha256": "<hex>",
+                  "label": "doc.pdf",
+                  "round": 1
+                }
+              ],
+              "next": null
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790193667324,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2F0dGVzdGF0aW9ucy8ybjI1aXgzZnVkdGlwcGZlZnE3MnNmaDVlNzJlN3VjM2U1czdyNmRrNGxndHpudWFvdGk1NTNhbHZh",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/attestations/2N25IX3FUDTIPPFEFQ72SFH5E72E7UC3E5S7R6DK4LGTZNUAOTI553ALVA",
+        "method": "GET",
+        "description": "Document attestations (SHA-256 anchors) signed by an Algorand address, newest first, with round and timestamp. Paginate with ?next=.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 25
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "attestations": [
+                {
+                  "txId": "<id>",
+                  "sha256": "<hex>",
+                  "label": "doc.pdf",
+                  "round": 1
+                }
+              ],
+              "next": null
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790187474833,
+        "last_ts": 1790187474792
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2F0dGVzdGF0aW9ucy9hbHJxNm1leTIzbmFiM2V3ZDZueDdmd3hzbTViem11b3I2bGFtcmNjdTdzbjI1ZGxqNHI0am1jcnVx",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/attestations/ALRQ6MEY23NAB3EWD6NX7FWXSM5BZMUOR6LAMRCCU7SN25DLJ4R4JMCRUQ",
+        "method": "GET",
+        "description": "Document attestations (SHA-256 anchors) signed by an Algorand address, newest first, with round and timestamp. Paginate with ?next=.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 25
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "attestations": [
+                {
+                  "txId": "<id>",
+                  "sha256": "<hex>",
+                  "label": "doc.pdf",
+                  "round": 1
+                }
+              ],
+              "next": null
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790188637475,
+        "last_ts": 1790188637449
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2F0dGVzdGF0aW9ucy9mNzZ0dmhhdGcybGpvbXVvZWZuc2RqbWUybnJrNzdkMm54cm00aXVlNm1uN2NtbWdienh1ZmozeXdx",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/attestations/F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+        "method": "GET",
+        "description": "Document attestations (SHA-256 anchors) signed by an Algorand address, newest first, with round and timestamp. Paginate with ?next=.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 25
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "attestations": [
+                {
+                  "txId": "<id>",
+                  "sha256": "<hex>",
+                  "label": "doc.pdf",
+                  "round": 1
+                }
+              ],
+              "next": null
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174692089,
+        "last_ts": 1790190846464
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2F0dGVzdGF0aW9ucy9zZ2M2bm16d2UyZXVycGcycG9sZnNjcXN2Zm9uN21kaHljZXpyaXVreGEzN2l6dTU0Nmk1MjM1MnJp",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/attestations/SGC6NMZWE2EURPG2POLFSCQSVFON7MDHYCEZRIUKXA37IZU546I52352RI",
+        "method": "GET",
+        "description": "Document attestations (SHA-256 anchors) signed by an Algorand address, newest first, with round and timestamp. Paginate with ?next=. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "limit": 25
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "attestations": [
+                {
+                  "txId": "<id>",
+                  "sha256": "<hex>",
+                  "label": "doc.pdf",
+                  "round": 1
+                }
+              ],
+              "next": null
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790189725445,
+        "last_ts": 1790189725412
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2lkZW50aXR5LyU3YmFkZHJlc3MlN2Q",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/identity/%7Baddress%7D",
+        "method": "GET",
+        "description": "Which Civitas identity documents (Aadhaar, PAN, Voter ID) an Algorand address holds. Existence and ASA id only, never document contents. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "500000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "identities": [
+                {
+                  "docType": 0,
+                  "docTypeName": "Aadhaar",
+                  "exists": true,
+                  "assetId": "123"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790193297070,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2lkZW50aXR5L2toZ3hlcGtlbXh6ZGZyN3F6cW16a3hwdHBvNGg1dGNvZGI0ZjQyZmxtdnd3NnQ3Y3g3b3dtbHVob3E",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/identity/KHGXEPKEMXZDFR7QZQMZKXPTPO4H5TCODB4F42FLMVWW6T7CX7OWMLUHOQ",
+        "method": "GET",
+        "description": "Which Civitas identity documents (Aadhaar, PAN, Voter ID) an Algorand address holds. Existence and ASA id only, never document contents. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "150000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "identities": [
+                {
+                  "docType": 0,
+                  "docTypeName": "Aadhaar",
+                  "exists": true,
+                  "assetId": "123"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790190426372,
+        "last_ts": 1790190426340
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2lkZW50aXR5L3NnYzZubXp3ZTJldXJwZzJwb2xmc2Nxc3Zmb243bWRoeWNlenJpdWt4YTM3aXp1NTQ2aTUyMzUycmk",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/identity/SGC6NMZWE2EURPG2POLFSCQSVFON7MDHYCEZRIUKXA37IZU546I52352RI",
+        "method": "GET",
+        "description": "Which Civitas identity documents (Aadhaar, PAN, Voter ID) an Algorand address holds. Existence and ASA id only, never document contents.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "150000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "identities": [
+                {
+                  "docType": 0,
+                  "docTypeName": "Aadhaar",
+                  "exists": true,
+                  "assetId": "123"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790188345874,
+        "last_ts": 1790191265538
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2lkZW50aXR5L3c1ZHdhZDNxM2s2YmNmcDJrdTRvYjV4dTNzYmZmYTV1N2RmZWtlM29oNXVpdTZiMnNuczRrYWJzdHk",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/identity/W5DWAD3Q3K6BCFP2KU4OB5XU3SBFFA5U7DFEKE3OH5UIU6B2SNS4KABSTY",
+        "method": "GET",
+        "description": "Which Civitas identity documents (Aadhaar, PAN, Voter ID) an Algorand address holds. Existence and ASA id only, never document contents. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "150000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "identities": [
+                {
+                  "docType": 0,
+                  "docTypeName": "Aadhaar",
+                  "exists": true,
+                  "assetId": "123"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790188915991,
+        "last_ts": 1790188915950
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL2lkZW50aXR5L3h4dHd0d3Z0bHFpejQyc3J1ejVrbm16YmhtbmhibmJudGVkZG9tNW1icWY3NDU0d3l6bXN3MmlnZnU",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/identity/XXTWTWVTLQIZ42SRUZ5KNMZBHMNHBNBNTEDDOM5MBQF7454WYZMSW2IGFU",
+        "method": "GET",
+        "description": "Which Civitas identity documents (Aadhaar, PAN, Voter ID) an Algorand address holds. Existence and ASA id only, never document contents.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<addr>",
+              "identities": [
+                {
+                  "docType": 0,
+                  "docTypeName": "Aadhaar",
+                  "exists": true,
+                  "assetId": "123"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174675388,
+        "last_ts": 1790175651974
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL29yZy8lN2JhZGRyZXNzJTdk",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/org/%7Baddress%7D",
+        "method": "GET",
+        "description": "Trust check on an organization before sharing data: whitelist status, consent requests made, approval rate, unique users and last activity. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "550000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<org>",
+              "whitelisted": true,
+              "total": 2,
+              "approvalRate": 50,
+              "uniqueUsers": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790193744695,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL29yZy8ybjI1aXgzZnVkdGlwcGZlZnE3MnNmaDVlNzJlN3VjM2U1czdyNmRrNGxndHpudWFvdGk1NTNhbHZh",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/org/2N25IX3FUDTIPPFEFQ72SFH5E72E7UC3E5S7R6DK4LGTZNUAOTI553ALVA",
+        "method": "GET",
+        "description": "Trust check on an organization before sharing data: whitelist status, consent requests made, approval rate, unique users and last activity. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<org>",
+              "whitelisted": true,
+              "total": 2,
+              "approvalRate": 50,
+              "uniqueUsers": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790190711624,
+        "last_ts": 1790190711580
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL29yZy9hbHJxNm1leTIzbmFiM2V3ZDZueDdmd3hzbTViem11b3I2bGFtcmNjdTdzbjI1ZGxqNHI0am1jcnVx",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/org/ALRQ6MEY23NAB3EWD6NX7FWXSM5BZMUOR6LAMRCCU7SN25DLJ4R4JMCRUQ",
+        "method": "GET",
+        "description": "Trust check on an organization before sharing data: whitelist status, consent requests made, approval rate, unique users and last activity.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<org>",
+              "whitelisted": true,
+              "total": 2,
+              "approvalRate": 50,
+              "uniqueUsers": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790188480837,
+        "last_ts": 1790188480793
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL29yZy9mNzZ0dmhhdGcybGpvbXVvZWZuc2RqbWUybnJrNzdkMm54cm00aXVlNm1uN2NtbWdienh1ZmozeXdx",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/org/F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+        "method": "GET",
+        "description": "Trust check on an organization before sharing data: whitelist status, consent requests made, approval rate, unique users and last activity.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<org>",
+              "whitelisted": true,
+              "total": 2,
+              "approvalRate": 50,
+              "uniqueUsers": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174663264,
+        "last_ts": 1790175640818
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL29yZy9wbjc2dXQ1cGFsZWZ4bmJwYWNkeW1scWlrbTR1ZjJyYjd5cGQ0MzRrbnFiejZmcXV2cmpwb3h5dTQ0",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/org/PN76UT5PALEFXNBPACDYMLQIKM4UF2RB7YPD434KNQBZ6FQUVRJPOXYU44",
+        "method": "GET",
+        "description": "Trust check on an organization before sharing data: whitelist status, consent requests made, approval rate, unique users and last activity. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<org>",
+              "whitelisted": true,
+              "total": 2,
+              "approvalRate": 50,
+              "uniqueUsers": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790192043279,
+        "last_ts": 1790192043232
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL29yZy93NWR3YWQzcTNrNmJjZnAya3U0b2I1eHUzc2JmZmE1dTdkZmVrZTNvaDV1aXU2YjJzbnM0a2Fic3R5",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/org/W5DWAD3Q3K6BCFP2KU4OB5XU3SBFFA5U7DFEKE3OH5UIU6B2SNS4KABSTY",
+        "method": "GET",
+        "description": "Trust check on an organization before sharing data: whitelist status, consent requests made, approval rate, unique users and last activity. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<org>",
+              "whitelisted": true,
+              "total": 2,
+              "approvalRate": 50,
+              "uniqueUsers": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790191338171,
+        "last_ts": 1790191338150
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL3N0YXRz",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/stats",
+        "method": "GET",
+        "description": "Civitas network stats on Algorand: orgs whitelisted, consent requests, identities issued, and a status / document-type breakdown of consent requests.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {},
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "orgsWhitelisted": 1,
+              "consentRequests": 2,
+              "identitiesIssued": 0,
+              "consents": {
+                "total": 2,
+                "approvalRate": 0
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174657664,
+        "last_ts": 1791286688420
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL3VzZXIvJTdiYWRkcmVzcyU3ZC9jb25zZW50cw",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/user/%7Baddress%7D/consents",
+        "method": "GET",
+        "description": "Every Civitas consent request naming an Algorand address: which org asked, for what document and fields, and its status. Optional ?status= filter. Replace {address} in the URL.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "450000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "status": "pending"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<user>",
+              "count": 1,
+              "consents": [
+                {
+                  "requestId": 1,
+                  "org": "<org>",
+                  "status": "pending"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790193424868,
+        "last_ts": null
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL3VzZXIvM3FiMmduMzYyeXEzNnpqcnF4ZGppdDJheDU0MmRqYTR5M21ha3h3Mm02aWFnaXYzZ3B0aGpsZ29tZS9jb25zZW50cw",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/user/3QB2GN362YQ36ZJRQXDJIT2AX542DJA4Y3MAKXW2M6IAGIV3GPTHJLGOME/consents",
+        "method": "GET",
+        "description": "Every Civitas consent request naming an Algorand address: which org asked, for what document and fields, and its status. Optional ?status= filter.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "150000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "status": "pending"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<user>",
+              "count": 1,
+              "consents": [
+                {
+                  "requestId": 1,
+                  "org": "<org>",
+                  "status": "pending"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790188142285,
+        "last_ts": 1790191605248
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL3VzZXIvZjc2dHZoYXRnMmxqb211b2VmbnNkam1lMm5yazc3ZDJueHJtNGl1ZTZtbjdjbW1nYnp4dWZqM3l3cS9jb25zZW50cw",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/user/F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ/consents",
+        "method": "GET",
+        "description": "Every Civitas consent request naming an Algorand address: which org asked, for what document and fields, and its status. Optional ?status= filter.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "150000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "status": "pending"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<user>",
+              "count": 1,
+              "consents": [
+                {
+                  "requestId": 1,
+                  "org": "<org>",
+                  "status": "pending"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790182499958,
+        "last_ts": 1790182499904
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vY2l2aXRhcy1hcGkuY2l2aXRhc3Yud29ya2Vycy5kZXYvdjEvcHVibGljL3VzZXIveHh0d3R3dnRscWl6NDJzcnV6NWtubXpiaG1uaGJuYm50ZWRkb201bWJxZjc0NTR3eXptc3cyaWdmdS9jb25zZW50cw",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/public/user/XXTWTWVTLQIZ42SRUZ5KNMZBHMNHBNBNTEDDOM5MBQF7454WYZMSW2IGFU/consents",
+        "method": "GET",
+        "description": "Every Civitas consent request naming an Algorand address: which org asked, for what document and fields, and its status. Optional ?status= filter.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "status": "pending"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "<user>",
+              "count": 1,
+              "consents": [
+                {
+                  "requestId": 1,
+                  "org": "<org>",
+                  "status": "pending"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790174668837,
+        "last_ts": 1790175646419
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL3JlcG9ydC9kdWUtZGlsaWdlbmNl",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/report/due-diligence",
+        "method": "POST",
+        "description": "Premium due-diligence pack for an organization: full compliance snapshot, counterparties, share of network activity, recommendations. Existence only, never document contents.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "3000000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "ALGORAND_ADDRESS"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "kind": "due-diligence",
+              "address": "<addr>",
+              "counterparties": [
+                {
+                  "address": "<user>",
+                  "requestCount": 2
+                }
+              ],
+              "recommendations": [
+                "Address looks established."
+              ],
+              "reportHash": "<hex>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790259592049,
+        "last_ts": 1791152740529
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL3JlcG9ydC9nZW5lcmF0ZQ",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/report/generate",
+        "method": "POST",
+        "description": "Premium compliance report for an Algorand address: whitelist, identity holdings, consents as user and as org, attestations, and a trust score. SHA-256 of the snapshot is returned as reportHash.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "ALGORAND_ADDRESS"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "kind": "compliance-report",
+              "address": "<addr>",
+              "whitelisted": true,
+              "identitiesHeld": 1,
+              "risk": {
+                "score": 76,
+                "grade": "B"
+              },
+              "reportHash": "<hex>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790259586569,
+        "last_ts": 1791155869624
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL3JlcG9ydC9wcmVtaXVt",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/report/premium",
+        "method": "POST",
+        "description": "Executive premium brief for an Algorand address: due-diligence pack plus account snapshot, requesting orgs, network share as user and org, written verdict. Existence only, never document contents.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "ALGORAND_ADDRESS"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "kind": "premium-brief",
+              "address": "<addr>",
+              "verdict": "Institutional-ready: whitelisted with a strong public Civitas record.",
+              "risk": {
+                "score": 91,
+                "grade": "A"
+              },
+              "account": {
+                "algo": 12.5,
+                "assetsHeld": 3
+              },
+              "reportHash": "<hex>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790928364279,
+        "last_ts": 1791177802791
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2Npdml0YXMtYXBpLmNpdml0YXN2LndvcmtlcnMuZGV2L3YxL3JlcG9ydC9yaXNrLXNjb3Jl",
+        "url": "https://civitas-api.civitasv.workers.dev/v1/report/risk-score",
+        "method": "POST",
+        "description": "Premium trust score (0–100, grade A–F) for an Algorand address from public Civitas chain facts: whitelist, identities, consent outcomes, attestations. Factors and flags included.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "1500000",
+            "asset": "31566704",
+            "payTo": "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "tag": "x402-global-challenge"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "address": "ALGORAND_ADDRESS"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "kind": "risk-score",
+              "address": "<addr>",
+              "score": 76,
+              "grade": "B",
+              "flags": [],
+              "reportHash": "<hex>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790259412977,
+        "last_ts": 1791154987542
+      }
+    ],
+    "resource_count": 33,
+    "description_count": 33,
+    "mime_type_count": 0,
+    "accepts_count": 33,
+    "discovery_count": 33,
+    "input_documentation_count": 33,
+    "output_documentation_count": 33,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

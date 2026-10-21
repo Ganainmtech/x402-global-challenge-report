@@ -1,0 +1,266 @@
+{
+  "merchant_id": "RElJSVNDT0dUM09UWUJLVUJWSk5XN1lP",
+  "name": "DIIISCO",
+  "description": null,
+  "website": "https://diiisco.com",
+  "logo": "https://asset.diiisco.com/diiisco-logomark.png",
+  "categories": [
+    "ai",
+    "llm",
+    "inference",
+    "p2p",
+    "algorand"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "diiisco.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 139,
+      "last_observed_at": 1788021899932,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "diiisco.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://diiisco.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791146628678,
+        "last_fetch_attempt_utc": "2026-10-04T20:43:48.678000+00:00",
+        "title": "DIIISCO",
+        "description": "A decentralized AI compute network. Chat Locally, Earn Globally. Powered by Algorand.",
+        "site_name": null,
+        "logo": "https://diiisco.com/apple-touch-icon.png",
+        "banner": "https://diiisco.com/og-image.png",
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-29 16:44:59 UTC"
+    },
+    {
+      "domain": "x402.diiisco.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 71,
+      "last_observed_at": 1791195213512,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "x402.diiisco.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://x402.diiisco.com",
+        "cached_usable_evidence_seen": false,
+        "last_fetch_attempt_at": 1790968328529,
+        "last_fetch_attempt_utc": "2026-10-02T19:12:08.529000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [],
+        "agent_document_count": 0,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-05 10:13:33 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8veDQwMi5kaWlpc2NvLmNvbS92MS9jaGF0L2NvbXBsZXRpb25z",
+        "url": "http://x402.diiisco.com/v1/chat/completions",
+        "method": "POST",
+        "description": "DIIISCO. Algorand's decentralized AI compute network, paid per token in USDC via x402.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "DIIISCOGT3OTYBKUBVJNW7YOC36N3UAXOK4QTWW46PGBWE24YXFMAX5YDU",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "qwen3-coder:30b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Explain x402 in one sentence."
+                }
+              ],
+              "max_tokens": 256
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl-example",
+              "object": "chat.completion",
+              "model": "qwen3-coder:30b",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "x402 is an HTTP-native payment protocol."
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 12,
+                "completion_tokens": 9,
+                "total_tokens": 21
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787772061364,
+        "last_ts": 1787772160266
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3g0MDIuZGlpaXNjby5jb20vdjEvY2hhdC9jb21wbGV0aW9ucw",
+        "url": "https://x402.diiisco.com/v1/chat/completions",
+        "method": "POST",
+        "description": "DIIISCO. Algorand's decentralized AI compute network, paid per token in USDC via x402.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "DIIISCOGT3OTYBKUBVJNW7YOC36N3UAXOK4QTWW46PGBWE24YXFMAX5YDU",
+            "maxTimeoutSeconds": 120,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "gemma4:e2b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Explain x402 in one sentence."
+                }
+              ],
+              "max_tokens": 256
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl-example",
+              "object": "chat.completion",
+              "model": "qwen3-coder:30b",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "x402 is an HTTP-native payment protocol."
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 12,
+                "completion_tokens": 9,
+                "total_tokens": 21
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787808081094,
+        "last_ts": 1791195213512
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "diiisco.com",
+    "x402.diiisco.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 0,
+    "agent_document_types": [],
+    "agent_readiness_evidence": "catalog_only",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No cached agent discovery documents on included public domains.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

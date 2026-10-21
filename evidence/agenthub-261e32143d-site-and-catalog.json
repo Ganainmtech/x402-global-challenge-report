@@ -1,0 +1,1646 @@
+{
+  "merchant_id": "RzNZVlRQVVJLNlZGU001Q1hFSDdRRlRa",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "agenthub-production-8c75.up.railway.app",
+      "classification": "hosting_provider_domain",
+      "provider": "Railway",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 33683,
+      "last_observed_at": 1791245368438,
+      "catalog_endpoint_count": 19,
+      "metadata": {
+        "domain": "agenthub-production-8c75.up.railway.app",
+        "classification": "hosting_provider_domain",
+        "provider": "Railway",
+        "is_custom_domain_candidate": false,
+        "origin": "https://agenthub-production-8c75.up.railway.app",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791255093533,
+        "last_fetch_attempt_utc": "2026-10-06T02:51:33.533000+00:00",
+        "title": "AgentHub — Algorand wallet risk scoring & transaction decoding for AI agents, pay-per-call",
+        "description": "15 x402 pay-per-call APIs for AI agents: Algorand wallet risk scoring, transaction decoding, Algorand token risk screening, Algorand portfolio lookup, Algorand smart contract lookup, and Algorand smart contract risk, plus 9 more. No accounts, no API keys, no subscriptions — agents pay per request in USDC on Algorand mainnet. One is free to call.",
+        "site_name": null,
+        "logo": "https://agenthub-production-8c75.up.railway.app/favicon.ico",
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://agenthub-production-8c75.up.railway.app/llms.txt",
+            "name": "AgentHub",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description",
+          "logo"
+        ],
+        "completeness_present": 3,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:09:28 UTC"
+    },
+    {
+      "domain": "agenthub-x1jx.onrender.com",
+      "classification": "hosting_provider_domain",
+      "provider": "Render",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 32,
+      "last_observed_at": 1786326260314,
+      "catalog_endpoint_count": 6,
+      "metadata": {
+        "domain": "agenthub-x1jx.onrender.com",
+        "classification": "hosting_provider_domain",
+        "provider": "Render",
+        "is_custom_domain_candidate": false,
+        "origin": "http://agenthub-x1jx.onrender.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791202424851,
+        "last_fetch_attempt_utc": "2026-10-05T12:13:44.851000+00:00",
+        "title": "AgentHub — pay-per-call tools for AI agents on Algorand",
+        "description": "Three x402 micropayment APIs for AI agents: Algorand wallet risk scoring, LLM text generation, and text summarization. No accounts, no API keys, no subscriptions — agents pay per request in USDC on Algorand mainnet.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "http://agenthub-x1jx.onrender.com/llms.txt",
+            "name": "AgentHub",
+            "description": null
+          }
+        ],
+        "agent_document_count": 1,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-10 01:44:20 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwOi8vYWdlbnRodWIteDFqeC5vbnJlbmRlci5jb20vYXBpL2luZmVyZW5jZQ",
+        "url": "http://agenthub-x1jx.onrender.com/api/inference",
+        "method": "POST",
+        "description": "LLM text generation and completion: send a natural-language prompt (question, instruction, draft, code, or classification task) and receive generated text back. No API key, no account, no subscription — pay $0.01 per call in USDC. Powered by Claude Haiku 4.5. Returns the generated text plus a truncated flag.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "prompt": "Summarize the plot of Hamlet in two sentences."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "response": "Hamlet, prince of Denmark, seeks revenge for his father's murder...",
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786300718661,
+        "last_ts": 1786304636182
+      },
+      {
+        "id": "UE9TVDpodHRwOi8vYWdlbnRodWIteDFqeC5vbnJlbmRlci5jb20vYXBpL3N1bW1hcml6ZQ",
+        "url": "http://agenthub-x1jx.onrender.com/api/summarize",
+        "method": "POST",
+        "description": "Text summarization and condensation: send raw text up to 50,000 characters (article, document, transcript, report, or thread) and receive a concise summary preserving key facts. Optional maxWords for target length and style (concise, bullets, or detailed). No API key or account — pay $0.02 per call in USDC. Returns the summary plus a truncated flag.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "text": "Long block of text to summarize goes here..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "summary": "A concise summary of the submitted text.",
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786300725713,
+        "last_ts": 1786304628962
+      },
+      {
+        "id": "R0VUOmh0dHA6Ly9hZ2VudGh1Yi14MWp4Lm9ucmVuZGVyLmNvbS9hcGkvd2FsbGV0LXJpc2svZzN5dnRwdXJrNnZmc201Y3hlaDdxZnR6eGxjeGJqbDZ1bWFpdXV5am80cDJ4ZjNtaHE0ZnVoeXliNA",
+        "url": "http://agenthub-x1jx.onrender.com/api/wallet-risk/G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+        "method": "GET",
+        "description": "Algorand wallet risk scoring and address reputation: given an Algorand address, returns an explainable 0-100 risk score, a risk level (low, medium, high), and the on-chain signals behind it — account age in days, transaction count, ALGO balance, USDC opt-in status, distinct counterparty count, and rekey history. Deterministic analysis of real Algorand indexer data, no LLM. Useful for agent counterparty checks, fraud screening, and KYC-style address due diligence before transacting. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 42,
+              "riskLevel": "medium",
+              "signals": {
+                "accountAgeDays": 412,
+                "txCount": 1930,
+                "balanceAlgo": 15.2,
+                "usdcOptedIn": true,
+                "distinctCounterparties": 24,
+                "rekeyed": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786300712008,
+        "last_ts": 1786304656731
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9hcHAtcmlzay8xMDAyNTQxODUz",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/app-risk/1002541853",
+        "method": "GET",
+        "description": "Algorand smart contract structural risk screening: given an application id, disassembles the approval program and reports references to UpdateApplication and DeleteApplication. A reference does not prove that a path succeeds or identify who can authorize it. Also reports privileged-looking global-state key names and a cautious 0-100 risk score with plain-language findings. Answers the question an agent has before handing funds to a contract, which token screening cannot. Deterministic analysis of real bytecode, no LLM. No API key or account â pay $0.18 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "180000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "appId": "1002541853"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "appId": "1002541853",
+              "creator": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 70,
+              "riskLevel": "high",
+              "signals": {
+                "upgradeable": true,
+                "deletable": true,
+                "deleted": false,
+                "privilegedRoles": [
+                  "fee_manager",
+                  "fee_setter",
+                  "fee_collector"
+                ],
+                "approvalProgramBytes": 7731,
+                "globalStateKeys": 3,
+                "createdAtRound": 26051045,
+                "programAnalysed": true
+              },
+              "findings": [
+                "Upgradeable: the approval program handles UpdateApplication..."
+              ],
+              "disclaimer": "Automated analysis of on-chain contract structure, not a security audit."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788004473515,
+        "last_ts": 1791102178728
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9hcHAvMTAwMjU0MTg1Mw",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/app/1002541853",
+        "method": "GET",
+        "description": "Algorand smart contract metadata lookup: given an application id, returns the creator, whether the contract still exists, the round it was created at, approval and clear-state program sizes, the global and local state schemas, and the decoded global state keys and values. Every DeFi protocol, DAO, NFT mint and staking pool on Algorand is an application, so this is the first thing to check before interacting with one. Deterministic Algorand indexer data, no LLM. No API key or account â pay $0.10 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "appId": "1002541853"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "appId": "1002541853",
+              "creator": "ALGORAND_ADDRESS_58_CHARS",
+              "deleted": false,
+              "createdAtRound": 26051045,
+              "approvalProgramBytes": 7731,
+              "clearStateProgramBytes": 41,
+              "globalStateSchema": {
+                "numUint": 0,
+                "numByteSlice": 3
+              },
+              "localStateSchema": {
+                "numUint": 12,
+                "numByteSlice": 2
+              },
+              "globalState": [
+                {
+                  "key": "fee_manager",
+                  "type": "bytes",
+                  "value": "BASE64"
+                }
+              ],
+              "appAddress": null
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788004465196,
+        "last_ts": 1791103138593
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9hc3NldC1yaXNrLzMxNTY2NzA0",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/asset-risk/31566704",
+        "method": "GET",
+        "description": "Algorand ASA risk scoring and scam token screening: given an Algorand Standard Asset id, returns an explainable 0-100 risk score, a risk level, and the on-chain signals behind it — whether clawback or freeze is enabled, whether holdings default to frozen, whether the manager can still reconfigure supply, largest-holder concentration as a share of circulating supply, and the creator account's age. Deterministic analysis of real Algorand indexer data, no LLM. Run it before accepting, holding, or swapping an unfamiliar token. No API key or account — pay $0.03 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "asaId": "31566704"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asaId": "31566704",
+              "name": "USDC",
+              "unitName": "USDC",
+              "creator": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 50,
+              "riskLevel": "medium",
+              "signals": {
+                "clawbackEnabled": false,
+                "freezeEnabled": true,
+                "defaultFrozen": false,
+                "managerCanReconfigure": true,
+                "topHolderPct": 79.6,
+                "holdersSampled": 18,
+                "concentrationExact": false,
+                "creatorAgeDays": 1786
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786383336190,
+        "last_ts": 1791104401986
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9hc3NldC8zMTU2NjcwNA",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/asset/31566704",
+        "method": "GET",
+        "description": "Algorand ASA metadata and supply lookup: given an Algorand Standard Asset id, returns the asset name, unit name, decimals, declared total supply, real circulating supply (total minus unissued reserve holdings), creator, project url, whether the asset has been destroyed, and its configuration flags — manager, freeze, clawback, reserve, and default-frozen. Deterministic Algorand indexer data, no LLM. Use it to identify an unfamiliar token before accepting, holding, or swapping it. No API key or account — pay $0.02 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "asaId": "31566704"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "asaId": "31566704",
+              "name": "USDC",
+              "unitName": "USDC",
+              "decimals": 6,
+              "totalSupply": 18446744073709.55,
+              "totalSupplyRaw": "18446744073709551615",
+              "circulatingSupply": 192609566.1,
+              "url": "https://www.centre.io/usdc",
+              "creator": "ALGORAND_ADDRESS_58_CHARS",
+              "destroyed": false,
+              "config": {
+                "hasManager": true,
+                "hasFreeze": true,
+                "hasClawback": false,
+                "hasReserve": true,
+                "defaultFrozen": false
+              },
+              "price": null,
+              "priceError": "no verified price source configured"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786383341659,
+        "last_ts": 1791102970333
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9jbHVzdGVyL2czeXZ0cHVyazZ2ZnNtNWN4ZWg3cWZ0enhsY3hiamw2dW1haXV1eWpvNHAyeGYzbWhxNGZ1aHl5YjQ",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/cluster/G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+        "method": "GET",
+        "description": "Algorand wallet clustering and common-ownership attribution: given an address, finds other addresses whose on-chain behaviour is consistent with the same owner — shared first funder, overlapping counterparties, direct transfers, and correlated first activity — each scored 0-100 with the specific transactions and addresses behind it. Funder signals are weighted down by how many addresses that funder has paid, so sharing an exchange counts for little. Heuristic attribution, not proof of ownership: every result ships with its evidence and a disclaimer, because these are leads to verify rather than proof of control. Deterministic Algorand indexer data, no LLM. Useful for investigation, sybil detection, and counterparty due diligence. No API key or account — pay $0.20 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "200000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "candidates": [
+                {
+                  "address": "ALGORAND_ADDRESS_58_CHARS",
+                  "score": 62,
+                  "confidence": "high",
+                  "signals": [
+                    {
+                      "signal": "shared-funder",
+                      "points": 32,
+                      "detail": "Both accounts were first funded by the same address, which has funded 7 addresses in the scanned window",
+                      "evidence": [
+                        "ALGORAND_ADDRESS_58_CHARS"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "target": {
+                "firstActivity": "2026-08-09T17:29:27.000Z",
+                "firstFunder": "ALGORAND_ADDRESS_58_CHARS",
+                "counterpartyCount": 7,
+                "scannedTransactions": 300
+              },
+              "limits": {
+                "maxScanPerAddress": 300,
+                "maxCandidates": 25,
+                "minScore": 30
+              },
+              "truncatedBy": [
+                "maxScanPerAddress"
+              ],
+              "complete": false,
+              "disclaimer": "Heuristic attribution from public on-chain behaviour, not proof of ownership."
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788004501145,
+        "last_ts": 1791103130223
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXByb2R1Y3Rpb24tOGM3NS51cC5yYWlsd2F5LmFwcC9hcGkvY29kZS1yZXZpZXc",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/code-review",
+        "method": "POST",
+        "description": "GitHub pull request code review: give a repository owner, name, and PR number and receive a structured review of the diff — concrete correctness bugs, security issues, and error-handling gaps, each with the file and line where possible. Fetches the diff from GitHub for you and returns PR metadata (title, files changed, additions, deletions) alongside the review. Optional focus parameter to steer the review. Powered by Claude Haiku 4.5. No API key or account — pay $0.08 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "80000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "owner": "algorand",
+              "repo": "go-algorand",
+              "pull": 6100
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "repository": "algorand/go-algorand",
+              "pull": 6100,
+              "title": "ledger: Implement JSON encoding for StateDelta",
+              "review": "Nil pointer dereference in ToSerializable() at statedelta.go:311 ...",
+              "filesChanged": 2,
+              "additions": 175,
+              "deletions": 0,
+              "diffBytesReviewed": 6700,
+              "diffTruncated": false,
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786416324698,
+        "last_ts": 1789465816210
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9leHBsYWluLXR4L3R0cW5zdG5yd2szbmluNDVzcDRtanlpZ3JkN3FsaWNwYWtpbW5tbW5ib2tqeHl0aGp0MmE",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/explain-tx/TTQNSTNRWK3NIN45SP4MJYIGRD7QLICPAKIMNMMNBOKJXYTHJT2A",
+        "method": "GET",
+        "description": "Algorand transaction explainer and decoder: given a transaction id, returns a plain-language summary of what the transaction actually did, plus structured detail — transaction type, sender, every ALGO and ASA transfer with human-readable amounts and resolved asset names, application call id and inner transactions, fee, confirmation round, timestamp, and decoded note. Decodes DEX swaps and smart contract calls by walking inner transactions. Deterministic decoding of real Algorand indexer data, no LLM. Useful for agent transaction auditing, payment verification, and explaining on-chain activity to users. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS",
+              "type": "axfer",
+              "typeLabel": "Asset transfer",
+              "summary": "G3YVTP…HYYB4 sent 0.02 USDC to MUVW2R…NUQVVM.",
+              "sender": "ALGORAND_ADDRESS_58_CHARS",
+              "confirmedRound": 63909126,
+              "timestamp": "2026-08-09T19:30:21.000Z",
+              "feeAlgo": 0.001,
+              "transfers": [
+                {
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 0.02,
+                  "amountRaw": "20000",
+                  "from": "ALGORAND_ADDRESS_58_CHARS",
+                  "to": "ALGORAND_ADDRESS_58_CHARS"
+                }
+              ],
+              "application": null,
+              "note": null,
+              "grouped": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786344156263,
+        "last_ts": 1790558948198
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9leHBsYWluLXR4L3U2cm5zZ3Nhd2ozYWludjR3Z2tnZWx2amM1c2dobjJtczNoZ2plcXRvYm9oa2hteDdoeWE",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/explain-tx/U6RNSGSAWJ3AINV4WGKGELVJC5SGHN2MS3HGJEQTOBOHKHMX7HYA",
+        "method": "GET",
+        "description": "Algorand transaction explainer and decoder: given a transaction id, returns a plain-language summary of what the transaction actually did, plus structured detail — transaction type, sender, every ALGO and ASA transfer with human-readable amounts and resolved asset names, application call id and inner transactions, fee, confirmation round, timestamp, and decoded note. Decodes DEX swaps and smart contract calls by walking inner transactions. Deterministic decoding of real Algorand indexer data, no LLM. Useful for agent transaction auditing, payment verification, and explaining on-chain activity to users. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS",
+              "type": "axfer",
+              "typeLabel": "Asset transfer",
+              "summary": "G3YVTP…HYYB4 sent 0.02 USDC to MUVW2R…NUQVVM.",
+              "sender": "ALGORAND_ADDRESS_58_CHARS",
+              "confirmedRound": 63909126,
+              "timestamp": "2026-08-09T19:30:21.000Z",
+              "feeAlgo": 0.001,
+              "transfers": [
+                {
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 0.02,
+                  "amountRaw": "20000",
+                  "from": "ALGORAND_ADDRESS_58_CHARS",
+                  "to": "ALGORAND_ADDRESS_58_CHARS"
+                }
+              ],
+              "application": null,
+              "note": null,
+              "grouped": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786317143332,
+        "last_ts": 1791245368438
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9leHBsYWluLXR4L3gzZ3U3cjN2YmxmNXJ6cXp6ZDdrNGFpYzV4cHgydG43aHlwdm5jYmdibTR2NXZhdmdzdHE",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/explain-tx/X3GU7R3VBLF5RZQZZD7K4AIC5XPX2TN7HYPVNCBGBM4V5VAVGSTQ",
+        "method": "GET",
+        "description": "Algorand transaction explainer and decoder: given a transaction id, returns a plain-language summary of what the transaction actually did, plus structured detail — transaction type, sender, every ALGO and ASA transfer with human-readable amounts and resolved asset names, application call id and inner transactions, fee, confirmation round, timestamp, and decoded note. Decodes DEX swaps and smart contract calls by walking inner transactions. Deterministic decoding of real Algorand indexer data, no LLM. Useful for agent transaction auditing, payment verification, and explaining on-chain activity to users. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS",
+              "type": "axfer",
+              "typeLabel": "Asset transfer",
+              "summary": "G3YVTP…HYYB4 sent 0.02 USDC to MUVW2R…NUQVVM.",
+              "sender": "ALGORAND_ADDRESS_58_CHARS",
+              "confirmedRound": 63909126,
+              "timestamp": "2026-08-09T19:30:21.000Z",
+              "feeAlgo": 0.001,
+              "transfers": [
+                {
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 0.02,
+                  "amountRaw": "20000",
+                  "from": "ALGORAND_ADDRESS_58_CHARS",
+                  "to": "ALGORAND_ADDRESS_58_CHARS"
+                }
+              ],
+              "application": null,
+              "note": null,
+              "grouped": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786344085175,
+        "last_ts": 1790559130532
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXByb2R1Y3Rpb24tOGM3NS51cC5yYWlsd2F5LmFwcC9hcGkvaW5mZXJlbmNl",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/inference",
+        "method": "POST",
+        "description": "LLM text generation and completion: send a natural-language prompt (question, instruction, draft, code, or classification task) and receive generated text back. No API key, no account, no subscription — pay $0.01 per call in USDC. Powered by Claude Haiku 4.5. Returns the generated text plus a truncated flag.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "prompt": "Summarize the plot of Hamlet in two sentences."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "response": "Hamlet, prince of Denmark, seeks revenge for his father's murder...",
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786317507237,
+        "last_ts": 1789466367197
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXByb2R1Y3Rpb24tOGM3NS51cC5yYWlsd2F5LmFwcC9hcGkvbmwtdG8tc3Fs",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/nl-to-sql",
+        "method": "POST",
+        "description": "Natural language to SQL: send a plain-language question plus your table schema and receive a ready-to-run SQL query. Supports postgres, mysql, sqlite, sqlserver, bigquery, and snowflake dialects. Returns the query plus a readOnly flag and a warnings array identifying destructive or expensive operations, so an agent can gate execution before running anything. This endpoint GENERATES SQL ONLY — it never connects to a database and never executes the query. Powered by Claude Haiku 4.5. No API key or account — pay $0.03 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "question": "Top 5 users by total completed order value in 2026",
+              "schema": "CREATE TABLE users (id BIGINT PRIMARY KEY, email TEXT); CREATE TABLE orders (...)",
+              "dialect": "postgres"
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "sql": "SELECT u.id, u.email, SUM(o.total) AS total_value FROM users u JOIN orders o ...",
+              "dialect": "postgres",
+              "readOnly": true,
+              "warnings": [],
+              "executed": false,
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786416214818,
+        "last_ts": 1789466317487
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS9yZWxhdGlvbnNoaXA",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/relationship",
+        "method": "GET",
+        "description": "Algorand address relationship and counterparty history: given two addresses as query parameters a and b, returns whether they have transacted, how many transactions between them, total value moved per asset broken down by direction, and first and last interaction timestamps. Matches through inner transactions, so activity routed via smart contracts is counted. Deterministic analysis of real Algorand indexer data, no LLM. Useful for verifying a claimed relationship or reviewing counterparty history before a deal. No API key or account — pay $0.03 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "a": "ALGORAND_ADDRESS_58_CHARS",
+              "b": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "addressA": "ALGORAND_ADDRESS_58_CHARS",
+              "addressB": "ALGORAND_ADDRESS_58_CHARS",
+              "haveTransacted": true,
+              "txCount": 42,
+              "totalMoved": [
+                {
+                  "asset": "algo",
+                  "assetName": "ALGO",
+                  "amount": 10,
+                  "aToB": 0,
+                  "bToA": 10
+                },
+                {
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 0.63,
+                  "aToB": 0.63,
+                  "bToA": 0
+                }
+              ],
+              "firstInteraction": "2026-08-09T17:29:27.000Z",
+              "lastInteraction": "2026-08-10T05:46:33.000Z",
+              "scanned": 59,
+              "windowComplete": true
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786383346866,
+        "last_ts": 1791102420141
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXByb2R1Y3Rpb24tOGM3NS51cC5yYWlsd2F5LmFwcC9hcGkvc3VtbWFyaXpl",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/summarize",
+        "method": "POST",
+        "description": "Text summarization and condensation: send raw text up to 50,000 characters (article, document, transcript, report, or thread) and receive a concise summary preserving key facts. Optional maxWords for target length and style (concise, bullets, or detailed). No API key or account — pay $0.02 per call in USDC. Returns the summary plus a truncated flag.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "text": "Long block of text to summarize goes here..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "summary": "A concise summary of the submitted text.",
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786317526998,
+        "last_ts": 1789466183161
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS90cmFjZS9nM3l2dHB1cms2dmZzbTVjeGVoN3FmdHp4bGN4YmpsNnVtYWl1dXlqbzRwMnhmM21ocTRmdWh5eWI0",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/trace/G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+        "method": "GET",
+        "description": "Algorand fund flow tracing and money movement analysis: given an address, follows value outward across up to four hops and returns the graph of where it went â every edge with its asset, total amount, transaction count and time range, the addresses reached at each hop, and the destinations that received the most. Optionally restricted to one asset. Answers \"where did this money go\" when the destination is unknown, which address-pair checks cannot. Follows the largest flows first and reports every limit it hit, so a partial trace is never mistaken for a complete one. Deterministic Algorand indexer data, no LLM. Useful for theft tracing, counterparty screening, and exchange attribution. No API key or account â pay $0.15 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "150000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "hops": 2
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "origin": "ALGORAND_ADDRESS_58_CHARS",
+              "asset": null,
+              "hops": 2,
+              "nodes": [
+                {
+                  "address": "ALGORAND_ADDRESS_58_CHARS",
+                  "hop": 1,
+                  "received": [
+                    {
+                      "asset": "31566704",
+                      "assetName": "USDC",
+                      "amount": 5.77
+                    }
+                  ],
+                  "truncated": false
+                }
+              ],
+              "edges": [
+                {
+                  "from": "ALGORAND_ADDRESS_58_CHARS",
+                  "to": "ALGORAND_ADDRESS_58_CHARS",
+                  "hop": 1,
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 5.77,
+                  "amountRaw": "5770000",
+                  "txCount": 12,
+                  "latestTxId": "ALGORAND_TRANSACTION_ID_52_CHARS",
+                  "firstSeen": "2026-08-09T17:29:27.000Z",
+                  "lastSeen": "2026-08-28T05:46:33.000Z"
+                }
+              ],
+              "topDestinations": [
+                {
+                  "address": "ALGORAND_ADDRESS_58_CHARS",
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 10,
+                  "hop": 2
+                }
+              ],
+              "limits": {
+                "maxHops": 4,
+                "maxBranchPerAddress": 5,
+                "maxScanPerAddress": 300,
+                "maxNodes": 40
+              },
+              "truncatedBy": [
+                "maxBranchPerAddress"
+              ],
+              "scannedTransactions": 511,
+              "complete": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788004490109,
+        "last_ts": 1791101952776
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXByb2R1Y3Rpb24tOGM3NS51cC5yYWlsd2F5LmFwcC9hcGkvdmVyaWZ5LXBheW1lbnQ",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/verify-payment",
+        "method": "POST",
+        "description": "Algorand payment verification and transaction assertion: given a transaction id plus what you expected (sender, receiver, asset, amount), returns a pass/fail verdict with a per-check breakdown of expected vs actual. Matches transfers across inner transactions, so payments routed through smart contracts and DEX swaps still verify. Supports an amount tolerance. Deterministic, no LLM. Built for autonomous agents that need to confirm a payment landed exactly as intended before acting on it. No API key or account — pay $0.02 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS",
+              "expectedReceiver": "ALGORAND_ADDRESS_58_CHARS",
+              "expectedAsset": "31566704",
+              "expectedAmount": 0.02
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS",
+              "verified": true,
+              "checks": {
+                "receiver": {
+                  "expected": "ALGORAND_ADDRESS_58_CHARS",
+                  "actual": "ALGORAND_ADDRESS_58_CHARS",
+                  "match": true
+                },
+                "asset": {
+                  "expected": "31566704",
+                  "actual": "31566704",
+                  "match": true
+                },
+                "amount": {
+                  "expected": 0.02,
+                  "actual": 0.02,
+                  "match": true
+                }
+              },
+              "matchedTransfer": {
+                "asset": "31566704",
+                "assetName": "USDC",
+                "amount": 0.02,
+                "amountRaw": "20000",
+                "from": "ALGORAND_ADDRESS_58_CHARS",
+                "to": "ALGORAND_ADDRESS_58_CHARS"
+              },
+              "confirmedRound": 63912660,
+              "timestamp": "2026-08-09T19:30:21.000Z"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786383412247,
+        "last_ts": 1791103116647
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS93YWxsZXQtcmlzay9nM3l2dHB1cms2dmZzbTVjeGVoN3FmdHp4bGN4YmpsNnVtYWl1dXlqbzRwMnhmM21ocTRmdWh5eWI0",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/wallet-risk/G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+        "method": "GET",
+        "description": "Algorand wallet risk scoring and address reputation: given an Algorand address, returns an explainable 0-100 risk score, a risk level (low, medium, high), and the on-chain signals behind it — account age in days, transaction count, ALGO balance, USDC opt-in status, distinct counterparty count, and rekey history. Deterministic analysis of real Algorand indexer data, no LLM. Useful for agent counterparty checks, fraud screening, and KYC-style address due diligence before transacting. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 42,
+              "riskLevel": "medium",
+              "signals": {
+                "accountAgeDays": 412,
+                "txCount": 1930,
+                "balanceAlgo": 15.2,
+                "usdcOptedIn": true,
+                "distinctCounterparties": 24,
+                "rekeyed": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786317531588,
+        "last_ts": 1791104324063
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS93YWxsZXQtcmlzay9qdG4yZzIzd3AzZ2JpazdjenlhYmk0bndta2NuMnl2c3hkeWh5NGltaXFiN3RweHBlbHJmZ215cDY0",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/wallet-risk/JTN2G23WP3GBIK7CZYABI4NWMKCN2YVSXDYHY4IMIQB7TPXPELRFGMYP64",
+        "method": "GET",
+        "description": "Algorand wallet risk scoring and address reputation: given an Algorand address, returns an explainable 0-100 risk score, a risk level (low, medium, high), and the on-chain signals behind it â account age in days, transaction count, ALGO balance, USDC opt-in status, distinct counterparty count, and rekey history. Deterministic analysis of real Algorand indexer data, no LLM. Useful for agent counterparty checks, fraud screening, and KYC-style address due diligence before transacting. No API key or account â pay $0.10 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 42,
+              "riskLevel": "medium",
+              "signals": {
+                "accountAgeDays": 412,
+                "txCount": 1930,
+                "balanceAlgo": 15.2,
+                "usdcOptedIn": true,
+                "distinctCounterparties": 24,
+                "rekeyed": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787702994961,
+        "last_ts": 1790559536355
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS93YWxsZXQtcmlzay9rNWhpenBvdXV1YnE1d2o2aTNkdDZuZ2lxdW1hbHlqeXN2dmJ5N2N4YTNieWJ3eTYyMjVkbm5iZHNh",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/wallet-risk/K5HIZPOUUUBQ5WJ6I3DT6NGIQUMALYJYSVVBY7CXA3BYBWY6225DNNBDSA",
+        "method": "GET",
+        "description": "Algorand wallet risk scoring and address reputation: given an Algorand address, returns an explainable 0-100 risk score, a risk level (low, medium, high), and the on-chain signals behind it â account age in days, transaction count, ALGO balance, USDC opt-in status, distinct counterparty count, and rekey history. Deterministic analysis of real Algorand indexer data, no LLM. Useful for agent counterparty checks, fraud screening, and KYC-style address due diligence before transacting. No API key or account â pay $0.10 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "30000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 42,
+              "riskLevel": "medium",
+              "signals": {
+                "accountAgeDays": 412,
+                "txCount": 1930,
+                "balanceAlgo": 15.2,
+                "usdcOptedIn": true,
+                "distinctCounterparties": 24,
+                "rekeyed": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787874617518,
+        "last_ts": 1790559569260
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWItcHJvZHVjdGlvbi04Yzc1LnVwLnJhaWx3YXkuYXBwL2FwaS93YWxsZXQtcmlzay9wbmN1cW9sbXF2N2dtemRzcTJkcWN5dWl0cXZ5ZHQzb2tkNTI0NWZvc2p1NzZreTNmb2N4aGl1NHF1",
+        "url": "https://agenthub-production-8c75.up.railway.app/api/wallet-risk/PNCUQOLMQV7GMZDSQ2DQCYUITQVYDT3OKD5245FOSJU76KY3FOCXHIU4QU",
+        "method": "GET",
+        "description": "Algorand wallet risk scoring and address reputation: given an Algorand address, returns an explainable 0-100 risk score, a risk level (low, medium, high), and the on-chain signals behind it — account age in days, transaction count, ALGO balance, USDC opt-in status, distinct counterparty count, and rekey history. Deterministic analysis of real Algorand indexer data, no LLM. Useful for agent counterparty checks, fraud screening, and KYC-style address due diligence before transacting. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "ALGORAND_ADDRESS_58_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "ALGORAND_ADDRESS_58_CHARS",
+              "riskScore": 42,
+              "riskLevel": "medium",
+              "signals": {
+                "accountAgeDays": 412,
+                "txCount": 1930,
+                "balanceAlgo": 15.2,
+                "usdcOptedIn": true,
+                "distinctCounterparties": 24,
+                "rekeyed": false
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786343838920,
+        "last_ts": 1790559268711
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYWdlbnRodWIteDFqeC5vbnJlbmRlci5jb20vYXBpL2V4cGxhaW4tdHgvdTZybnNnc2F3ajNhaW52NHdna2dlbHZqYzVzZ2huMm1zM2hnamVxdG9ib2hraG14N2h5YQ",
+        "url": "https://agenthub-x1jx.onrender.com/api/explain-tx/U6RNSGSAWJ3AINV4WGKGELVJC5SGHN2MS3HGJEQTOBOHKHMX7HYA",
+        "method": "GET",
+        "description": "Algorand transaction explainer and decoder: given a transaction id, returns a plain-language summary of what the transaction actually did, plus structured detail — transaction type, sender, every ALGO and ASA transfer with human-readable amounts and resolved asset names, application call id and inner transactions, fee, confirmation round, timestamp, and decoded note. Decodes DEX swaps and smart contract calls by walking inner transactions. Deterministic decoding of real Algorand indexer data, no LLM. Useful for agent transaction auditing, payment verification, and explaining on-chain activity to users. No API key or account — pay $0.015 per call in USDC.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "15000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txid": "ALGORAND_TRANSACTION_ID_52_CHARS",
+              "type": "axfer",
+              "typeLabel": "Asset transfer",
+              "summary": "G3YVTP…HYYB4 sent 0.02 USDC to MUVW2R…NUQVVM.",
+              "sender": "ALGORAND_ADDRESS_58_CHARS",
+              "confirmedRound": 63909126,
+              "timestamp": "2026-08-09T19:30:21.000Z",
+              "feeAlgo": 0.001,
+              "transfers": [
+                {
+                  "asset": "31566704",
+                  "assetName": "USDC",
+                  "amount": 0.02,
+                  "amountRaw": "20000",
+                  "from": "ALGORAND_ADDRESS_58_CHARS",
+                  "to": "ALGORAND_ADDRESS_58_CHARS"
+                }
+              ],
+              "application": null,
+              "note": null,
+              "grouped": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786316897718,
+        "last_ts": 1786326228693
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXgxangub25yZW5kZXIuY29tL2FwaS9pbmZlcmVuY2U",
+        "url": "https://agenthub-x1jx.onrender.com/api/inference",
+        "method": "POST",
+        "description": "LLM text generation and completion: send a natural-language prompt (question, instruction, draft, code, or classification task) and receive generated text back. No API key, no account, no subscription — pay $0.01 per call in USDC. Powered by Claude Haiku 4.5. Returns the generated text plus a truncated flag.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "10000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "prompt": "Summarize the plot of Hamlet in two sentences."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "response": "Hamlet, prince of Denmark, seeks revenge for his father's murder...",
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786319864873,
+        "last_ts": 1786326251510
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FnZW50aHViLXgxangub25yZW5kZXIuY29tL2FwaS9zdW1tYXJpemU",
+        "url": "https://agenthub-x1jx.onrender.com/api/summarize",
+        "method": "POST",
+        "description": "Text summarization and condensation: send raw text up to 50,000 characters (article, document, transcript, report, or thread) and receive a concise summary preserving key facts. Optional maxWords for target length and style (concise, bullets, or detailed). No API key or account — pay $0.02 per call in USDC. Returns the summary plus a truncated flag.",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "20000",
+            "asset": "31566704",
+            "payTo": "G3YVTPURK6VFSM5CXEH7QFTZXLCXBJL6UMAIUUYJO4P2XF3MHQ4FUHYYB4",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "text": "Long block of text to summarize goes here..."
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "summary": "A concise summary of the submitted text.",
+              "truncated": false
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786326258931,
+        "last_ts": 1786326260314
+      }
+    ],
+    "resource_count": 25,
+    "description_count": 25,
+    "mime_type_count": 0,
+    "accepts_count": 25,
+    "discovery_count": 25,
+    "input_documentation_count": 25,
+    "output_documentation_count": 25,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 2,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "merchant_id": "VFFXRUw1NFRDQllIM1FKTE4yT1UyUUg3",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "moltworld.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 20480,
+      "last_observed_at": 1791116766226,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "moltworld.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://moltworld.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791232219181,
+        "last_fetch_attempt_utc": "2026-10-05T20:30:19.181000+00:00",
+        "title": "Moltworld — Multimodal AI Gateway with x402 on Algorand",
+        "description": "One API for AI models and autonomous agents. Chat, Image, Voice, and Video. Pay per request in USDC on Algorand. Zero subscriptions.",
+        "site_name": "Moltworld",
+        "logo": "https://moltworld.xyz/logo.png",
+        "banner": "https://moltworld.xyz/logo.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://moltworld.xyz/.well-known/agent-card.json",
+            "name": "Moltworld Model Catalog Agent",
+            "description": "Finds Moltworld AI models and explains their Algorand USDC x402 prices and endpoints. For paid inference, use the x402 endpoint or Moltworld MCP tools with a caller-authorized payment signature."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://moltworld.xyz/.well-known/x402",
+            "name": "Moltworld — Multimodal AI Gateway with x402 on Algorand",
+            "description": "One API for AI models and autonomous agents. Chat, image, voice, and video requests are paid per call in USDC on Algorand."
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-04 12:26:06 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "moltworld.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "agent-card",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No catalog resources on included public domains."
+    ]
+  }
+}

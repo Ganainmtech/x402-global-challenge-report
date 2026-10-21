@@ -1,0 +1,5 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://api.agentwork.run/v1/web/changes,11,0.105000,2,1,0.005000,0,0.000000,0,2026-09-08 09:19:42 UTC,2026-10-06 00:05:05 UTC
+POST,https://api.agentwork.run/v1/jobs,3,0.240000,1,0,0.000000,0,0.000000,0,2026-08-07 07:23:24 UTC,2026-08-07 07:26:04 UTC
+POST,https://api.agentwork.run/v1/pdf/read,3,0.030000,2,0,0.000000,0,0.000000,0,2026-09-08 10:44:07 UTC,2026-09-28 01:30:39 UTC
+POST,https://api.agentwork.run/v1/web/read,3,0.025000,2,1,0.005000,0,0.000000,0,2026-09-08 09:19:36 UTC,2026-09-28 01:28:48 UTC

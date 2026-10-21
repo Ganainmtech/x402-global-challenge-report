@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://402signal.com/route,196,1.547000,2,59,0.177000,196,1.547000,0,2026-08-30 20:27:50 UTC,2026-09-30 12:13:55 UTC

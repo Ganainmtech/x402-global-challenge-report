@@ -1,0 +1,261 @@
+{
+  "merchant_id": "NUdLSkNPQ0JGNk5ESUk2UkNUUDJDRE9U",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "x402-mesh-gateway.fly.dev",
+      "classification": "hosting_provider_domain",
+      "provider": "Fly.io",
+      "is_custom_domain_candidate": false,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 26,
+      "last_observed_at": 1786067462439,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "x402-mesh-gateway.fly.dev",
+        "classification": "hosting_provider_domain",
+        "provider": "Fly.io",
+        "is_custom_domain_candidate": false,
+        "origin": "https://x402-mesh-gateway.fly.dev",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791133120572,
+        "last_fetch_attempt_utc": "2026-10-04T16:58:40.572000+00:00",
+        "title": "x402 Mesh Inference",
+        "description": "Pay-per-prompt AI inference settled on Algorand via HTTP 402.",
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://x402-mesh-gateway.fly.dev/.well-known/x402",
+            "name": null,
+            "description": "Pay-per-prompt OpenAI-compatible chat completions routed across a mesh of independent GPU nodes, settled in USDC on Algorand via x402."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://x402-mesh-gateway.fly.dev/llms.txt",
+            "name": "x402 Mesh Inference",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description"
+        ],
+        "completeness_present": 2,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-07 01:51:02 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL3g0MDItbWVzaC1nYXRld2F5LmZseS5kZXYvdjEvY2hhdC9jb21wbGV0aW9ucw",
+        "url": "https://x402-mesh-gateway.fly.dev/v1/chat/completions",
+        "method": "POST",
+        "description": "Pay-per-prompt OpenAI-compatible chat completions routed across a mesh of independent GPU nodes, settled in USDC on Algorand via x402.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "amount": "2000",
+            "asset": "10458941",
+            "payTo": "R5UN7S5G3AMKBDFEB42E7LSUT7JJGGZ6HL2S74ULBBZ36GWZVHEHJ53AOY",
+            "maxTimeoutSeconds": 180,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          },
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "5GKJCOCBF6NDII6RCTP2CDOTTJ4ACHE3QYJYHQOLI23E254BDUBTZKY6GA",
+            "maxTimeoutSeconds": 180,
+            "extra": {
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "llama3.1:8b",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "You are a concise assistant."
+                },
+                {
+                  "role": "user",
+                  "content": "Summarise the x402 payment protocol in one sentence."
+                }
+              ],
+              "max_tokens": 128,
+              "temperature": 0.2,
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl-9f2b1c4a6d7e",
+              "object": "chat.completion",
+              "created": 1767225600,
+              "model": "llama3.1:8b",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "x402 revives HTTP 402 so a client can pay for a request inline, with a facilitator verifying and settling the payment on-chain."
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 28,
+                "completion_tokens": 31,
+                "total_tokens": 59
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1785693541733,
+        "last_ts": 1786347909178
+      },
+      {
+        "id": "UE9TVDpodHRwczovL3g0MDItbWVzaC1nYXRld2F5LmZseS5kZXYvdjEvaW5mZXJlbmNl",
+        "url": "https://x402-mesh-gateway.fly.dev/v1/inference",
+        "method": "POST",
+        "description": "Pay-per-prompt OpenAI-compatible chat completions routed across a mesh of independent GPU nodes, settled in USDC on Algorand via x402.",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "2000",
+            "asset": "31566704",
+            "payTo": "5GKJCOCBF6NDII6RCTP2CDOTTJ4ACHE3QYJYHQOLI23E254BDUBTZKY6GA",
+            "maxTimeoutSeconds": 180,
+            "extra": {
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "model": "llama3.1:8b",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "You are a concise assistant."
+                },
+                {
+                  "role": "user",
+                  "content": "Summarise the x402 payment protocol in one sentence."
+                }
+              ],
+              "max_tokens": 128,
+              "temperature": 0.2,
+              "stream": false
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "id": "chatcmpl-9f2b1c4a6d7e",
+              "object": "chat.completion",
+              "created": 1767225600,
+              "model": "llama3.1:8b",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "x402 revives HTTP 402 so a client can pay for a request inline, with a facilitator verifying and settling the payment on-chain."
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 28,
+                "completion_tokens": 31,
+                "total_tokens": 59
+              }
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1786021312544,
+        "last_ts": 1786347912380
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [],
+  "quality": {
+    "has_custom_domain_candidate": false,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No custom-domain candidate among included public domains; public hosting-provider domains remain eligible.",
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

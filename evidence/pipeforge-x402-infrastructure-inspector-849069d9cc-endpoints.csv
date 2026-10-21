@@ -1,0 +1,3 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://x402.pipeforge.tech/api/v1/inspect,6,0.120000,2,0,0.000000,0,0.000000,0,2026-10-01 11:35:33 UTC,2026-10-06 00:10:06 UTC
+GET,https://x402.pipeforge.tech/api/v1/inspect,1,0.020000,1,0,0.000000,0,0.000000,0,2026-09-17 21:34:58 UTC,2026-09-17 21:34:58 UTC

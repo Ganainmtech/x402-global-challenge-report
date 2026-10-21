@@ -1,0 +1,230 @@
+{
+  "merchant_id": "NE9FT1ZTS1NaR0c1UUdJUTVVVVNCQU9G",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "hashlock.pronodealgo.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 22,
+      "last_observed_at": 1791245140951,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "hashlock.pronodealgo.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://hashlock.pronodealgo.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791220622698,
+        "last_fetch_attempt_utc": "2026-10-05T17:17:02.698000+00:00",
+        "title": "Hashlock-Algo — Proof of Existence on Algorand",
+        "description": "Timestamp any document for 0.005 USDC via the x402 protocol. Free public verification — built for humans and AI agents.",
+        "site_name": null,
+        "logo": "https://hashlock.pronodealgo.xyz/hashlock-algo.jpg",
+        "banner": "https://hashlock.pronodealgo.xyz/og.jpg",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://hashlock.pronodealgo.xyz/.well-known/agent-card.json",
+            "name": "Hashlock-Algo",
+            "description": "Proof of existence on Algorand. Timestamp any document's SHA-256 hash for 0.005 USDC via the x402 protocol (Algorand USDC or Base USDC, gasless EIP-3009). Free public verification, history and stats. PDF certificate returned with every timestamp. Metadata stays private by default (GDPR-friendly); optional on-chain publication and signature-based proof of ownership."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://hashlock.pronodealgo.xyz/.well-known/x402",
+            "name": "Hashlock-Algo",
+            "description": "Proof of existence on Algorand. Timestamp any document's SHA-256 hash for 0.005 USDC via x402 (Algorand USDC or Base USDC). Verification is free and public forever. Full API docs: https://hashlock.pronodealgo.xyz/llms.txt — OpenAPI: https://hashlock.pronodealgo.xyz/api/openapi.json"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://hashlock.pronodealgo.xyz/llms.txt",
+            "name": "Hashlock-Algo — Proof of Existence on Algorand",
+            "description": null
+          }
+        ],
+        "agent_document_count": 3,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:05:40 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2hhc2hsb2NrLnByb25vZGVhbGdvLnh5ei9oYXNobG9jay1hbGdvLW1haW5uZXQvYXBpL3RpbWVzdGFtcA",
+        "url": "https://hashlock.pronodealgo.xyz/hashlock-algo-mainnet/api/timestamp",
+        "method": "POST",
+        "description": "Proof of existence timestamp â Algorand blockchain",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "5000",
+            "asset": "31566704",
+            "payTo": "4OEOVSKSZGG5QGIQ5UUSBAOF3AKR5PP5YZ2K2FKP2SIGEYK3NG4CO6MN4M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "hash": "<sha256-hex-64-chars>",
+              "filename": "document.pdf",
+              "source": "agent"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txId": "<algorand-txid>",
+              "block": 12345678,
+              "createdAt": "2026-08-26T19:00:00.000Z",
+              "explorerUrl": "https://lora.algokit.io/mainnet/transaction/<txid>",
+              "certificate": "<base64 PDF certificate>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787774047073,
+        "last_ts": 1791245140951
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2hhc2hsb2NrLnByb25vZGVhbGdvLnh5ei9oYXNobG9jay1hbGdvLW1haW5uZXQvYXBpL3RpbWVzdGFtcC1iYXRjaA",
+        "url": "https://hashlock.pronodealgo.xyz/hashlock-algo-mainnet/api/timestamp-batch",
+        "method": "POST",
+        "description": "Batch proof of existence â up to 100 documents anchored in ONE Algorand transaction (Merkle root), one flat-price payment",
+        "mime_type": "",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "amount": "100000",
+            "asset": "31566704",
+            "payTo": "4OEOVSKSZGG5QGIQ5UUSBAOF3AKR5PP5YZ2K2FKP2SIGEYK3NG4CO6MN4M",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "tag": "x402-global-challenge",
+              "decimals": 6,
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "files": [
+                {
+                  "hash": "<sha256-hex-64-chars>",
+                  "filename": "a.pdf"
+                },
+                {
+                  "hash": "<sha256-hex-64-chars>"
+                }
+              ],
+              "source": "agent"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "txId": "<algorand-txid>",
+              "root": "<merkle-root-hex>",
+              "count": 2,
+              "files": [
+                {
+                  "hash": "<sha256>",
+                  "index": 0,
+                  "proof": [
+                    {
+                      "h": "<hex>",
+                      "cote": "droite"
+                    }
+                  ],
+                  "certificateUrl": "<url>"
+                }
+              ]
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787867692231,
+        "last_ts": 1790558945316
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 0,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "hashlock.pronodealgo.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 3,
+    "agent_document_types": [
+      "agent-card",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

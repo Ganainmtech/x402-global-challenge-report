@@ -1,0 +1,1931 @@
+{
+  "merchant_id": "U1EyTlo2VFZHU0dZN01RTkVEWUsyN1dY",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "api.glianalabs.com",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 43,
+      "last_observed_at": 1790659225280,
+      "catalog_endpoint_count": 38,
+      "metadata": {
+        "domain": "api.glianalabs.com",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.glianalabs.com",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791240173953,
+        "last_fetch_attempt_utc": "2026-10-05T22:42:53.953000+00:00",
+        "title": "GlianaAI — pay-per-call AI inference across 90+ models",
+        "description": "One endpoint for 90+ generative AI models, live market data, SEC filings and identity APIs — image, video, music, speech, LLM chat, crypto and FX rates, DEX liquidity, gas, US company fundamentals and insider trades, document OCR and face matching. Pay per request in USDC on Tempo, Base, Solana, Algorand or BNB Chain with no signup, or top up a prepaid balance in rupiah.",
+        "site_name": "GlianaAI",
+        "logo": "https://ai.glianalabs.com/apple-touch-icon.png",
+        "banner": "https://ai.glianalabs.com/og.png",
+        "theme_color": "#fcfcfd",
+        "agent_documents": [
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.glianalabs.com/.well-known/x402",
+            "name": "GlianaAI",
+            "description": "Pay-per-call AI models, live market data, SEC filings and identity APIs over HTTP 402. No signup and no API key: every call settles from the caller’s own wallet."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.glianalabs.com/llms.txt",
+            "name": "GlianaAI",
+            "description": null
+          }
+        ],
+        "agent_document_count": 2,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-09-29 05:20:25 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL2NsYXVkZS1mYWJsZS01",
+        "url": "https://api.glianalabs.com/a402/claude-fable-5",
+        "method": "POST",
+        "description": "GlianaAI - pay-per-call AI: LLM chat (OpenAI-compatible), image, video, music, speech - 100+ models, no signup, USDC on Algorand. This resource: claude-fable-5 (Text Generation). https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "75264",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Summarize x402 in one sentence."
+                }
+              ],
+              "max_tokens": 0
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "model": "claude-fable-5",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790659225446,
+        "last_ts": 1790659225280
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL2dwdC00by10cmFuc2NyaWJl",
+        "url": "https://api.glianalabs.com/a402/gpt-4o-transcribe",
+        "method": "POST",
+        "description": "GlianaAI - pay-per-call AI: LLM chat (OpenAI-compatible), image, video, music, speech - 100+ models, no signup, USDC on Algorand. This resource: gpt-4o-transcribe (Speech-to-Text). https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "32400",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "file": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "model": "gpt-4o-transcribe",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790659214486,
+        "last_ts": 1790659214293
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL2dyb2staW1hZ2luZS1pbWFnZQ",
+        "url": "https://api.glianalabs.com/a402/grok-imagine-image",
+        "method": "POST",
+        "description": "GlianaAI - pay-per-call AI: LLM chat (OpenAI-compatible), image, video, music, speech - 100+ models, no signup, USDC on Algorand. This resource: grok-imagine-image (Text-to-Image). https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "24000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "prompt": "a red apple on a table"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "model": "grok-imagine-image",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790658866401,
+        "last_ts": 1790658866232
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2F1dG8tb2c",
+        "url": "https://api.glianalabs.com/a402/tools/auto-og",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/auto-og. Read a web page and render a social card from what it says. Use when an agent has only a URL and wants a preview image without choosing the wording. Input: url (required). Returns sourceTitle, url and contentType. Two browser passes — one to read the page, one to render — which is why it costs more than og-image. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "30000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "auto-og",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656642871,
+        "last_ts": 1790656642543
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2NhcmQ",
+        "url": "https://api.glianalabs.com/a402/tools/card",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/card. Render a social card in a chosen aspect ratio. Use when an agent needs an image sized for a specific platform rather than the default 1200x630. Inputs: preset (e.g. instagram-square, story), title (required), subtitle, background, accent, theme. Returns url and contentType of the PNG. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "preset": "instagram-square",
+              "title": "Big news",
+              "subtitle": "we shipped it"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "card",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656629074,
+        "last_ts": 1790656628916
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2NvZGUtaW1hZ2U",
+        "url": "https://api.glianalabs.com/a402/tools/code-image",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/code-image. Render a syntax-highlighted code snippet as an image. Use when an agent shares code somewhere that cannot display a code block. Inputs: code (required), title (filename shown in the window bar), language (for highlighting, e.g. ts, py). Returns url and contentType of the PNG. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "code": "const x = 42;",
+              "title": "app.js"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "code-image",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656601301,
+        "last_ts": 1790656601134
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2RlZmktdHZs",
+        "url": "https://api.glianalabs.com/a402/tools/defi-tvl",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/defi-tvl. Total value locked in a DeFi protocol or a whole chain, from DefiLlama. Use when an agent sizes a protocol before interacting with it, tracks where capital is moving, or wants the state of the market before drilling into anything. Inputs: all optional — protocol (a DefiLlama slug like aave, uniswap, lido), chain (e.g. Ethereum, Base), limit (1-50). With protocol: returns tvl_usd, 1d and 7d change, market cap and the per-chain split. With chain: that chain's TVL and its rank. With neither: the largest chains by TVL plus the total. Borrowed and staking rows are excluded so the number is TVL and not double-counted. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "protocol": "aave"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "defi-tvl",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656504370,
+        "last_ts": 1790656504204
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2RleC1wYWlycw",
+        "url": "https://api.glianalabs.com/a402/tools/dex-pairs",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/dex-pairs. On-chain DEX liquidity for a token: which pools exist, how deep they are, and how much they trade. Use when an agent needs to know whether a token is actually tradeable and where — token-price answers what it is worth, this answers whether you can get in and out. Inputs: query (required — a ticker like WIF, or better, the contract address), chain (optional filter, e.g. solana, base), limit (1-20, default 5). Returns pairs sorted by liquidity DESCENDING with price, liquidity, 24h volume, 24h change and the pair address, plus ambiguous_ticker: true when several tokens share the ticker at wildly different prices. Anyone can mint a token with any ticker, so a ticker search can match an impostor: pass the contract address when you know it, and treat a thin pool as untradeable however good its quoted price looks. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "query": "WIF"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "dex-pairs",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656496200,
+        "last_ts": 1790656495964
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2RvbWFpbi1sb29rdXA",
+        "url": "https://api.glianalabs.com/a402/tools/domain-lookup",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/domain-lookup. Who registered a domain, how old it is, and where its DNS points, in one call. Use when an agent vets a site or an email sender before trusting it, checks whether a name is taken, or confirms email authentication is set up. Inputs: domain (required — a bare domain or a full URL; a subdomain falls back to the registered domain), records (optional array of A, AAAA, MX, NS, TXT, CNAME, CAA; default A, AAAA, MX, NS, TXT). Returns registration (registrar, created, expires, age_days, status, nameservers, dnssec) read from the registry's own RDAP server, dns records by type, email (SPF record, DMARC record and its policy), and registered: false when the registry has no such domain. Some TLDs publish no RDAP at all (e.g. .io, .co): registration is then null and named in degraded, while DNS still answers. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "2000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "domain": "glianalabs.com"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "domain-lookup",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656399280,
+        "last_ts": 1790656398957
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2VtYmVk",
+        "url": "https://api.glianalabs.com/a402/tools/embed",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/embed. Turn text into 1024-d vectors for semantic search, clustering or RAG. Use when an agent builds or queries a vector index, or measures how close two pieces of text are in meaning. Inputs: texts (array, max 100 items, each up to 32,000 chars). Returns model, count, dimensions, embeddings[][]. Multilingual — Indonesian and English embed into the same space, so a query in one finds documents in the other. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "texts": [
+                "harga tiket kereta ke Bandung",
+                "train ticket price to Bandung"
+              ]
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "embed",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790653986105,
+        "last_ts": 1790656352045
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2V4Y2hhbmdlLXJhdGU",
+        "url": "https://api.glianalabs.com/a402/tools/exchange-rate",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/exchange-rate. Fiat currency conversion across 160+ currencies. Use when an agent prices something for a different market, or normalises amounts before comparing them. Inputs: from (required, e.g. USD), to (required, comma-separated e.g. IDR,EUR), amount (optional, converts as well as quoting). Returns rates and converted values with the reference date. Mid-market reference rates, not dealable quotes. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "2000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "from": "USD",
+              "to": "IDR,EUR",
+              "amount": 100
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "exchange-rate",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656391057,
+        "last_ts": 1790656390717
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2ZpbGluZy1kaWdlc3Q",
+        "url": "https://api.glianalabs.com/a402/tools/filing-digest",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/filing-digest. Input: { ticker, form?, accession?, question?, compare_to_prior? }. A model reads a US public company's SEC filing and answers a question about it, returning the passages the answer came from — \"what does Apple's 10-K say about tariffs\", \"what changed in the risk factors since last year\". Use instead of downloading a 300-page filing. form defaults to 10-K (also 10-Q, 20-F, 40-F, 8-K, 6-K, DEF 14A, S-1, F-1); accession picks one filing; omit question for the most important disclosures; compare_to_prior reads the previous filing of the same form too and reports what changed. Returns answer (markdown), passages[] { quote, supports, document } each matched verbatim against the filing, filing and prior links. Flat price for filings up to 700,000 characters of text (a large 10-K fits; the biggest bank 10-Ks do not) — bigger ones are refused before you pay. Reads the main document only: an 8-K's is often just a cover page, with the press release in an exhibit this does not read. What the filing says, never investment advice. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "filing-digest",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656654008,
+        "last_ts": 1790656653838
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2ZpbGluZy1ldmVudHM",
+        "url": "https://api.glianalabs.com/a402/tools/filing-events",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/filing-events. Input: { ticker, item?, limit? }. Material events a US public company reported on Form 8-K, newest first, each item code named in words: executive departures (5.02), material agreements (1.01), results (2.02), auditor changes (4.01), cybersecurity incidents (1.05). Use when an agent asks what has HAPPENED at a company rather than what it earned. item narrows to one code, e.g. \"5.02\". Returns company and events[] with form, filed date, event date, items[] { code, name } and a link. The headline of what was reported — open the link for the substance. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "filing-events",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656482246,
+        "last_ts": 1790656481901
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2ZpbGluZy1zZWFyY2g",
+        "url": "https://api.glianalabs.com/a402/tools/filing-search",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/filing-search. Input: { query, ticker?, form?, from?, to?, limit? }. Full-text search across every SEC filing since 2001 — which companies mention a supplier, which 8-Ks talk about a recall, which 10-Ks name a risk. Use when an agent needs documents by what they SAY rather than by company. query takes words, \"quoted phrases\", OR and -exclusions; ticker narrows to one company; form to one or more types (\"10-K\" or [\"8-K\", \"10-Q\"]); from/to are filing dates as YYYY-MM-DD. Returns total matches and filings[] with form, filed date, period, companies, the matched document (the filing itself or an exhibit) and a direct link — one row per filing. Text matches, not a ranking of importance. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "query": "\"artificial intelligence\""
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "filing-search",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656473959,
+        "last_ts": 1790656473587
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2dhcy1wcmljZQ",
+        "url": "https://api.glianalabs.com/a402/tools/gas-price",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/gas-price. Current gas on an EVM chain, priced in both gwei and dollars. Use when an agent decides whether to transact now, budgets a batch of transactions, or compares chains before routing. Inputs: chain (required — ethereum, base, arbitrum, optimism, bsc, polygon), gasLimit (optional, default 21000 = a plain transfer; pass the real limit for a contract call). Returns gas_price_gwei, priority_fee_gwei where the chain reports one, and estimated_cost_native plus estimated_cost_usd for that gas limit. The base fee moves every block, so this is a quote and not a guarantee. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "chain": "base"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "gas-price",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656510144,
+        "last_ts": 1790656509685
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2luc2lkZXItdHJhZGVz",
+        "url": "https://api.glianalabs.com/a402/tools/insider-trades",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/insider-trades. Input: { ticker, limit? }. Who inside a US public company bought or sold its stock, parsed from the Form 4s they are legally required to file. Use when an agent asks what executives or directors are doing with their own shares. Returns trades[] with person, their relationship to the company, date, what they did in words (sale, open-market purchase, grant, option exercise), shares, price per share and total value. Reported trades only — not a signal, and a Form 4 can be filed up to two business days after the trade. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "15000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "insider-trades",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656565340,
+        "last_ts": 1790656565156
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL2luc3RpdHV0aW9uYWwtaG9sZGVycw",
+        "url": "https://api.glianalabs.com/a402/tools/institutional-holders",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/institutional-holders. Input: { manager, quarter?, issuer?, limit? }. What an institutional investment manager held at a quarter end, from its Form 13F — \"what does Berkshire Hathaway own\". manager is the firm's name or SEC CIK; quarter is e.g. \"2026Q2\" (default: latest filed); issuer filters to holdings whose name or CUSIP matches. Returns manager, period, filed date, totalValue in USD, positions and holdings[] { issuer, class, cusip, value, shares, pctOfPortfolio, putCall }, largest first. Keyed by the MANAGER, not the company held, so it cannot answer \"who owns Apple\". Long US-listed positions only, filed up to 45 days after quarter end. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "manager": "Berkshire Hathaway"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "institutional-holders",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656537611,
+        "last_ts": 1790656537451
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL21hcmtldC1icmllZg",
+        "url": "https://api.glianalabs.com/a402/tools/market-brief",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/market-brief. One call that answers \"what is the market doing right now\" instead of four. Use when an agent wants context before acting — spot prices, gas on the chain it is about to transact on, and where DeFi capital sits — without orchestrating separate requests. Inputs: chain (default base — ethereum, base, arbitrum, optimism, bsc, polygon), symbols (default BTC,ETH,SOL, max 8), protocol (optional DefiLlama slug for a specific protocol TVL). Returns prices, gas (with the USD cost of a transfer), defi (total TVL and top chains), and protocol when asked. Each section degrades independently: a dead upstream nulls its own field, is named in `degraded`, and the rest of the brief still returns. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "30000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "chain": "base",
+              "symbols": "BTC,ETH,SOL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "market-brief",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656634593,
+        "last_ts": 1790656634269
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL21lbWU",
+        "url": "https://api.glianalabs.com/a402/tools/meme",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/meme. Render top and bottom caption text over an image. Use when an agent produces a captioned image in the classic layout. Inputs: image (required, https URL), top, bottom. Returns url and contentType of the PNG. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "image": "[local URL omitted]",
+              "top": "one does not simply",
+              "bottom": "ship on friday"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "meme",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656617984,
+        "last_ts": 1790656617664
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL21vZGVyYXRl",
+        "url": "https://api.glianalabs.com/a402/tools/moderate",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/moderate. Safety classification for a piece of text. Use before publishing user-generated content, or when an agent needs to decide whether to act on something it was asked to produce. Input: text (required, max 8,000 chars). Returns flagged (boolean), categories, verdict and chars. A signal for your own policy, not an enforcement decision. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "text": "I will find where you live."
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "moderate",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656368975,
+        "last_ts": 1790656368642
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL29nLWltYWdl",
+        "url": "https://api.glianalabs.com/a402/tools/og-image",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/og-image. Render a branded 1200x630 social card. Use when an agent publishes a page or post and needs a preview image so the link does not share as a bare URL. Inputs: title (required), subtitle, theme. Returns url and contentType of the PNG. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "title": "GlianaAI",
+              "subtitle": "pay-per-call AI, no signup"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "og-image",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656576401,
+        "last_ts": 1790656576208
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL293bmVyc2hpcC1jaGFuZ2Vz",
+        "url": "https://api.glianalabs.com/a402/tools/ownership-changes",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/ownership-changes. Input: { ticker, type?, limit? }. Who holds more than 5% of a US public company, from the Schedule 13D and 13G filings a holder must make. A 13D means the holder may seek to influence the company (activist); a 13G is a passive stake, typically an index fund. Use when an agent asks who the big holders are or whether an activist has moved in. type is \"13d\" or \"13g\"; omit for both. Returns stakes[] with form, activist, filed and event dates, holders[] { name, cik, shares, percent, type }, the stated purpose for a 13D, and a link. limit is filings read, default 5, max 10. Filings before December 2024 are free-form: holder names only, share counts null. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "ownership-changes",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656529300,
+        "last_ts": 1790656529139
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3BsYW5uZWQtaW5zaWRlci1zYWxlcw",
+        "url": "https://api.glianalabs.com/a402/tools/planned-insider-sales",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/planned-insider-sales. Input: { ticker, limit? }. Insiders who have told the SEC they intend to sell a US public company's stock, from the Form 144 notices filed on or before the sale — the forward-looking counterpart to insider-trades, which reports sales after they happen. Use when an agent asks who is about to sell or whether a sale was pre-planned. Returns notices[] with person, relationship, shares, marketValue, pctOfOutstanding, approxSaleDate, broker, how the shares were acquired, tradingPlanAdopted (10b5-1 plan dates), sales in the past 3 months and a link. limit is notices read, default 5, max 20. A notice of intent, not a completed sale; electronic 144s start April 2023. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "planned-insider-sales",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656545883,
+        "last_ts": 1790656545736
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3F1b3RlLWNhcmQ",
+        "url": "https://api.glianalabs.com/a402/tools/quote-card",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/quote-card. Render a quotation as a shareable image. Use when an agent turns a line of text into something postable. Inputs: quote (required), author, theme. Returns url and contentType of the PNG. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "quote": "Make it work, make it right, make it fast.",
+              "author": "Kent Beck"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "quote-card",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656593109,
+        "last_ts": 1790656592706
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3JlcmFuaw",
+        "url": "https://api.glianalabs.com/a402/tools/rerank",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/rerank. Input: { query, documents, top_k? }. Order candidate documents by how relevant each is to a query, using a cross-encoder that reads the query and each document together. Use after a vector search or keyword search, before putting the best few passages into a prompt: embeddings find candidates, this ranks them. documents is up to 100 strings (or { text } objects), each up to 4,000 characters; top_k keeps only the best N. Returns results[] { index, score, document }, most relevant first, where index is the position in your input. Rely on the order; scores are only comparable within one call. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "1000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "query": "How do I get a refund?",
+              "documents": [
+                "Our office is open Monday to Friday.",
+                "Refunds are issued to the original payment method within 5 business days."
+              ]
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "rerank",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656360879,
+        "last_ts": 1790656360384
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3JwYw",
+        "url": "https://api.glianalabs.com/a402/tools/rpc",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/rpc. Read-only JSON-RPC call against a supported blockchain. Use when an agent needs on-chain state — a block number, a balance, a contract read — without running its own node. Inputs: chain (required, e.g. base, ethereum, solana), method (required, e.g. eth_blockNumber), params (array, default []). Returns the RPC result verbatim. Reads only; nothing is signed or broadcast. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "2000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "chain": "base",
+              "method": "eth_blockNumber",
+              "params": []
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "rpc",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656407683,
+        "last_ts": 1790656407306
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3NjcmFwZQ",
+        "url": "https://api.glianalabs.com/a402/tools/scrape",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/scrape. Fetch a web page as clean markdown, JavaScript included. Use when an agent needs the content of a page rather than a search snippet, or when the page renders client-side and a plain fetch returns nothing. Input: url (required, http(s)). Returns url and markdown. Long pages are truncated and the response says so. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "scrape",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656451856,
+        "last_ts": 1790656451494
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3NjcmVlbnNob3Q",
+        "url": "https://api.glianalabs.com/a402/tools/screenshot",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/screenshot. Capture a rendered web page as a PNG. Use when an agent needs to show a page rather than read it — a preview, a visual diff, evidence of what a site displayed. Inputs: url (required), width and height (320-1920, default 1280x800), fullPage (capture the whole scrollable page). Returns url of the stored image, contentType and the source url. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "url": "[local URL omitted]"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "screenshot",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656460187,
+        "last_ts": 1790656459806
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3NlYXJjaA",
+        "url": "https://api.glianalabs.com/a402/tools/search",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/search. Web search returning ranked results with title, url and snippet. Use when an agent needs current facts, prices or news that are not in its training data. Inputs: q (required, max 400 chars), count (default 5, max 20). Returns results[] with title, url, snippet, plus the provider used. One upstream call, flat price regardless of count. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "q": "x402 payment protocol",
+              "count": 5
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "search",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656429742,
+        "last_ts": 1790656429419
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3N0b2NrLWJyaWVm",
+        "url": "https://api.glianalabs.com/a402/tools/stock-brief",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/stock-brief. Input: { ticker }. One call that answers \"what is going on with this company\": profile, the latest reported financials, and the most recent filings. Use instead of three separate calls when an agent is sizing up a company. Each section degrades on its own — a slow upstream nulls its field and the brief still returns. Reported figures and filings only; no share price. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "12000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "stock-brief",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656556936,
+        "last_ts": 1790656556747
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3N0b2NrLWZpbGluZ3M",
+        "url": "https://api.glianalabs.com/a402/tools/stock-filings",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/stock-filings. Input: { ticker, form?, limit? }. Recent SEC filings for a US public company, newest first, each with its form type, date and a direct link to the document. Use when an agent needs the source document — the 10-K, the 10-Q, the 8-K announcing something. form filters to one type (e.g. \"10-K\", \"4\"); omit for all. Returns company name, CIK and filings[]. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL",
+              "form": "10-K"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "stock-filings",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656468444,
+        "last_ts": 1790656468080
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3N0b2NrLWZ1bmRhbWVudGFscw",
+        "url": "https://api.glianalabs.com/a402/tools/stock-fundamentals",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/stock-fundamentals. Input: { ticker, concept?, limit? }. What a US public company REPORTED, straight from its SEC filings — revenue, net income, assets, cash, shares outstanding — per fiscal period, newest first. Use when an agent needs audited figures rather than a screen-scraped summary. concept picks one XBRL tag (e.g. Revenues, NetIncomeLoss, Assets); omit it for the standard set. Returns company { name, ticker, cik } and facts[] with concept, unit, period, end, value and the form each figure came from. NOT a share price: EDGAR is what companies file, not what the stock trades at. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "10000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "ticker": "AAPL"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "stock-fundamentals",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656523810,
+        "last_ts": 1790656523623
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3N3YXAtYnVpbGQ",
+        "url": "https://api.glianalabs.com/a402/tools/swap-build",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/swap-build. Input: { chain, from, to, amount, address, to_chain?, to_address?, slippage_pct?, max_value_lost_pct? }. An UNSIGNED swap or bridge transaction for the caller's own wallet (address) to sign and send. Non-custodial: GlianaAI never holds keys or funds, and nothing happens until the caller signs. Use when an agent has decided to trade and needs a ready transaction. Returns the EVM transaction (to, data, value, gasLimit) or a base64 Solana transaction, an ERC-20 approval transaction when one may be needed, receive and receive_min, value_lost_pct and fees. The per-call price buys the transaction; a GlianaAI service fee, shown as service_fee_pct, already deducted from receive and counted in value_lost_pct, is taken on-chain only when it is signed and sent. Refuses for free when value lost exceeds max_value_lost_pct (default 3) or no route exists. Check the amounts before signing. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "5000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "chain": "base",
+              "from": "USDC",
+              "to": "ETH",
+              "amount": "10",
+              "address": "0x7662E00f8Ab4C362166e1FF649Ff6c2A638c80AD"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "swap-build",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656438060,
+        "last_ts": 1790656437724
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3N3YXAtcXVvdGU",
+        "url": "https://api.glianalabs.com/a402/tools/swap-quote",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/swap-quote. Input: { chain, from, to, amount, to_chain?, slippage_pct?, limit? }. The best routes to swap one token for another, or bridge between chains, across 60+ mainnets including Base, Ethereum, Arbitrum, BSC and Solana, routed through DEX aggregators and bridges. Use before an agent trades, to see what it would receive and what it would lose. from/to are symbols (USDC, ETH, SOL) or contract addresses; amount is in whole tokens (\"10\", \"0.25\"), not base units; to_chain bridges. Returns routes[] with receive, receive_min (after slippage), value_lost_pct (fees and price impact together), gas_usd, every fee, the DEXs and bridges used and an estimated duration. The per-call price buys the quote; a GlianaAI service fee, shown as service_fee_pct and already deducted from receive, is taken on-chain only if the swap is executed. A quote only — no wallet needed and nothing is executed; call swap-build for a transaction. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "2000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "chain": "base",
+              "from": "USDC",
+              "to": "ETH",
+              "amount": "10"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "swap-quote",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656385544,
+        "last_ts": 1790656385214
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3Rva2VuLXByaWNl",
+        "url": "https://api.glianalabs.com/a402/tools/token-price",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/token-price. Spot prices for cryptocurrencies and tokens. Use when an agent values a holding, converts an amount, or checks a market before acting. Inputs: symbols (required, comma-separated e.g. BTC,ETH,SOL), vs (quote currency, default usd). Returns per-symbol price with the source and timestamp. Cheap enough to poll in a loop. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "2000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "symbols": "BTC,ETH",
+              "vs": "usd"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "token-price",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656377397,
+        "last_ts": 1790656376962
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3R3ZWV0LWltYWdl",
+        "url": "https://api.glianalabs.com/a402/tools/tweet-image",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/tweet-image. Render text in a tweet-style card. Use when an agent mocks up a post or quotes one as an image. Inputs: text (required), name, handle. Returns url and contentType of the PNG. A rendering of text you supply, not a capture of a real tweet. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "text": "shipping > talking",
+              "name": "GlianaAI",
+              "handle": "glianalabs"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "tweet-image",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656609809,
+        "last_ts": 1790656609422
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3Rvb2xzL3lvdXR1YmUtdGh1bWJuYWls",
+        "url": "https://api.glianalabs.com/a402/tools/youtube-thumbnail",
+        "method": "POST",
+        "description": "GlianaAI - Pay-per-call AI models, live market data, SEC filings and identity APIs (100+ models incl. LLM chat), no signup, USDC on Algorand. This resource: tools/youtube-thumbnail. Render a 1280x720 YouTube thumbnail. Use when an agent produces a video and needs a title card that reads at feed size. Inputs: title (required), subtitle, background (https URL of a photo — strongly recommended; text on a plain gradient reads as a blog header), accent (hex). Returns url and contentType of the PNG. https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "20000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "title": "I built an AI API",
+              "subtitle": "in one weekend"
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "tool": "youtube-thumbnail",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790656587218,
+        "last_ts": 1790656587054
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FwaS5nbGlhbmFsYWJzLmNvbS9hNDAyL3R0cy0x",
+        "url": "https://api.glianalabs.com/a402/tts-1",
+        "method": "POST",
+        "description": "GlianaAI - pay-per-call AI: LLM chat (OpenAI-compatible), image, video, music, speech - 100+ models, no signup, USDC on Algorand. This resource: tts-1 (Text-to-Speech). https://ai.glianalabs.com",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "14000",
+            "payTo": "SQ2NZ6TVGSGY7MQNEDYK27WX5TEDTV6WDPVIZO77DGKHJGAYV6ZYJUKT5U",
+            "maxTimeoutSeconds": 300,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "asset": "31566704",
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "method": "POST",
+            "bodyType": "json",
+            "body": {
+              "text": "Hello from GlianaAI."
+            }
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "model": "tts-1",
+              "url": "https://api.glianalabs.com/v1/media/<id>"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790659203364,
+        "last_ts": 1790659203203
+      }
+    ],
+    "resource_count": 38,
+    "description_count": 38,
+    "mime_type_count": 38,
+    "accepts_count": 38,
+    "discovery_count": 38,
+    "input_documentation_count": 38,
+    "output_documentation_count": 38,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.glianalabs.com"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 2,
+    "agent_document_types": [
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

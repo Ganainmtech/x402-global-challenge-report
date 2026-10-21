@@ -1,0 +1,213 @@
+{
+  "merchant_id": "RUdQVklaT0UzVTNWSEJLNUEzWjJMWVRF",
+  "name": null,
+  "description": null,
+  "website": null,
+  "logo": null,
+  "categories": [],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "minia2a.uk",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 42,
+      "last_observed_at": 1787025975868,
+      "catalog_endpoint_count": 2,
+      "metadata": {
+        "domain": "minia2a.uk",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://minia2a.uk",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791222088675,
+        "last_fetch_attempt_utc": "2026-10-05T17:41:28.675000+00:00",
+        "title": "Discover 1,600+ Verified Agent APIs — minia2a.uk",
+        "description": "1,600+ verified x402 APIs for AI agents. 5 free trial calls per signed wallet. USDC on Base. Pay-per-call x402. Verified — not just listed, tested. .agent-budget support.",
+        "site_name": null,
+        "logo": "https://minia2a.uk/apple-touch-icon.svg",
+        "banner": "https://minia2a.uk/img/og-image-minia2a.png",
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://minia2a.uk/.well-known/agent-card.json",
+            "name": "minia2a",
+            "description": "Agent-to-agent API marketplace: 1,600+ pay-per-call x402 microservices for AI agents — crypto data, web scraping, AI inference, token security, gas monitoring, and more. Agents discover, call, and pay with USDC on Base via x402. 5 free trial calls per signed wallet, then pay per call via x402."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://minia2a.uk/.well-known/agent.json",
+            "name": "minia2a",
+            "description": "M2M micropayment marketplace for AI agents. 1,600+ pay-per-call x402 microservices across crypto, dev tools, AI, web scraping, data enrichment. Agents discover, 5 free trial calls per signed wallet, then pay per call, and pay using x402 with USDC on Base. Agent-native wallet, zero human intervention."
+          },
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://minia2a.uk/.well-known/mcp.json",
+            "name": null,
+            "description": null
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://minia2a.uk/.well-known/x402",
+            "name": "minia2a — x402 Agent API Marketplace",
+            "description": "1,600+ pay-per-call x402 microservices for AI agents. Crypto data, web scraping, AI inference, token security, gas monitoring, and more. 5 free trial calls per signed wallet. USDC on Base."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://minia2a.uk/llms.txt",
+            "name": "minia2a.uk — Agent-to-Agent API Marketplace",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "logo",
+          "banner"
+        ],
+        "completeness_present": 4,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-08-18 04:06:15 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "R0VUOmh0dHBzOi8vbWluaWEyYS51ay94NDAyL2dhcw",
+        "url": "https://minia2a.uk/x402/gas",
+        "method": "GET",
+        "description": "minia2a service: x402-gas",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "500000",
+            "asset": "31566704",
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "asset": 31566704
+            },
+            "maxTimeoutSeconds": 120,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "EGPVIZOE3U3VHBK5A3Z2LYTE64L4FSCVAB6YAKIGWZDU5GENB5DM74V7DQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {},
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "ok": true
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787020028792,
+        "last_ts": 1787025975868
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vbWluaWEyYS51ay94NDAyL3RpbWU",
+        "url": "https://minia2a.uk/x402/time",
+        "method": "GET",
+        "description": "minia2a service: x402-time",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "amount": "100000",
+            "asset": "31566704",
+            "extra": {
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "decimals": 6,
+              "asset": 31566704
+            },
+            "maxTimeoutSeconds": 120,
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "payTo": "EGPVIZOE3U3VHBK5A3Z2LYTE64L4FSCVAB6YAKIGWZDU5GENB5DM74V7DQ",
+            "scheme": "exact"
+          }
+        ],
+        "discovery": {
+          "input": {
+            "method": "GET",
+            "queryParams": {},
+            "type": "http"
+          },
+          "output": {
+            "example": {
+              "ok": true
+            },
+            "type": "json"
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787019948695,
+        "last_ts": 1787024950141
+      }
+    ],
+    "resource_count": 2,
+    "description_count": 2,
+    "mime_type_count": 2,
+    "accepts_count": 2,
+    "discovery_count": 2,
+    "input_documentation_count": 2,
+    "output_documentation_count": 2,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "minia2a.uk"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": false,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 5,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "llms-txt",
+      "mcp",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

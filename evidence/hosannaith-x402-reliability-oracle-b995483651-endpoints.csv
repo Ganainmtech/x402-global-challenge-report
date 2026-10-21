@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,http://api.hosannaith.com/reliability,8,0.080000,1,0,0.000000,0,0.000000,0,2026-09-29 15:24:16 UTC,2026-10-01 13:22:08 UTC

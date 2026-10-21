@@ -1,0 +1,2 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,http://api.scrape402.site/scrape,876,87.600000,874,0,0.000000,873,87.300000,0,2026-07-22 16:47:02 UTC,2026-09-26 10:17:37 UTC

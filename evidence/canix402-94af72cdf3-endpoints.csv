@@ -1,0 +1,28 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://canix402-api.compx.io/positions,446,2.230000,5,446,2.230000,245,1.225000,0,2026-07-21 21:56:13 UTC,2026-10-06 09:00:29 UTC
+GET,https://canix402-api.compx.io/opportunities,306,3.060000,9,0,0.000000,28,0.280000,0,2026-07-21 21:55:46 UTC,2026-10-05 12:06:31 UTC
+POST,https://canix402-api.compx.io/execution/quotes,234,23.400000,3,0,0.000000,103,10.300000,0,2026-07-21 22:00:43 UTC,2026-10-03 09:09:50 UTC
+GET,https://canix402-api.compx.io/opportunities/personalized,204,10.200000,5,0,0.000000,117,5.850000,0,2026-07-21 21:55:36 UTC,2026-10-06 09:02:35 UTC
+GET,https://canix402-api.compx.io/opportunities/search,194,1.940000,6,0,0.000000,167,1.670000,0,2026-07-23 12:53:28 UTC,2026-10-06 09:03:03 UTC
+GET,https://canix402-api.compx.io/protocols/folks-finance/opportunities,156,1.560000,4,0,0.000000,81,0.810000,0,2026-07-21 21:55:49 UTC,2026-10-06 09:05:08 UTC
+GET,https://canix402-api.compx.io/positions/claimable,146,0.146000,4,146,0.146000,135,0.135000,0,2026-08-17 18:41:58 UTC,2026-10-06 09:00:57 UTC
+GET,https://canix402-api.compx.io/protocols/tinyman/opportunities,144,1.440000,5,0,0.000000,89,0.890000,0,2026-07-21 21:55:51 UTC,2026-10-03 09:09:12 UTC
+GET,https://canix402-api.compx.io/protocols/compx/opportunities,82,0.820000,5,0,0.000000,5,0.050000,0,2026-07-21 21:55:53 UTC,2026-09-28 01:34:14 UTC
+GET,https://canix402-api.compx.io/protocols/reti/opportunities,74,0.740000,4,0,0.000000,62,0.620000,0,2026-07-23 11:31:51 UTC,2026-09-28 01:39:01 UTC
+(not recorded),(not recorded),71,1.395000,5,7,0.035000,0,0.000000,0,2026-07-27 22:11:12 UTC,2026-09-22 10:17:30 UTC
+GET,https://canix402-api.compx.io/protocols/dorkfi/opportunities,67,0.670000,3,0,0.000000,0,0.000000,0,2026-07-21 21:55:55 UTC,2026-09-28 01:35:01 UTC
+GET,https://canix402-api.compx.io/protocols/pact/opportunities,57,0.570000,4,0,0.000000,2,0.020000,0,2026-07-21 21:55:57 UTC,2026-09-28 01:38:17 UTC
+POST,https://canix402-api.compx.io/swaps/transactions,43,0.215000,2,43,0.215000,25,0.125000,0,2026-07-23 10:49:56 UTC,2026-10-03 09:09:39 UTC
+(not recorded),https://canix402-api.compx.io/execution/quotes,21,2.100000,1,0,0.000000,0,0.000000,0,2026-07-21 21:01:42 UTC,2026-07-21 21:51:53 UTC
+GET,https://canix402-api.compx.io/protocols/haystack/opportunities,20,0.200000,2,0,0.000000,18,0.180000,0,2026-07-30 12:54:14 UTC,2026-09-28 01:36:35 UTC
+(not recorded),https://canix402-api.compx.io/opportunities,13,0.130000,2,0,0.000000,1,0.010000,0,2026-07-21 20:16:36 UTC,2026-07-21 21:51:23 UTC
+(not recorded),https://canix402-api.compx.io/positions,13,0.065000,1,13,0.065000,0,0.000000,0,2026-07-21 21:01:41 UTC,2026-07-21 21:52:13 UTC
+(not recorded),https://canix402-api.compx.io/opportunities/personalized,12,0.600000,1,0,0.000000,0,0.000000,0,2026-07-21 20:33:08 UTC,2026-07-21 21:51:20 UTC
+(not recorded),https://canix402-api.compx.io/protocols/compx/opportunities,12,0.120000,1,0,0.000000,0,0.000000,0,2026-07-21 20:33:18 UTC,2026-07-21 21:51:29 UTC
+(not recorded),https://canix402-api.compx.io/protocols/dorkfi/opportunities,12,0.120000,1,0,0.000000,0,0.000000,0,2026-07-21 20:33:19 UTC,2026-07-21 21:51:30 UTC
+(not recorded),https://canix402-api.compx.io/protocols/folks-finance/opportunities,12,0.120000,1,0,0.000000,0,0.000000,0,2026-07-21 20:33:14 UTC,2026-07-21 21:51:25 UTC
+(not recorded),https://canix402-api.compx.io/protocols/pact/opportunities,12,0.120000,1,0,0.000000,0,0.000000,0,2026-07-21 20:33:20 UTC,2026-07-21 21:51:31 UTC
+(not recorded),https://canix402-api.compx.io/protocols/tinyman/opportunities,12,0.120000,1,0,0.000000,0,0.000000,0,2026-07-21 20:33:16 UTC,2026-07-21 21:51:26 UTC
+GET,https://canix402-api.compx.io/protocols/myth-finance/opportunities,8,0.080000,3,0,0.000000,0,0.000000,0,2026-07-23 11:31:52 UTC,2026-09-28 01:37:52 UTC
+GET,https://canix402-api.compx.io/protocols/morpho/opportunities,3,0.030000,2,0,0.000000,1,0.010000,0,2026-09-21 19:16:52 UTC,2026-09-28 01:37:08 UTC
+POST,https://canix402-api.compx.io/sessions,1,0.250000,1,0,0.000000,0,0.000000,0,2026-08-28 13:22:45 UTC,2026-08-28 13:22:45 UTC

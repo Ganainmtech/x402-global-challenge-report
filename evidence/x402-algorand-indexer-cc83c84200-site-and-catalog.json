@@ -1,0 +1,1077 @@
+{
+  "merchant_id": "WDRPMlc3WEROWEFNUFdBVVJHR0w0VkRK",
+  "name": "x402 Algorand Indexer",
+  "description": null,
+  "website": "https://api.algorand-indexer.xyz",
+  "logo": null,
+  "categories": [
+    "api",
+    "algorand",
+    "x402",
+    "indexer"
+  ],
+  "networks": [
+    "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8="
+  ],
+  "domains": [
+    {
+      "domain": "algorand-indexer.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "observed_event"
+      ],
+      "observed_event_count": 16,
+      "last_observed_at": 1791067255246,
+      "catalog_endpoint_count": 12,
+      "metadata": {
+        "domain": "algorand-indexer.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://algorand-indexer.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1789737963945,
+        "last_fetch_attempt_utc": "2026-09-18T13:26:03.945000+00:00",
+        "title": "Indexer Analytics",
+        "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/",
+        "site_name": "x402 Algorand Indexer",
+        "logo": "https://algorand-indexer.xyz/favicon.svg",
+        "banner": null,
+        "theme_color": "#0b1017",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://algorand-indexer.xyz/.well-known/agent-card.json",
+            "name": "algorand-indexer-x402",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/ Paid requests settle in USDC on Algorand through the GoPlausible facilitator; no API keys or server-side wallets."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://algorand-indexer.xyz/.well-known/agent.json",
+            "name": "algorand-indexer-x402",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/ Paid requests settle in USDC on Algorand through the GoPlausible facilitator; no API keys or server-side wallets."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://algorand-indexer.xyz/.well-known/ai-plugin.json",
+            "name": "x402 Algorand Indexer",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/"
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://algorand-indexer.xyz/.well-known/x402",
+            "name": "x402 Algorand Indexer",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://algorand-indexer.xyz/llms.txt",
+            "name": "x402 Algorand Indexer",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "theme_color"
+        ],
+        "completeness_present": 5,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-03 22:40:55 UTC"
+    },
+    {
+      "domain": "api.algorand-indexer.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint",
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 267,
+      "last_observed_at": 1791244887155,
+      "catalog_endpoint_count": 3,
+      "metadata": {
+        "domain": "api.algorand-indexer.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.algorand-indexer.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": "Algorand Indexer · Pay per query",
+        "description": "Pay-per-query Algorand Indexer for autonomous agents. Accounts, assets, transactions, and blocks on MainNet — USDC micropayments via x402.",
+        "site_name": "Algorand Indexer",
+        "logo": "https://api.algorand-indexer.xyz/favicon.ico",
+        "banner": "https://api.algorand-indexer.xyz/og.png",
+        "theme_color": "#0b1017",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.algorand-indexer.xyz/.well-known/agent-card.json",
+            "name": "algorand-indexer-x402",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/ Paid requests settle in USDC on Algorand through the GoPlausible facilitator; no API keys or server-side wallets."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.algorand-indexer.xyz/.well-known/agent.json",
+            "name": "algorand-indexer-x402",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/ Paid requests settle in USDC on Algorand through the GoPlausible facilitator; no API keys or server-side wallets."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://api.algorand-indexer.xyz/.well-known/ai-plugin.json",
+            "name": "x402 Algorand Indexer",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/"
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.algorand-indexer.xyz/.well-known/x402",
+            "name": "x402 Algorand Indexer",
+            "description": "Paid Algorand Indexer REST API implemented using the x402 spec on Algorand. Endpoints are an exact match to the indexer REST API endpoints, https://dev.algorand.co/reference/rest-api/overview/"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.algorand-indexer.xyz/llms.txt",
+            "name": "x402 Algorand Indexer",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 00:01:27 UTC"
+    },
+    {
+      "domain": "testnet.algorand-indexer.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "catalog_endpoint"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 1,
+      "metadata": {
+        "domain": "testnet.algorand-indexer.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://testnet.algorand-indexer.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1788126254409,
+        "last_fetch_attempt_utc": "2026-08-30T21:44:14.409000+00:00",
+        "title": "Algorand Indexer x402 (TestNet)",
+        "description": "Pay-per-query Algorand Indexer for autonomous agents. Accounts, assets, transactions, and blocks on TestNet — USDC micropayments via x402.",
+        "site_name": "Algorand Indexer x402 (TestNet)",
+        "logo": "https://testnet.algorand-indexer.xyz/favicon.ico",
+        "banner": "https://testnet.algorand-indexer.xyz/og.png",
+        "theme_color": "#0b1017",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://testnet.algorand-indexer.xyz/.well-known/agent-card.json",
+            "name": "algorand-indexer-x402",
+            "description": "Pay-per-query Algorand TestNet Indexer API with x402 on TestNet USDC Paid requests settle in USDC on Algorand through the GoPlausible facilitator; no API keys or server-side wallets."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://testnet.algorand-indexer.xyz/.well-known/agent.json",
+            "name": "algorand-indexer-x402",
+            "description": "Pay-per-query Algorand TestNet Indexer API with x402 on TestNet USDC Paid requests settle in USDC on Algorand through the GoPlausible facilitator; no API keys or server-side wallets."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://testnet.algorand-indexer.xyz/.well-known/ai-plugin.json",
+            "name": "Algorand Indexer x402 (TestNet)",
+            "description": "Pay-per-query Algorand TestNet Indexer API with x402 on TestNet USDC"
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://testnet.algorand-indexer.xyz/.well-known/x402",
+            "name": "Algorand Indexer x402 (TestNet)",
+            "description": "Pay-per-query Algorand TestNet Indexer API with x402 on TestNet USDC"
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://testnet.algorand-indexer.xyz/llms.txt",
+            "name": "Algorand Indexer x402 (TestNet)",
+            "description": null
+          }
+        ],
+        "agent_document_count": 5,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvMXlycmpwM2dkbXkwdnNmZmtoaTM4a2FtcnM0NHZpZmYvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/1yrrjp3gDmY0VSfFKHi38KAMrS44vifF/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788440654072,
+        "last_ts": 1788440653936
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvMmFwNGRycWwwbHJ1cjJ6NXU2dm1pdHpwd2ZieHFkcWgvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/2Ap4Drql0lRur2Z5U6VmitZPwfbXqDqH/unlock",
+        "method": "POST",
+        "description": "Unlock Cost basis calculator results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "500",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790994076305,
+        "last_ts": 1790994076044
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvM2Zzc2lod3Vmcmh1cGVvd2l5dHl0ajM4eXhpbTlqcDgvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/3fSsIHWUfrHUpEowIyTyTj38Yxim9Jp8/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1791067230846,
+        "last_ts": 1791067230272
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvXzFnaWNnZWtlaW15d2Mwd2h0YnNiM19pZjB5ejBqZXAvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/_1gIcgeKeImYWC0WhtBsb3_IF0YZ0jEp/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788126254243,
+        "last_ts": 1788126253970
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvY3pqaDBfYzYxZGRhdmxhcjUwYXRfZ3VlaXBxdm1zdHQvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/cZjh0_C61ddAVLAR50At_gueIpqvMsTt/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1790600900620,
+        "last_ts": 1790600900349
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvZmhpOXQ4MXQ0NW13eWJwX29ycXdjZWJxNmZzaHgzcGIvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/FHI9T81T45mwybp_ORqWcEbq6FSHX3Pb/unlock",
+        "method": "POST",
+        "description": "Unlock Cost basis calculator results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "700",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788126322570,
+        "last_ts": 1788126322300
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMva2ZuOGFhd3p1b2sybV8xYmJmdV9oaGk2eHJzYW5iZ3gvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/kfN8aaWZUok2m_1BbFU_HHi6xrSANbgx/unlock",
+        "method": "POST",
+        "description": "Unlock Cost basis calculator results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "2300",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1791067255620,
+        "last_ts": 1791067255246
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvbDRyZGttNHhlbGVobXBfamU3Y3RkeGN5cmpjYXdjdWkvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/l4rdKm4xELEhMP_jE7CTDXCYRjcAWCui/unlock",
+        "method": "POST",
+        "description": "Unlock Cost basis calculator results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "9500",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789956191779,
+        "last_ts": 1789956191475
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvbDdrb2o2eDVnZHp5YXRxaW5peWxxZ295cXNwc2V5ZHMvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/l7Koj6X5gDZyAtQiNIylQGoyQSpsEYDS/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788666174657,
+        "last_ts": 1788666174513
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvcHhxejVncHFmeWZ2ZGt5b3FsMzl4dGN6bHFmbjJnZGUvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/pXqZ5GpQFYfvDkYoql39xtczLqfn2Gde/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787971427529,
+        "last_ts": 1787971427271
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvc3dtc2JmNWphaGdhZjh1ZDZueHpscGgybGZ2ZGh6b2EvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/sWMsbf5JahgAf8uD6nXzlpH2lFvDHZOA/unlock",
+        "method": "POST",
+        "description": "Unlock analytics query results (x402 hop-equivalent payment)",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "926400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1787888038779,
+        "last_ts": 1787888038518
+      },
+      {
+        "id": "UE9TVDpodHRwczovL2FsZ29yYW5kLWluZGV4ZXIueHl6L2FwaS92MS9xdWVyaWVzL3Jlc3VsdHMvdDZ2amd6am1jZV9lbnNzY29weWM3czBtNm5udHNiaGMvdW5sb2Nr",
+        "url": "https://algorand-indexer.xyz/api/v1/queries/results/T6VJGzjmcE_eNsScoPyC7s0m6NNTSbhc/unlock",
+        "method": "POST",
+        "description": "Unlock Portfolio results",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "400",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "bodyType": "json",
+            "body": {
+              "payment_signature": ""
+            },
+            "method": "POST"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "access": "unlocked",
+              "query_id": "cost_basis",
+              "result": {}
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1789944392899,
+        "last_ts": 1789944392576
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29yYW5kLWluZGV4ZXIueHl6L3YyL2FjY291bnRzL2pyZzNjdXZvZmszeWprM3FkZDRpb3drbWhocmN3dnRlbXVzeWtkbjd1NzNmcW81enl0Y2M3Y2VicnE",
+        "url": "https://api.algorand-indexer.xyz/v2/accounts/JRG3CUVOFK3YJK3QDD4IOWKMHHRCWVTEMUSYKDN7U73FQO5ZYTCC7CEBRQ",
+        "method": "GET",
+        "description": "Algorand account lookup: balance, status, participation, and auth-addr for a single address",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "amount": 0,
+              "status": "Offline"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788044847571,
+        "last_ts": 1791244887155
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29yYW5kLWluZGV4ZXIueHl6L3YyL2FjY291bnRzL3g0bzJ3N3hkbnhhbXB3YXVyZ2dsNHZkam16dGNvMmVkb2g3bnB3YmtmYmtvdGpxdnB1eXI1ZnJhbWk",
+        "url": "https://api.algorand-indexer.xyz/v2/accounts/X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+        "method": "GET",
+        "description": "Algorand account lookup: balance, status, participation, and auth-addr for a single address",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "amount": 0,
+              "status": "Offline"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788057261610,
+        "last_ts": 1790558881640
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vYXBpLmFsZ29yYW5kLWluZGV4ZXIueHl6L3YyL3RyYW5zYWN0aW9ucw",
+        "url": "https://api.algorand-indexer.xyz/v2/transactions",
+        "method": "GET",
+        "description": "Search Algorand transactions with filters (address, asset-id, txid, time range, sig-type) and cursor pagination",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+            "asset": "31566704",
+            "amount": "100",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+              "genesisId": "mainnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "limit": "10"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "transactions": [],
+              "current-round": 1
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788130056954,
+        "last_ts": 1788144960682
+      },
+      {
+        "id": "R0VUOmh0dHBzOi8vdGVzdG5ldC5hbGdvcmFuZC1pbmRleGVyLnh5ei92Mi9hY2NvdW50cy9qcmczY3V2b2ZrM3lqazNxZGQ0aW93a21oaHJjd3Z0ZW11c3lrZG43dTczZnFvNXp5dGNjN2NlYnJx",
+        "url": "https://testnet.algorand-indexer.xyz/v2/accounts/JRG3CUVOFK3YJK3QDD4IOWKMHHRCWVTEMUSYKDN7U73FQO5ZYTCC7CEBRQ",
+        "method": "GET",
+        "description": "Algorand account lookup: balance, status, participation, and auth-addr for a single address",
+        "mime_type": "application/json",
+        "accepts": [
+          {
+            "scheme": "exact",
+            "network": "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+            "asset": "10458941",
+            "amount": "100",
+            "payTo": "X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI",
+            "maxTimeoutSeconds": 60,
+            "extra": {
+              "name": "USDC",
+              "decimals": 6,
+              "tag": "x402-global-challenge",
+              "feePayer": "ZMFK2OI7ZBD2U27ISERZC4S6LKM6WMFJPZQ4MYNJDZ2VNBNMBA67RA22AA",
+              "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+              "genesisId": "testnet-v1.0"
+            }
+          }
+        ],
+        "discovery": {
+          "input": {
+            "type": "http",
+            "queryParams": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            "method": "GET"
+          },
+          "output": {
+            "type": "json",
+            "example": {
+              "address": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "amount": 0,
+              "status": "Offline"
+            }
+          }
+        },
+        "input_documentation_present": true,
+        "output_documentation_present": true,
+        "input_schema_present": false,
+        "output_schema_present": false,
+        "first_seen": 1788125480342,
+        "last_ts": 1788125774265
+      }
+    ],
+    "resource_count": 16,
+    "description_count": 16,
+    "mime_type_count": 16,
+    "accepts_count": 16,
+    "discovery_count": 16,
+    "input_documentation_count": 16,
+    "output_documentation_count": 16,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "algorand-indexer.xyz",
+    "api.algorand-indexer.xyz",
+    "testnet.algorand-indexer.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 3,
+    "cached_domain_metadata_count": 3,
+    "domains_with_cached_descriptive_homepage_evidence": 3,
+    "agent_document_count": 15,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents_and_catalog",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "One or more included catalog endpoints lack an explicit input or output JSON Schema; examples alone are not schemas."
+    ]
+  }
+}

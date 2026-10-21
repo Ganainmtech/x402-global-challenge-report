@@ -1,0 +1,208 @@
+{
+  "merchant_id": "SVRHWFdIRDdZT0MzNUxKNjJTQlNDUUs1",
+  "name": "Callrack",
+  "description": null,
+  "website": "https://callrack.xyz",
+  "logo": "https://callrack.xyz/favicon.png",
+  "categories": [
+    "information",
+    "algorand",
+    "x402",
+    "api"
+  ],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "api.callrack.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "observed_event"
+      ],
+      "observed_event_count": 581,
+      "last_observed_at": 1791245159868,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "api.callrack.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.callrack.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1790869880362,
+        "last_fetch_attempt_utc": "2026-10-01T15:51:20.362000+00:00",
+        "title": null,
+        "description": null,
+        "site_name": null,
+        "logo": null,
+        "banner": null,
+        "theme_color": null,
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.callrack.xyz/.well-known/agent-card.json",
+            "name": "Callrack",
+            "description": "Callrack is a pay-per-use information infrastructure platform - academic, news, market, weather, geocoding, knowledge, government, and research-aggregation capabilities, each paid per request in USDC on Algorand via x402."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.callrack.xyz/.well-known/agent.json",
+            "name": "Callrack",
+            "description": "Callrack is a pay-per-use information infrastructure platform, paid per request in USDC on Algorand via x402."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.callrack.xyz/.well-known/x402",
+            "name": "Callrack",
+            "description": "Callrack is a pay-per-use information infrastructure platform - every capability below is paid per request in USDC on Algorand via the x402 protocol. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.callrack.xyz/llms.txt",
+            "name": "Callrack",
+            "description": null
+          }
+        ],
+        "agent_document_count": 4,
+        "fields_present": [],
+        "completeness_present": 0,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": false,
+        "cached_descriptive_homepage_evidence": false
+      },
+      "last_observed_utc": "2026-10-06 00:05:59 UTC"
+    },
+    {
+      "domain": "callrack.xyz",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website"
+      ],
+      "observed_event_count": 0,
+      "last_observed_at": null,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "callrack.xyz",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://callrack.xyz",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791146602852,
+        "last_fetch_attempt_utc": "2026-10-04T20:43:22.852000+00:00",
+        "title": "Callrack - pay-per-use information API, paid per request in USDC",
+        "description": "Pay-per-use information capabilities, paid per request in USDC on Algorand via x402. No accounts, no API keys, no subscriptions.",
+        "site_name": "Callrack",
+        "logo": "https://callrack.xyz/favicon.ico",
+        "banner": "https://callrack.xyz/og-image.png",
+        "theme_color": "#0e111b",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://callrack.xyz/.well-known/agent-card.json",
+            "name": "Callrack",
+            "description": "Callrack is a pay-per-use information infrastructure platform - academic, news, market, weather, geocoding, knowledge, government, and research-aggregation capabilities, each paid per request in USDC on Algorand via x402."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://callrack.xyz/.well-known/agent.json",
+            "name": "Callrack",
+            "description": "Callrack is a pay-per-use information infrastructure platform, paid per request in USDC on Algorand via x402."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://callrack.xyz/.well-known/ai-plugin.json",
+            "name": "Callrack",
+            "description": "Pay-per-use information infrastructure - research, news, market data, weather, geocoding, and knowledge lookups, paid per request in USDC on Algorand via x402. No accounts, no API keys."
+          },
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://callrack.xyz/.well-known/mcp.json",
+            "name": "Callrack",
+            "description": "Callrack capabilities, described in MCP tool-manifest shape for agent discovery. There is no live MCP stdio/SSE transport to connect to - each tool below maps to a real x402-paid HTTP endpoint. Call it directly: an unpaid request returns 402 with the exact live price, pay it, then retry with a PAYMENT-SIGNATURE header."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://callrack.xyz/.well-known/x402",
+            "name": "Callrack",
+            "description": "Callrack is a pay-per-use information infrastructure platform - every capability below is paid per request in USDC on Algorand via the x402 protocol. No accounts, no API keys, no subscriptions."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://callrack.xyz/llms.txt",
+            "name": "Callrack",
+            "description": null
+          }
+        ],
+        "agent_document_count": 6,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": null
+    }
+  ],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.callrack.xyz",
+    "callrack.xyz"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 2,
+    "cached_domain_metadata_count": 2,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 10,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "mcp",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No catalog resources on included public domains."
+    ]
+  }
+}

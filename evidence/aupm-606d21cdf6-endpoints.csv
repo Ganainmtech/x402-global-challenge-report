@@ -1,0 +1,3 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+POST,https://aupm.fyi/v1/attest/lockfile,16,0.455000,1,0,0.000000,16,0.455000,0,2026-10-02 14:32:34 UTC,2026-10-05 11:46:50 UTC
+POST,http://aupm.fyi/v1/attest/lockfile,1,0.001000,1,1,0.001000,1,0.001000,0,2026-09-30 16:14:14 UTC,2026-09-30 16:14:14 UTC

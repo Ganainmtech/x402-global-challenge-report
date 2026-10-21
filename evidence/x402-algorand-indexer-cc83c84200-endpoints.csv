@@ -1,0 +1,20 @@
+method,url_redacted,mainnet_usdc_settlements,usdc_volume,unique_payers,subcent_events,subcent_usdc,synthetic_events,synthetic_usdc,inconclusive_events,first_settlement,last_settlement
+GET,https://api.algorand-indexer.xyz/v2/transactions,241,0.024100,1,241,0.024100,0,0.000000,0,2026-08-30 22:47:36 UTC,2026-08-31 02:56:00 UTC
+GET,https://api.algorand-indexer.xyz/v2/accounts/JRG3CUVOFK3YJK3QDD4IOWKMHHRCWVTEMUSYKDN7U73FQO5ZYTCC7CEBRQ,24,0.002400,2,24,0.002400,0,0.000000,0,2026-08-29 23:07:27 UTC,2026-10-06 00:01:27 UTC
+GET,https://api.algorand-indexer.xyz/v2/accounts/X4O2W7XDNXAMPWAURGGL4VDJMZTCO2EDOH7NPWBKFBKOTJQVPUYR5FRAMI,2,0.000200,1,2,0.000200,0,0.000000,0,2026-09-27 04:32:08 UTC,2026-09-28 01:28:01 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/1yrrjp3gDmY0VSfFKHi38KAMrS44vifF/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-09-03 13:04:13 UTC,2026-09-03 13:04:13 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/2Ap4Drql0lRur2Z5U6VmitZPwfbXqDqH/unlock,1,0.000500,1,1,0.000500,1,0.000500,0,2026-10-03 02:21:16 UTC,2026-10-03 02:21:16 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/3fSsIHWUfrHUpEowIyTyTj38Yxim9Jp8/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-10-03 22:40:30 UTC,2026-10-03 22:40:30 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/FHI9T81T45mwybp_ORqWcEbq6FSHX3Pb/unlock,1,0.000700,1,1,0.000700,1,0.000700,0,2026-08-30 21:45:22 UTC,2026-08-30 21:45:22 UTC
+(not recorded),https://algorand-indexer.xyz/api/v1/queries/results/LyKX6LbYc6B38TGrDYvDeSpmU-1Huks_/unlock,1,0.139600,1,0,0.000000,1,0.139600,0,2026-08-28 02:10:46 UTC,2026-08-28 02:10:46 UTC
+(not recorded),https://algorand-indexer.xyz/api/v1/queries/results/RMMFuLR897biUVsC0QL5LZOKUUftqaId/unlock,1,0.370600,1,0,0.000000,1,0.370600,0,2026-08-27 21:55:00 UTC,2026-08-27 21:55:00 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/T6VJGzjmcE_eNsScoPyC7s0m6NNTSbhc/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-09-20 22:46:32 UTC,2026-09-20 22:46:32 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/_1gIcgeKeImYWC0WhtBsb3_IF0YZ0jEp/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-08-30 21:44:13 UTC,2026-08-30 21:44:13 UTC
+(not recorded),https://algorand-indexer.xyz/api/v1/queries/results/bXc_pje3PvxWL-uQO_cVe1KqyqG8KSCa/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-08-27 21:39:27 UTC,2026-08-27 21:39:27 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/cZjh0_C61ddAVLAR50At_gueIpqvMsTt/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-09-28 13:08:20 UTC,2026-09-28 13:08:20 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/kfN8aaWZUok2m_1BbFU_HHi6xrSANbgx/unlock,1,0.002300,1,1,0.002300,1,0.002300,0,2026-10-03 22:40:55 UTC,2026-10-03 22:40:55 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/l4rdKm4xELEhMP_jE7CTDXCYRjcAWCui/unlock,1,0.009500,1,1,0.009500,1,0.009500,0,2026-09-21 02:03:11 UTC,2026-09-21 02:03:11 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/l7Koj6X5gDZyAtQiNIylQGoyQSpsEYDS/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-09-06 03:42:54 UTC,2026-09-06 03:42:54 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/pXqZ5GpQFYfvDkYoql39xtczLqfn2Gde/unlock,1,0.000400,1,1,0.000400,1,0.000400,0,2026-08-29 02:43:47 UTC,2026-08-29 02:43:47 UTC
+POST,https://algorand-indexer.xyz/api/v1/queries/results/sWMsbf5JahgAf8uD6nXzlpH2lFvDHZOA/unlock,1,0.926400,1,0,0.000000,1,0.926400,0,2026-08-28 03:33:58 UTC,2026-08-28 03:33:58 UTC
+(not recorded),https://algorand-indexer.xyz/api/v1/queries/results/vxDpwiSjGGle8GM4sYkIY7St2gKrZOPJ/unlock,1,0.002300,1,1,0.002300,1,0.002300,0,2026-08-28 01:54:31 UTC,2026-08-28 01:54:31 UTC

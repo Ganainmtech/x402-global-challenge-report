@@ -1,0 +1,144 @@
+{
+  "merchant_id": "WERGM1EyUUNKREVQN0RTSzRMM0U1TUZP",
+  "name": "Validex",
+  "description": null,
+  "website": "https://api.validex.space",
+  "logo": "https://api.validex.space/apple-touch-icon.png",
+  "categories": [
+    "api",
+    "algorand",
+    "x402",
+    "startup-health",
+    "validation"
+  ],
+  "networks": [
+    "algorand:SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+  ],
+  "domains": [
+    {
+      "domain": "api.validex.space",
+      "classification": "custom_domain_candidate",
+      "provider": null,
+      "is_custom_domain_candidate": true,
+      "sources": [
+        "merchant_website",
+        "observed_event"
+      ],
+      "observed_event_count": 580,
+      "last_observed_at": 1791285069392,
+      "catalog_endpoint_count": 0,
+      "metadata": {
+        "domain": "api.validex.space",
+        "classification": "custom_domain_candidate",
+        "provider": null,
+        "is_custom_domain_candidate": true,
+        "origin": "https://api.validex.space",
+        "cached_usable_evidence_seen": true,
+        "last_fetch_attempt_at": 1791272049969,
+        "last_fetch_attempt_utc": "2026-10-06T07:34:09.969000+00:00",
+        "title": "Validex - startup validation, paid per call",
+        "description": "Startup health and validation API providing automated security, trust, web presence, and engineering analysis, individually or as a comprehensive report with AI interpretation.",
+        "site_name": "Validex",
+        "logo": "https://api.validex.space/apple-touch-icon.png",
+        "banner": "https://api.validex.space/og.png",
+        "theme_color": "#381724",
+        "agent_documents": [
+          {
+            "key": "agent-card",
+            "label": "A2A Agent Card",
+            "url": "https://api.validex.space/.well-known/agent-card.json",
+            "name": "Validex",
+            "description": "Startup health and validation API providing automated security, trust, web presence, and engineering analysis, individually or as a comprehensive report with AI interpretation."
+          },
+          {
+            "key": "agent-json",
+            "label": "Agent Manifest",
+            "url": "https://api.validex.space/.well-known/agent.json",
+            "name": "Validex",
+            "description": "Startup health and validation API providing automated security, trust, web presence, and engineering analysis, individually or as a comprehensive report with AI interpretation."
+          },
+          {
+            "key": "ai-plugin",
+            "label": "AI Plugin",
+            "url": "https://api.validex.space/.well-known/ai-plugin.json",
+            "name": "Validex",
+            "description": "Startup health and validation API providing automated security, trust, web presence, and engineering analysis, individually or as a comprehensive report with AI interpretation."
+          },
+          {
+            "key": "mcp",
+            "label": "MCP Manifest",
+            "url": "https://api.validex.space/.well-known/mcp.json",
+            "name": "Validex MCP",
+            "description": "Startup health and validation API providing automated security, trust, web presence, and engineering analysis, individually or as a comprehensive report with AI interpretation.. Tools below are plain x402-paid HTTP endpoints, not (yet) served over a dedicated MCP transport."
+          },
+          {
+            "key": "x402",
+            "label": "x402 Discovery",
+            "url": "https://api.validex.space/.well-known/x402",
+            "name": "Validex",
+            "description": "Startup health and validation API providing automated security, trust, web presence, and engineering analysis, individually or as a comprehensive report with AI interpretation."
+          },
+          {
+            "key": "llms-txt",
+            "label": "llms.txt",
+            "url": "https://api.validex.space/llms.txt",
+            "name": "Validex",
+            "description": null
+          }
+        ],
+        "agent_document_count": 6,
+        "fields_present": [
+          "title",
+          "description",
+          "site_name",
+          "logo",
+          "banner",
+          "theme_color"
+        ],
+        "completeness_present": 6,
+        "completeness_possible": 6,
+        "cached_homepage_metadata_present": true,
+        "cached_descriptive_homepage_evidence": true
+      },
+      "last_observed_utc": "2026-10-06 11:11:09 UTC"
+    }
+  ],
+  "catalog": {
+    "resources": [],
+    "resource_count": 0,
+    "description_count": 0,
+    "mime_type_count": 0,
+    "accepts_count": 0,
+    "discovery_count": 0,
+    "input_documentation_count": 0,
+    "output_documentation_count": 0,
+    "input_schema_count": 0,
+    "output_schema_count": 0
+  },
+  "custom_domain_candidates": [
+    "api.validex.space"
+  ],
+  "quality": {
+    "has_custom_domain_candidate": true,
+    "declared_website": true,
+    "linked_domain_count": 1,
+    "cached_domain_metadata_count": 1,
+    "domains_with_cached_descriptive_homepage_evidence": 1,
+    "agent_document_count": 6,
+    "agent_document_types": [
+      "agent-card",
+      "agent-json",
+      "ai-plugin",
+      "llms-txt",
+      "mcp",
+      "x402"
+    ],
+    "agent_readiness_evidence": "discovered_documents",
+    "runtime_agent_interoperability": "not_tested_local_data_only",
+    "current_website_reachability": "not_tested_local_data_only",
+    "custom_domain_ownership": "not_verified",
+    "gaps": [
+      "No catalog resources on included public domains."
+    ]
+  }
+}
